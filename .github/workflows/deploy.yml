@@ -1,0 +1,50 @@
+name: Deploy to Aliyun
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+
+      - name: 打包直传并在服务器重建
+        env:
+          SSH_KEY: ${{ secrets.ALIYUN_SSH_KEY }}
+          ALIYUN_HOST: ${{ secrets.ALIYUN_HOST }}
+          ALIYUN_USER: ${{ secrets.ALIYUN_USER }}
+        run: |
+          set -e
+          mkdir -p ~/.ssh && chmod 700 ~/.ssh
+          echo "$SSH_KEY" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
+          ssh-keyscan -H "$ALIYUN_HOST" >> ~/.ssh/known_hosts 2>/dev/null
+          # 源码打包后经 SSH 管道直接流入服务器解压，服务器无需访问 GitHub
+          tar --exclude=.git --exclude=node_modules --exclude=dist --exclude=.env -czf - . | \
+          ssh -i ~/.ssh/deploy_key -o StrictHostKeyChecking=yes \
+              -o ServerAliveInterval=20 -o ServerAliveCountMax=15 -o TCPKeepAlive=yes \
+              "$ALIYUN_USER@$ALIYUN_HOST" '
+            set -e
+            # 保留服务器上的 .env（含 DP API Key 等私密配置，不入仓库）
+            cp ~/ptm-zj/.env /tmp/ptm-zj.env.bak 2>/dev/null || true
+            rm -rf ~/ptm-zj
+            mkdir -p ~/ptm-zj
+            tar -xzf - -C ~/ptm-zj
+            cp /tmp/ptm-zj.env.bak ~/ptm-zj/.env 2>/dev/null || true
+            cd ~/ptm-zj
+            # 注入/更新内容管线配置（值由 GitHub Actions 替换，日志自动脱敏）
+            touch .env
+            grep -v -E "^(DP_API_KEY|DP_API_BASE|DP_MODEL|FETCH_PROXY)=" .env > .env.tmp || true
+            {
+              echo "DP_API_KEY=${{ secrets.DP_API_KEY }}"
+              echo "DP_API_BASE=${{ secrets.DP_API_BASE }}"
+              echo "DP_MODEL=${{ secrets.DP_MODEL }}"
+              echo "FETCH_PROXY=${{ secrets.FETCH_PROXY }}"
+            } >> .env.tmp
+            mv .env.tmp .env
+            docker compose -f docker-compose.yml -f docker-compose.prod.yml up -d --build
+          '

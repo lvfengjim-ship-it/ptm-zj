@@ -1,0 +1,30 @@
+{
+  "dp_api_base": "https://api.deepseek.com",
+  "dp_api_key": "",
+  "dp_model": "deepseek-chat",
+  "fetch": {
+    "max_per_query": 5,
+    "proxy": "",
+    "cookies_from_browser": "",
+    "youtube_queries": [
+      "nuclear power plant materials technology",
+      "hydrogen energy storage materials",
+      "perovskite solar cell encapsulation",
+      "wind blade composite materials",
+      "battery energy storage fire protection",
+      "solid state battery materials"
+    ],
+    "bilibili_queries": [
+      "核电 防火封堵 材料",
+      "新材料 氢能 储运",
+      "光伏 胶膜 技术",
+      "风电叶片 碳纤维",
+      "储能 电池 防火",
+      "固态电池 材料"
+    ],
+    "rss_feeds": []
+  },
+  "review_port": 8765,
+  "run_time": "06:42",
+  "max_publish": 30
+}
