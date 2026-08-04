@@ -1,12 +1,10 @@
+# 生产模式：不占用宿主机端口，加入共享 web 网络，
+# 由宿主机级 Caddy（与其他站点共用）反向代理并终结 TLS
 services:
   web:
-    ports:
-      - "80:80"
-      - "443:443"
-    volumes:
-      - caddy_data:/data
-      - caddy_config:/config
+    networks:
+      - web
 
-volumes:
-  caddy_data:
-  caddy_config:
+networks:
+  web:
+    external: true

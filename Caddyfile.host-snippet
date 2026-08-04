@@ -1,0 +1,10 @@
+# 追加到宿主机级 Caddy 的 Caddyfile（与 titan-power.cn 同一份配置文件的末尾）
+# 前提：titan-power-caddy 与 ptm-zj-web 都加入共享网络 `web`
+
+www.ptm-zj.com {
+	reverse_proxy ptm-zj-web:80
+}
+
+ptm-zj.com {
+	redir https://www.ptm-zj.com{uri} permanent
+}

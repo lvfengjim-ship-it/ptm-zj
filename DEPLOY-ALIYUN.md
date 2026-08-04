@@ -12,6 +12,16 @@
 5. 生成部署专用 SSH 密钥：`ssh-keygen -t ed25519 -f ~/.ssh/ptm_deploy`，
    将公钥追加到服务器 `~/.ssh/authorized_keys`
 
+### 多站点共用（本服务器与 titan-power.cn 同机部署）
+
+该服务器已有宿主机级 Caddy（titan-power-caddy）占用 80/443，ptm-zj 不再自建入口：
+
+- 创建共享网络（若不存在）：`docker network create web`
+- titan-power 的 caddy 服务加入 `web` 网络（其 compose 中 caddy 服务加 `networks: [web]` 并声明 external）
+- 将本仓库 `Caddyfile.host-snippet` 的内容追加到宿主机级 Caddyfile 末尾，
+  然后 `docker exec titan-power-caddy-1 caddy reload --config /etc/caddy/Caddyfile`
+- ptm-zj 的 web 容器通过 `docker-compose.prod.yml` 加入 `web` 网络，不占用宿主机端口
+
 ## 二、GitHub Secrets 配置（仓库 Settings → Secrets and variables → Actions）
 
 | Secret | 说明 |
@@ -31,8 +41,7 @@
 1. 源码打包（排除 .git / node_modules / dist / .env）经 SSH 管道直传服务器
 2. 服务器解压到 `~/ptm-zj`，恢复本地 `.env` 并注入最新 DP 配置
 3. `docker compose -f docker-compose.yml -f docker-compose.prod.yml up -d --build`
-   构建 Vite 产物并由 Caddy 托管 `www.ptm-zj.com`（80/443，自动签发 HTTPS 证书，
-   裸域 `ptm-zj.com` 301 跳转至 www）
+   构建 Vite 产物，ptm-zj-web 容器加入共享 `web` 网络，由宿主机级 Caddy 反代
 
 也可在 Actions 页面手动触发（workflow_dispatch）。
 
@@ -58,10 +67,12 @@ crontab 示例（每日 06:42 抓取，人工审核后导出再重新发布）�
 
 ## 五、HTTPS
 
-默认已启用：`Caddyfile` 绑定 `www.ptm-zj.com`，Caddy 通过 Let's Encrypt 自动签发并续期证书，
-裸域 `ptm-zj.com` 自动 301 跳转至 `www.ptm-zj.com`。前提是：
-- 域名 A 记录（`@` 与 `www`）已指向服务器公网 IP
-- 安全组放行 80 / 443（80 用于 ACME 证书签发校验，不可只开 443）
-- 证书数据持久化在 `caddy_data` 卷中，重建容器不会重复申请证书
+HTTPS 由宿主机级 Caddy（titan-power-caddy）统一终结：
 
-如改用上层 SLB / 网关终结 TLS，将 `Caddyfile` 站点地址改回 `:80`、prod 编排只暴露 80 即可。
+- `Caddyfile.host-snippet` 中的 `www.ptm-zj.com` 站点块触发 Caddy 自动签发并续期 Let's Encrypt 证书
+- 裸域 `ptm-zj.com` 自动 301 跳转至 `www.ptm-zj.com`
+- 前提是域名 A 记录（`@` 与 `www`）已指向服务器，且安全组放行 80 / 443
+  （80 用于 ACME 证书签发校验，不可只开 443）
+- 证书保存在 titan-power-caddy 的 `caddy_data` 卷中，ptm-zj 侧重建不影响证书
+
+容器内部（本仓库根目录 `Caddyfile`）只监听 `:80` 提供静态文件，不处理 TLS。
