@@ -1,0 +1,7 @@
+# 本地开发默认自动加载（docker compose up 无需 -f 指定）：
+# 映射 8080 端口直接访问站点。生产部署显式 -f docker-compose.yml -f docker-compose.prod.yml，
+# 不会加载本文件，容器不绑定任何宿主机端口。
+services:
+  web:
+    ports:
+      - "8080:80"
