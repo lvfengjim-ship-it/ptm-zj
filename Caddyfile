@@ -1,6 +1,10 @@
-:80 {
-    root * /srv
-    encode gzip zstd
-    try_files {path} /index.html
-    file_server
+www.ptm-zj.com {
+	root * /srv
+	encode gzip zstd
+	try_files {path} /index.html
+	file_server
+}
+
+ptm-zj.com {
+	redir https://www.ptm-zj.com{uri} permanent
 }

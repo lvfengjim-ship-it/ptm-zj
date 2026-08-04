@@ -31,7 +31,8 @@
 1. 源码打包（排除 .git / node_modules / dist / .env）经 SSH 管道直传服务器
 2. 服务器解压到 `~/ptm-zj`，恢复本地 `.env` 并注入最新 DP 配置
 3. `docker compose -f docker-compose.yml -f docker-compose.prod.yml up -d --build`
-   构建 Vite 产物并由 Caddy 在 80 端口托管
+   构建 Vite 产物并由 Caddy 托管 `www.ptm-zj.com`（80/443，自动签发 HTTPS 证书，
+   裸域 `ptm-zj.com` 301 跳转至 www）
 
 也可在 Actions 页面手动触发（workflow_dispatch）。
 
@@ -57,5 +58,10 @@ crontab 示例（每日 06:42 抓取，人工审核后导出再重新发布）�
 
 ## 五、HTTPS
 
-Caddy 可自动签发证书：将 `Caddyfile` 的 `:80` 改为 `www.ptm-zj.com` 并保证 443 放行即可；
-或继续用 80 端口由上层 SLB / 网关终结 TLS。
+默认已启用：`Caddyfile` 绑定 `www.ptm-zj.com`，Caddy 通过 Let's Encrypt 自动签发并续期证书，
+裸域 `ptm-zj.com` 自动 301 跳转至 `www.ptm-zj.com`。前提是：
+- 域名 A 记录（`@` 与 `www`）已指向服务器公网 IP
+- 安全组放行 80 / 443（80 用于 ACME 证书签发校验，不可只开 443）
+- 证书数据持久化在 `caddy_data` 卷中，重建容器不会重复申请证书
+
+如改用上层 SLB / 网关终结 TLS，将 `Caddyfile` 站点地址改回 `:80`、prod 编排只暴露 80 即可。
