@@ -1,8 +1,152 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-08-05T16:31:00
+// 生成时间: 2026-08-05T23:39:06
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "ef2181d6ba72df4d",
+    "title": "关于核废料的重大谎言",
+    "category": "核能",
+    "region": "海外",
+    "source": "Cleo Abram",
+    "duration": "13:04",
+    "date": "2026-08-05",
+    "summary": "视频驳斥了核废料无法处理的常见误解，指出核废料体积小且可安全储存。通过干式储存罐和地质处置库等技术，核废料能被有效隔离，其放射性风险远低于公众认知。视频呼吁理性看待核能，强调其作为清洁能源的潜力。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=IzQ3gFRj0Bc"
+  },
+  {
+    "id": "e8e38cc39d28958d",
+    "title": "革命性核能：钍与同位素回收",
+    "category": "核能",
+    "region": "海外",
+    "source": "Adaptive Energy Systems",
+    "duration": "3:17",
+    "date": "2026-08-05",
+    "summary": "视频探讨钍基核燃料循环与同位素回收技术，旨在提升核燃料利用率、减少核废料，并可能降低核扩散风险。内容涉及钍燃料的优势、同位素分离方法及其对核能可持续发展的潜在影响，为核能行业提供技术新视角。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=oLAkYSaGomg"
+  },
+  {
+    "id": "a6ffdbc08977abf0",
+    "title": "核电站的结构与运行",
+    "category": "核能",
+    "region": "海外",
+    "source": "KHNP Korea Hydro & Nuclear Power Co., Ltd.",
+    "duration": "21:15",
+    "date": "2026-08-05",
+    "summary": "视频由韩国水力核电公司制作，详细介绍了核电站的核心结构和工作原理，包括反应堆、蒸汽发生器、汽轮机等关键部件，以及核裂变如何产生热能并转化为电能的过程，有助于行业人员理解核电站的基本运行机制。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=DMLEDycJZ5c"
+  },
+  {
+    "id": "06851a1150a955fc",
+    "title": "钙钛矿太阳能电池结构与封装机理 | 使用Blender进行3D可视化",
+    "category": "光伏",
+    "region": "海外",
+    "source": "Divya Shaju",
+    "duration": "0:15",
+    "date": "2026-08-05",
+    "summary": "视频通过3D动画展示钙钛矿太阳能电池的层状结构，包括电子传输层、钙钛矿吸收层、空穴传输层等，并详细解析封装机制，强调封装对提高稳定性和寿命的关键作用，为行业提供直观的技术参考。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=JiCmFwU-Q08"
+  },
+  {
+    "id": "c1d97053fe1487a0",
+    "title": "17. 风力涡轮机叶片用复合材料",
+    "category": "风电",
+    "region": "海外",
+    "source": "DTU Wind and Energy Systems",
+    "duration": "9:24",
+    "date": "2026-08-05",
+    "summary": "视频由DTU风能与能源系统频道发布，介绍风力涡轮机叶片用复合材料。内容涵盖材料类型、性能要求及在叶片制造中的应用，旨在提升风电叶片效率与耐久性，对风电行业材料选择具有参考价值。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=vSznCsDl8J8"
+  },
+  {
+    "id": "5724866094c50a66",
+    "title": "电池储能系统（BESS）的消防保护",
+    "category": "储能",
+    "region": "海外",
+    "source": "Hazard Control Technologies",
+    "duration": "60:53",
+    "date": "2026-08-05",
+    "summary": "视频介绍电池储能系统（BESS）的火灾防护解决方案，涵盖火灾风险、探测与灭火技术，强调早期预警和高效灭火剂的应用，以提升储能设施安全性，降低热失控风险。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=awiQ6ehmv8U"
+  },
+  {
+    "id": "c87d9b1e4af64c41",
+    "title": "磷酸铁锂电池消防安全：你需要知道的事",
+    "category": "动力电池",
+    "region": "海外",
+    "source": "DIY Solar Power with Will Prowse",
+    "duration": "11:24",
+    "date": "2026-08-05",
+    "summary": "视频深入探讨磷酸铁锂电池的火灾风险与安全措施，对比三元锂电池的热失控特性，强调LFP在高温下的稳定性，同时指出其仍存在起火可能，并给出预防建议，对储能系统设计具有参考价值。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=60LEo0Rwpp8"
+  },
+  {
+    "id": "43835370c11216d9",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-05",
+    "summary": "摘要内容",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av913774120"
+  },
+  {
+    "id": "464c447f6b1169e2",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-05",
+    "summary": "摘要内容",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av465547414"
+  },
+  {
+    "id": "c5ae765cce1f301c",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-05",
+    "summary": "视频标题未提供，无法生成摘要。",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av277548493"
+  },
+  {
+    "id": "336d973be6219fc0",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-05",
+    "summary": "视频标题未提供，无法生成摘要。",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av117013783517727"
+  },
+  {
+    "id": "e809ac12a535bcfc",
+    "title": "视频标题",
+    "category": "核能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-05",
+    "summary": "摘要内容",
+    "hot": false,
+    "url": "https://www.bilibili.com/cheese/play/ss728398366?query_from=0&search_id=1851229869470678883&search_query=%E5%9B%BA%E6%80%81%E7%94%B5%E6%B1%A0+%E6%9D%90%E6%96%99"
+  },
   {
     "id": "413e383d8f800c38",
     "title": "WNE 2025 - Element Materials Technology 研讨会 - 核设备鉴定与测试",
@@ -218,151 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "视频展示了TPI复合材料公司风力涡轮机叶片的生产流程，包括材料铺设、真空灌注、固化及后处理等关键环节，体现了复合材料在风电叶片制造中的核心应用与工艺控制要点。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=gGb2hEaAEHU"
-  },
-  {
-    "id": "fc980e84a176c0b2",
-    "title": "风力涡轮机叶片回收线 | 破碎与纤维分离工艺",
-    "category": "风电",
-    "region": "海外",
-    "source": "Suny Group",
-    "duration": "2:10",
-    "date": "2026-08-05",
-    "summary": "该视频展示风力涡轮机叶片回收处理线，包括破碎和纤维分离过程。通过机械破碎将大型叶片分解，再利用分离技术回收玻璃纤维等材料，实现资源循环利用，减少废弃物，推动风电行业可持续发展。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=k_ZpGQSFYAM"
-  },
-  {
-    "id": "c85a5662305b9219",
-    "title": "利用可持续材料推进风力涡轮机技术",
-    "category": "风电",
-    "region": "海外",
-    "source": "ADDCOMPOSITES",
-    "duration": "3:27",
-    "date": "2026-08-05",
-    "summary": "本视频介绍了ADDCOMPOSITES在风力涡轮机领域的最新进展，重点展示了采用可持续复合材料制造叶片的技术。该材料兼具轻质高强与环保特性，可提升发电效率并降低全生命周期碳排放，为风电行业绿色转型提供新方案。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=HiCZDTIt2GU"
-  },
-  {
-    "id": "cf0b96d0ce411b90",
-    "title": "圣地亚哥县监管电池储能系统引发消防安全担忧",
-    "category": "储能",
-    "region": "海外",
-    "source": "CBS 8 San Diego",
-    "duration": "5:04",
-    "date": "2026-08-05",
-    "summary": "圣地亚哥县拟对电池储能系统实施新规，引发消防隐患讨论。业界关注储能安全标准与监管平衡，强调技术规范与应急措施，以保障社区安全并推动储能健康发展。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=yjUpwqIu_TM"
-  },
-  {
-    "id": "de9f794b29906900",
-    "title": "BESS安全吗？消防安全专家揭示可能出什么问题",
-    "category": "储能",
-    "region": "海外",
-    "source": "Gaurav J - TheElectricalGuy",
-    "duration": "40:18",
-    "date": "2026-08-05",
-    "summary": "视频邀请消防安全专家探讨电池储能系统（BESS）的安全问题，重点分析热失控、火灾风险及防护措施。专家指出，BESS火灾虽罕见但后果严重，需通过早期检测、气体抑制和热管理设计降低风险，并强调标准与维护的重要性。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=YKdfcgB0JlA"
-  },
-  {
-    "id": "c8255a61d7969043",
-    "title": "德国电池储能火灾：48小时对比一次爆炸",
-    "category": "储能",
-    "region": "海外",
-    "source": "StacheD Training",
-    "duration": "5:18",
-    "date": "2026-08-05",
-    "summary": "视频对比德国两起电池储能系统火灾事故，分析不同灭火策略与结果。一起持续48小时，另一起发生爆炸，凸显储能安全挑战。内容涉及热失控、消防响应及系统设计，对储能行业安全标准与运维具有参考价值。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=I6uIgLBfRU8"
-  },
-  {
-    "id": "e9cf3242c8c1181c",
-    "title": "理解电池储能系统风险——经验教训",
-    "category": "储能",
-    "region": "海外",
-    "source": "Energy Risk Engineering",
-    "duration": "25:13",
-    "date": "2026-08-05",
-    "summary": "视频探讨电池储能系统（BESS）的风险管理，基于实际案例总结教训。内容涵盖热失控、火灾、爆炸等安全隐患，强调设计、运维及应急响应中的关键措施，旨在提升行业安全标准，降低事故风险。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=JntMiwzLP_o"
-  },
-  {
-    "id": "79de5a3c331ec0e6",
-    "title": "电池储能系统（BESS）",
-    "category": "储能",
-    "region": "海外",
-    "source": "The Power Hub",
-    "duration": "6:50",
-    "date": "2026-08-05",
-    "summary": "视频介绍电池储能系统（BESS）的基本概念、组成及工作原理，涵盖电池、PCS、BMS等关键部件，并探讨其在电网调峰、可再生能源并网及备用电源等场景的应用，强调其对提升电网灵活性和可靠性的重要作用。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=zXV1Vy_XECY"
-  },
-  {
-    "id": "f9794e4497510b58",
-    "title": "什么是固态电池？",
-    "category": "动力电池",
-    "region": "海外",
-    "source": "Umicore",
-    "duration": "3:24",
-    "date": "2026-08-05",
-    "summary": "视频由Umicore制作，介绍固态电池的基本概念、工作原理及其相比传统锂离子电池的优势，如更高能量密度和安全性。同时提及固态电池面临的挑战，如材料选择和制造工艺，并展望其在电动汽车等领域的应用前景。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=R00pxgb_jbA"
-  },
-  {
-    "id": "2b5e91d199100578",
-    "title": "三星量产固态电池，能量密度翻倍",
-    "category": "动力电池",
-    "region": "海外",
-    "source": "The Electric Viking",
-    "duration": "9:21",
-    "date": "2026-08-05",
-    "summary": "三星宣布其固态电池技术取得突破，能量密度较现有锂离子电池翻倍，并已进入量产阶段。该技术采用硫化物固态电解质，提升安全性与循环寿命，有望加速电动汽车普及，改变动力电池市场格局。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=tKmMvI02pcs"
-  },
-  {
-    "id": "63025667335afc1c",
-    "title": "这一突破让电池变得极其便宜",
-    "category": "动力电池",
-    "region": "海外",
-    "source": "Ziroth",
-    "duration": "11:41",
-    "date": "2026-08-05",
-    "summary": "视频介绍了一项电池制造技术的重大突破，大幅降低了生产成本，使电池价格变得极为低廉。该技术可能涉及新材料或新工艺，有望推动电动汽车和储能领域的发展，对行业竞争格局产生深远影响。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=ajQyZ9xVqV4"
-  },
-  {
-    "id": "4fac8237ef9b675c",
-    "title": "什么是固态锂金属电池？",
-    "category": "动力电池",
-    "region": "海外",
-    "source": "QuantumScape",
-    "duration": "2:31",
-    "date": "2026-08-05",
-    "summary": "QuantumScape 介绍其固态锂金属电池技术，采用陶瓷固态电解质和锂金属负极，能量密度高、充电快、安全性好，旨在解决传统锂离子电池的痛点，推动电动汽车普及。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=azACL3lLMo8"
-  },
-  {
-    "id": "882faa8f8c3e0a1f",
-    "title": "什么是全固态电池？- BioLogic",
-    "category": "动力电池",
-    "region": "海外",
-    "source": "BioLogic",
-    "duration": "4:12",
-    "date": "2026-08-05",
-    "summary": "视频介绍全固态电池的基本概念，对比传统液态电解质电池，阐述其使用固态电解质的优势，如高能量密度、安全性提升及潜在应用，并提及当前研发挑战与商业化前景。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=EQsVzlXcMDs"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-08-05T16:31:00' }
+export const generatedMeta = { updatedAt: '2026-08-05T23:39:06' }
