@@ -9,7 +9,7 @@ PIPELINE_ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = PIPELINE_ROOT / "data"
 DRAFTS_DIR = DATA_DIR / "drafts"
 DB_PATH = DATA_DIR / "pipeline.db"
-SITE_DATA_DIR = (PIPELINE_ROOT.parent / "site" / "src" / "data").resolve()
+SITE_DATA_DIR = (PIPELINE_ROOT.parent / "src" / "data").resolve()
 
 DEFAULTS = {
     "dp_api_base": "https://api.deepseek.com",

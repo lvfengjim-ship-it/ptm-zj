@@ -19,7 +19,7 @@ from . import dp_ai, fetchers
 from .publisher import export_site, export_wechat_drafts
 
 
-def run(mock: bool = False, no_ai: bool = False) -> None:
+def run(mock: bool = False, no_ai: bool = False, auto_approve: bool = False) -> None:
     cfg = load_config()
     conn = dbm.connect(DB_PATH)
 
@@ -44,6 +44,10 @@ def run(mock: bool = False, no_ai: bool = False) -> None:
                 print(f"  [dp-ai] {r['title'][:36]}... -> {result['category']}")
             else:
                 print(f"  [dp-ai] 跳过（处理失败，保留待审）: {r['title'][:36]}")
+
+    if auto_approve:
+        n = dbm.approve_processed(conn)
+        print(f"[auto-approve] 自动审核通过 {n} 条（无人值守模式）")
 
     print("== 3/3 完成 ==")
     st = dbm.stats(conn)
@@ -83,7 +87,7 @@ def main() -> None:
     args = sys.argv[1:]
     cmd = args[0] if args else ""
     if cmd == "run":
-        run(mock="--mock" in args, no_ai="--no-ai" in args)
+        run(mock="--mock" in args, no_ai="--no-ai" in args, auto_approve="--auto-approve" in args)
     elif cmd == "serve":
         cfg = load_config()
         from .review_server import serve

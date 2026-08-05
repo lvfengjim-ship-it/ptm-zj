@@ -1,0 +1,62 @@
+name: content-pipeline
+
+# 技术视界 AI 内容管线：每日 06:42（北京时间）自动抓取 → DP·AI 摘要分类 → 自动审核 → 导出官网数据 → 推送触发部署
+on:
+  schedule:
+    - cron: '42 22 * * *' # UTC 22:42 = 北京时间 06:42
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  pipeline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.REPO_PAT }} # 用 PAT 推送，确保 deploy.yml 能被触发
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: 安装 yt-dlp
+        run: python -m pip install --quiet yt-dlp
+
+      - name: 生成管线配置
+        env:
+          FETCH_PROXY: ${{ secrets.FETCH_PROXY }}
+        run: |
+          cd pipeline
+          cp config.example.json config.json
+          python - <<'EOF'
+          import json, os
+          cfg = json.load(open('config.json'))
+          cfg['fetch']['proxy'] = os.environ.get('FETCH_PROXY', '')
+          json.dump(cfg, open('config.json', 'w'), ensure_ascii=False, indent=2)
+          EOF
+
+      - name: 运行管线（抓取 → DP·AI → 自动审核 → 导出官网数据）
+        env:
+          DP_API_KEY: ${{ secrets.DP_API_KEY }}
+          DP_API_BASE: ${{ secrets.DP_API_BASE }}
+          DP_MODEL: ${{ secrets.DP_MODEL }}
+        run: |
+          cd pipeline
+          python -m pipeline run --auto-approve
+          python -m pipeline export
+          python -m pipeline stats
+
+      - name: 提交更新并推送（触发自动部署）
+        run: |
+          git config user.name "ptm-content-pipeline"
+          git config user.email "pipeline@ptm-zj.com"
+          git add -f src/data/videos.generated.ts pipeline/data/pipeline.db
+          if git diff --cached --quiet; then
+            echo "无新内容，跳过提交"
+          else
+            git commit -m "技术视界：内容管线每日自动更新 $(date -u +%Y-%m-%d)"
+            git push origin main
+          fi

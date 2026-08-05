@@ -77,6 +77,18 @@ def set_status(conn: sqlite3.Connection, vid: str, status: str):
     conn.commit()
 
 
+def approve_processed(conn: sqlite3.Connection) -> int:
+    """自动模式：将已完成 DP·AI 处理（有分类与摘要）的待审记录标记为通过。"""
+    cur = conn.execute(
+        "UPDATE videos SET status='approved', reviewed_at=? "
+        "WHERE status='pending' AND summary IS NOT NULL AND summary != '' "
+        "AND category IS NOT NULL AND category != ''",
+        (datetime.now().isoformat(timespec="seconds"),),
+    )
+    conn.commit()
+    return cur.rowcount
+
+
 def list_by_status(conn: sqlite3.Connection, status: str, limit: int = 100) -> list[sqlite3.Row]:
     return conn.execute(
         "SELECT * FROM videos WHERE status=? ORDER BY created_at DESC LIMIT ?", (status, limit)
