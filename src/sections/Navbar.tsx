@@ -1,15 +1,16 @@
 import { useEffect, useState } from 'react'
+import { Link, NavLink } from 'react-router'
 import { Menu, X, Phone } from 'lucide-react'
 import { contact } from '@/data/site'
 import logo from '@/assets/logo.png'
 
 const links = [
-  { href: '#about', label: '公司介绍' },
-  { href: '#products', label: '产品中心' },
-  { href: '#fields', label: '应用领域' },
-  { href: '#ai-hub', label: '技术视界' },
-  { href: '#quality', label: '生产与质量' },
-  { href: '#contact', label: '联系我们' },
+  { to: '/about', label: '公司介绍' },
+  { to: '/products', label: '产品中心' },
+  { to: '/fields', label: '应用领域' },
+  { to: '/insights', label: '技术视界' },
+  { to: '/quality', label: '生产与质量' },
+  { to: '/contact', label: '联系我们' },
 ]
 
 export default function Navbar() {
@@ -29,23 +30,29 @@ export default function Navbar() {
       }`}
     >
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6">
-        <a href="#top" className="flex items-center gap-3">
+        <Link to="/" className="flex items-center gap-3">
           <img src={logo} alt="PTM 彭田新材料" className="h-8 w-auto" />
           <span className="hidden h-6 w-px bg-neutral-300 sm:block" />
           <span className="hidden leading-tight sm:block">
             <span className="block text-[14px] font-bold tracking-wide text-ink">彭田新材料（镇江）有限公司</span>
             <span className="block text-[10px] tracking-wider text-ink-light">Pengtian New Material (Zhenjiang) Co., Ltd</span>
           </span>
-        </a>
+        </Link>
 
         <nav className="hidden items-center gap-7 lg:flex">
           {links.map((l) => (
-            <a key={l.href} href={l.href} className="text-sm text-ink-gray transition-colors hover:text-ptm">
+            <NavLink
+              key={l.to}
+              to={l.to}
+              className={({ isActive }) =>
+                `text-sm transition-colors hover:text-ptm ${isActive ? 'font-semibold text-ptm' : 'text-ink-gray'}`
+              }
+            >
               {l.label}
-            </a>
+            </NavLink>
           ))}
           <a
-            href="#contact"
+            href={`tel:${contact.hotline}`}
             className="flex items-center gap-1.5 rounded-full bg-ptm px-4 py-1.5 text-sm font-semibold text-white transition-colors hover:bg-ptm-dark"
           >
             <Phone className="h-3.5 w-3.5" />
@@ -61,15 +68,24 @@ export default function Navbar() {
       {open && (
         <nav className="border-t border-neutral-200 bg-white px-6 py-4 lg:hidden">
           {links.map((l) => (
-            <a
-              key={l.href}
-              href={l.href}
+            <NavLink
+              key={l.to}
+              to={l.to}
               onClick={() => setOpen(false)}
-              className="block py-2.5 text-sm text-ink-gray hover:text-ptm"
+              className={({ isActive }) =>
+                `block py-2.5 text-sm hover:text-ptm ${isActive ? 'font-semibold text-ptm' : 'text-ink-gray'}`
+              }
             >
               {l.label}
-            </a>
+            </NavLink>
           ))}
+          <a
+            href={`tel:${contact.hotline}`}
+            className="mt-2 flex items-center gap-2 border-t border-neutral-100 py-3 text-sm font-semibold text-ptm"
+          >
+            <Phone className="h-4 w-4" />
+            {contact.hotline}
+          </a>
         </nav>
       )}
     </header>

@@ -5,6 +5,7 @@ import Products from '@/sections/Products'
 import Fields from '@/sections/Fields'
 import AiHub from '@/sections/AiHub'
 import Quality from '@/sections/Quality'
+import ContactStrip from '@/sections/ContactStrip'
 import Footer from '@/sections/Footer'
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
         <Fields />
         <AiHub />
         <Quality />
+        <ContactStrip />
       </main>
       <Footer />
     </div>

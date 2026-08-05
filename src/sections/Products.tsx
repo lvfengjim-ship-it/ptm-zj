@@ -53,13 +53,13 @@ export default function Products() {
   )
 }
 
-function Panel({ children }: { children: React.ReactNode }) {
+export function Panel({ children }: { children: React.ReactNode }) {
   return (
     <div className="rounded-2xl border border-neutral-200 bg-white p-6 shadow-sm sm:p-8">{children}</div>
   )
 }
 
-function FirePanel() {
+export function FirePanel() {
   return (
     <Panel>
       <div className="grid gap-4 md:grid-cols-2">
@@ -118,7 +118,7 @@ function FirePanel() {
   )
 }
 
-function AcidPanel() {
+export function AcidPanel() {
   return (
     <Panel>
       <div className="grid gap-8 lg:grid-cols-2">
@@ -158,7 +158,7 @@ function AcidPanel() {
   )
 }
 
-function AdhesivePanel() {
+export function AdhesivePanel() {
   return (
     <Panel>
       <div className="flex flex-wrap gap-2">
@@ -188,7 +188,7 @@ function AdhesivePanel() {
   )
 }
 
-function ScanPanel() {
+export function ScanPanel() {
   return (
     <Panel>
       <div className="grid gap-8 lg:grid-cols-2">

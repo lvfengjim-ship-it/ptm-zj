@@ -1,6 +1,22 @@
-import { Phone, Globe, MapPin, Sparkles } from 'lucide-react'
+import { Link } from 'react-router'
+import { Phone, Mail, Globe, MapPin, Sparkles } from 'lucide-react'
 import { contact } from '@/data/site'
 import logo from '@/assets/logo.png'
+
+const productLinks = [
+  { to: '/products/fire', label: '防火防辐射封堵材料' },
+  { to: '/products/acid', label: '核电用吸酸枕' },
+  { to: '/products/adhesive', label: '复合材料粘结剂' },
+  { to: '/products/automation', label: '自动化设备' },
+]
+
+const navLinks = [
+  { to: '/about', label: '公司介绍' },
+  { to: '/fields', label: '应用领域' },
+  { to: '/insights', label: '技术视界' },
+  { to: '/quality', label: '生产与质量' },
+  { to: '/contact', label: '联系我们' },
+]
 
 export default function Footer() {
   return (
@@ -21,12 +37,19 @@ export default function Footer() {
               {contact.hotline}
             </a>
             <a
-              href="#ai-hub"
+              href={`mailto:${contact.email}`}
+              className="inline-flex items-center gap-2 rounded-lg border border-white/40 px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-white/10"
+            >
+              <Mail className="h-4 w-4" />
+              {contact.email}
+            </a>
+            <Link
+              to="/insights"
               className="inline-flex items-center gap-2 rounded-lg border border-white/40 px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-white/10"
             >
               <Sparkles className="h-4 w-4" />
               关注技术视界
-            </a>
+            </Link>
           </div>
         </div>
       </div>
@@ -45,9 +68,9 @@ export default function Footer() {
           <div>
             <p className="text-sm font-semibold text-ink">产品中心</p>
             <ul className="mt-4 space-y-2.5 text-sm text-ink-gray">
-              {['防火防辐射封堵材料', '核电用吸酸枕', '复合材料粘结剂', '自动化设备'].map((t) => (
-                <li key={t}>
-                  <a href="#products" className="transition-colors hover:text-ptm">{t}</a>
+              {productLinks.map((l) => (
+                <li key={l.to}>
+                  <Link to={l.to} className="transition-colors hover:text-ptm">{l.label}</Link>
                 </li>
               ))}
             </ul>
@@ -56,14 +79,9 @@ export default function Footer() {
           <div>
             <p className="text-sm font-semibold text-ink">快速导航</p>
             <ul className="mt-4 space-y-2.5 text-sm text-ink-gray">
-              {[
-                ['#about', '公司介绍'],
-                ['#fields', '应用领域'],
-                ['#ai-hub', '技术视界'],
-                ['#quality', '生产与质量'],
-              ].map(([href, label]) => (
-                <li key={href}>
-                  <a href={href} className="transition-colors hover:text-ptm">{label}</a>
+              {navLinks.map((l) => (
+                <li key={l.to}>
+                  <Link to={l.to} className="transition-colors hover:text-ptm">{l.label}</Link>
                 </li>
               ))}
             </ul>
@@ -77,12 +95,16 @@ export default function Footer() {
                 服务热线：{contact.hotline}
               </li>
               <li className="flex items-center gap-2.5">
+                <Mail className="h-4 w-4 text-ptm" />
+                <a href={`mailto:${contact.email}`} className="transition-colors hover:text-ptm">{contact.email}</a>
+              </li>
+              <li className="flex items-center gap-2.5">
                 <Globe className="h-4 w-4 text-ptm" />
                 {contact.site}
               </li>
               <li className="flex items-center gap-2.5">
                 <MapPin className="h-4 w-4 text-ptm" />
-                {contact.city}
+                {contact.address}
               </li>
             </ul>
           </div>
