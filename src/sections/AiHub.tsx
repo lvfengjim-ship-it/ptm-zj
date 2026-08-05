@@ -19,13 +19,13 @@ export default function AiHub() {
         <div className="max-w-3xl">
           <div className="inline-flex items-center gap-2 rounded-full border border-ptm/25 bg-ptm-light px-4 py-1.5 text-xs font-medium text-ptm">
             <Sparkles className="h-3.5 w-3.5" />
-            DP·AI 引擎驱动 · 每日自动更新
+            海内外新材料技术视频 · DP·AI 自动管线接入中
           </div>
           <div className="mt-5">
             <SectionTitle
               en="TECH HUB"
               title="技术视界"
-              desc="由 DP·AI 引擎自动抓取海内外公开新材料技术视频，覆盖核能、氢能、光伏、风电、储能、动力电池等多种能源方向，自动完成摘要提炼与多语言翻译，做面向全行业的技术普及窗口。"
+              desc="精选海内外公开新材料技术视频，覆盖核能、氢能、光伏、风电、储能、动力电池等多种能源方向，点击卡片即可跳转观看。DP·AI 内容管线接入后，将自动完成每日抓取、摘要提炼与多语言翻译，做面向全行业的技术普及窗口。"
             />
           </div>
         </div>
@@ -56,7 +56,7 @@ export default function AiHub() {
         <p className="mt-6 text-xs text-ink-light">
           {dataUpdatedAt
             ? `内容经人工审核后发布，最近更新：${dataUpdatedAt}`
-            : '* 当前展示为栏目样式示例。内容管线接入后，视频将每日自动更新，经人工审核后发布。'}
+            : '* 当前为人工选编的海内外公开技术视频，点击卡片可跳转原视频观看；内容管线接入后将每日自动更新，经人工审核后发布。'}
         </p>
       </div>
     </section>
@@ -64,8 +64,11 @@ export default function AiHub() {
 }
 
 function VideoCard({ video: v }: { video: TechVideo }) {
-  return (
-    <article className="group overflow-hidden rounded-2xl border border-neutral-200 bg-white shadow-sm transition-all hover:-translate-y-1 hover:border-ptm/40 hover:shadow-lg">
+  const cardClass =
+    'group block overflow-hidden rounded-2xl border border-neutral-200 bg-white shadow-sm transition-all hover:-translate-y-1 hover:border-ptm/40 hover:shadow-lg'
+
+  const body = (
+    <>
       {/* 封面占位 */}
       <div className="relative flex h-40 items-center justify-center bg-gradient-to-br from-[#EFEBE6] to-[#E2DCD4]">
         <div className="absolute left-3 top-3 flex gap-2">
@@ -83,26 +86,20 @@ function VideoCard({ video: v }: { video: TechVideo }) {
         <span className="flex h-14 w-14 items-center justify-center rounded-full bg-white/70 text-ptm shadow-sm backdrop-blur transition-all group-hover:scale-110 group-hover:bg-ptm group-hover:text-white">
           <PlayCircle className="h-8 w-8" />
         </span>
-        <span className="absolute bottom-3 right-3 flex items-center gap-1 rounded bg-black/45 px-2 py-0.5 text-[11px] text-white">
-          <Clock className="h-3 w-3" />
-          {v.duration}
-        </span>
+        {v.duration && (
+          <span className="absolute bottom-3 right-3 flex items-center gap-1 rounded bg-black/45 px-2 py-0.5 text-[11px] text-white">
+            <Clock className="h-3 w-3" />
+            {v.duration}
+          </span>
+        )}
       </div>
 
       <div className="p-5">
-        <h3 className="line-clamp-2 font-semibold leading-snug text-ink group-hover:text-ptm">
-          {v.url ? (
-            <a href={v.url} target="_blank" rel="noopener noreferrer" className="hover:underline">
-              {v.title}
-            </a>
-          ) : (
-            v.title
-          )}
-        </h3>
+        <h3 className="line-clamp-2 font-semibold leading-snug text-ink group-hover:text-ptm">{v.title}</h3>
         <div className="mt-3 rounded-lg border border-ptm/15 bg-ptm-light p-3">
           <p className="flex items-center gap-1.5 text-[11px] font-medium text-ptm">
             <Sparkles className="h-3 w-3" />
-            DP·AI 摘要
+            内容摘要
           </p>
           <p className="mt-1.5 line-clamp-3 text-xs leading-relaxed text-ink-gray">{v.summary}</p>
         </div>
@@ -114,6 +111,15 @@ function VideoCard({ video: v }: { video: TechVideo }) {
           <span>{v.date}</span>
         </div>
       </div>
-    </article>
+    </>
+  )
+
+  // 有链接的卡片整体可点击，跳转原视频（新标签页打开）
+  return v.url ? (
+    <a href={v.url} target="_blank" rel="noopener noreferrer" className={cardClass}>
+      {body}
+    </a>
+  ) : (
+    <article className={cardClass}>{body}</article>
   )
 }
