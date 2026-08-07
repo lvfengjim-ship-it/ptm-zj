@@ -1,8 +1,128 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-08-05T23:39:06
+// 生成时间: 2026-08-07T01:39:07
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "8ffe4d9bbf2b1c48",
+    "title": "核电站是如何工作的？",
+    "category": "核能",
+    "region": "海外",
+    "source": "ENGIE Belgium",
+    "duration": "4:08",
+    "date": "2026-08-07",
+    "summary": "视频由ENGIE Belgium制作，以动画形式简明扼要地介绍了核电站的工作原理，包括核裂变反应、热能产生、蒸汽驱动涡轮机发电，以及冷却系统等关键环节，适合行业入门科普。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=jpDRfaWYk3I"
+  },
+  {
+    "id": "31014b3557814791",
+    "title": "浓缩铀是如何制造的☢️ | 铀是如何从矿山中提取的 | 从矿山到反应堆",
+    "category": "核能",
+    "region": "海外",
+    "source": "Worldnite Journey",
+    "duration": "10:02",
+    "date": "2026-08-07",
+    "summary": "视频详细展示了铀从矿山开采、粉碎、浸出、纯化到浓缩的全过程，并解释了不同浓缩方法（如气体扩散和离心法）的原理，最后说明核燃料组件的制造及其在反应堆中的应用，为行业从业者提供了直观的铀燃料循环概述。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=NaPUdob0IWo"
+  },
+  {
+    "id": "bceb2c40a9deaff3",
+    "title": "用于光伏组件封装的热塑性弹性体基复合薄膜",
+    "category": "光伏",
+    "region": "海外",
+    "source": "Innovative Solar Module & System Technologies",
+    "duration": "14:36",
+    "date": "2026-08-07",
+    "summary": "该视频介绍了一种基于热塑性弹性体的复合薄膜，用于光伏组件封装。该材料可能替代传统EVA或POE封装胶膜，具有更好的柔韧性、耐候性和可回收性，有望提升组件长期可靠性并降低环境足迹。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=uw1lOfZv8u0"
+  },
+  {
+    "id": "42740708ce680d64",
+    "title": "风能：Energetx复合材料的故事",
+    "category": "风电",
+    "region": "海外",
+    "source": "Filmic Productions",
+    "duration": "3:38",
+    "date": "2026-08-07",
+    "summary": "本视频讲述Energetx复合材料公司为风电行业制造叶片等复合材料部件的历程，展示其先进制造工艺与质量控制，强调材料创新对提升风电叶片性能与可靠性的关键作用，为行业提供技术参考。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=yNnLIgwDeu4"
+  },
+  {
+    "id": "239984de4f1d8b82",
+    "title": "FSSA网络研讨会系列：储能系统的保护",
+    "category": "储能",
+    "region": "海外",
+    "source": "Fire Suppression Systems Association",
+    "duration": "70:20",
+    "date": "2026-08-07",
+    "summary": "本次网络研讨会聚焦储能系统的消防安全保护，探讨了锂离子电池储能系统的火灾风险、探测与灭火技术，并介绍了相关标准与最佳实践，旨在提升储能设施的安全设计与管理水平。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=fL4lr84FUAI"
+  },
+  {
+    "id": "dcd299b8a55ebb92",
+    "title": "3亿美元的大火——为什么电池储能是能源转型中隐藏的定时炸弹",
+    "category": "储能",
+    "region": "海外",
+    "source": "PowerTransitionAsia",
+    "duration": "14:32",
+    "date": "2026-08-07",
+    "summary": "视频揭示电池储能系统火灾风险，以一起3亿美元损失事故为例，分析热失控原因、安全标准缺失及对能源转型的潜在影响，呼吁行业重视安全与监管。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=6qzLl6OB4IA"
+  },
+  {
+    "id": "f44b682b073ef101",
+    "title": "电池储能系统的消防安全标准是什么？——消防站内幕",
+    "category": "储能",
+    "region": "海外",
+    "source": "Inside the Firehouse",
+    "duration": "4:43",
+    "date": "2026-08-07",
+    "summary": "视频探讨了电池储能系统（BESS）的消防安全标准，涵盖NFPA 855等关键规范，涉及系统设计、安装、维护及应急响应要求，旨在提升储能设施安全性，降低火灾风险，对行业从业者具有重要参考价值。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=-clABk6mcOE"
+  },
+  {
+    "id": "5b60d28701d36e76",
+    "title": "比亚迪刚刚解决了固态电池最棘手的问题——循环寿命",
+    "category": "动力电池",
+    "region": "海外",
+    "source": "The Electric Viking",
+    "duration": "7:22",
+    "date": "2026-08-07",
+    "summary": "比亚迪宣称在固态电池循环寿命方面取得突破，解决了该技术商业化的关键障碍。具体技术细节未完全公开，但可能涉及新型电解质或界面设计，以抑制锂枝晶生长并保持长期循环稳定性。此举有望加速固态电池在电动汽车领域的应用。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=QJeN6_XCAoI"
+  },
+  {
+    "id": "8bfb7c06e736a108",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-07",
+    "summary": "摘要内容",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av116317445295668"
+  },
+  {
+    "id": "e9071dc71ab113a4",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-07",
+    "summary": "视频标题未提供，无法生成摘要。",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av225829689"
+  },
   {
     "id": "ef2181d6ba72df4d",
     "title": "关于核废料的重大谎言",
@@ -112,40 +232,40 @@ export const generatedVideos: TechVideo[] = [
     "url": "http://www.bilibili.com/video/av465547414"
   },
   {
-    "id": "c5ae765cce1f301c",
+    "id": "ec9bf650d3f08388",
     "title": "视频标题",
     "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-05",
-    "summary": "视频标题未提供，无法生成摘要。",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av277548493"
-  },
-  {
-    "id": "336d973be6219fc0",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-05",
-    "summary": "视频标题未提供，无法生成摘要。",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av117013783517727"
-  },
-  {
-    "id": "e809ac12a535bcfc",
-    "title": "视频标题",
-    "category": "核能",
     "region": "国内",
     "source": "行业媒体",
     "duration": "",
     "date": "2026-08-05",
     "summary": "摘要内容",
     "hot": false,
-    "url": "https://www.bilibili.com/cheese/play/ss728398366?query_from=0&search_id=1851229869470678883&search_query=%E5%9B%BA%E6%80%81%E7%94%B5%E6%B1%A0+%E6%9D%90%E6%96%99"
+    "url": "http://www.bilibili.com/video/av117042187408471"
+  },
+  {
+    "id": "062e368b2ef0f7ad",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-05",
+    "summary": "视频标题未提供，无法生成摘要。",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av116895235835663"
+  },
+  {
+    "id": "2dd69e171d777e4a",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-05",
+    "summary": "视频标题未提供，无法生成摘要。",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av113497346217178"
   },
   {
     "id": "413e383d8f800c38",
@@ -242,127 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "视频深入探讨固态氢存储技术，分析其原理、优势与挑战，并与传统储氢方式对比，评估其在能源存储领域的应用前景，为行业从业者提供技术参考。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=M0fnEsz4Ks0"
-  },
-  {
-    "id": "479edcca74d73dc2",
-    "title": "硅+材料使氢燃料运输和储存更安全",
-    "category": "氢能",
-    "region": "海外",
-    "source": "Hydrogen News",
-    "duration": "2:31",
-    "date": "2026-08-05",
-    "summary": "该视频介绍了一种名为Si+的新型材料，可提高氢燃料运输和储存的安全性。该材料通过化学吸附方式储存氢气，降低高压和低温需求，从而减少泄漏和爆炸风险，有望推动氢能基础设施的规模化应用。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=fvbjd3ltCuk"
-  },
-  {
-    "id": "44b84d6a35515acc",
-    "title": "氢能突破为何比以往任何时候都更近",
-    "category": "氢能",
-    "region": "海外",
-    "source": "Undecided with Matt Ferrell",
-    "duration": "11:51",
-    "date": "2026-08-05",
-    "summary": "视频探讨了氢能技术的最新进展，包括电解水制氢效率提升、成本下降以及储运技术的创新。专家认为，随着可再生能源成本降低和政策支持，绿氢商业化应用正加速，有望在工业、交通等领域实现规模化替代，推动能源转型。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=ISuUlc8widc"
-  },
-  {
-    "id": "8a63581bdcd961fb",
-    "title": "钙钛矿电池是太阳能的游戏规则改变者吗？",
-    "category": "光伏",
-    "region": "海外",
-    "source": "DW Planet A",
-    "duration": "11:11",
-    "date": "2026-08-05",
-    "summary": "视频探讨钙钛矿太阳能电池的潜力与挑战。其效率高、成本低，但稳定性差、含铅毒性及规模化生产问题待解。专家认为，钙钛矿有望与硅电池结合，推动光伏技术革新，但商业化仍需时日。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=Fft4UT7kGxg"
-  },
-  {
-    "id": "a51bf0300e72bcd4",
-    "title": "钙钛矿组件的封装解决方案 | 金波 | 杭州福斯特",
-    "category": "光伏",
-    "region": "海外",
-    "source": "TaiyangNews - All About Solar",
-    "duration": "14:04",
-    "date": "2026-08-05",
-    "summary": "杭州福斯特的金波在TaiyangNews会议上介绍了钙钛矿组件的封装解决方案。他讨论了钙钛矿太阳能电池的稳定性挑战，并提出了针对性的封装材料和技术，包括密封剂、背板和边缘密封等，旨在提高组件的耐久性和可靠性，推动钙钛矿光伏的商业化应用。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=bd4aZ8BPBIk"
-  },
-  {
-    "id": "044c2b8dd424ec66",
-    "title": "美国MAP 2021年9月网络研讨会：光伏封装技术综述",
-    "category": "光伏",
-    "region": "海外",
-    "source": "NLR Learning",
-    "duration": "60:22",
-    "date": "2026-08-05",
-    "summary": "本次网络研讨会回顾了光伏封装材料的技术进展，重点讨论了封装胶膜（如EVA、POE）的性能要求、老化机理及对组件可靠性的影响。会议还探讨了新型封装方案及未来趋势，为光伏组件制造商和材料供应商提供了技术参考。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=1rclz4Y5cTo"
-  },
-  {
-    "id": "7d78a2407fc6b3f8",
-    "title": "Perovskite-Connect：Intellivation讨论钙钛矿组件封装挑战",
-    "category": "光伏",
-    "region": "海外",
-    "source": "Perovskite-Info",
-    "duration": "0:44",
-    "date": "2026-08-05",
-    "summary": "Intellivation在Perovskite-Connect会议上探讨钙钛矿面板封装难题，强调封装材料与工艺对稳定性的关键影响，提出应对水氧侵蚀、离子迁移等挑战的解决方案，以提升组件寿命与可靠性。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=nmTG9N4xddA"
-  },
-  {
-    "id": "fd2260736a9126d3",
-    "title": "Leadmicro聚焦ALD技术提升钙钛矿稳定性 | Jerry Liao | Leadmicro",
-    "category": "光伏",
-    "region": "海外",
-    "source": "TaiyangNews - All About Solar",
-    "duration": "21:07",
-    "date": "2026-08-05",
-    "summary": "Leadmicro公司Jerry Liao在TaiyangNews访谈中介绍，公司利用原子层沉积（ALD）技术改善钙钛矿太阳能电池的稳定性。ALD技术可在钙钛矿表面形成致密保护层，有效阻挡水分和离子迁移，提升器件长期运行可靠性，为钙钛矿商业化提供关键解决方案。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=1cJZabFRlMY"
-  },
-  {
-    "id": "67f5479469d9bf9a",
-    "title": "TPI复合材料叶片制造工艺",
-    "category": "风电",
-    "region": "海外",
-    "source": "TPI Composites",
-    "duration": "2:32",
-    "date": "2026-08-05",
-    "summary": "视频展示了TPI Composites公司风电叶片制造的全流程，包括材料准备、铺层、灌注、固化、脱模及后处理等关键环节，强调了自动化与质量控制，为行业提供了高效生产参考。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=jpRudTUIyfM"
-  },
-  {
-    "id": "5ddb685257e6b899",
-    "title": "RodPack 翼梁帽 #1",
-    "category": "风电",
-    "region": "海外",
-    "source": "Snolet60",
-    "duration": "5:25",
-    "date": "2026-08-05",
-    "summary": "视频展示了RodPack翼梁帽的制造或安装过程，可能涉及风电叶片的结构组件。该技术旨在提高叶片强度和轻量化，对提升风电效率有重要意义。具体细节需进一步确认。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=G6FoyajHBp8"
-  },
-  {
-    "id": "bf27ce5b7b21f742",
-    "title": "TPI复合材料公司的风力涡轮机制造",
-    "category": "风电",
-    "region": "海外",
-    "source": "Composites Central",
-    "duration": "2:23",
-    "date": "2026-08-05",
-    "summary": "视频展示了TPI复合材料公司风力涡轮机叶片的生产流程，包括材料铺设、真空灌注、固化及后处理等关键环节，体现了复合材料在风电叶片制造中的核心应用与工艺控制要点。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=gGb2hEaAEHU"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-08-05T23:39:06' }
+export const generatedMeta = { updatedAt: '2026-08-07T01:39:07' }
