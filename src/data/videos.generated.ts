@@ -1,8 +1,56 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-08-07T01:39:07
+// 生成时间: 2026-08-07T23:18:02
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "c898b1a44eddcae0",
+    "title": "核能复兴：Oklo CEO强调行业规模化步伐加快",
+    "category": "核能",
+    "region": "海外",
+    "source": "Fox Business",
+    "duration": "8:08",
+    "date": "2026-08-07",
+    "summary": "Oklo CEO在访谈中表示，核能行业正经历复兴，强调其快速规模化进程。Oklo专注于先进裂变技术，旨在通过小型模块化反应堆提供清洁、可靠的能源，并已获得多项监管批准，推动核能商业化部署。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=TPHbpAPQ2Uk"
+  },
+  {
+    "id": "44f91b89c9d95bd2",
+    "title": "关于核废料，你被骗了 | 真相复杂",
+    "category": "核能",
+    "region": "海外",
+    "source": "Business Insider and Insider Science",
+    "duration": "25:37",
+    "date": "2026-08-07",
+    "summary": "视频揭露核废料处理常见误解，指出其体积小、管理严格，且新技术可再利用。强调核废料并非环境灾难，而是可控的工业副产品，但需长期监管。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=2RgzOYNdnLE"
+  },
+  {
+    "id": "ce77c27f96a0e01d",
+    "title": "复合材料在风电和氢能应用中的未来 | CW趋势",
+    "category": "风电",
+    "region": "海外",
+    "source": "CompositesWorld",
+    "duration": "37:25",
+    "date": "2026-08-07",
+    "summary": "视频探讨复合材料在风电叶片和氢能存储/运输中的最新应用。专家讨论材料创新、制造工艺及成本效益，强调复合材料对提升风电效率和氢能基础设施安全性的关键作用，并展望行业未来发展趋势。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=Rx0JaVJdSKI"
+  },
+  {
+    "id": "807fcb53a6653d8a",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-07",
+    "summary": "视频摘要",
+    "hot": false,
+    "url": "https://www.bilibili.com/cheese/play/ss17903?query_from=0&search_id=9979175867845428733&search_query=%E6%96%B0%E6%9D%90%E6%96%99+%E6%B0%A2%E8%83%BD+%E5%82%A8%E8%BF%90"
+  },
   {
     "id": "8ffe4d9bbf2b1c48",
     "title": "核电站是如何工作的？",
@@ -124,6 +172,18 @@ export const generatedVideos: TechVideo[] = [
     "url": "http://www.bilibili.com/video/av225829689"
   },
   {
+    "id": "3f33e6fea9f4b779",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-05",
+    "summary": "摘要内容",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av326301310"
+  },
+  {
     "id": "ef2181d6ba72df4d",
     "title": "关于核废料的重大谎言",
     "category": "核能",
@@ -232,7 +292,7 @@ export const generatedVideos: TechVideo[] = [
     "url": "http://www.bilibili.com/video/av465547414"
   },
   {
-    "id": "ec9bf650d3f08388",
+    "id": "5e4165828a5308d0",
     "title": "视频标题",
     "category": "储能",
     "region": "国内",
@@ -241,31 +301,7 @@ export const generatedVideos: TechVideo[] = [
     "date": "2026-08-05",
     "summary": "摘要内容",
     "hot": false,
-    "url": "http://www.bilibili.com/video/av117042187408471"
-  },
-  {
-    "id": "062e368b2ef0f7ad",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-05",
-    "summary": "视频标题未提供，无法生成摘要。",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av116895235835663"
-  },
-  {
-    "id": "2dd69e171d777e4a",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-05",
-    "summary": "视频标题未提供，无法生成摘要。",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av113497346217178"
+    "url": "http://www.bilibili.com/video/av784026749"
   },
   {
     "id": "413e383d8f800c38",
@@ -326,43 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "本视频以动画形式深入浅出地解释了核能的基本原理，包括原子结构、核裂变过程、链式反应以及核电站如何利用核能发电。内容涵盖铀燃料、控制棒、冷却系统等关键部件，并简要提及核废料处理问题，适合行业入门者快速理解核能技术核心。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=rcOFV4y5z8c"
-  },
-  {
-    "id": "e55ab211317da704",
-    "title": "储氢基础",
-    "category": "氢能",
-    "region": "海外",
-    "source": "Future Energy & Technology",
-    "duration": "3:57",
-    "date": "2026-08-05",
-    "summary": "本视频介绍储氢技术的基本原理，涵盖物理储氢（高压气态、低温液态）与化学储氢（金属氢化物、有机液体）等方法，比较其容量、安全性与成本，并探讨在氢能产业链中的应用前景。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=xXhQglcjOMA"
-  },
-  {
-    "id": "6f26250fbfd9794e",
-    "title": "氢能储存的工作原理",
-    "category": "氢能",
-    "region": "海外",
-    "source": "OurFuture.Energy",
-    "duration": "1:37",
-    "date": "2026-08-05",
-    "summary": "视频介绍了氢能储存的几种主要方式，包括高压气态储氢、液态储氢和固态储氢（如金属氢化物）。重点阐述了各方法的原理、优缺点及适用场景，并提及了储氢技术对氢能产业链发展的重要性。内容专业，适合行业人士了解技术现状。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=oS32_r4MM94"
-  },
-  {
-    "id": "5a5c916e63e1b9c7",
-    "title": "固态氢再次解析——它是能源存储的未来吗？",
-    "category": "氢能",
-    "region": "海外",
-    "source": "Undecided with Matt Ferrell",
-    "duration": "13:05",
-    "date": "2026-08-05",
-    "summary": "视频深入探讨固态氢存储技术，分析其原理、优势与挑战，并与传统储氢方式对比，评估其在能源存储领域的应用前景，为行业从业者提供技术参考。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=M0fnEsz4Ks0"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-08-07T01:39:07' }
+export const generatedMeta = { updatedAt: '2026-08-07T23:18:02' }
