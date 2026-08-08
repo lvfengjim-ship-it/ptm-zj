@@ -1,8 +1,104 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-08-07T23:18:02
+// 生成时间: 2026-08-08T23:04:56
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "26cd071bd1229735",
+    "title": "NOMAD——核电站材料退化的无损评估",
+    "category": "核能",
+    "region": "海外",
+    "source": "Eurice",
+    "duration": "2:20",
+    "date": "2026-08-08",
+    "summary": "NOMAD项目旨在开发核电站材料退化的无损评估技术，通过先进传感与数据分析，实时监测关键部件状态，提升核电站安全性与运行效率，降低维护成本，为核能行业提供可靠的检测解决方案。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=BpcyosP--w0"
+  },
+  {
+    "id": "3822c0dc585f1dcb",
+    "title": "绿色氢能储存解析：清洁能源的生产、未来与挑战",
+    "category": "氢能",
+    "region": "海外",
+    "source": "CAS, a division of the American Chemical Society",
+    "duration": "3:13",
+    "date": "2026-08-08",
+    "summary": "视频由美国化学学会旗下CAS制作，系统讲解绿色氢能的生产、储存技术及未来前景。内容涵盖电解水制氢、高压与液态储氢、材料科学进展，并客观分析成本、效率及基础设施等挑战，为行业从业者提供技术概览。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=__78zHP46mY"
+  },
+  {
+    "id": "0fe4ab774b35b072",
+    "title": "VIPERLAB 简短介绍 - TNO-Solliance - S25 工艺 PSK 生产线",
+    "category": "光伏",
+    "region": "海外",
+    "source": "H2020 VIPERLAB Project",
+    "duration": "2:42",
+    "date": "2026-08-08",
+    "summary": "该视频介绍了VIPERLAB项目中TNO-Solliance的S25工艺钙钛矿（PSK）生产线，展示了其用于钙钛矿太阳能电池研发和试生产的设备与能力，为行业提供先进的薄膜光伏技术平台。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=FhfkUiRXyxc"
+  },
+  {
+    "id": "82848fccb8edae6c",
+    "title": "风力涡轮机叶片壳体组装延时摄影",
+    "category": "风电",
+    "region": "海外",
+    "source": "Composites Central",
+    "duration": "0:13",
+    "date": "2026-08-08",
+    "summary": "该视频展示了风力涡轮机叶片壳体的组装过程，通过延时摄影呈现了从模具准备、铺层、合模到脱模的完整制造流程，体现了复合材料在风电叶片制造中的关键应用，为行业提供了直观的工艺参考。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=oTh5g6rQoMg"
+  },
+  {
+    "id": "8119f67810dc6a2d",
+    "title": "电池火灾的真相 - Gore Street Capital",
+    "category": "储能",
+    "region": "海外",
+    "source": "Modo Energy",
+    "duration": "43:41",
+    "date": "2026-08-08",
+    "summary": "Gore Street Capital 深入探讨电池储能系统火灾风险，分析实际案例与统计数据，指出火灾概率低但后果严重，强调安全设计、监控与应急响应的重要性，为行业提供风险管控参考。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=LDMs7QQqQxE"
+  },
+  {
+    "id": "e6a3fb4b3024c61f",
+    "title": "2023 NFPA 855 及储能系统消防规范 - 课程预览",
+    "category": "储能",
+    "region": "海外",
+    "source": "HeatSpring",
+    "duration": "4:04",
+    "date": "2026-08-08",
+    "summary": "本课程预览介绍2023年NFPA 855标准及储能系统消防规范，涵盖安装、维护、应急响应等关键要求，旨在帮助从业者理解并遵循最新安全标准，确保储能系统合规运营。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=bLws8ZRwcVA"
+  },
+  {
+    "id": "4f136c8c30dbd60e",
+    "title": "解读BESS：什么是电池储能系统 | Moxa",
+    "category": "储能",
+    "region": "海外",
+    "source": "Moxa",
+    "duration": "3:20",
+    "date": "2026-08-08",
+    "summary": "视频由Moxa制作，介绍电池储能系统（BESS）的基本概念、组成及其在电网中的作用。内容涵盖BESS如何存储电能、提高电网稳定性，并强调通信和网络技术在确保系统高效运行中的关键作用，适合储能行业从业者了解BESS基础。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=NqAAt_iYj9w"
+  },
+  {
+    "id": "cf2bd53afb69668d",
+    "title": "我们离固态电池还有多远？",
+    "category": "动力电池",
+    "region": "海外",
+    "source": "Undecided with Matt Ferrell",
+    "duration": "16:12",
+    "date": "2026-08-08",
+    "summary": "视频探讨固态电池技术现状与挑战，包括电解质材料、界面问题、制造成本等，并对比传统锂离子电池，分析其商业化前景及对电动汽车行业的影响。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=uspSYVssGXU"
+  },
   {
     "id": "c898b1a44eddcae0",
     "title": "核能复兴：Oklo CEO强调行业规模化步伐加快",
@@ -38,18 +134,6 @@ export const generatedVideos: TechVideo[] = [
     "summary": "视频探讨复合材料在风电叶片和氢能存储/运输中的最新应用。专家讨论材料创新、制造工艺及成本效益，强调复合材料对提升风电效率和氢能基础设施安全性的关键作用，并展望行业未来发展趋势。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=Rx0JaVJdSKI"
-  },
-  {
-    "id": "807fcb53a6653d8a",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-07",
-    "summary": "视频摘要",
-    "hot": false,
-    "url": "https://www.bilibili.com/cheese/play/ss17903?query_from=0&search_id=9979175867845428733&search_query=%E6%96%B0%E6%9D%90%E6%96%99+%E6%B0%A2%E8%83%BD+%E5%82%A8%E8%BF%90"
   },
   {
     "id": "8ffe4d9bbf2b1c48",
@@ -148,6 +232,18 @@ export const generatedVideos: TechVideo[] = [
     "url": "https://www.youtube.com/watch?v=QJeN6_XCAoI"
   },
   {
+    "id": "807fcb53a6653d8a",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-07",
+    "summary": "视频摘要",
+    "hot": false,
+    "url": "https://www.bilibili.com/cheese/play/ss17903?query_from=0&search_id=9979175867845428733&search_query=%E6%96%B0%E6%9D%90%E6%96%99+%E6%B0%A2%E8%83%BD+%E5%82%A8%E8%BF%90"
+  },
+  {
     "id": "8bfb7c06e736a108",
     "title": "视频标题",
     "category": "储能",
@@ -170,18 +266,6 @@ export const generatedVideos: TechVideo[] = [
     "summary": "视频标题未提供，无法生成摘要。",
     "hot": false,
     "url": "http://www.bilibili.com/video/av225829689"
-  },
-  {
-    "id": "3f33e6fea9f4b779",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-05",
-    "summary": "摘要内容",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av326301310"
   },
   {
     "id": "ef2181d6ba72df4d",
@@ -278,91 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "摘要内容",
     "hot": false,
     "url": "http://www.bilibili.com/video/av913774120"
-  },
-  {
-    "id": "464c447f6b1169e2",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-05",
-    "summary": "摘要内容",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av465547414"
-  },
-  {
-    "id": "5e4165828a5308d0",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-05",
-    "summary": "摘要内容",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av784026749"
-  },
-  {
-    "id": "413e383d8f800c38",
-    "title": "WNE 2025 - Element Materials Technology 研讨会 - 核设备鉴定与测试",
-    "category": "核能",
-    "region": "海外",
-    "source": "WNE Paris",
-    "duration": "26:30",
-    "date": "2026-08-05",
-    "summary": "该视频为WNE 2025研讨会内容，由Element Materials Technology主讲，聚焦核设备鉴定与测试。涵盖核级设备认证流程、测试标准及材料性能验证，旨在确保核设施安全性与可靠性，为行业提供专业测试解决方案。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=zNVuEhlMOX4"
-  },
-  {
-    "id": "2c41afcdc9339982",
-    "title": "比尔·盖茨新钠冷快堆背后的天才设计",
-    "category": "核能",
-    "region": "海外",
-    "source": "Dr Ben Miles",
-    "duration": "13:51",
-    "date": "2026-08-05",
-    "summary": "视频解析比尔·盖茨投资的Natrium反应堆，采用钠冷快堆与熔盐储能结合，提升安全性与经济性，并支持灵活调峰，为核能创新提供新思路。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=qUnik4gxrtM"
-  },
-  {
-    "id": "33153446114719e0",
-    "title": "小型模块化反应堆的不便真相？——核工程师对Ben Miles博士的回应",
-    "category": "核能",
-    "region": "海外",
-    "source": "T. Folse Nuclear",
-    "duration": "31:52",
-    "date": "2026-08-05",
-    "summary": "核工程师回应Ben Miles博士关于小型模块化反应堆（SMR）的观点，指出其经济性、废物处理及监管挑战，强调SMR并非解决核能问题的万能药，需理性评估其实际效益与局限。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=j91P2PGPiAE"
-  },
-  {
-    "id": "807dff2861e55889",
-    "title": "为什么人们想把小型核反应堆到处部署",
-    "category": "核能",
-    "region": "海外",
-    "source": "DW Planet A",
-    "duration": "13:05",
-    "date": "2026-08-05",
-    "summary": "视频探讨小型模块化反应堆（SMR）的兴起，分析其作为清洁能源的潜力与挑战。SMR具有灵活部署、降低初期投资等优势，但面临核废料处理、成本竞争力及公众接受度等问题。内容客观介绍SMR技术特点，为行业提供参考。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=GhKQ8EP1a1Y"
-  },
-  {
-    "id": "b91e094cbe772eac",
-    "title": "核能解析：它是如何工作的？1/3",
-    "category": "核能",
-    "region": "海外",
-    "source": "Kurzgesagt – In a Nutshell",
-    "duration": "4:44",
-    "date": "2026-08-05",
-    "summary": "本视频以动画形式深入浅出地解释了核能的基本原理，包括原子结构、核裂变过程、链式反应以及核电站如何利用核能发电。内容涵盖铀燃料、控制棒、冷却系统等关键部件，并简要提及核废料处理问题，适合行业入门者快速理解核能技术核心。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=rcOFV4y5z8c"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-08-07T23:18:02' }
+export const generatedMeta = { updatedAt: '2026-08-08T23:04:56' }
