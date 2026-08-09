@@ -1,8 +1,80 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-08-08T23:04:56
+// 生成时间: 2026-08-09T23:06:12
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "a379b6b313b22065",
+    "title": "TH24 - 为核部件先进制造铺平道路",
+    "category": "核能",
+    "region": "海外",
+    "source": "NRCgov",
+    "duration": "90:15",
+    "date": "2026-08-09",
+    "summary": "美国核管理委员会（NRC）在TH24会议上探讨核部件先进制造技术，包括增材制造、焊接工艺改进等，旨在提升核工业制造水平，确保安全性与可靠性，推动核能领域创新与发展。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=wJtOenwpKc4"
+  },
+  {
+    "id": "78e5acd5f77132f9",
+    "title": "钙钛矿太阳能电池：材料、器件结构、制造及优化策略",
+    "category": "光伏",
+    "region": "海外",
+    "source": "CASE Chemistry",
+    "duration": "10:01",
+    "date": "2026-08-09",
+    "summary": "视频系统介绍钙钛矿太阳能电池的关键材料、器件架构、制备工艺及优化策略，涵盖组分工程、界面修饰、稳定性提升等要点，为从业者提供技术路线参考。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=KSxw1jQ0YGU"
+  },
+  {
+    "id": "1d6f6a17f405fe9d",
+    "title": "复合材料在风电中的应用",
+    "category": "风电",
+    "region": "海外",
+    "source": "IACMI- The Composites Institute",
+    "duration": "3:18",
+    "date": "2026-08-09",
+    "summary": "本视频由IACMI复合材料研究所出品，介绍复合材料在风电叶片制造中的关键作用，包括材料选择、制造工艺及性能优势，旨在提升风电效率与可靠性，推动可再生能源发展。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=EArT7ofzV7Y"
+  },
+  {
+    "id": "e38c535853e2f93f",
+    "title": "风电复合材料市场：你需要知道的五大趋势 | Valuates Reports",
+    "category": "风电",
+    "region": "海外",
+    "source": "Valuates Reports",
+    "duration": "1:14",
+    "date": "2026-08-09",
+    "summary": "视频分析了风电复合材料市场的五大关键趋势，包括材料创新、供应链优化、成本下降、政策支持及可持续性需求，为行业从业者提供了市场动态和技术发展方向的重要参考。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=ci2bksN1olA"
+  },
+  {
+    "id": "91861d0dc5c7855c",
+    "title": "奥泰梅萨电池储能火灾两周后仍在燃烧",
+    "category": "储能",
+    "region": "海外",
+    "source": "CBS 8 San Diego",
+    "duration": "2:08",
+    "date": "2026-08-09",
+    "summary": "圣地亚哥奥泰梅萨的电池储能设施火灾持续两周，消防部门仍在监控。火灾涉及锂离子电池，产生有毒烟雾，导致附近居民疏散。事件引发对储能安全标准的关注，可能影响行业监管与设计。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=YRnNfFuQwNk"
+  },
+  {
+    "id": "5ea2c1ff8da03310",
+    "title": "弗劳恩霍夫IKTS的固态电池制造",
+    "category": "动力电池",
+    "region": "海外",
+    "source": "Fraunhofer IKTS",
+    "duration": "6:50",
+    "date": "2026-08-09",
+    "summary": "视频展示了弗劳恩霍夫IKTS研究所的固态电池制造工艺，涵盖材料处理、电极制备及电池组装等关键步骤，强调了其规模化生产潜力及技术优势，为行业提供了固态电池量产的技术参考。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=j5SVrp8N-1M"
+  },
   {
     "id": "26cd071bd1229735",
     "title": "NOMAD——核电站材料退化的无损评估",
@@ -98,6 +170,18 @@ export const generatedVideos: TechVideo[] = [
     "summary": "视频探讨固态电池技术现状与挑战，包括电解质材料、界面问题、制造成本等，并对比传统锂离子电池，分析其商业化前景及对电动汽车行业的影响。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=uspSYVssGXU"
+  },
+  {
+    "id": "9e44df3d9eb6a262",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-07",
+    "summary": "摘要内容",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av777970380"
   },
   {
     "id": "c898b1a44eddcae0",
@@ -268,101 +352,17 @@ export const generatedVideos: TechVideo[] = [
     "url": "http://www.bilibili.com/video/av225829689"
   },
   {
-    "id": "ef2181d6ba72df4d",
-    "title": "关于核废料的重大谎言",
-    "category": "核能",
-    "region": "海外",
-    "source": "Cleo Abram",
-    "duration": "13:04",
-    "date": "2026-08-05",
-    "summary": "视频驳斥了核废料无法处理的常见误解，指出核废料体积小且可安全储存。通过干式储存罐和地质处置库等技术，核废料能被有效隔离，其放射性风险远低于公众认知。视频呼吁理性看待核能，强调其作为清洁能源的潜力。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=IzQ3gFRj0Bc"
-  },
-  {
-    "id": "e8e38cc39d28958d",
-    "title": "革命性核能：钍与同位素回收",
-    "category": "核能",
-    "region": "海外",
-    "source": "Adaptive Energy Systems",
-    "duration": "3:17",
-    "date": "2026-08-05",
-    "summary": "视频探讨钍基核燃料循环与同位素回收技术，旨在提升核燃料利用率、减少核废料，并可能降低核扩散风险。内容涉及钍燃料的优势、同位素分离方法及其对核能可持续发展的潜在影响，为核能行业提供技术新视角。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=oLAkYSaGomg"
-  },
-  {
-    "id": "a6ffdbc08977abf0",
-    "title": "核电站的结构与运行",
-    "category": "核能",
-    "region": "海外",
-    "source": "KHNP Korea Hydro & Nuclear Power Co., Ltd.",
-    "duration": "21:15",
-    "date": "2026-08-05",
-    "summary": "视频由韩国水力核电公司制作，详细介绍了核电站的核心结构和工作原理，包括反应堆、蒸汽发生器、汽轮机等关键部件，以及核裂变如何产生热能并转化为电能的过程，有助于行业人员理解核电站的基本运行机制。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=DMLEDycJZ5c"
-  },
-  {
-    "id": "06851a1150a955fc",
-    "title": "钙钛矿太阳能电池结构与封装机理 | 使用Blender进行3D可视化",
-    "category": "光伏",
-    "region": "海外",
-    "source": "Divya Shaju",
-    "duration": "0:15",
-    "date": "2026-08-05",
-    "summary": "视频通过3D动画展示钙钛矿太阳能电池的层状结构，包括电子传输层、钙钛矿吸收层、空穴传输层等，并详细解析封装机制，强调封装对提高稳定性和寿命的关键作用，为行业提供直观的技术参考。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=JiCmFwU-Q08"
-  },
-  {
-    "id": "c1d97053fe1487a0",
-    "title": "17. 风力涡轮机叶片用复合材料",
-    "category": "风电",
-    "region": "海外",
-    "source": "DTU Wind and Energy Systems",
-    "duration": "9:24",
-    "date": "2026-08-05",
-    "summary": "视频由DTU风能与能源系统频道发布，介绍风力涡轮机叶片用复合材料。内容涵盖材料类型、性能要求及在叶片制造中的应用，旨在提升风电叶片效率与耐久性，对风电行业材料选择具有参考价值。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=vSznCsDl8J8"
-  },
-  {
-    "id": "5724866094c50a66",
-    "title": "电池储能系统（BESS）的消防保护",
-    "category": "储能",
-    "region": "海外",
-    "source": "Hazard Control Technologies",
-    "duration": "60:53",
-    "date": "2026-08-05",
-    "summary": "视频介绍电池储能系统（BESS）的火灾防护解决方案，涵盖火灾风险、探测与灭火技术，强调早期预警和高效灭火剂的应用，以提升储能设施安全性，降低热失控风险。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=awiQ6ehmv8U"
-  },
-  {
-    "id": "c87d9b1e4af64c41",
-    "title": "磷酸铁锂电池消防安全：你需要知道的事",
-    "category": "动力电池",
-    "region": "海外",
-    "source": "DIY Solar Power with Will Prowse",
-    "duration": "11:24",
-    "date": "2026-08-05",
-    "summary": "视频深入探讨磷酸铁锂电池的火灾风险与安全措施，对比三元锂电池的热失控特性，强调LFP在高温下的稳定性，同时指出其仍存在起火可能，并给出预防建议，对储能系统设计具有参考价值。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=60LEo0Rwpp8"
-  },
-  {
-    "id": "43835370c11216d9",
+    "id": "76d1cfbb0c598d08",
     "title": "视频标题",
     "category": "储能",
     "region": "国内",
     "source": "行业媒体",
     "duration": "",
     "date": "2026-08-05",
-    "summary": "摘要内容",
+    "summary": "视频标题摘要",
     "hot": false,
-    "url": "http://www.bilibili.com/video/av913774120"
+    "url": "http://www.bilibili.com/video/av524906834"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-08-08T23:04:56' }
+export const generatedMeta = { updatedAt: '2026-08-09T23:06:12' }
