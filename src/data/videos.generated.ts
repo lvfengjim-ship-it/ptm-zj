@@ -1,8 +1,20 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-08-09T23:06:12
+// 生成时间: 2026-08-10T23:19:08
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "b84065012d59af26",
+    "title": "消防官员对米兰附近拟建的电池设施发出警报",
+    "category": "储能",
+    "region": "海外",
+    "source": "KWQC News",
+    "duration": "3:27",
+    "date": "2026-08-10",
+    "summary": "美国米兰镇拟建电池储能设施，消防官员担忧其安全风险，特别是火灾隐患。该设施采用锂电池技术，一旦起火难以扑灭，且可能释放有毒气体。官员呼吁加强监管和安全措施，确保公共安全。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=5OMCjbWKTck"
+  },
   {
     "id": "a379b6b313b22065",
     "title": "TH24 - 为核部件先进制造铺平道路",
@@ -172,18 +184,6 @@ export const generatedVideos: TechVideo[] = [
     "url": "https://www.youtube.com/watch?v=uspSYVssGXU"
   },
   {
-    "id": "9e44df3d9eb6a262",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-07",
-    "summary": "摘要内容",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av777970380"
-  },
-  {
     "id": "c898b1a44eddcae0",
     "title": "核能复兴：Oklo CEO强调行业规模化步伐加快",
     "category": "核能",
@@ -218,6 +218,18 @@ export const generatedVideos: TechVideo[] = [
     "summary": "视频探讨复合材料在风电叶片和氢能存储/运输中的最新应用。专家讨论材料创新、制造工艺及成本效益，强调复合材料对提升风电效率和氢能基础设施安全性的关键作用，并展望行业未来发展趋势。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=Rx0JaVJdSKI"
+  },
+  {
+    "id": "9e44df3d9eb6a262",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-07",
+    "summary": "摘要内容",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av777970380"
   },
   {
     "id": "8ffe4d9bbf2b1c48",
@@ -350,19 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "视频标题未提供，无法生成摘要。",
     "hot": false,
     "url": "http://www.bilibili.com/video/av225829689"
-  },
-  {
-    "id": "76d1cfbb0c598d08",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-05",
-    "summary": "视频标题摘要",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av524906834"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-08-09T23:06:12' }
+export const generatedMeta = { updatedAt: '2026-08-10T23:19:08' }
