@@ -1,8 +1,20 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-08-10T23:19:08
+// 生成时间: 2026-08-11T23:29:49
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "2a2ec80a36473fe1",
+    "title": "丰田CEO重磅发布！新型固态电池——续航1000英里，充电仅需5分钟！",
+    "category": "动力电池",
+    "region": "海外",
+    "source": "Fresh Discovery",
+    "duration": "26:45",
+    "date": "2026-08-11",
+    "summary": "丰田CEO宣布推出新型固态电池，宣称可实现1000英里续航和5分钟快充。该技术有望大幅提升电动汽车性能，但量产和成本仍是挑战。行业需关注其实际进展及对现有电池格局的影响。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=98H0smMpiv4"
+  },
   {
     "id": "b84065012d59af26",
     "title": "消防官员对米兰附近拟建的电池设施发出警报",
@@ -350,19 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "摘要内容",
     "hot": false,
     "url": "http://www.bilibili.com/video/av116317445295668"
-  },
-  {
-    "id": "e9071dc71ab113a4",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-07",
-    "summary": "视频标题未提供，无法生成摘要。",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av225829689"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-08-10T23:19:08' }
+export const generatedMeta = { updatedAt: '2026-08-11T23:29:49' }
