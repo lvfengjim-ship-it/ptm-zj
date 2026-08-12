@@ -1,5 +1,5 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-08-11T23:29:49
+// 生成时间: 2026-08-12T23:23:58
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
@@ -244,6 +244,30 @@ export const generatedVideos: TechVideo[] = [
     "url": "http://www.bilibili.com/video/av777970380"
   },
   {
+    "id": "386ea342343a24c3",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-07",
+    "summary": "视频摘要内容",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av115140624194316"
+  },
+  {
+    "id": "63ac2f321d4c1d93",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-07",
+    "summary": "视频摘要",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av115852766614902"
+  },
+  {
     "id": "8ffe4d9bbf2b1c48",
     "title": "核电站是如何工作的？",
     "category": "核能",
@@ -338,31 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "比亚迪宣称在固态电池循环寿命方面取得突破，解决了该技术商业化的关键障碍。具体技术细节未完全公开，但可能涉及新型电解质或界面设计，以抑制锂枝晶生长并保持长期循环稳定性。此举有望加速固态电池在电动汽车领域的应用。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=QJeN6_XCAoI"
-  },
-  {
-    "id": "807fcb53a6653d8a",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-07",
-    "summary": "视频摘要",
-    "hot": false,
-    "url": "https://www.bilibili.com/cheese/play/ss17903?query_from=0&search_id=9979175867845428733&search_query=%E6%96%B0%E6%9D%90%E6%96%99+%E6%B0%A2%E8%83%BD+%E5%82%A8%E8%BF%90"
-  },
-  {
-    "id": "8bfb7c06e736a108",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-07",
-    "summary": "摘要内容",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av116317445295668"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-08-11T23:29:49' }
+export const generatedMeta = { updatedAt: '2026-08-12T23:23:58' }
