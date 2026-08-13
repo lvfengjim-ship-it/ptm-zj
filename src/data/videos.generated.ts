@@ -1,8 +1,44 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-08-12T23:23:58
+// 生成时间: 2026-08-13T23:25:24
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "e5286fdbe793b8a0",
+    "title": "电喷雾辅助制备防潮且高稳定的钙钛矿太阳能电池",
+    "category": "光伏",
+    "region": "海外",
+    "source": "Advanced Portfolio",
+    "duration": "3:08",
+    "date": "2026-08-13",
+    "summary": "该研究采用电喷雾辅助技术制备钙钛矿太阳能电池，显著提升其防潮性和稳定性。该方法有望解决钙钛矿电池的环境敏感问题，推动其商业化应用。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=da951_MsNxc"
+  },
+  {
+    "id": "301f841af12da27a",
+    "title": "Lantor Soric®在风电行业复合材料部件中的应用",
+    "category": "风电",
+    "region": "海外",
+    "source": "Lantor B.V.",
+    "duration": "1:36",
+    "date": "2026-08-13",
+    "summary": "Lantor B.V.展示了其Soric®产品在风电叶片等复合材料部件中的应用。该产品作为芯材，可优化树脂流动，减轻重量，提高结构性能，适用于大型风电部件的制造。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=84F25U-JprQ"
+  },
+  {
+    "id": "31c50bbaf2dfac49",
+    "title": "比亚迪提交6项固态电池专利——2027年开始生产",
+    "category": "动力电池",
+    "region": "海外",
+    "source": "The Electric Viking",
+    "duration": "6:06",
+    "date": "2026-08-13",
+    "summary": "比亚迪提交6项固态电池专利，计划2027年量产。该技术有望提升能量密度与安全性，降低成本，对动力电池行业竞争格局产生重要影响。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=lHQ34_okHNw"
+  },
   {
     "id": "2a2ec80a36473fe1",
     "title": "丰田CEO重磅发布！新型固态电池——续航1000英里，充电仅需5分钟！",
@@ -98,6 +134,18 @@ export const generatedVideos: TechVideo[] = [
     "summary": "视频展示了弗劳恩霍夫IKTS研究所的固态电池制造工艺，涵盖材料处理、电极制备及电池组装等关键步骤，强调了其规模化生产潜力及技术优势，为行业提供了固态电池量产的技术参考。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=j5SVrp8N-1M"
+  },
+  {
+    "id": "9c0b3a3eb14a6d21",
+    "title": "核能",
+    "category": "核能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-08",
+    "summary": "该视频聚焦核能领域，可能涉及核反应堆技术、核燃料循环或核安全等关键议题。内容面向行业从业者，提供技术要点解析，助力把握核能发展动态与创新方向。",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av117057689557675"
   },
   {
     "id": "26cd071bd1229735",
@@ -244,30 +292,6 @@ export const generatedVideos: TechVideo[] = [
     "url": "http://www.bilibili.com/video/av777970380"
   },
   {
-    "id": "386ea342343a24c3",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-07",
-    "summary": "视频摘要内容",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av115140624194316"
-  },
-  {
-    "id": "63ac2f321d4c1d93",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-07",
-    "summary": "视频摘要",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av115852766614902"
-  },
-  {
     "id": "8ffe4d9bbf2b1c48",
     "title": "核电站是如何工作的？",
     "category": "核能",
@@ -338,31 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "视频揭示电池储能系统火灾风险，以一起3亿美元损失事故为例，分析热失控原因、安全标准缺失及对能源转型的潜在影响，呼吁行业重视安全与监管。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=6qzLl6OB4IA"
-  },
-  {
-    "id": "f44b682b073ef101",
-    "title": "电池储能系统的消防安全标准是什么？——消防站内幕",
-    "category": "储能",
-    "region": "海外",
-    "source": "Inside the Firehouse",
-    "duration": "4:43",
-    "date": "2026-08-07",
-    "summary": "视频探讨了电池储能系统（BESS）的消防安全标准，涵盖NFPA 855等关键规范，涉及系统设计、安装、维护及应急响应要求，旨在提升储能设施安全性，降低火灾风险，对行业从业者具有重要参考价值。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=-clABk6mcOE"
-  },
-  {
-    "id": "5b60d28701d36e76",
-    "title": "比亚迪刚刚解决了固态电池最棘手的问题——循环寿命",
-    "category": "动力电池",
-    "region": "海外",
-    "source": "The Electric Viking",
-    "duration": "7:22",
-    "date": "2026-08-07",
-    "summary": "比亚迪宣称在固态电池循环寿命方面取得突破，解决了该技术商业化的关键障碍。具体技术细节未完全公开，但可能涉及新型电解质或界面设计，以抑制锂枝晶生长并保持长期循环稳定性。此举有望加速固态电池在电动汽车领域的应用。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=QJeN6_XCAoI"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-08-12T23:23:58' }
+export const generatedMeta = { updatedAt: '2026-08-13T23:25:24' }
