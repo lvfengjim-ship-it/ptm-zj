@@ -1,8 +1,32 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-08-13T23:25:24
+// 生成时间: 2026-08-14T23:01:01
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "7479a0bba78ebc58",
+    "title": "美国将一切押注在这些微型核反应堆上",
+    "category": "核能",
+    "region": "海外",
+    "source": "Core Memory ",
+    "duration": "7:24",
+    "date": "2026-08-14",
+    "summary": "视频探讨美国对小型模块化反应堆（SMR）的押注，分析其技术特点、经济性及挑战，如成本、监管和废物处理，并评估其在清洁能源转型中的潜力与风险。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=iXj4MFQmwvE"
+  },
+  {
+    "id": "e6e44c49a6fd08d3",
+    "title": "氢能Powerpaste：能量密度高10倍且安全？",
+    "category": "氢能",
+    "region": "海外",
+    "source": "German Science Guy",
+    "duration": "13:06",
+    "date": "2026-08-14",
+    "summary": "德国科研团队开发出氢能Powerpaste，通过将氢储存在糊状物中，实现体积能量密度比高压气态氢高10倍，且常温常压下稳定安全。该技术有望解决氢能储运难题，适用于便携式电源和交通领域，但成本与制备工艺仍需优化。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=PWjwzAiqfXU"
+  },
   {
     "id": "e5286fdbe793b8a0",
     "title": "电喷雾辅助制备防潮且高稳定的钙钛矿太阳能电池",
@@ -62,6 +86,18 @@ export const generatedVideos: TechVideo[] = [
     "summary": "美国米兰镇拟建电池储能设施，消防官员担忧其安全风险，特别是火灾隐患。该设施采用锂电池技术，一旦起火难以扑灭，且可能释放有毒气体。官员呼吁加强监管和安全措施，确保公共安全。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=5OMCjbWKTck"
+  },
+  {
+    "id": "0f8a4465392c6363",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-09",
+    "summary": "摘要内容",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av947877925"
   },
   {
     "id": "a379b6b313b22065",
@@ -134,18 +170,6 @@ export const generatedVideos: TechVideo[] = [
     "summary": "视频展示了弗劳恩霍夫IKTS研究所的固态电池制造工艺，涵盖材料处理、电极制备及电池组装等关键步骤，强调了其规模化生产潜力及技术优势，为行业提供了固态电池量产的技术参考。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=j5SVrp8N-1M"
-  },
-  {
-    "id": "9c0b3a3eb14a6d21",
-    "title": "核能",
-    "category": "核能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-08",
-    "summary": "该视频聚焦核能领域，可能涉及核反应堆技术、核燃料循环或核安全等关键议题。内容面向行业从业者，提供技术要点解析，助力把握核能发展动态与创新方向。",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av117057689557675"
   },
   {
     "id": "26cd071bd1229735",
@@ -244,6 +268,18 @@ export const generatedVideos: TechVideo[] = [
     "url": "https://www.youtube.com/watch?v=uspSYVssGXU"
   },
   {
+    "id": "9c0b3a3eb14a6d21",
+    "title": "核能",
+    "category": "核能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-08",
+    "summary": "该视频聚焦核能领域，可能涉及核反应堆技术、核燃料循环或核安全等关键议题。内容面向行业从业者，提供技术要点解析，助力把握核能发展动态与创新方向。",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av117057689557675"
+  },
+  {
     "id": "c898b1a44eddcae0",
     "title": "核能复兴：Oklo CEO强调行业规模化步伐加快",
     "category": "核能",
@@ -326,43 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "该视频介绍了一种基于热塑性弹性体的复合薄膜，用于光伏组件封装。该材料可能替代传统EVA或POE封装胶膜，具有更好的柔韧性、耐候性和可回收性，有望提升组件长期可靠性并降低环境足迹。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=uw1lOfZv8u0"
-  },
-  {
-    "id": "42740708ce680d64",
-    "title": "风能：Energetx复合材料的故事",
-    "category": "风电",
-    "region": "海外",
-    "source": "Filmic Productions",
-    "duration": "3:38",
-    "date": "2026-08-07",
-    "summary": "本视频讲述Energetx复合材料公司为风电行业制造叶片等复合材料部件的历程，展示其先进制造工艺与质量控制，强调材料创新对提升风电叶片性能与可靠性的关键作用，为行业提供技术参考。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=yNnLIgwDeu4"
-  },
-  {
-    "id": "239984de4f1d8b82",
-    "title": "FSSA网络研讨会系列：储能系统的保护",
-    "category": "储能",
-    "region": "海外",
-    "source": "Fire Suppression Systems Association",
-    "duration": "70:20",
-    "date": "2026-08-07",
-    "summary": "本次网络研讨会聚焦储能系统的消防安全保护，探讨了锂离子电池储能系统的火灾风险、探测与灭火技术，并介绍了相关标准与最佳实践，旨在提升储能设施的安全设计与管理水平。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=fL4lr84FUAI"
-  },
-  {
-    "id": "dcd299b8a55ebb92",
-    "title": "3亿美元的大火——为什么电池储能是能源转型中隐藏的定时炸弹",
-    "category": "储能",
-    "region": "海外",
-    "source": "PowerTransitionAsia",
-    "duration": "14:32",
-    "date": "2026-08-07",
-    "summary": "视频揭示电池储能系统火灾风险，以一起3亿美元损失事故为例，分析热失控原因、安全标准缺失及对能源转型的潜在影响，呼吁行业重视安全与监管。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=6qzLl6OB4IA"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-08-13T23:25:24' }
+export const generatedMeta = { updatedAt: '2026-08-14T23:01:01' }
