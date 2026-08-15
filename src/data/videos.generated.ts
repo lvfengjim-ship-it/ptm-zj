@@ -1,8 +1,20 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-08-14T23:01:01
+// 生成时间: 2026-08-15T22:59:21
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "0c840a428427cd92",
+    "title": "风电叶片网络研讨会周第二场——复合材料：它们在风电行业的未来是什么？",
+    "category": "风电",
+    "region": "海外",
+    "source": "Offshore Renewable Energy Catapult",
+    "duration": "61:37",
+    "date": "2026-08-15",
+    "summary": "本网络研讨会探讨复合材料在风电叶片中的应用前景，涵盖材料创新、回收利用及可持续性挑战，旨在提升叶片性能与寿命，并降低环境足迹，为行业提供技术路线参考。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=V_G_pydDglQ"
+  },
   {
     "id": "7479a0bba78ebc58",
     "title": "美国将一切押注在这些微型核反应堆上",
@@ -88,16 +100,16 @@ export const generatedVideos: TechVideo[] = [
     "url": "https://www.youtube.com/watch?v=5OMCjbWKTck"
   },
   {
-    "id": "0f8a4465392c6363",
+    "id": "bb657ba477c6f49a",
     "title": "视频标题",
     "category": "储能",
     "region": "国内",
     "source": "行业媒体",
     "duration": "",
     "date": "2026-08-09",
-    "summary": "摘要内容",
+    "summary": "视频摘要",
     "hot": false,
-    "url": "http://www.bilibili.com/video/av947877925"
+    "url": "http://www.bilibili.com/video/av508403989"
   },
   {
     "id": "a379b6b313b22065",
@@ -170,6 +182,18 @@ export const generatedVideos: TechVideo[] = [
     "summary": "视频展示了弗劳恩霍夫IKTS研究所的固态电池制造工艺，涵盖材料处理、电极制备及电池组装等关键步骤，强调了其规模化生产潜力及技术优势，为行业提供了固态电池量产的技术参考。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=j5SVrp8N-1M"
+  },
+  {
+    "id": "0f8a4465392c6363",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-09",
+    "summary": "摘要内容",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av947877925"
   },
   {
     "id": "26cd071bd1229735",
@@ -280,6 +304,18 @@ export const generatedVideos: TechVideo[] = [
     "url": "http://www.bilibili.com/video/av117057689557675"
   },
   {
+    "id": "8deb323a7cf3498b",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-07",
+    "summary": "视频标题未提供，无法生成摘要。",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av117026047788186"
+  },
+  {
     "id": "c898b1a44eddcae0",
     "title": "核能复兴：Oklo CEO强调行业规模化步伐加快",
     "category": "核能",
@@ -326,43 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "摘要内容",
     "hot": false,
     "url": "http://www.bilibili.com/video/av777970380"
-  },
-  {
-    "id": "8ffe4d9bbf2b1c48",
-    "title": "核电站是如何工作的？",
-    "category": "核能",
-    "region": "海外",
-    "source": "ENGIE Belgium",
-    "duration": "4:08",
-    "date": "2026-08-07",
-    "summary": "视频由ENGIE Belgium制作，以动画形式简明扼要地介绍了核电站的工作原理，包括核裂变反应、热能产生、蒸汽驱动涡轮机发电，以及冷却系统等关键环节，适合行业入门科普。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=jpDRfaWYk3I"
-  },
-  {
-    "id": "31014b3557814791",
-    "title": "浓缩铀是如何制造的☢️ | 铀是如何从矿山中提取的 | 从矿山到反应堆",
-    "category": "核能",
-    "region": "海外",
-    "source": "Worldnite Journey",
-    "duration": "10:02",
-    "date": "2026-08-07",
-    "summary": "视频详细展示了铀从矿山开采、粉碎、浸出、纯化到浓缩的全过程，并解释了不同浓缩方法（如气体扩散和离心法）的原理，最后说明核燃料组件的制造及其在反应堆中的应用，为行业从业者提供了直观的铀燃料循环概述。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=NaPUdob0IWo"
-  },
-  {
-    "id": "bceb2c40a9deaff3",
-    "title": "用于光伏组件封装的热塑性弹性体基复合薄膜",
-    "category": "光伏",
-    "region": "海外",
-    "source": "Innovative Solar Module & System Technologies",
-    "duration": "14:36",
-    "date": "2026-08-07",
-    "summary": "该视频介绍了一种基于热塑性弹性体的复合薄膜，用于光伏组件封装。该材料可能替代传统EVA或POE封装胶膜，具有更好的柔韧性、耐候性和可回收性，有望提升组件长期可靠性并降低环境足迹。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=uw1lOfZv8u0"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-08-14T23:01:01' }
+export const generatedMeta = { updatedAt: '2026-08-15T22:59:21' }
