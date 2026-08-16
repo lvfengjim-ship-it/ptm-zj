@@ -1,8 +1,44 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-08-15T22:59:21
+// 生成时间: 2026-08-16T22:58:40
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "7d2be3eba9cc9b9e",
+    "title": "为什么铀浓缩如此重要",
+    "category": "核能",
+    "region": "海外",
+    "source": "StarTalk",
+    "duration": "9:38",
+    "date": "2026-08-16",
+    "summary": "视频解释铀浓缩在核能中的关键作用，包括其原理、技术难度及对核电站燃料供应的重要性。同时探讨了浓缩铀的军事应用风险，以及国际社会对核扩散的担忧，为行业从业者提供了核燃料循环的基础认知。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=boUqlyYfUuo"
+  },
+  {
+    "id": "9d5ebcd99d53aa22",
+    "title": "固态电池实际上是如何工作的——没有炒作",
+    "category": "动力电池",
+    "region": "海外",
+    "source": "AMERICAN ENGINEERED",
+    "duration": "12:49",
+    "date": "2026-08-16",
+    "summary": "视频客观解析固态电池工作原理，对比传统锂离子电池，阐述固态电解质优势与挑战，如离子电导率、界面阻抗、制造工艺等，并探讨其商业化前景，为行业从业者提供技术参考。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=63SuK7PP_hc"
+  },
+  {
+    "id": "05491519a1f4c23d",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-16",
+    "summary": "该视频聚焦储能领域最新技术进展，详细介绍了新型电池材料的性能优势与系统集成方案，并分析了其在电网调峰和可再生能源消纳中的应用前景，为行业从业者提供了技术参考与市场洞察。",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av1554149772"
+  },
   {
     "id": "0c840a428427cd92",
     "title": "风电叶片网络研讨会周第二场——复合材料：它们在风电行业的未来是什么？",
@@ -14,6 +50,18 @@ export const generatedVideos: TechVideo[] = [
     "summary": "本网络研讨会探讨复合材料在风电叶片中的应用前景，涵盖材料创新、回收利用及可持续性挑战，旨在提升叶片性能与寿命，并降低环境足迹，为行业提供技术路线参考。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=V_G_pydDglQ"
+  },
+  {
+    "id": "08cb3441e011d926",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-14",
+    "summary": "视频标题未提供，无法生成摘要。",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av117089163544120"
   },
   {
     "id": "7479a0bba78ebc58",
@@ -100,16 +148,16 @@ export const generatedVideos: TechVideo[] = [
     "url": "https://www.youtube.com/watch?v=5OMCjbWKTck"
   },
   {
-    "id": "bb657ba477c6f49a",
+    "id": "459516e8f6af83ae",
     "title": "视频标题",
     "category": "储能",
     "region": "国内",
     "source": "行业媒体",
     "duration": "",
     "date": "2026-08-09",
-    "summary": "视频摘要",
+    "summary": "该视频介绍了最新的储能技术进展，包括固态电池和液流电池的突破，以及其在电网调峰和可再生能源并网中的应用前景。专家分析了成本、安全性和循环寿命等关键指标，并讨论了产业化面临的挑战与机遇。",
     "hot": false,
-    "url": "http://www.bilibili.com/video/av508403989"
+    "url": "http://www.bilibili.com/video/av116815694925099"
   },
   {
     "id": "a379b6b313b22065",
@@ -182,6 +230,18 @@ export const generatedVideos: TechVideo[] = [
     "summary": "视频展示了弗劳恩霍夫IKTS研究所的固态电池制造工艺，涵盖材料处理、电极制备及电池组装等关键步骤，强调了其规模化生产潜力及技术优势，为行业提供了固态电池量产的技术参考。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=j5SVrp8N-1M"
+  },
+  {
+    "id": "bb657ba477c6f49a",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-09",
+    "summary": "视频摘要",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av508403989"
   },
   {
     "id": "0f8a4465392c6363",
@@ -302,67 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "该视频聚焦核能领域，可能涉及核反应堆技术、核燃料循环或核安全等关键议题。内容面向行业从业者，提供技术要点解析，助力把握核能发展动态与创新方向。",
     "hot": false,
     "url": "http://www.bilibili.com/video/av117057689557675"
-  },
-  {
-    "id": "8deb323a7cf3498b",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-07",
-    "summary": "视频标题未提供，无法生成摘要。",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av117026047788186"
-  },
-  {
-    "id": "c898b1a44eddcae0",
-    "title": "核能复兴：Oklo CEO强调行业规模化步伐加快",
-    "category": "核能",
-    "region": "海外",
-    "source": "Fox Business",
-    "duration": "8:08",
-    "date": "2026-08-07",
-    "summary": "Oklo CEO在访谈中表示，核能行业正经历复兴，强调其快速规模化进程。Oklo专注于先进裂变技术，旨在通过小型模块化反应堆提供清洁、可靠的能源，并已获得多项监管批准，推动核能商业化部署。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=TPHbpAPQ2Uk"
-  },
-  {
-    "id": "44f91b89c9d95bd2",
-    "title": "关于核废料，你被骗了 | 真相复杂",
-    "category": "核能",
-    "region": "海外",
-    "source": "Business Insider and Insider Science",
-    "duration": "25:37",
-    "date": "2026-08-07",
-    "summary": "视频揭露核废料处理常见误解，指出其体积小、管理严格，且新技术可再利用。强调核废料并非环境灾难，而是可控的工业副产品，但需长期监管。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=2RgzOYNdnLE"
-  },
-  {
-    "id": "ce77c27f96a0e01d",
-    "title": "复合材料在风电和氢能应用中的未来 | CW趋势",
-    "category": "风电",
-    "region": "海外",
-    "source": "CompositesWorld",
-    "duration": "37:25",
-    "date": "2026-08-07",
-    "summary": "视频探讨复合材料在风电叶片和氢能存储/运输中的最新应用。专家讨论材料创新、制造工艺及成本效益，强调复合材料对提升风电效率和氢能基础设施安全性的关键作用，并展望行业未来发展趋势。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=Rx0JaVJdSKI"
-  },
-  {
-    "id": "9e44df3d9eb6a262",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-07",
-    "summary": "摘要内容",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av777970380"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-08-15T22:59:21' }
+export const generatedMeta = { updatedAt: '2026-08-16T22:58:40' }
