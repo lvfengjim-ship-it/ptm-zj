@@ -1,8 +1,68 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-08-16T22:58:40
+// 生成时间: 2026-08-17T23:00:44
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "d592c37cfcab0132",
+    "title": "[CANDU]核电厂安全系统-第2部分-反应堆控制",
+    "category": "核能",
+    "region": "海外",
+    "source": "Nuclear Technology",
+    "duration": "1:51",
+    "date": "2026-08-17",
+    "summary": "本视频介绍加拿大CANDU核电厂安全系统第二部分，重点讲解反应堆控制机制，包括调节棒、液体毒物注入等控制手段，以及如何通过多重冗余和独立系统确保反应堆安全停堆和功率调节，体现了CANDU设计的独特安全理念。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=hse7Xg9WkXM"
+  },
+  {
+    "id": "9a98b25eb7170fd9",
+    "title": "如何制作钙钛矿太阳能电池：准备你的基底",
+    "category": "光伏",
+    "region": "海外",
+    "source": "infinityPV",
+    "duration": "4:25",
+    "date": "2026-08-17",
+    "summary": "本视频演示钙钛矿太阳能电池制备中基底清洗与处理的关键步骤，包括超声清洗、紫外臭氧处理等，旨在去除污染物并优化表面性质，为后续薄膜沉积提供高质量基底，对提升电池性能至关重要。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=TJ9mxfI2Lyo"
+  },
+  {
+    "id": "7bfbeecad1cc72dc",
+    "title": "钙钛矿太阳能电池板——像纸一样打印！它会取代硅吗？",
+    "category": "光伏",
+    "region": "海外",
+    "source": "Solartime with Martyna ",
+    "duration": "12:06",
+    "date": "2026-08-17",
+    "summary": "视频介绍钙钛矿太阳能电池的印刷制造技术，强调其低成本、柔性及高效率潜力，并探讨其对传统硅基光伏的竞争与替代可能性，分析产业化前景与挑战。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=7yujm_Yevfo"
+  },
+  {
+    "id": "e626fd47a7abe604",
+    "title": "丰田新型固态电池让特斯拉和比亚迪过时了！",
+    "category": "动力电池",
+    "region": "海外",
+    "source": "Auto Aspect",
+    "duration": "15:28",
+    "date": "2026-08-17",
+    "summary": "丰田宣布其固态电池技术取得重大突破，能量密度高、充电快，有望大幅提升电动车续航并降低成本。该技术若量产，将对现有锂离子电池市场格局构成挑战，但商业化仍需时间。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=mvx55KI6NDg"
+  },
+  {
+    "id": "3c84ddefc3c76c4d",
+    "title": "固态电池进展如何？",
+    "category": "动力电池",
+    "region": "海外",
+    "source": "Joe Scott",
+    "duration": "21:40",
+    "date": "2026-08-17",
+    "summary": "视频探讨固态电池技术现状，分析其相比传统锂离子电池的优势与挑战，包括能量密度、安全性、制造成本及商业化进程，并展望未来应用前景。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=nGmZ3Q0pC40"
+  },
   {
     "id": "7d2be3eba9cc9b9e",
     "title": "为什么铀浓缩如此重要",
@@ -52,18 +112,6 @@ export const generatedVideos: TechVideo[] = [
     "url": "https://www.youtube.com/watch?v=V_G_pydDglQ"
   },
   {
-    "id": "08cb3441e011d926",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-14",
-    "summary": "视频标题未提供，无法生成摘要。",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av117089163544120"
-  },
-  {
     "id": "7479a0bba78ebc58",
     "title": "美国将一切押注在这些微型核反应堆上",
     "category": "核能",
@@ -86,6 +134,18 @@ export const generatedVideos: TechVideo[] = [
     "summary": "德国科研团队开发出氢能Powerpaste，通过将氢储存在糊状物中，实现体积能量密度比高压气态氢高10倍，且常温常压下稳定安全。该技术有望解决氢能储运难题，适用于便携式电源和交通领域，但成本与制备工艺仍需优化。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=PWjwzAiqfXU"
+  },
+  {
+    "id": "08cb3441e011d926",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-14",
+    "summary": "视频标题未提供，无法生成摘要。",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av117089163544120"
   },
   {
     "id": "e5286fdbe793b8a0",
@@ -146,18 +206,6 @@ export const generatedVideos: TechVideo[] = [
     "summary": "美国米兰镇拟建电池储能设施，消防官员担忧其安全风险，特别是火灾隐患。该设施采用锂电池技术，一旦起火难以扑灭，且可能释放有毒气体。官员呼吁加强监管和安全措施，确保公共安全。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=5OMCjbWKTck"
-  },
-  {
-    "id": "459516e8f6af83ae",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-09",
-    "summary": "该视频介绍了最新的储能技术进展，包括固态电池和液流电池的突破，以及其在电网调峰和可再生能源并网中的应用前景。专家分析了成本、安全性和循环寿命等关键指标，并讨论了产业化面临的挑战与机遇。",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av116815694925099"
   },
   {
     "id": "a379b6b313b22065",
@@ -232,6 +280,18 @@ export const generatedVideos: TechVideo[] = [
     "url": "https://www.youtube.com/watch?v=j5SVrp8N-1M"
   },
   {
+    "id": "459516e8f6af83ae",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-09",
+    "summary": "该视频介绍了最新的储能技术进展，包括固态电池和液流电池的突破，以及其在电网调峰和可再生能源并网中的应用前景。专家分析了成本、安全性和循环寿命等关键指标，并讨论了产业化面临的挑战与机遇。",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av116815694925099"
+  },
+  {
     "id": "bb657ba477c6f49a",
     "title": "视频标题",
     "category": "储能",
@@ -302,67 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "该视频展示了风力涡轮机叶片壳体的组装过程，通过延时摄影呈现了从模具准备、铺层、合模到脱模的完整制造流程，体现了复合材料在风电叶片制造中的关键应用，为行业提供了直观的工艺参考。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=oTh5g6rQoMg"
-  },
-  {
-    "id": "8119f67810dc6a2d",
-    "title": "电池火灾的真相 - Gore Street Capital",
-    "category": "储能",
-    "region": "海外",
-    "source": "Modo Energy",
-    "duration": "43:41",
-    "date": "2026-08-08",
-    "summary": "Gore Street Capital 深入探讨电池储能系统火灾风险，分析实际案例与统计数据，指出火灾概率低但后果严重，强调安全设计、监控与应急响应的重要性，为行业提供风险管控参考。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=LDMs7QQqQxE"
-  },
-  {
-    "id": "e6a3fb4b3024c61f",
-    "title": "2023 NFPA 855 及储能系统消防规范 - 课程预览",
-    "category": "储能",
-    "region": "海外",
-    "source": "HeatSpring",
-    "duration": "4:04",
-    "date": "2026-08-08",
-    "summary": "本课程预览介绍2023年NFPA 855标准及储能系统消防规范，涵盖安装、维护、应急响应等关键要求，旨在帮助从业者理解并遵循最新安全标准，确保储能系统合规运营。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=bLws8ZRwcVA"
-  },
-  {
-    "id": "4f136c8c30dbd60e",
-    "title": "解读BESS：什么是电池储能系统 | Moxa",
-    "category": "储能",
-    "region": "海外",
-    "source": "Moxa",
-    "duration": "3:20",
-    "date": "2026-08-08",
-    "summary": "视频由Moxa制作，介绍电池储能系统（BESS）的基本概念、组成及其在电网中的作用。内容涵盖BESS如何存储电能、提高电网稳定性，并强调通信和网络技术在确保系统高效运行中的关键作用，适合储能行业从业者了解BESS基础。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=NqAAt_iYj9w"
-  },
-  {
-    "id": "cf2bd53afb69668d",
-    "title": "我们离固态电池还有多远？",
-    "category": "动力电池",
-    "region": "海外",
-    "source": "Undecided with Matt Ferrell",
-    "duration": "16:12",
-    "date": "2026-08-08",
-    "summary": "视频探讨固态电池技术现状与挑战，包括电解质材料、界面问题、制造成本等，并对比传统锂离子电池，分析其商业化前景及对电动汽车行业的影响。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=uspSYVssGXU"
-  },
-  {
-    "id": "9c0b3a3eb14a6d21",
-    "title": "核能",
-    "category": "核能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-08",
-    "summary": "该视频聚焦核能领域，可能涉及核反应堆技术、核燃料循环或核安全等关键议题。内容面向行业从业者，提供技术要点解析，助力把握核能发展动态与创新方向。",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av117057689557675"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-08-16T22:58:40' }
+export const generatedMeta = { updatedAt: '2026-08-17T23:00:44' }
