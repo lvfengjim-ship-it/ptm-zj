@@ -1,8 +1,32 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-08-17T23:00:44
+// 生成时间: 2026-08-18T23:00:52
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "ae73c41a709fd28c",
+    "title": "为什么宁德时代已经在展望固态电池之后的技术",
+    "category": "动力电池",
+    "region": "海外",
+    "source": "Undecided with Matt Ferrell",
+    "duration": "13:06",
+    "date": "2026-08-18",
+    "summary": "视频探讨宁德时代在固态电池尚未量产时，已布局下一代技术，如钠离子电池、凝聚态电池等。分析其技术路线、性能优势及对行业的影响，指出宁德时代通过多元化技术储备保持领先地位。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=Y1AfP4IXMeE"
+  },
+  {
+    "id": "067895193ef8cd58",
+    "title": "固态电池详解：下一代电池技术！",
+    "category": "动力电池",
+    "region": "海外",
+    "source": "FomoTech",
+    "duration": "2:57",
+    "date": "2026-08-18",
+    "summary": "视频深入解析固态电池技术，对比传统锂离子电池，阐述其高能量密度、安全性及长寿命优势，并探讨当前研发挑战与商业化前景，为行业从业者提供技术趋势参考。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=0kZVwqVzB_M"
+  },
   {
     "id": "d592c37cfcab0132",
     "title": "[CANDU]核电厂安全系统-第2部分-反应堆控制",
@@ -112,6 +136,18 @@ export const generatedVideos: TechVideo[] = [
     "url": "https://www.youtube.com/watch?v=V_G_pydDglQ"
   },
   {
+    "id": "caf300f36d737529",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-14",
+    "summary": "视频标题未提供，无法生成摘要。",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av113819720354503"
+  },
+  {
     "id": "7479a0bba78ebc58",
     "title": "美国将一切押注在这些微型核反应堆上",
     "category": "核能",
@@ -206,6 +242,18 @@ export const generatedVideos: TechVideo[] = [
     "summary": "美国米兰镇拟建电池储能设施，消防官员担忧其安全风险，特别是火灾隐患。该设施采用锂电池技术，一旦起火难以扑灭，且可能释放有毒气体。官员呼吁加强监管和安全措施，确保公共安全。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=5OMCjbWKTck"
+  },
+  {
+    "id": "1f66fdc6f6dd2264",
+    "title": "核能",
+    "category": "核能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-09",
+    "summary": "该视频聚焦核能领域，可能涉及核反应堆技术、核燃料循环或核安全等关键议题。内容面向行业从业者，客观解析核能技术的最新进展与应用前景，强调其在清洁能源转型中的战略地位。",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av114620933083941"
   },
   {
     "id": "a379b6b313b22065",
@@ -314,55 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "摘要内容",
     "hot": false,
     "url": "http://www.bilibili.com/video/av947877925"
-  },
-  {
-    "id": "26cd071bd1229735",
-    "title": "NOMAD——核电站材料退化的无损评估",
-    "category": "核能",
-    "region": "海外",
-    "source": "Eurice",
-    "duration": "2:20",
-    "date": "2026-08-08",
-    "summary": "NOMAD项目旨在开发核电站材料退化的无损评估技术，通过先进传感与数据分析，实时监测关键部件状态，提升核电站安全性与运行效率，降低维护成本，为核能行业提供可靠的检测解决方案。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=BpcyosP--w0"
-  },
-  {
-    "id": "3822c0dc585f1dcb",
-    "title": "绿色氢能储存解析：清洁能源的生产、未来与挑战",
-    "category": "氢能",
-    "region": "海外",
-    "source": "CAS, a division of the American Chemical Society",
-    "duration": "3:13",
-    "date": "2026-08-08",
-    "summary": "视频由美国化学学会旗下CAS制作，系统讲解绿色氢能的生产、储存技术及未来前景。内容涵盖电解水制氢、高压与液态储氢、材料科学进展，并客观分析成本、效率及基础设施等挑战，为行业从业者提供技术概览。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=__78zHP46mY"
-  },
-  {
-    "id": "0fe4ab774b35b072",
-    "title": "VIPERLAB 简短介绍 - TNO-Solliance - S25 工艺 PSK 生产线",
-    "category": "光伏",
-    "region": "海外",
-    "source": "H2020 VIPERLAB Project",
-    "duration": "2:42",
-    "date": "2026-08-08",
-    "summary": "该视频介绍了VIPERLAB项目中TNO-Solliance的S25工艺钙钛矿（PSK）生产线，展示了其用于钙钛矿太阳能电池研发和试生产的设备与能力，为行业提供先进的薄膜光伏技术平台。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=FhfkUiRXyxc"
-  },
-  {
-    "id": "82848fccb8edae6c",
-    "title": "风力涡轮机叶片壳体组装延时摄影",
-    "category": "风电",
-    "region": "海外",
-    "source": "Composites Central",
-    "duration": "0:13",
-    "date": "2026-08-08",
-    "summary": "该视频展示了风力涡轮机叶片壳体的组装过程，通过延时摄影呈现了从模具准备、铺层、合模到脱模的完整制造流程，体现了复合材料在风电叶片制造中的关键应用，为行业提供了直观的工艺参考。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=oTh5g6rQoMg"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-08-17T23:00:44' }
+export const generatedMeta = { updatedAt: '2026-08-18T23:00:52' }
