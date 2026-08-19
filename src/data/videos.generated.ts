@@ -1,8 +1,32 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-08-18T23:00:52
+// 生成时间: 2026-08-19T23:01:52
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "b3cb1634cf2f47ba",
+    "title": "Jeremy T. Busby谈当今与未来核能的材料创新",
+    "category": "核能",
+    "region": "海外",
+    "source": "American Nuclear Society",
+    "duration": "13:16",
+    "date": "2026-08-19",
+    "summary": "美国核学会视频中，Jeremy T. Busby探讨核能材料创新，涵盖先进反应堆材料需求、耐辐射材料研发、材料表征与测试技术，以及如何通过材料创新提升核能安全性与经济性，为行业提供前沿视角。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=wQYokC7ogRA"
+  },
+  {
+    "id": "da7f9657b690cd14",
+    "title": "氢储存基础课程第2讲：氢储存材料",
+    "category": "氢能",
+    "region": "海外",
+    "source": "EEB: Electrical Engineer BootCamp",
+    "duration": "40:40",
+    "date": "2026-08-19",
+    "summary": "本视频为氢储存基础课程第二讲，聚焦氢储存材料。内容涵盖金属氢化物、化学氢化物、碳材料及MOFs等储氢材料的工作原理、性能对比与应用前景，并探讨了材料选择对储氢系统效率和安全性的影响，为氢能储运技术提供基础指导。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=ObBiwZ26vAc"
+  },
   {
     "id": "ae73c41a709fd28c",
     "title": "为什么宁德时代已经在展望固态电池之后的技术",
@@ -26,6 +50,18 @@ export const generatedVideos: TechVideo[] = [
     "summary": "视频深入解析固态电池技术，对比传统锂离子电池，阐述其高能量密度、安全性及长寿命优势，并探讨当前研发挑战与商业化前景，为行业从业者提供技术趋势参考。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=0kZVwqVzB_M"
+  },
+  {
+    "id": "42545f8c267ee6d0",
+    "title": "核能",
+    "category": "核能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-17",
+    "summary": "视频聚焦核能领域最新进展，可能涉及先进反应堆技术、核燃料循环或核安全创新。内容面向行业从业者，强调技术突破与工程应用，旨在提升核能利用效率与安全性，推动清洁能源转型。",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av425932949"
   },
   {
     "id": "d592c37cfcab0132",
@@ -136,18 +172,6 @@ export const generatedVideos: TechVideo[] = [
     "url": "https://www.youtube.com/watch?v=V_G_pydDglQ"
   },
   {
-    "id": "caf300f36d737529",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-14",
-    "summary": "视频标题未提供，无法生成摘要。",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av113819720354503"
-  },
-  {
     "id": "7479a0bba78ebc58",
     "title": "美国将一切押注在这些微型核反应堆上",
     "category": "核能",
@@ -172,6 +196,18 @@ export const generatedVideos: TechVideo[] = [
     "url": "https://www.youtube.com/watch?v=PWjwzAiqfXU"
   },
   {
+    "id": "caf300f36d737529",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-14",
+    "summary": "视频标题未提供，无法生成摘要。",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av113819720354503"
+  },
+  {
     "id": "08cb3441e011d926",
     "title": "视频标题",
     "category": "储能",
@@ -182,6 +218,18 @@ export const generatedVideos: TechVideo[] = [
     "summary": "视频标题未提供，无法生成摘要。",
     "hot": false,
     "url": "http://www.bilibili.com/video/av117089163544120"
+  },
+  {
+    "id": "1d1f4353dbca2efa",
+    "title": "视频标题",
+    "category": "核能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-13",
+    "summary": "摘要内容",
+    "hot": false,
+    "url": "https://www.bilibili.com/cheese/play/ss61286?query_from=0&search_id=13934733121566692399&search_query=%E5%9B%BA%E6%80%81%E7%94%B5%E6%B1%A0+%E6%9D%90%E6%96%99"
   },
   {
     "id": "e5286fdbe793b8a0",
@@ -242,18 +290,6 @@ export const generatedVideos: TechVideo[] = [
     "summary": "美国米兰镇拟建电池储能设施，消防官员担忧其安全风险，特别是火灾隐患。该设施采用锂电池技术，一旦起火难以扑灭，且可能释放有毒气体。官员呼吁加强监管和安全措施，确保公共安全。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=5OMCjbWKTck"
-  },
-  {
-    "id": "1f66fdc6f6dd2264",
-    "title": "核能",
-    "category": "核能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-09",
-    "summary": "该视频聚焦核能领域，可能涉及核反应堆技术、核燃料循环或核安全等关键议题。内容面向行业从业者，客观解析核能技术的最新进展与应用前景，强调其在清洁能源转型中的战略地位。",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av114620933083941"
   },
   {
     "id": "a379b6b313b22065",
@@ -326,43 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "视频展示了弗劳恩霍夫IKTS研究所的固态电池制造工艺，涵盖材料处理、电极制备及电池组装等关键步骤，强调了其规模化生产潜力及技术优势，为行业提供了固态电池量产的技术参考。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=j5SVrp8N-1M"
-  },
-  {
-    "id": "459516e8f6af83ae",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-09",
-    "summary": "该视频介绍了最新的储能技术进展，包括固态电池和液流电池的突破，以及其在电网调峰和可再生能源并网中的应用前景。专家分析了成本、安全性和循环寿命等关键指标，并讨论了产业化面临的挑战与机遇。",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av116815694925099"
-  },
-  {
-    "id": "bb657ba477c6f49a",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-09",
-    "summary": "视频摘要",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av508403989"
-  },
-  {
-    "id": "0f8a4465392c6363",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-09",
-    "summary": "摘要内容",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av947877925"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-08-18T23:00:52' }
+export const generatedMeta = { updatedAt: '2026-08-19T23:01:52' }
