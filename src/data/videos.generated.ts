@@ -1,8 +1,32 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-08-19T23:01:52
+// 生成时间: 2026-08-20T23:03:45
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "7cdbd2ccbebe516d",
+    "title": "核能秀 #022 - 格雷戈里·马尔采夫",
+    "category": "核能",
+    "region": "海外",
+    "source": "mightyABC",
+    "duration": "48:39",
+    "date": "2026-08-20",
+    "summary": "本期核能秀邀请格雷戈里·马尔采夫，探讨核能领域最新进展，包括先进反应堆设计、核燃料循环优化及核废料处理技术，并分析核能政策与市场趋势，为行业从业者提供前沿视角。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=DEWICgD5568"
+  },
+  {
+    "id": "5c5e8a08e4bdac71",
+    "title": "吉利确认2027年起为沃尔沃、极星和极氪提供固态电池",
+    "category": "动力电池",
+    "region": "海外",
+    "source": "The Electric Viking",
+    "duration": "13:03",
+    "date": "2026-08-20",
+    "summary": "吉利宣布自2027年起，将为其旗下品牌沃尔沃、极星和极氪配备固态电池。该技术有望提升能量密度、安全性和充电速度，并降低成本。此举标志着吉利在下一代电池技术上的重要布局，或将加速固态电池商业化进程。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=YVowXEr_q08"
+  },
   {
     "id": "b3cb1634cf2f47ba",
     "title": "Jeremy T. Busby谈当今与未来核能的材料创新",
@@ -50,18 +74,6 @@ export const generatedVideos: TechVideo[] = [
     "summary": "视频深入解析固态电池技术，对比传统锂离子电池，阐述其高能量密度、安全性及长寿命优势，并探讨当前研发挑战与商业化前景，为行业从业者提供技术趋势参考。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=0kZVwqVzB_M"
-  },
-  {
-    "id": "42545f8c267ee6d0",
-    "title": "核能",
-    "category": "核能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-17",
-    "summary": "视频聚焦核能领域最新进展，可能涉及先进反应堆技术、核燃料循环或核安全创新。内容面向行业从业者，强调技术突破与工程应用，旨在提升核能利用效率与安全性，推动清洁能源转型。",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av425932949"
   },
   {
     "id": "d592c37cfcab0132",
@@ -124,6 +136,18 @@ export const generatedVideos: TechVideo[] = [
     "url": "https://www.youtube.com/watch?v=nGmZ3Q0pC40"
   },
   {
+    "id": "42545f8c267ee6d0",
+    "title": "核能",
+    "category": "核能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-17",
+    "summary": "视频聚焦核能领域最新进展，可能涉及先进反应堆技术、核燃料循环或核安全创新。内容面向行业从业者，强调技术突破与工程应用，旨在提升核能利用效率与安全性，推动清洁能源转型。",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av425932949"
+  },
+  {
     "id": "7d2be3eba9cc9b9e",
     "title": "为什么铀浓缩如此重要",
     "category": "核能",
@@ -170,6 +194,18 @@ export const generatedVideos: TechVideo[] = [
     "summary": "本网络研讨会探讨复合材料在风电叶片中的应用前景，涵盖材料创新、回收利用及可持续性挑战，旨在提升叶片性能与寿命，并降低环境足迹，为行业提供技术路线参考。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=V_G_pydDglQ"
+  },
+  {
+    "id": "aa2cd9ef3aabda69",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-14",
+    "summary": "该视频聚焦储能领域最新技术进展，详细介绍了新型电池材料的性能优势与循环寿命，并分析了其在电网调峰和可再生能源并网中的应用前景，为行业从业者提供了技术参考与市场洞察。",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av117092401679585"
   },
   {
     "id": "7479a0bba78ebc58",
@@ -220,18 +256,6 @@ export const generatedVideos: TechVideo[] = [
     "url": "http://www.bilibili.com/video/av117089163544120"
   },
   {
-    "id": "1d1f4353dbca2efa",
-    "title": "视频标题",
-    "category": "核能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-13",
-    "summary": "摘要内容",
-    "hot": false,
-    "url": "https://www.bilibili.com/cheese/play/ss61286?query_from=0&search_id=13934733121566692399&search_query=%E5%9B%BA%E6%80%81%E7%94%B5%E6%B1%A0+%E6%9D%90%E6%96%99"
-  },
-  {
     "id": "e5286fdbe793b8a0",
     "title": "电喷雾辅助制备防潮且高稳定的钙钛矿太阳能电池",
     "category": "光伏",
@@ -268,6 +292,18 @@ export const generatedVideos: TechVideo[] = [
     "url": "https://www.youtube.com/watch?v=lHQ34_okHNw"
   },
   {
+    "id": "1d1f4353dbca2efa",
+    "title": "视频标题",
+    "category": "核能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-13",
+    "summary": "摘要内容",
+    "hot": false,
+    "url": "https://www.bilibili.com/cheese/play/ss61286?query_from=0&search_id=13934733121566692399&search_query=%E5%9B%BA%E6%80%81%E7%94%B5%E6%B1%A0+%E6%9D%90%E6%96%99"
+  },
+  {
     "id": "2a2ec80a36473fe1",
     "title": "丰田CEO重磅发布！新型固态电池——续航1000英里，充电仅需5分钟！",
     "category": "动力电池",
@@ -292,6 +328,18 @@ export const generatedVideos: TechVideo[] = [
     "url": "https://www.youtube.com/watch?v=5OMCjbWKTck"
   },
   {
+    "id": "5149af68de482f86",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-09",
+    "summary": "摘要内容",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av117065423785994"
+  },
+  {
     "id": "a379b6b313b22065",
     "title": "TH24 - 为核部件先进制造铺平道路",
     "category": "核能",
@@ -314,55 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "视频系统介绍钙钛矿太阳能电池的关键材料、器件架构、制备工艺及优化策略，涵盖组分工程、界面修饰、稳定性提升等要点，为从业者提供技术路线参考。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=KSxw1jQ0YGU"
-  },
-  {
-    "id": "1d6f6a17f405fe9d",
-    "title": "复合材料在风电中的应用",
-    "category": "风电",
-    "region": "海外",
-    "source": "IACMI- The Composites Institute",
-    "duration": "3:18",
-    "date": "2026-08-09",
-    "summary": "本视频由IACMI复合材料研究所出品，介绍复合材料在风电叶片制造中的关键作用，包括材料选择、制造工艺及性能优势，旨在提升风电效率与可靠性，推动可再生能源发展。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=EArT7ofzV7Y"
-  },
-  {
-    "id": "e38c535853e2f93f",
-    "title": "风电复合材料市场：你需要知道的五大趋势 | Valuates Reports",
-    "category": "风电",
-    "region": "海外",
-    "source": "Valuates Reports",
-    "duration": "1:14",
-    "date": "2026-08-09",
-    "summary": "视频分析了风电复合材料市场的五大关键趋势，包括材料创新、供应链优化、成本下降、政策支持及可持续性需求，为行业从业者提供了市场动态和技术发展方向的重要参考。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=ci2bksN1olA"
-  },
-  {
-    "id": "91861d0dc5c7855c",
-    "title": "奥泰梅萨电池储能火灾两周后仍在燃烧",
-    "category": "储能",
-    "region": "海外",
-    "source": "CBS 8 San Diego",
-    "duration": "2:08",
-    "date": "2026-08-09",
-    "summary": "圣地亚哥奥泰梅萨的电池储能设施火灾持续两周，消防部门仍在监控。火灾涉及锂离子电池，产生有毒烟雾，导致附近居民疏散。事件引发对储能安全标准的关注，可能影响行业监管与设计。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=YRnNfFuQwNk"
-  },
-  {
-    "id": "5ea2c1ff8da03310",
-    "title": "弗劳恩霍夫IKTS的固态电池制造",
-    "category": "动力电池",
-    "region": "海外",
-    "source": "Fraunhofer IKTS",
-    "duration": "6:50",
-    "date": "2026-08-09",
-    "summary": "视频展示了弗劳恩霍夫IKTS研究所的固态电池制造工艺，涵盖材料处理、电极制备及电池组装等关键步骤，强调了其规模化生产潜力及技术优势，为行业提供了固态电池量产的技术参考。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=j5SVrp8N-1M"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-08-19T23:01:52' }
+export const generatedMeta = { updatedAt: '2026-08-20T23:03:45' }
