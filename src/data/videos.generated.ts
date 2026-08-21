@@ -1,8 +1,20 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-08-20T23:03:45
+// 生成时间: 2026-08-21T23:01:57
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "d2bae71524895d73",
+    "title": "固态电池——科学、潜力与挑战",
+    "category": "动力电池",
+    "region": "海外",
+    "source": "Billy Wu",
+    "duration": "22:14",
+    "date": "2026-08-21",
+    "summary": "视频深入解析固态电池的科学原理、潜在优势及当前面临的技术挑战，包括离子电导率、界面稳定性、制造工艺等问题，为行业从业者提供客观技术分析。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=NPaOJceBkJs"
+  },
   {
     "id": "7cdbd2ccbebe516d",
     "title": "核能秀 #022 - 格雷戈里·马尔采夫",
@@ -148,6 +160,30 @@ export const generatedVideos: TechVideo[] = [
     "url": "http://www.bilibili.com/video/av425932949"
   },
   {
+    "id": "7ef4a3c8f587afd3",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-16",
+    "summary": "视频摘要",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av851285268"
+  },
+  {
+    "id": "2458f4a280ab1cf3",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-16",
+    "summary": "摘要内容",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av699880730"
+  },
+  {
     "id": "7d2be3eba9cc9b9e",
     "title": "为什么铀浓缩如此重要",
     "category": "核能",
@@ -196,18 +232,6 @@ export const generatedVideos: TechVideo[] = [
     "url": "https://www.youtube.com/watch?v=V_G_pydDglQ"
   },
   {
-    "id": "aa2cd9ef3aabda69",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-14",
-    "summary": "该视频聚焦储能领域最新技术进展，详细介绍了新型电池材料的性能优势与循环寿命，并分析了其在电网调峰和可再生能源并网中的应用前景，为行业从业者提供了技术参考与市场洞察。",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av117092401679585"
-  },
-  {
     "id": "7479a0bba78ebc58",
     "title": "美国将一切押注在这些微型核反应堆上",
     "category": "核能",
@@ -242,6 +266,18 @@ export const generatedVideos: TechVideo[] = [
     "summary": "视频标题未提供，无法生成摘要。",
     "hot": false,
     "url": "http://www.bilibili.com/video/av113819720354503"
+  },
+  {
+    "id": "aa2cd9ef3aabda69",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-14",
+    "summary": "该视频聚焦储能领域最新技术进展，详细介绍了新型电池材料的性能优势与循环寿命，并分析了其在电网调峰和可再生能源并网中的应用前景，为行业从业者提供了技术参考与市场洞察。",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av117092401679585"
   },
   {
     "id": "08cb3441e011d926",
@@ -326,43 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "美国米兰镇拟建电池储能设施，消防官员担忧其安全风险，特别是火灾隐患。该设施采用锂电池技术，一旦起火难以扑灭，且可能释放有毒气体。官员呼吁加强监管和安全措施，确保公共安全。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=5OMCjbWKTck"
-  },
-  {
-    "id": "5149af68de482f86",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-09",
-    "summary": "摘要内容",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av117065423785994"
-  },
-  {
-    "id": "a379b6b313b22065",
-    "title": "TH24 - 为核部件先进制造铺平道路",
-    "category": "核能",
-    "region": "海外",
-    "source": "NRCgov",
-    "duration": "90:15",
-    "date": "2026-08-09",
-    "summary": "美国核管理委员会（NRC）在TH24会议上探讨核部件先进制造技术，包括增材制造、焊接工艺改进等，旨在提升核工业制造水平，确保安全性与可靠性，推动核能领域创新与发展。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=wJtOenwpKc4"
-  },
-  {
-    "id": "78e5acd5f77132f9",
-    "title": "钙钛矿太阳能电池：材料、器件结构、制造及优化策略",
-    "category": "光伏",
-    "region": "海外",
-    "source": "CASE Chemistry",
-    "duration": "10:01",
-    "date": "2026-08-09",
-    "summary": "视频系统介绍钙钛矿太阳能电池的关键材料、器件架构、制备工艺及优化策略，涵盖组分工程、界面修饰、稳定性提升等要点，为从业者提供技术路线参考。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=KSxw1jQ0YGU"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-08-20T23:03:45' }
+export const generatedMeta = { updatedAt: '2026-08-21T23:01:57' }
