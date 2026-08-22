@@ -1,8 +1,20 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-08-21T23:01:57
+// 生成时间: 2026-08-22T22:59:22
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "16a6b23a2d572ad7",
+    "title": "惊人的复合材料风扇叶片高速生产！",
+    "category": "风电",
+    "region": "海外",
+    "source": "GE Aerospace",
+    "duration": "1:48",
+    "date": "2026-08-22",
+    "summary": "GE航空展示了复合材料风扇叶片的高速制造过程，采用先进自动化工艺，实现高效生产。该技术提升了叶片强度与耐久性，同时减轻重量，对航空发动机性能有显著提升，也展示了复合材料在高端制造中的应用前景。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=g8zt-qljYmM"
+  },
   {
     "id": "d2bae71524895d73",
     "title": "固态电池——科学、潜力与挑战",
@@ -160,30 +172,6 @@ export const generatedVideos: TechVideo[] = [
     "url": "http://www.bilibili.com/video/av425932949"
   },
   {
-    "id": "7ef4a3c8f587afd3",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-16",
-    "summary": "视频摘要",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av851285268"
-  },
-  {
-    "id": "2458f4a280ab1cf3",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-16",
-    "summary": "摘要内容",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av699880730"
-  },
-  {
     "id": "7d2be3eba9cc9b9e",
     "title": "为什么铀浓缩如此重要",
     "category": "核能",
@@ -208,6 +196,18 @@ export const generatedVideos: TechVideo[] = [
     "url": "https://www.youtube.com/watch?v=63SuK7PP_hc"
   },
   {
+    "id": "7ef4a3c8f587afd3",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-16",
+    "summary": "视频摘要",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av851285268"
+  },
+  {
     "id": "05491519a1f4c23d",
     "title": "视频标题",
     "category": "储能",
@@ -218,6 +218,18 @@ export const generatedVideos: TechVideo[] = [
     "summary": "该视频聚焦储能领域最新技术进展，详细介绍了新型电池材料的性能优势与系统集成方案，并分析了其在电网调峰和可再生能源消纳中的应用前景，为行业从业者提供了技术参考与市场洞察。",
     "hot": false,
     "url": "http://www.bilibili.com/video/av1554149772"
+  },
+  {
+    "id": "2458f4a280ab1cf3",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-16",
+    "summary": "摘要内容",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av699880730"
   },
   {
     "id": "0c840a428427cd92",
@@ -350,19 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "丰田CEO宣布推出新型固态电池，宣称可实现1000英里续航和5分钟快充。该技术有望大幅提升电动汽车性能，但量产和成本仍是挑战。行业需关注其实际进展及对现有电池格局的影响。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=98H0smMpiv4"
-  },
-  {
-    "id": "b84065012d59af26",
-    "title": "消防官员对米兰附近拟建的电池设施发出警报",
-    "category": "储能",
-    "region": "海外",
-    "source": "KWQC News",
-    "duration": "3:27",
-    "date": "2026-08-10",
-    "summary": "美国米兰镇拟建电池储能设施，消防官员担忧其安全风险，特别是火灾隐患。该设施采用锂电池技术，一旦起火难以扑灭，且可能释放有毒气体。官员呼吁加强监管和安全措施，确保公共安全。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=5OMCjbWKTck"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-08-21T23:01:57' }
+export const generatedMeta = { updatedAt: '2026-08-22T22:59:22' }
