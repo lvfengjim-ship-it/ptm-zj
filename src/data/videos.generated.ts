@@ -1,8 +1,20 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-08-22T22:59:22
+// 生成时间: 2026-08-23T22:59:33
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "1c71680634687f21",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-23",
+    "summary": "视频标题未提供，无法生成摘要。",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av820353390"
+  },
   {
     "id": "16a6b23a2d572ad7",
     "title": "惊人的复合材料风扇叶片高速生产！",
@@ -50,6 +62,30 @@ export const generatedVideos: TechVideo[] = [
     "summary": "吉利宣布自2027年起，将为其旗下品牌沃尔沃、极星和极氪配备固态电池。该技术有望提升能量密度、安全性和充电速度，并降低成本。此举标志着吉利在下一代电池技术上的重要布局，或将加速固态电池商业化进程。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=YVowXEr_q08"
+  },
+  {
+    "id": "c5f6981d0db73953",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-19",
+    "summary": "视频标题未提供，无法生成摘要。请提供视频标题和内容，以便进行行业分析。",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av117088559568560"
+  },
+  {
+    "id": "8ea7c168a94f8acc",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-19",
+    "summary": "摘要内容",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av116904882735403"
   },
   {
     "id": "b3cb1634cf2f47ba",
@@ -170,6 +206,18 @@ export const generatedVideos: TechVideo[] = [
     "summary": "视频聚焦核能领域最新进展，可能涉及先进反应堆技术、核燃料循环或核安全创新。内容面向行业从业者，强调技术突破与工程应用，旨在提升核能利用效率与安全性，推动清洁能源转型。",
     "hot": false,
     "url": "http://www.bilibili.com/video/av425932949"
+  },
+  {
+    "id": "8ba2b8e8fb5d4b3d",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-16",
+    "summary": "视频摘要内容，需根据实际视频内容填写，这里仅作示例。",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av117099095721133"
   },
   {
     "id": "7d2be3eba9cc9b9e",
@@ -304,65 +352,17 @@ export const generatedVideos: TechVideo[] = [
     "url": "http://www.bilibili.com/video/av117089163544120"
   },
   {
-    "id": "e5286fdbe793b8a0",
-    "title": "电喷雾辅助制备防潮且高稳定的钙钛矿太阳能电池",
-    "category": "光伏",
-    "region": "海外",
-    "source": "Advanced Portfolio",
-    "duration": "3:08",
-    "date": "2026-08-13",
-    "summary": "该研究采用电喷雾辅助技术制备钙钛矿太阳能电池，显著提升其防潮性和稳定性。该方法有望解决钙钛矿电池的环境敏感问题，推动其商业化应用。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=da951_MsNxc"
-  },
-  {
-    "id": "301f841af12da27a",
-    "title": "Lantor Soric®在风电行业复合材料部件中的应用",
-    "category": "风电",
-    "region": "海外",
-    "source": "Lantor B.V.",
-    "duration": "1:36",
-    "date": "2026-08-13",
-    "summary": "Lantor B.V.展示了其Soric®产品在风电叶片等复合材料部件中的应用。该产品作为芯材，可优化树脂流动，减轻重量，提高结构性能，适用于大型风电部件的制造。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=84F25U-JprQ"
-  },
-  {
-    "id": "31c50bbaf2dfac49",
-    "title": "比亚迪提交6项固态电池专利——2027年开始生产",
-    "category": "动力电池",
-    "region": "海外",
-    "source": "The Electric Viking",
-    "duration": "6:06",
-    "date": "2026-08-13",
-    "summary": "比亚迪提交6项固态电池专利，计划2027年量产。该技术有望提升能量密度与安全性，降低成本，对动力电池行业竞争格局产生重要影响。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=lHQ34_okHNw"
-  },
-  {
-    "id": "1d1f4353dbca2efa",
+    "id": "4a28899937a0276f",
     "title": "视频标题",
-    "category": "核能",
+    "category": "储能",
     "region": "国内",
     "source": "行业媒体",
     "duration": "",
     "date": "2026-08-13",
-    "summary": "摘要内容",
+    "summary": "视频标题未提供，无法生成摘要。",
     "hot": false,
-    "url": "https://www.bilibili.com/cheese/play/ss61286?query_from=0&search_id=13934733121566692399&search_query=%E5%9B%BA%E6%80%81%E7%94%B5%E6%B1%A0+%E6%9D%90%E6%96%99"
-  },
-  {
-    "id": "2a2ec80a36473fe1",
-    "title": "丰田CEO重磅发布！新型固态电池——续航1000英里，充电仅需5分钟！",
-    "category": "动力电池",
-    "region": "海外",
-    "source": "Fresh Discovery",
-    "duration": "26:45",
-    "date": "2026-08-11",
-    "summary": "丰田CEO宣布推出新型固态电池，宣称可实现1000英里续航和5分钟快充。该技术有望大幅提升电动汽车性能，但量产和成本仍是挑战。行业需关注其实际进展及对现有电池格局的影响。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=98H0smMpiv4"
+    "url": "http://www.bilibili.com/video/av309665487"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-08-22T22:59:22' }
+export const generatedMeta = { updatedAt: '2026-08-23T22:59:33' }
