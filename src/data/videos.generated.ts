@@ -1,8 +1,32 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-08-23T22:59:33
+// 生成时间: 2026-08-24T23:03:27
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "8bdd5b7bda318a79",
+    "title": "固态电动汽车电池值得等待吗？",
+    "category": "动力电池",
+    "region": "海外",
+    "source": "Battery Bound",
+    "duration": "5:40",
+    "date": "2026-08-24",
+    "summary": "视频探讨固态电池在电动汽车领域的应用前景，分析其技术优势如高能量密度和安全性，同时指出当前面临的生产成本高、制造工艺复杂等挑战，评估其商业化时间线及对行业的影响。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=zsnuGkABfvc"
+  },
+  {
+    "id": "3db7470d26671dc1",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-24",
+    "summary": "视频标题未提供，无法生成摘要。",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av117148303234759"
+  },
   {
     "id": "1c71680634687f21",
     "title": "视频标题",
@@ -64,28 +88,16 @@ export const generatedVideos: TechVideo[] = [
     "url": "https://www.youtube.com/watch?v=YVowXEr_q08"
   },
   {
-    "id": "c5f6981d0db73953",
+    "id": "3e4d6656abb1bb82",
     "title": "视频标题",
     "category": "储能",
     "region": "国内",
     "source": "行业媒体",
     "duration": "",
     "date": "2026-08-19",
-    "summary": "视频标题未提供，无法生成摘要。请提供视频标题和内容，以便进行行业分析。",
+    "summary": "视频标题未提供，无法生成摘要。",
     "hot": false,
-    "url": "http://www.bilibili.com/video/av117088559568560"
-  },
-  {
-    "id": "8ea7c168a94f8acc",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-19",
-    "summary": "摘要内容",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av116904882735403"
+    "url": "http://www.bilibili.com/video/av824255352"
   },
   {
     "id": "b3cb1634cf2f47ba",
@@ -110,6 +122,30 @@ export const generatedVideos: TechVideo[] = [
     "summary": "本视频为氢储存基础课程第二讲，聚焦氢储存材料。内容涵盖金属氢化物、化学氢化物、碳材料及MOFs等储氢材料的工作原理、性能对比与应用前景，并探讨了材料选择对储氢系统效率和安全性的影响，为氢能储运技术提供基础指导。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=ObBiwZ26vAc"
+  },
+  {
+    "id": "c5f6981d0db73953",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-19",
+    "summary": "视频标题未提供，无法生成摘要。请提供视频标题和内容，以便进行行业分析。",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av117088559568560"
+  },
+  {
+    "id": "8ea7c168a94f8acc",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-19",
+    "summary": "摘要内容",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av116904882735403"
   },
   {
     "id": "ae73c41a709fd28c",
@@ -208,18 +244,6 @@ export const generatedVideos: TechVideo[] = [
     "url": "http://www.bilibili.com/video/av425932949"
   },
   {
-    "id": "8ba2b8e8fb5d4b3d",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-16",
-    "summary": "视频摘要内容，需根据实际视频内容填写，这里仅作示例。",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av117099095721133"
-  },
-  {
     "id": "7d2be3eba9cc9b9e",
     "title": "为什么铀浓缩如此重要",
     "category": "核能",
@@ -268,6 +292,18 @@ export const generatedVideos: TechVideo[] = [
     "url": "http://www.bilibili.com/video/av1554149772"
   },
   {
+    "id": "8ba2b8e8fb5d4b3d",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-16",
+    "summary": "视频摘要内容，需根据实际视频内容填写，这里仅作示例。",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av117099095721133"
+  },
+  {
     "id": "2458f4a280ab1cf3",
     "title": "视频标题",
     "category": "储能",
@@ -278,6 +314,18 @@ export const generatedVideos: TechVideo[] = [
     "summary": "摘要内容",
     "hot": false,
     "url": "http://www.bilibili.com/video/av699880730"
+  },
+  {
+    "id": "e448c682b838428d",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-15",
+    "summary": "视频标题未提供，无法生成摘要。",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av598073670"
   },
   {
     "id": "0c840a428427cd92",
@@ -314,55 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "德国科研团队开发出氢能Powerpaste，通过将氢储存在糊状物中，实现体积能量密度比高压气态氢高10倍，且常温常压下稳定安全。该技术有望解决氢能储运难题，适用于便携式电源和交通领域，但成本与制备工艺仍需优化。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=PWjwzAiqfXU"
-  },
-  {
-    "id": "caf300f36d737529",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-14",
-    "summary": "视频标题未提供，无法生成摘要。",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av113819720354503"
-  },
-  {
-    "id": "aa2cd9ef3aabda69",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-14",
-    "summary": "该视频聚焦储能领域最新技术进展，详细介绍了新型电池材料的性能优势与循环寿命，并分析了其在电网调峰和可再生能源并网中的应用前景，为行业从业者提供了技术参考与市场洞察。",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av117092401679585"
-  },
-  {
-    "id": "08cb3441e011d926",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-14",
-    "summary": "视频标题未提供，无法生成摘要。",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av117089163544120"
-  },
-  {
-    "id": "4a28899937a0276f",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-13",
-    "summary": "视频标题未提供，无法生成摘要。",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av309665487"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-08-23T22:59:33' }
+export const generatedMeta = { updatedAt: '2026-08-24T23:03:27' }
