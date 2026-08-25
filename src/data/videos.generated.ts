@@ -1,5 +1,5 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-08-24T23:03:27
+// 生成时间: 2026-08-25T23:04:22
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
@@ -38,6 +38,18 @@ export const generatedVideos: TechVideo[] = [
     "summary": "视频标题未提供，无法生成摘要。",
     "hot": false,
     "url": "http://www.bilibili.com/video/av820353390"
+  },
+  {
+    "id": "6416c51b98329d48",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-22",
+    "summary": "视频标题未提供，无法生成摘要。",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av117127633704616"
   },
   {
     "id": "16a6b23a2d572ad7",
@@ -88,16 +100,28 @@ export const generatedVideos: TechVideo[] = [
     "url": "https://www.youtube.com/watch?v=YVowXEr_q08"
   },
   {
-    "id": "3e4d6656abb1bb82",
+    "id": "3902d32244aaf9ba",
     "title": "视频标题",
     "category": "储能",
     "region": "国内",
     "source": "行业媒体",
     "duration": "",
     "date": "2026-08-19",
-    "summary": "视频标题未提供，无法生成摘要。",
+    "summary": "该视频聚焦储能领域最新技术进展，详细介绍了新型电池材料的性能优势与系统集成方案，并分析了其在电网调峰和可再生能源消纳中的应用前景，为行业从业者提供了关键技术参考。",
     "hot": false,
-    "url": "http://www.bilibili.com/video/av824255352"
+    "url": "http://www.bilibili.com/video/av117114312590862"
+  },
+  {
+    "id": "d7930524b4ed14a1",
+    "title": "视频标题",
+    "category": "核能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-19",
+    "summary": "视频摘要内容",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av117036097209624"
   },
   {
     "id": "b3cb1634cf2f47ba",
@@ -122,6 +146,18 @@ export const generatedVideos: TechVideo[] = [
     "summary": "本视频为氢储存基础课程第二讲，聚焦氢储存材料。内容涵盖金属氢化物、化学氢化物、碳材料及MOFs等储氢材料的工作原理、性能对比与应用前景，并探讨了材料选择对储氢系统效率和安全性的影响，为氢能储运技术提供基础指导。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=ObBiwZ26vAc"
+  },
+  {
+    "id": "3e4d6656abb1bb82",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-19",
+    "summary": "视频标题未提供，无法生成摘要。",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av824255352"
   },
   {
     "id": "c5f6981d0db73953",
@@ -170,6 +206,18 @@ export const generatedVideos: TechVideo[] = [
     "summary": "视频深入解析固态电池技术，对比传统锂离子电池，阐述其高能量密度、安全性及长寿命优势，并探讨当前研发挑战与商业化前景，为行业从业者提供技术趋势参考。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=0kZVwqVzB_M"
+  },
+  {
+    "id": "154336abcb7c12d2",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-17",
+    "summary": "视频标题未提供，无法生成摘要。",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av315944819"
   },
   {
     "id": "d592c37cfcab0132",
@@ -314,55 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "摘要内容",
     "hot": false,
     "url": "http://www.bilibili.com/video/av699880730"
-  },
-  {
-    "id": "e448c682b838428d",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-15",
-    "summary": "视频标题未提供，无法生成摘要。",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av598073670"
-  },
-  {
-    "id": "0c840a428427cd92",
-    "title": "风电叶片网络研讨会周第二场——复合材料：它们在风电行业的未来是什么？",
-    "category": "风电",
-    "region": "海外",
-    "source": "Offshore Renewable Energy Catapult",
-    "duration": "61:37",
-    "date": "2026-08-15",
-    "summary": "本网络研讨会探讨复合材料在风电叶片中的应用前景，涵盖材料创新、回收利用及可持续性挑战，旨在提升叶片性能与寿命，并降低环境足迹，为行业提供技术路线参考。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=V_G_pydDglQ"
-  },
-  {
-    "id": "7479a0bba78ebc58",
-    "title": "美国将一切押注在这些微型核反应堆上",
-    "category": "核能",
-    "region": "海外",
-    "source": "Core Memory ",
-    "duration": "7:24",
-    "date": "2026-08-14",
-    "summary": "视频探讨美国对小型模块化反应堆（SMR）的押注，分析其技术特点、经济性及挑战，如成本、监管和废物处理，并评估其在清洁能源转型中的潜力与风险。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=iXj4MFQmwvE"
-  },
-  {
-    "id": "e6e44c49a6fd08d3",
-    "title": "氢能Powerpaste：能量密度高10倍且安全？",
-    "category": "氢能",
-    "region": "海外",
-    "source": "German Science Guy",
-    "duration": "13:06",
-    "date": "2026-08-14",
-    "summary": "德国科研团队开发出氢能Powerpaste，通过将氢储存在糊状物中，实现体积能量密度比高压气态氢高10倍，且常温常压下稳定安全。该技术有望解决氢能储运难题，适用于便携式电源和交通领域，但成本与制备工艺仍需优化。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=PWjwzAiqfXU"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-08-24T23:03:27' }
+export const generatedMeta = { updatedAt: '2026-08-25T23:04:22' }
