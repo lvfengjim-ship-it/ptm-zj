@@ -1,8 +1,68 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-08-25T23:04:22
+// 生成时间: 2026-08-27T03:35:19
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "517b8346bee6fe57",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-27",
+    "summary": "视频标题未提供，无法生成摘要。",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av117161255377135"
+  },
+  {
+    "id": "6d1ea2204b8ce666",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-25",
+    "summary": "视频标题未提供，无法生成摘要。",
+    "hot": false,
+    "url": "https://www.bilibili.com/cheese/play/ss132393363?query_from=0&search_id=15924484896412879808&search_query=%E5%9B%BA%E6%80%81%E7%94%B5%E6%B1%A0+%E6%9D%90%E6%96%99"
+  },
+  {
+    "id": "b639e58ae389d751",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-25",
+    "summary": "视频标题未提供，无法生成摘要。请提供具体视频内容以便分析。",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av115336280018924"
+  },
+  {
+    "id": "0c0a4f14a107d422",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-24",
+    "summary": "摘要内容",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av116865003226678"
+  },
+  {
+    "id": "6333d348ffb34d7d",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-24",
+    "summary": "摘要内容",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av788560579"
+  },
   {
     "id": "8bdd5b7bda318a79",
     "title": "固态电动汽车电池值得等待吗？",
@@ -40,18 +100,6 @@ export const generatedVideos: TechVideo[] = [
     "url": "http://www.bilibili.com/video/av820353390"
   },
   {
-    "id": "6416c51b98329d48",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-22",
-    "summary": "视频标题未提供，无法生成摘要。",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av117127633704616"
-  },
-  {
     "id": "16a6b23a2d572ad7",
     "title": "惊人的复合材料风扇叶片高速生产！",
     "category": "风电",
@@ -62,6 +110,18 @@ export const generatedVideos: TechVideo[] = [
     "summary": "GE航空展示了复合材料风扇叶片的高速制造过程，采用先进自动化工艺，实现高效生产。该技术提升了叶片强度与耐久性，同时减轻重量，对航空发动机性能有显著提升，也展示了复合材料在高端制造中的应用前景。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=g8zt-qljYmM"
+  },
+  {
+    "id": "6416c51b98329d48",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-22",
+    "summary": "视频标题未提供，无法生成摘要。",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av117127633704616"
   },
   {
     "id": "d2bae71524895d73",
@@ -100,28 +160,16 @@ export const generatedVideos: TechVideo[] = [
     "url": "https://www.youtube.com/watch?v=YVowXEr_q08"
   },
   {
-    "id": "3902d32244aaf9ba",
+    "id": "358d10f7ee2f6d42",
     "title": "视频标题",
     "category": "储能",
     "region": "国内",
     "source": "行业媒体",
     "duration": "",
     "date": "2026-08-19",
-    "summary": "该视频聚焦储能领域最新技术进展，详细介绍了新型电池材料的性能优势与系统集成方案，并分析了其在电网调峰和可再生能源消纳中的应用前景，为行业从业者提供了关键技术参考。",
+    "summary": "摘要内容",
     "hot": false,
-    "url": "http://www.bilibili.com/video/av117114312590862"
-  },
-  {
-    "id": "d7930524b4ed14a1",
-    "title": "视频标题",
-    "category": "核能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-19",
-    "summary": "视频摘要内容",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av117036097209624"
+    "url": "http://www.bilibili.com/video/av117111343090691"
   },
   {
     "id": "b3cb1634cf2f47ba",
@@ -146,6 +194,18 @@ export const generatedVideos: TechVideo[] = [
     "summary": "本视频为氢储存基础课程第二讲，聚焦氢储存材料。内容涵盖金属氢化物、化学氢化物、碳材料及MOFs等储氢材料的工作原理、性能对比与应用前景，并探讨了材料选择对储氢系统效率和安全性的影响，为氢能储运技术提供基础指导。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=ObBiwZ26vAc"
+  },
+  {
+    "id": "3902d32244aaf9ba",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-19",
+    "summary": "该视频聚焦储能领域最新技术进展，详细介绍了新型电池材料的性能优势与系统集成方案，并分析了其在电网调峰和可再生能源消纳中的应用前景，为行业从业者提供了关键技术参考。",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av117114312590862"
   },
   {
     "id": "3e4d6656abb1bb82",
@@ -184,6 +244,30 @@ export const generatedVideos: TechVideo[] = [
     "url": "http://www.bilibili.com/video/av116904882735403"
   },
   {
+    "id": "d7930524b4ed14a1",
+    "title": "视频标题",
+    "category": "核能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-19",
+    "summary": "视频摘要内容",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av117036097209624"
+  },
+  {
+    "id": "76ef268067cf689a",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-18",
+    "summary": "视频标题未提供，无法生成摘要。",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av263701458"
+  },
+  {
     "id": "ae73c41a709fd28c",
     "title": "为什么宁德时代已经在展望固态电池之后的技术",
     "category": "动力电池",
@@ -206,18 +290,6 @@ export const generatedVideos: TechVideo[] = [
     "summary": "视频深入解析固态电池技术，对比传统锂离子电池，阐述其高能量密度、安全性及长寿命优势，并探讨当前研发挑战与商业化前景，为行业从业者提供技术趋势参考。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=0kZVwqVzB_M"
-  },
-  {
-    "id": "154336abcb7c12d2",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-17",
-    "summary": "视频标题未提供，无法生成摘要。",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av315944819"
   },
   {
     "id": "d592c37cfcab0132",
@@ -290,79 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "视频聚焦核能领域最新进展，可能涉及先进反应堆技术、核燃料循环或核安全创新。内容面向行业从业者，强调技术突破与工程应用，旨在提升核能利用效率与安全性，推动清洁能源转型。",
     "hot": false,
     "url": "http://www.bilibili.com/video/av425932949"
-  },
-  {
-    "id": "7d2be3eba9cc9b9e",
-    "title": "为什么铀浓缩如此重要",
-    "category": "核能",
-    "region": "海外",
-    "source": "StarTalk",
-    "duration": "9:38",
-    "date": "2026-08-16",
-    "summary": "视频解释铀浓缩在核能中的关键作用，包括其原理、技术难度及对核电站燃料供应的重要性。同时探讨了浓缩铀的军事应用风险，以及国际社会对核扩散的担忧，为行业从业者提供了核燃料循环的基础认知。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=boUqlyYfUuo"
-  },
-  {
-    "id": "9d5ebcd99d53aa22",
-    "title": "固态电池实际上是如何工作的——没有炒作",
-    "category": "动力电池",
-    "region": "海外",
-    "source": "AMERICAN ENGINEERED",
-    "duration": "12:49",
-    "date": "2026-08-16",
-    "summary": "视频客观解析固态电池工作原理，对比传统锂离子电池，阐述固态电解质优势与挑战，如离子电导率、界面阻抗、制造工艺等，并探讨其商业化前景，为行业从业者提供技术参考。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=63SuK7PP_hc"
-  },
-  {
-    "id": "7ef4a3c8f587afd3",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-16",
-    "summary": "视频摘要",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av851285268"
-  },
-  {
-    "id": "05491519a1f4c23d",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-16",
-    "summary": "该视频聚焦储能领域最新技术进展，详细介绍了新型电池材料的性能优势与系统集成方案，并分析了其在电网调峰和可再生能源消纳中的应用前景，为行业从业者提供了技术参考与市场洞察。",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av1554149772"
-  },
-  {
-    "id": "8ba2b8e8fb5d4b3d",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-16",
-    "summary": "视频摘要内容，需根据实际视频内容填写，这里仅作示例。",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av117099095721133"
-  },
-  {
-    "id": "2458f4a280ab1cf3",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-16",
-    "summary": "摘要内容",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av699880730"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-08-25T23:04:22' }
+export const generatedMeta = { updatedAt: '2026-08-27T03:35:19' }
