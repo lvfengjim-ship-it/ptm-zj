@@ -1,8 +1,32 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-08-28T06:22:43
+// 生成时间: 2026-08-29T03:54:14
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "dfdcbe3601e2a8d5",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-28",
+    "summary": "摘要内容",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av117153705494739"
+  },
+  {
+    "id": "faa0cbe2c98027eb",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-28",
+    "summary": "摘要内容",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av114789443440436"
+  },
   {
     "id": "2e7fd15ec3186546",
     "title": "反应堆模拟器 - 爱达荷州立大学核操作技术",
@@ -76,18 +100,6 @@ export const generatedVideos: TechVideo[] = [
     "url": "http://www.bilibili.com/video/av115336280018924"
   },
   {
-    "id": "b170224db16c1044",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-24",
-    "summary": "摘要内容",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av112929722663983"
-  },
-  {
     "id": "8bdd5b7bda318a79",
     "title": "固态电动汽车电池值得等待吗？",
     "category": "动力电池",
@@ -98,6 +110,18 @@ export const generatedVideos: TechVideo[] = [
     "summary": "视频探讨固态电池在电动汽车领域的应用前景，分析其技术优势如高能量密度和安全性，同时指出当前面临的生产成本高、制造工艺复杂等挑战，评估其商业化时间线及对行业的影响。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=zsnuGkABfvc"
+  },
+  {
+    "id": "b170224db16c1044",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-24",
+    "summary": "摘要内容",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av112929722663983"
   },
   {
     "id": "0c0a4f14a107d422",
@@ -172,6 +196,30 @@ export const generatedVideos: TechVideo[] = [
     "url": "http://www.bilibili.com/video/av117127633704616"
   },
   {
+    "id": "4c35145baf13e7d3",
+    "title": "视频标题",
+    "category": "核能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-21",
+    "summary": "视频摘要",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av117131391800740"
+  },
+  {
+    "id": "d2bae71524895d73",
+    "title": "固态电池——科学、潜力与挑战",
+    "category": "动力电池",
+    "region": "海外",
+    "source": "Billy Wu",
+    "duration": "22:14",
+    "date": "2026-08-21",
+    "summary": "视频深入解析固态电池的科学原理、潜在优势及当前面临的技术挑战，包括离子电导率、界面稳定性、制造工艺等问题，为行业从业者提供客观技术分析。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=NPaOJceBkJs"
+  },
+  {
     "id": "aa4d5f83b5917645",
     "title": "视频标题",
     "category": "储能",
@@ -208,16 +256,28 @@ export const generatedVideos: TechVideo[] = [
     "url": "http://www.bilibili.com/video/av117108474185532"
   },
   {
-    "id": "d2bae71524895d73",
-    "title": "固态电池——科学、潜力与挑战",
+    "id": "7cdbd2ccbebe516d",
+    "title": "核能秀 #022 - 格雷戈里·马尔采夫",
+    "category": "核能",
+    "region": "海外",
+    "source": "mightyABC",
+    "duration": "48:39",
+    "date": "2026-08-20",
+    "summary": "本期核能秀邀请格雷戈里·马尔采夫，探讨核能领域最新进展，包括先进反应堆设计、核燃料循环优化及核废料处理技术，并分析核能政策与市场趋势，为行业从业者提供前沿视角。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=DEWICgD5568"
+  },
+  {
+    "id": "5c5e8a08e4bdac71",
+    "title": "吉利确认2027年起为沃尔沃、极星和极氪提供固态电池",
     "category": "动力电池",
     "region": "海外",
-    "source": "Billy Wu",
-    "duration": "22:14",
-    "date": "2026-08-21",
-    "summary": "视频深入解析固态电池的科学原理、潜在优势及当前面临的技术挑战，包括离子电导率、界面稳定性、制造工艺等问题，为行业从业者提供客观技术分析。",
+    "source": "The Electric Viking",
+    "duration": "13:03",
+    "date": "2026-08-20",
+    "summary": "吉利宣布自2027年起，将为其旗下品牌沃尔沃、极星和极氪配备固态电池。该技术有望提升能量密度、安全性和充电速度，并降低成本。此举标志着吉利在下一代电池技术上的重要布局，或将加速固态电池商业化进程。",
     "hot": false,
-    "url": "https://www.youtube.com/watch?v=NPaOJceBkJs"
+    "url": "https://www.youtube.com/watch?v=YVowXEr_q08"
   },
   {
     "id": "c49a298fb0e90385",
@@ -256,40 +316,28 @@ export const generatedVideos: TechVideo[] = [
     "url": "http://www.bilibili.com/video/av613158713"
   },
   {
-    "id": "7cdbd2ccbebe516d",
-    "title": "核能秀 #022 - 格雷戈里·马尔采夫",
-    "category": "核能",
-    "region": "海外",
-    "source": "mightyABC",
-    "duration": "48:39",
-    "date": "2026-08-20",
-    "summary": "本期核能秀邀请格雷戈里·马尔采夫，探讨核能领域最新进展，包括先进反应堆设计、核燃料循环优化及核废料处理技术，并分析核能政策与市场趋势，为行业从业者提供前沿视角。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=DEWICgD5568"
-  },
-  {
-    "id": "5c5e8a08e4bdac71",
-    "title": "吉利确认2027年起为沃尔沃、极星和极氪提供固态电池",
-    "category": "动力电池",
-    "region": "海外",
-    "source": "The Electric Viking",
-    "duration": "13:03",
-    "date": "2026-08-20",
-    "summary": "吉利宣布自2027年起，将为其旗下品牌沃尔沃、极星和极氪配备固态电池。该技术有望提升能量密度、安全性和充电速度，并降低成本。此举标志着吉利在下一代电池技术上的重要布局，或将加速固态电池商业化进程。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=YVowXEr_q08"
-  },
-  {
-    "id": "ecfb39eed7733441",
+    "id": "2ca30c56385f2891",
     "title": "视频标题",
     "category": "储能",
     "region": "国内",
     "source": "行业媒体",
     "duration": "",
     "date": "2026-08-19",
-    "summary": "视频摘要",
+    "summary": "摘要内容",
     "hot": false,
-    "url": "http://www.bilibili.com/video/av328331228"
+    "url": "http://www.bilibili.com/video/av116883810552674"
+  },
+  {
+    "id": "8d09864835dc294d",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-19",
+    "summary": "摘要内容",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av117052740274932"
   },
   {
     "id": "b3cb1634cf2f47ba",
@@ -314,55 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "本视频为氢储存基础课程第二讲，聚焦氢储存材料。内容涵盖金属氢化物、化学氢化物、碳材料及MOFs等储氢材料的工作原理、性能对比与应用前景，并探讨了材料选择对储氢系统效率和安全性的影响，为氢能储运技术提供基础指导。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=ObBiwZ26vAc"
-  },
-  {
-    "id": "358d10f7ee2f6d42",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-19",
-    "summary": "摘要内容",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av117111343090691"
-  },
-  {
-    "id": "3902d32244aaf9ba",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-19",
-    "summary": "该视频聚焦储能领域最新技术进展，详细介绍了新型电池材料的性能优势与系统集成方案，并分析了其在电网调峰和可再生能源消纳中的应用前景，为行业从业者提供了关键技术参考。",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av117114312590862"
-  },
-  {
-    "id": "3e4d6656abb1bb82",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-19",
-    "summary": "视频标题未提供，无法生成摘要。",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av824255352"
-  },
-  {
-    "id": "c5f6981d0db73953",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-19",
-    "summary": "视频标题未提供，无法生成摘要。请提供视频标题和内容，以便进行行业分析。",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av117088559568560"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-08-28T06:22:43' }
+export const generatedMeta = { updatedAt: '2026-08-29T03:54:14' }
