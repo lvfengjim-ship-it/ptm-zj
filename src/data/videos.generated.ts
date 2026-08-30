@@ -1,31 +1,31 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-08-29T03:54:14
+// 生成时间: 2026-08-30T00:44:29
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
   {
-    "id": "dfdcbe3601e2a8d5",
-    "title": "视频标题",
+    "id": "6aeee83773ef72d7",
+    "title": "莫斯兰丁灾难：电池存储的风险",
     "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-28",
-    "summary": "摘要内容",
+    "region": "海外",
+    "source": "StacheD Training",
+    "duration": "9:03",
+    "date": "2026-08-30",
+    "summary": "视频分析莫斯兰丁储能电站火灾事故，探讨电池储能系统的安全风险，包括热失控、消防挑战及对电网稳定性的影响，并讨论改进措施与行业监管必要性。",
     "hot": false,
-    "url": "http://www.bilibili.com/video/av117153705494739"
+    "url": "https://www.youtube.com/watch?v=xuTaZFQA18E"
   },
   {
-    "id": "faa0cbe2c98027eb",
+    "id": "1ec3002d1e7ceb46",
     "title": "视频标题",
     "category": "储能",
     "region": "国内",
     "source": "行业媒体",
     "duration": "",
-    "date": "2026-08-28",
-    "summary": "摘要内容",
+    "date": "2026-08-30",
+    "summary": "视频标题未提供，无法生成摘要。",
     "hot": false,
-    "url": "http://www.bilibili.com/video/av114789443440436"
+    "url": "http://www.bilibili.com/video/av115268248406207"
   },
   {
     "id": "2e7fd15ec3186546",
@@ -64,6 +64,30 @@ export const generatedVideos: TechVideo[] = [
     "url": "https://www.youtube.com/watch?v=MYQ45vJQVOo"
   },
   {
+    "id": "dfdcbe3601e2a8d5",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-28",
+    "summary": "摘要内容",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av117153705494739"
+  },
+  {
+    "id": "faa0cbe2c98027eb",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-28",
+    "summary": "摘要内容",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av114789443440436"
+  },
+  {
     "id": "517b8346bee6fe57",
     "title": "视频标题",
     "category": "储能",
@@ -98,6 +122,18 @@ export const generatedVideos: TechVideo[] = [
     "summary": "视频标题未提供，无法生成摘要。请提供具体视频内容以便分析。",
     "hot": false,
     "url": "http://www.bilibili.com/video/av115336280018924"
+  },
+  {
+    "id": "58728cfc7f5bc2ee",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-24",
+    "summary": "摘要内容",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av113898623604403"
   },
   {
     "id": "8bdd5b7bda318a79",
@@ -196,18 +232,6 @@ export const generatedVideos: TechVideo[] = [
     "url": "http://www.bilibili.com/video/av117127633704616"
   },
   {
-    "id": "4c35145baf13e7d3",
-    "title": "视频标题",
-    "category": "核能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-21",
-    "summary": "视频摘要",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av117131391800740"
-  },
-  {
     "id": "d2bae71524895d73",
     "title": "固态电池——科学、潜力与挑战",
     "category": "动力电池",
@@ -232,6 +256,18 @@ export const generatedVideos: TechVideo[] = [
     "url": "http://www.bilibili.com/video/av114177175722314"
   },
   {
+    "id": "4c35145baf13e7d3",
+    "title": "视频标题",
+    "category": "核能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-21",
+    "summary": "视频摘要",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av117131391800740"
+  },
+  {
     "id": "3bc9fdc8f5081430",
     "title": "视频标题",
     "category": "储能",
@@ -254,6 +290,30 @@ export const generatedVideos: TechVideo[] = [
     "summary": "摘要内容",
     "hot": false,
     "url": "http://www.bilibili.com/video/av117108474185532"
+  },
+  {
+    "id": "54b7326840e86d6d",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-20",
+    "summary": "摘要内容",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av117098290421665"
+  },
+  {
+    "id": "983dc079d736be30",
+    "title": "视频标题",
+    "category": "核能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-20",
+    "summary": "摘要内容",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av115738111120607"
   },
   {
     "id": "7cdbd2ccbebe516d",
@@ -302,67 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "视频标题未提供，无法生成摘要。",
     "hot": false,
     "url": "http://www.bilibili.com/video/av114730739961744"
-  },
-  {
-    "id": "569a6090ba12d1b0",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-20",
-    "summary": "视频标题未提供，无法生成摘要。",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av613158713"
-  },
-  {
-    "id": "2ca30c56385f2891",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-19",
-    "summary": "摘要内容",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av116883810552674"
-  },
-  {
-    "id": "8d09864835dc294d",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-19",
-    "summary": "摘要内容",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av117052740274932"
-  },
-  {
-    "id": "b3cb1634cf2f47ba",
-    "title": "Jeremy T. Busby谈当今与未来核能的材料创新",
-    "category": "核能",
-    "region": "海外",
-    "source": "American Nuclear Society",
-    "duration": "13:16",
-    "date": "2026-08-19",
-    "summary": "美国核学会视频中，Jeremy T. Busby探讨核能材料创新，涵盖先进反应堆材料需求、耐辐射材料研发、材料表征与测试技术，以及如何通过材料创新提升核能安全性与经济性，为行业提供前沿视角。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=wQYokC7ogRA"
-  },
-  {
-    "id": "da7f9657b690cd14",
-    "title": "氢储存基础课程第2讲：氢储存材料",
-    "category": "氢能",
-    "region": "海外",
-    "source": "EEB: Electrical Engineer BootCamp",
-    "duration": "40:40",
-    "date": "2026-08-19",
-    "summary": "本视频为氢储存基础课程第二讲，聚焦氢储存材料。内容涵盖金属氢化物、化学氢化物、碳材料及MOFs等储氢材料的工作原理、性能对比与应用前景，并探讨了材料选择对储氢系统效率和安全性的影响，为氢能储运技术提供基础指导。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=ObBiwZ26vAc"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-08-29T03:54:14' }
+export const generatedMeta = { updatedAt: '2026-08-30T00:44:29' }
