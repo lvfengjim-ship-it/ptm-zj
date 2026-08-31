@@ -1,8 +1,32 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-08-30T00:44:29
+// 生成时间: 2026-08-31T00:51:10
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "086343625c3671bb",
+    "title": "俄罗斯如何控制全球核能",
+    "category": "核能",
+    "region": "海外",
+    "source": "AtomicBlender",
+    "duration": "17:14",
+    "date": "2026-08-31",
+    "summary": "视频分析俄罗斯在全球核能供应链中的主导地位，涵盖铀浓缩、核燃料出口及反应堆建设。指出其控制核燃料循环关键环节，影响多国核电站运营，并探讨地缘政治影响及西方国家的应对策略。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=DVvDbf1YyT4"
+  },
+  {
+    "id": "89a22087dec27880",
+    "title": "封装钙钛矿太阳能电池",
+    "category": "光伏",
+    "region": "海外",
+    "source": "wang haoran",
+    "duration": "6:46",
+    "date": "2026-08-31",
+    "summary": "视频展示了封装钙钛矿太阳能电池的制备或性能测试过程，强调了封装技术对提升稳定性的重要性。内容可能涉及封装材料、工艺及对电池寿命的影响，为钙钛矿光伏产业化提供参考。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=H26PnuB-NFw"
+  },
   {
     "id": "6aeee83773ef72d7",
     "title": "莫斯兰丁灾难：电池存储的风险",
@@ -124,16 +148,16 @@ export const generatedVideos: TechVideo[] = [
     "url": "http://www.bilibili.com/video/av115336280018924"
   },
   {
-    "id": "58728cfc7f5bc2ee",
+    "id": "b88625740e26895a",
     "title": "视频标题",
     "category": "储能",
     "region": "国内",
     "source": "行业媒体",
     "duration": "",
     "date": "2026-08-24",
-    "summary": "摘要内容",
+    "summary": "该视频介绍了最新的储能技术进展，包括电池材料创新和系统集成优化，旨在提升能量密度与循环寿命，同时降低度电成本，为电网调峰和可再生能源并网提供更可靠的解决方案。",
     "hot": false,
-    "url": "http://www.bilibili.com/video/av113898623604403"
+    "url": "http://www.bilibili.com/video/av1355403655"
   },
   {
     "id": "8bdd5b7bda318a79",
@@ -184,6 +208,18 @@ export const generatedVideos: TechVideo[] = [
     "url": "http://www.bilibili.com/video/av117148303234759"
   },
   {
+    "id": "58728cfc7f5bc2ee",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-24",
+    "summary": "摘要内容",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av113898623604403"
+  },
+  {
     "id": "6333d348ffb34d7d",
     "title": "视频标题",
     "category": "储能",
@@ -194,6 +230,18 @@ export const generatedVideos: TechVideo[] = [
     "summary": "摘要内容",
     "hot": false,
     "url": "http://www.bilibili.com/video/av788560579"
+  },
+  {
+    "id": "bab31192bfe987f2",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-23",
+    "summary": "摘要内容",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av391275108"
   },
   {
     "id": "1c71680634687f21",
@@ -230,6 +278,18 @@ export const generatedVideos: TechVideo[] = [
     "summary": "视频标题未提供，无法生成摘要。",
     "hot": false,
     "url": "http://www.bilibili.com/video/av117127633704616"
+  },
+  {
+    "id": "0954a3fe8b106821",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-21",
+    "summary": "视频标题未提供，无法生成摘要。",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av117132062890045"
   },
   {
     "id": "d2bae71524895d73",
@@ -292,30 +352,6 @@ export const generatedVideos: TechVideo[] = [
     "url": "http://www.bilibili.com/video/av117108474185532"
   },
   {
-    "id": "54b7326840e86d6d",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-20",
-    "summary": "摘要内容",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av117098290421665"
-  },
-  {
-    "id": "983dc079d736be30",
-    "title": "视频标题",
-    "category": "核能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-20",
-    "summary": "摘要内容",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av115738111120607"
-  },
-  {
     "id": "7cdbd2ccbebe516d",
     "title": "核能秀 #022 - 格雷戈里·马尔采夫",
     "category": "核能",
@@ -326,43 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "本期核能秀邀请格雷戈里·马尔采夫，探讨核能领域最新进展，包括先进反应堆设计、核燃料循环优化及核废料处理技术，并分析核能政策与市场趋势，为行业从业者提供前沿视角。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=DEWICgD5568"
-  },
-  {
-    "id": "5c5e8a08e4bdac71",
-    "title": "吉利确认2027年起为沃尔沃、极星和极氪提供固态电池",
-    "category": "动力电池",
-    "region": "海外",
-    "source": "The Electric Viking",
-    "duration": "13:03",
-    "date": "2026-08-20",
-    "summary": "吉利宣布自2027年起，将为其旗下品牌沃尔沃、极星和极氪配备固态电池。该技术有望提升能量密度、安全性和充电速度，并降低成本。此举标志着吉利在下一代电池技术上的重要布局，或将加速固态电池商业化进程。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=YVowXEr_q08"
-  },
-  {
-    "id": "c49a298fb0e90385",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-20",
-    "summary": "视频标题",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av386615556"
-  },
-  {
-    "id": "7729c7ca0ae13029",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-20",
-    "summary": "视频标题未提供，无法生成摘要。",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av114730739961744"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-08-30T00:44:29' }
+export const generatedMeta = { updatedAt: '2026-08-31T00:51:10' }
