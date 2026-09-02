@@ -1,8 +1,44 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-09-01T01:24:25
+// 生成时间: 2026-09-02T00:33:10
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "d6a6697601109ff7",
+    "title": "普莱诺公司取得核材料突破",
+    "category": "核能",
+    "region": "海外",
+    "source": "FOX 4 Dallas-Fort Worth",
+    "duration": "2:35",
+    "date": "2026-09-02",
+    "summary": "美国德克萨斯州普莱诺的一家公司宣布在核材料领域取得重大突破，可能对核能行业产生深远影响。该技术或提升核燃料效率、安全性，并助力清洁能源转型。具体细节尚待披露，但已引发行业关注。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=bbbsMqh7iZM"
+  },
+  {
+    "id": "bbad625e3e0f35d2",
+    "title": "模块7：材料与结构可靠性",
+    "category": "核能",
+    "region": "海外",
+    "source": "CUSP",
+    "duration": "92:00",
+    "date": "2026-09-02",
+    "summary": "本视频为核能领域课程模块，聚焦材料与结构可靠性。内容涵盖核电站关键材料在极端环境下的性能退化机制、结构完整性评估方法及可靠性工程实践，旨在提升核设施安全运行与维护水平。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=3M9QC3mWoGE"
+  },
+  {
+    "id": "2c5f5665c10b4f24",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-09-01",
+    "summary": "视频摘要",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av114266883494531"
+  },
   {
     "id": "8b7e97e87d31771f",
     "title": "助力核能卓越：先进测试解决方案网络研讨会",
@@ -28,16 +64,16 @@ export const generatedVideos: TechVideo[] = [
     "url": "https://www.youtube.com/watch?v=_am_wBw-3UA"
   },
   {
-    "id": "57b28619bb722ff0",
+    "id": "6a770c0e936c4f88",
     "title": "视频标题",
-    "category": "储能",
+    "category": "动力电池",
     "region": "国内",
     "source": "行业媒体",
     "duration": "",
     "date": "2026-08-31",
-    "summary": "视频标题未提供，无法生成摘要。",
+    "summary": "摘要内容",
     "hot": false,
-    "url": "http://www.bilibili.com/video/av117157933487399"
+    "url": "http://www.bilibili.com/video/av116678406968660"
   },
   {
     "id": "086343625c3671bb",
@@ -64,7 +100,19 @@ export const generatedVideos: TechVideo[] = [
     "url": "https://www.youtube.com/watch?v=H26PnuB-NFw"
   },
   {
-    "id": "e46c64326e129988",
+    "id": "57b28619bb722ff0",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-31",
+    "summary": "视频标题未提供，无法生成摘要。",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av117157933487399"
+  },
+  {
+    "id": "1f846b6abe12918e",
     "title": "视频标题",
     "category": "储能",
     "region": "国内",
@@ -73,7 +121,7 @@ export const generatedVideos: TechVideo[] = [
     "date": "2026-08-30",
     "summary": "摘要内容",
     "hot": false,
-    "url": "http://www.bilibili.com/video/av772571037"
+    "url": "http://www.bilibili.com/video/av115222866038318"
   },
   {
     "id": "6aeee83773ef72d7",
@@ -88,6 +136,18 @@ export const generatedVideos: TechVideo[] = [
     "url": "https://www.youtube.com/watch?v=xuTaZFQA18E"
   },
   {
+    "id": "e46c64326e129988",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-30",
+    "summary": "摘要内容",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av772571037"
+  },
+  {
     "id": "1ec3002d1e7ceb46",
     "title": "视频标题",
     "category": "储能",
@@ -98,6 +158,18 @@ export const generatedVideos: TechVideo[] = [
     "summary": "视频标题未提供，无法生成摘要。",
     "hot": false,
     "url": "http://www.bilibili.com/video/av115268248406207"
+  },
+  {
+    "id": "007ad7198de63564",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-29",
+    "summary": "视频标题未提供，无法生成摘要。",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av117171321573506"
   },
   {
     "id": "350b97351f8e8bb9",
@@ -172,6 +244,18 @@ export const generatedVideos: TechVideo[] = [
     "url": "http://www.bilibili.com/video/av114789443440436"
   },
   {
+    "id": "8490195cd9c1ed11",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-27",
+    "summary": "视频标题未提供，无法生成摘要。",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av117156524268385"
+  },
+  {
     "id": "517b8346bee6fe57",
     "title": "视频标题",
     "category": "储能",
@@ -206,18 +290,6 @@ export const generatedVideos: TechVideo[] = [
     "summary": "视频标题未提供，无法生成摘要。请提供具体视频内容以便分析。",
     "hot": false,
     "url": "http://www.bilibili.com/video/av115336280018924"
-  },
-  {
-    "id": "745e2f471b977068",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-24",
-    "summary": "视频标题未提供，无法生成摘要。",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av117149645409427"
   },
   {
     "id": "8bdd5b7bda318a79",
@@ -268,6 +340,18 @@ export const generatedVideos: TechVideo[] = [
     "url": "http://www.bilibili.com/video/av117148303234759"
   },
   {
+    "id": "745e2f471b977068",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-24",
+    "summary": "视频标题未提供，无法生成摘要。",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av117149645409427"
+  },
+  {
     "id": "58728cfc7f5bc2ee",
     "title": "视频标题",
     "category": "储能",
@@ -278,91 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "摘要内容",
     "hot": false,
     "url": "http://www.bilibili.com/video/av113898623604403"
-  },
-  {
-    "id": "6333d348ffb34d7d",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-24",
-    "summary": "摘要内容",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av788560579"
-  },
-  {
-    "id": "b88625740e26895a",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-24",
-    "summary": "该视频介绍了最新的储能技术进展，包括电池材料创新和系统集成优化，旨在提升能量密度与循环寿命，同时降低度电成本，为电网调峰和可再生能源并网提供更可靠的解决方案。",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av1355403655"
-  },
-  {
-    "id": "d61fdf784d74200e",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-23",
-    "summary": "视频标题未提供，无法生成摘要。",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av890296604"
-  },
-  {
-    "id": "bab31192bfe987f2",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-23",
-    "summary": "摘要内容",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av391275108"
-  },
-  {
-    "id": "1c71680634687f21",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-23",
-    "summary": "视频标题未提供，无法生成摘要。",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av820353390"
-  },
-  {
-    "id": "16a6b23a2d572ad7",
-    "title": "惊人的复合材料风扇叶片高速生产！",
-    "category": "风电",
-    "region": "海外",
-    "source": "GE Aerospace",
-    "duration": "1:48",
-    "date": "2026-08-22",
-    "summary": "GE航空展示了复合材料风扇叶片的高速制造过程，采用先进自动化工艺，实现高效生产。该技术提升了叶片强度与耐久性，同时减轻重量，对航空发动机性能有显著提升，也展示了复合材料在高端制造中的应用前景。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=g8zt-qljYmM"
-  },
-  {
-    "id": "6416c51b98329d48",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-22",
-    "summary": "视频标题未提供，无法生成摘要。",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av117127633704616"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-09-01T01:24:25' }
+export const generatedMeta = { updatedAt: '2026-09-02T00:33:10' }
