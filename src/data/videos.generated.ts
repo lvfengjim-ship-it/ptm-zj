@@ -1,8 +1,116 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-09-02T00:33:10
+// 生成时间: 2026-09-03T00:41:29
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "36e4ff43ae291b54",
+    "title": "库尔特·特拉尼 - 先进核燃料",
+    "category": "核能",
+    "region": "海外",
+    "source": "Oak Ridge National Laboratory",
+    "duration": "4:05",
+    "date": "2026-09-03",
+    "summary": "橡树岭国家实验室的库尔特·特拉尼介绍先进核燃料研究，涵盖新型燃料设计、制造工艺及性能测试，旨在提升核反应堆安全性与经济性，为核能可持续发展提供技术支撑。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=NYeWtsgKkuw"
+  },
+  {
+    "id": "cc1a132920ebc892",
+    "title": "解决风电最大的问题",
+    "category": "风电",
+    "region": "海外",
+    "source": "Engineering with Rosie",
+    "duration": "21:35",
+    "date": "2026-09-03",
+    "summary": "视频探讨风电并网难题，指出风电出力波动性对电网稳定性的挑战。介绍多种解决方案，包括储能系统、电网升级、需求响应及风电预测技术，强调综合措施对提高风电消纳能力的重要性。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=Nzj_iOPSHX4"
+  },
+  {
+    "id": "8efc16b554d9ae47",
+    "title": "电池储能系统（BESS）：NFPA 855 简介 | Vortex Fire 网络研讨会",
+    "category": "储能",
+    "region": "海外",
+    "source": "Vortex Fire",
+    "duration": "58:26",
+    "date": "2026-09-03",
+    "summary": "本视频介绍电池储能系统（BESS）及其相关消防标准NFPA 855。内容涵盖BESS的基本概念、应用场景、潜在火灾风险，以及NFPA 855对系统设计、安装和维护的安全要求，旨在帮助行业人员理解合规要点，提升储能安全水平。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=jeFvcoRa-aY"
+  },
+  {
+    "id": "612ba5362c6b9541",
+    "title": "固态电池——化学原理、制造工艺与宣称，16分钟详解",
+    "category": "动力电池",
+    "region": "海外",
+    "source": "Adam's Everything EV",
+    "duration": "16:44",
+    "date": "2026-09-03",
+    "summary": "视频16分钟解析固态电池，涵盖化学体系、制造流程及厂商宣称。重点对比硫化物、氧化物等电解质路线，分析界面阻抗、成本与量产挑战，并评估半固态过渡方案及商业化时间表，为行业提供技术参考。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=BMlDtxtJPe8"
+  },
+  {
+    "id": "240e993bd20f5032",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-09-03",
+    "summary": "摘要内容",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av117164761685950"
+  },
+  {
+    "id": "2ad9b138955145aa",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-09-03",
+    "summary": "视频摘要内容",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av117193366834048"
+  },
+  {
+    "id": "2a5e2cb344ee9fc6",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-09-03",
+    "summary": "摘要内容",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av117173318060108"
+  },
+  {
+    "id": "402c57cde52589fa",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-09-03",
+    "summary": "该视频聚焦储能领域最新技术进展，详细介绍了新型电池材料的性能优势与应用前景，并分析了其在电网调峰和可再生能源并网中的关键作用，为行业从业者提供了技术参考与市场洞察。",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av116396902056182"
+  },
+  {
+    "id": "3383813e7b78235c",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-09-02",
+    "summary": "视频摘要内容",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av730012525"
+  },
   {
     "id": "d6a6697601109ff7",
     "title": "普莱诺公司取得核材料突破",
@@ -28,16 +136,28 @@ export const generatedVideos: TechVideo[] = [
     "url": "https://www.youtube.com/watch?v=3M9QC3mWoGE"
   },
   {
-    "id": "2c5f5665c10b4f24",
+    "id": "a6f86e372c94bd55",
+    "title": "视频标题",
+    "category": "动力电池",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-09-01",
+    "summary": "摘要内容",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av117114832684100"
+  },
+  {
+    "id": "81a556edbfcdf355",
     "title": "视频标题",
     "category": "储能",
     "region": "国内",
     "source": "行业媒体",
     "duration": "",
     "date": "2026-09-01",
-    "summary": "视频摘要",
+    "summary": "摘要内容",
     "hot": false,
-    "url": "http://www.bilibili.com/video/av114266883494531"
+    "url": "http://www.bilibili.com/video/av117188702897461"
   },
   {
     "id": "8b7e97e87d31771f",
@@ -64,16 +184,16 @@ export const generatedVideos: TechVideo[] = [
     "url": "https://www.youtube.com/watch?v=_am_wBw-3UA"
   },
   {
-    "id": "6a770c0e936c4f88",
+    "id": "2c5f5665c10b4f24",
     "title": "视频标题",
-    "category": "动力电池",
+    "category": "储能",
     "region": "国内",
     "source": "行业媒体",
     "duration": "",
-    "date": "2026-08-31",
-    "summary": "摘要内容",
+    "date": "2026-09-01",
+    "summary": "视频摘要",
     "hot": false,
-    "url": "http://www.bilibili.com/video/av116678406968660"
+    "url": "http://www.bilibili.com/video/av114266883494531"
   },
   {
     "id": "086343625c3671bb",
@@ -100,6 +220,18 @@ export const generatedVideos: TechVideo[] = [
     "url": "https://www.youtube.com/watch?v=H26PnuB-NFw"
   },
   {
+    "id": "6a770c0e936c4f88",
+    "title": "视频标题",
+    "category": "动力电池",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-31",
+    "summary": "摘要内容",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av116678406968660"
+  },
+  {
     "id": "57b28619bb722ff0",
     "title": "视频标题",
     "category": "储能",
@@ -110,18 +242,6 @@ export const generatedVideos: TechVideo[] = [
     "summary": "视频标题未提供，无法生成摘要。",
     "hot": false,
     "url": "http://www.bilibili.com/video/av117157933487399"
-  },
-  {
-    "id": "1f846b6abe12918e",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-30",
-    "summary": "摘要内容",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av115222866038318"
   },
   {
     "id": "6aeee83773ef72d7",
@@ -148,6 +268,18 @@ export const generatedVideos: TechVideo[] = [
     "url": "http://www.bilibili.com/video/av772571037"
   },
   {
+    "id": "1f846b6abe12918e",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-30",
+    "summary": "摘要内容",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av115222866038318"
+  },
+  {
     "id": "1ec3002d1e7ceb46",
     "title": "视频标题",
     "category": "储能",
@@ -160,16 +292,16 @@ export const generatedVideos: TechVideo[] = [
     "url": "http://www.bilibili.com/video/av115268248406207"
   },
   {
-    "id": "007ad7198de63564",
+    "id": "ecd76ca1cd5876f0",
     "title": "视频标题",
     "category": "储能",
     "region": "国内",
     "source": "行业媒体",
     "duration": "",
     "date": "2026-08-29",
-    "summary": "视频标题未提供，无法生成摘要。",
+    "summary": "摘要内容",
     "hot": false,
-    "url": "http://www.bilibili.com/video/av117171321573506"
+    "url": "http://www.bilibili.com/video/av114365986506818"
   },
   {
     "id": "350b97351f8e8bb9",
@@ -182,6 +314,18 @@ export const generatedVideos: TechVideo[] = [
     "summary": "视频标题未提供，无法生成摘要。",
     "hot": false,
     "url": "http://www.bilibili.com/video/av117173905268272"
+  },
+  {
+    "id": "007ad7198de63564",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-29",
+    "summary": "视频标题未提供，无法生成摘要。",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av117171321573506"
   },
   {
     "id": "2e7fd15ec3186546",
@@ -218,151 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "视频剖析Donut Lab宣称的10万次循环固态电池技术，指出其测试条件可能理想化，实际应用中受温度、充放电倍率等影响，循环寿命或大幅缩减。提醒行业关注真实工况下的性能验证，避免过度炒作。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=MYQ45vJQVOo"
-  },
-  {
-    "id": "dfdcbe3601e2a8d5",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-28",
-    "summary": "摘要内容",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av117153705494739"
-  },
-  {
-    "id": "faa0cbe2c98027eb",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-28",
-    "summary": "摘要内容",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av114789443440436"
-  },
-  {
-    "id": "8490195cd9c1ed11",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-27",
-    "summary": "视频标题未提供，无法生成摘要。",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av117156524268385"
-  },
-  {
-    "id": "517b8346bee6fe57",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-27",
-    "summary": "视频标题未提供，无法生成摘要。",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av117161255377135"
-  },
-  {
-    "id": "6d1ea2204b8ce666",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-25",
-    "summary": "视频标题未提供，无法生成摘要。",
-    "hot": false,
-    "url": "https://www.bilibili.com/cheese/play/ss132393363?query_from=0&search_id=15924484896412879808&search_query=%E5%9B%BA%E6%80%81%E7%94%B5%E6%B1%A0+%E6%9D%90%E6%96%99"
-  },
-  {
-    "id": "b639e58ae389d751",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-25",
-    "summary": "视频标题未提供，无法生成摘要。请提供具体视频内容以便分析。",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av115336280018924"
-  },
-  {
-    "id": "8bdd5b7bda318a79",
-    "title": "固态电动汽车电池值得等待吗？",
-    "category": "动力电池",
-    "region": "海外",
-    "source": "Battery Bound",
-    "duration": "5:40",
-    "date": "2026-08-24",
-    "summary": "视频探讨固态电池在电动汽车领域的应用前景，分析其技术优势如高能量密度和安全性，同时指出当前面临的生产成本高、制造工艺复杂等挑战，评估其商业化时间线及对行业的影响。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=zsnuGkABfvc"
-  },
-  {
-    "id": "b170224db16c1044",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-24",
-    "summary": "摘要内容",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av112929722663983"
-  },
-  {
-    "id": "0c0a4f14a107d422",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-24",
-    "summary": "摘要内容",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av116865003226678"
-  },
-  {
-    "id": "3db7470d26671dc1",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-24",
-    "summary": "视频标题未提供，无法生成摘要。",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av117148303234759"
-  },
-  {
-    "id": "745e2f471b977068",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-24",
-    "summary": "视频标题未提供，无法生成摘要。",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av117149645409427"
-  },
-  {
-    "id": "58728cfc7f5bc2ee",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-24",
-    "summary": "摘要内容",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av113898623604403"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-09-02T00:33:10' }
+export const generatedMeta = { updatedAt: '2026-09-03T00:41:29' }
