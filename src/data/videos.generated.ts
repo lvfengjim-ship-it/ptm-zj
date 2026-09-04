@@ -1,8 +1,80 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-09-03T00:41:29
+// 生成时间: 2026-09-04T00:25:47
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "da496491e6690377",
+    "title": "600吨钢锭如何锻造用于核反应堆",
+    "category": "核能",
+    "region": "海外",
+    "source": "Factory Secrets: How It's Made",
+    "duration": "239:18",
+    "date": "2026-09-04",
+    "summary": "本视频展示了用于核反应堆的600吨级钢锭的锻造过程，涵盖从原材料选择、冶炼、浇铸到锻造及热处理的完整工艺，强调质量控制与安全标准，为行业从业者提供了重型锻件制造的关键技术参考。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=al3P7c-8jhg"
+  },
+  {
+    "id": "cc19e5891be03e26",
+    "title": "铀矿石如何在工厂中转化为核燃料",
+    "category": "核能",
+    "region": "海外",
+    "source": "Factory Secrets: How It's Made",
+    "duration": "60:41",
+    "date": "2026-09-04",
+    "summary": "本视频展示铀矿石从开采到转化为核燃料的完整工业流程，包括破碎、研磨、化学浸出、纯化、转化为六氟化铀及浓缩等关键步骤，并强调安全与质量控制，为核能行业从业者提供直观的技术参考。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=4Q5dl9F0SjE"
+  },
+  {
+    "id": "734e8df7c130594b",
+    "title": "核能入门：核安全的技术与制度",
+    "category": "核能",
+    "region": "海外",
+    "source": "Belfer Center",
+    "duration": "108:33",
+    "date": "2026-09-04",
+    "summary": "本视频由贝尔弗中心制作，介绍核安全的基本概念，涵盖核材料安全、核设施保护及防扩散机制。内容涉及技术措施如实物保护、材料衡算，以及制度框架如国际原子能机构保障监督，旨在为从业者提供核安全领域的系统性基础认知。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=2GLZAKmCRRE"
+  },
+  {
+    "id": "729d0628a40e3625",
+    "title": "美国刚刚公布了其人造太阳计划",
+    "category": "核能",
+    "region": "海外",
+    "source": "World Unnoticed",
+    "duration": "15:04",
+    "date": "2026-09-04",
+    "summary": "美国公布人造太阳计划，旨在实现可控核聚变。该计划涉及国家实验室与私营企业合作，推进惯性约束与磁约束聚变技术，目标是在未来数十年内建成示范电站，为清洁能源供应提供新途径。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=QhDXfSuWgg8"
+  },
+  {
+    "id": "024ba9b63153c098",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-09-04",
+    "summary": "视频摘要内容",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av786888230"
+  },
+  {
+    "id": "af1f9bcad26cc3f4",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-09-03",
+    "summary": "视频摘要内容，需根据实际视频信息填写，这里仅作示例。",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av117195111663375"
+  },
   {
     "id": "36e4ff43ae291b54",
     "title": "库尔特·特拉尼 - 先进核燃料",
@@ -100,18 +172,6 @@ export const generatedVideos: TechVideo[] = [
     "url": "http://www.bilibili.com/video/av116396902056182"
   },
   {
-    "id": "3383813e7b78235c",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-09-02",
-    "summary": "视频摘要内容",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av730012525"
-  },
-  {
     "id": "d6a6697601109ff7",
     "title": "普莱诺公司取得核材料突破",
     "category": "核能",
@@ -136,28 +196,16 @@ export const generatedVideos: TechVideo[] = [
     "url": "https://www.youtube.com/watch?v=3M9QC3mWoGE"
   },
   {
-    "id": "a6f86e372c94bd55",
-    "title": "视频标题",
-    "category": "动力电池",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-09-01",
-    "summary": "摘要内容",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av117114832684100"
-  },
-  {
-    "id": "81a556edbfcdf355",
+    "id": "3383813e7b78235c",
     "title": "视频标题",
     "category": "储能",
     "region": "国内",
     "source": "行业媒体",
     "duration": "",
-    "date": "2026-09-01",
-    "summary": "摘要内容",
+    "date": "2026-09-02",
+    "summary": "视频摘要内容",
     "hot": false,
-    "url": "http://www.bilibili.com/video/av117188702897461"
+    "url": "http://www.bilibili.com/video/av730012525"
   },
   {
     "id": "8b7e97e87d31771f",
@@ -184,6 +232,18 @@ export const generatedVideos: TechVideo[] = [
     "url": "https://www.youtube.com/watch?v=_am_wBw-3UA"
   },
   {
+    "id": "a6f86e372c94bd55",
+    "title": "视频标题",
+    "category": "动力电池",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-09-01",
+    "summary": "摘要内容",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av117114832684100"
+  },
+  {
     "id": "2c5f5665c10b4f24",
     "title": "视频标题",
     "category": "储能",
@@ -194,6 +254,30 @@ export const generatedVideos: TechVideo[] = [
     "summary": "视频摘要",
     "hot": false,
     "url": "http://www.bilibili.com/video/av114266883494531"
+  },
+  {
+    "id": "81a556edbfcdf355",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-09-01",
+    "summary": "摘要内容",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av117188702897461"
+  },
+  {
+    "id": "f9a816ec6406d0d2",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-08-31",
+    "summary": "摘要内容",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av114102869430131"
   },
   {
     "id": "086343625c3671bb",
@@ -278,91 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "摘要内容",
     "hot": false,
     "url": "http://www.bilibili.com/video/av115222866038318"
-  },
-  {
-    "id": "1ec3002d1e7ceb46",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-30",
-    "summary": "视频标题未提供，无法生成摘要。",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av115268248406207"
-  },
-  {
-    "id": "ecd76ca1cd5876f0",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-29",
-    "summary": "摘要内容",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av114365986506818"
-  },
-  {
-    "id": "350b97351f8e8bb9",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-29",
-    "summary": "视频标题未提供，无法生成摘要。",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av117173905268272"
-  },
-  {
-    "id": "007ad7198de63564",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-29",
-    "summary": "视频标题未提供，无法生成摘要。",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av117171321573506"
-  },
-  {
-    "id": "2e7fd15ec3186546",
-    "title": "反应堆模拟器 - 爱达荷州立大学核操作技术",
-    "category": "核能",
-    "region": "海外",
-    "source": "Idaho State University College of Technology",
-    "duration": "1:11",
-    "date": "2026-08-28",
-    "summary": "爱达荷州立大学核操作技术项目展示反应堆模拟器，用于培训核电站操作员。模拟器复现反应堆控制、冷却系统及安全规程，学员可练习正常与事故工况下的操作，提升核能领域专业人员的实操能力。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=jEwQE6nywvQ"
-  },
-  {
-    "id": "a891ea6035582ab1",
-    "title": "储能@PNNL：专家小组：符合规范的防火防爆保护",
-    "category": "储能",
-    "region": "海外",
-    "source": "PNNL Community",
-    "duration": "59:08",
-    "date": "2026-08-28",
-    "summary": "太平洋西北国家实验室专家小组讨论储能系统防火防爆的规范合规性，涵盖NFPA标准、爆炸控制、热失控检测及灭火策略，强调通过工程设计与安全评估降低风险，为行业提供技术参考。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=vyR6R4Q3v28"
-  },
-  {
-    "id": "7abaab9a0d5d83b6",
-    "title": "Donut Lab固态电池10万次循环声明背后的真相",
-    "category": "动力电池",
-    "region": "海外",
-    "source": "TESLA CAR WORLD",
-    "duration": "19:06",
-    "date": "2026-08-28",
-    "summary": "视频剖析Donut Lab宣称的10万次循环固态电池技术，指出其测试条件可能理想化，实际应用中受温度、充放电倍率等影响，循环寿命或大幅缩减。提醒行业关注真实工况下的性能验证，避免过度炒作。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=MYQ45vJQVOo"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-09-03T00:41:29' }
+export const generatedMeta = { updatedAt: '2026-09-04T00:25:47' }
