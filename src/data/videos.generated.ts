@@ -1,8 +1,116 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-09-04T00:25:47
+// 生成时间: 2026-09-05T00:24:13
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "a8e948822b43f221",
+    "title": "核能的经济学",
+    "category": "核能",
+    "region": "海外",
+    "source": "Real Engineering",
+    "duration": "16:11",
+    "date": "2026-09-05",
+    "summary": "视频深入分析核能经济性，对比建设成本、运营维护、燃料费用及退役处理等全生命周期成本，并探讨政策、市场机制对核电投资的影响，为行业决策提供参考。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=UC_BCz0pzMw"
+  },
+  {
+    "id": "24b06ad371fa84e7",
+    "title": "储氢材料：挑战与机遇 - 黄振国教授，悉尼科技大学",
+    "category": "氢能",
+    "region": "海外",
+    "source": "Circular Economy for Climate and Environment(CECE)",
+    "duration": "47:49",
+    "date": "2026-09-05",
+    "summary": "悉尼科技大学黄振国教授探讨储氢材料在氢能经济中的关键作用，分析当前储氢技术面临的挑战，如重量密度、成本与可逆性，并展望新型材料（如金属氢化物、配位氢化物）的机遇，为高效安全储氢提供新思路。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=CzIEJHJ9dJY"
+  },
+  {
+    "id": "93f15e22f7dac92d",
+    "title": "固态材料作为有前景的储氢介质",
+    "category": "氢能",
+    "region": "海外",
+    "source": "Virtual Learning University",
+    "duration": "97:47",
+    "date": "2026-09-05",
+    "summary": "视频介绍固态储氢材料的研究进展，涵盖金属氢化物、配位氢化物及多孔材料等，阐述其储氢机理、容量及动力学特性，并讨论在氢能储运中的应用潜力与挑战，为氢能从业者提供技术参考。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=atA5Dj3FvjQ"
+  },
+  {
+    "id": "a40820f7043c3479",
+    "title": "储能未来网络研讨会：储能材料",
+    "category": "储能",
+    "region": "海外",
+    "source": "MIT Energy Initiative",
+    "duration": "55:41",
+    "date": "2026-09-05",
+    "summary": "MIT能源倡议举办网络研讨会，探讨储能材料的最新进展。专家讨论电池、超级电容器等储能技术的关键材料挑战，包括能量密度、循环寿命和成本问题，并展望固态电池、钠离子电池等下一代技术方向，为行业提供前沿视角。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=qrBU8NXEkMY"
+  },
+  {
+    "id": "8392e7897bdcb0bd",
+    "title": "重型车辆用材料基储氢技术",
+    "category": "氢能",
+    "region": "海外",
+    "source": "SoCalGas",
+    "duration": "64:52",
+    "date": "2026-09-05",
+    "summary": "SoCalGas介绍用于重型车辆的材料基储氢技术，涵盖金属氢化物、化学储氢等方案，旨在提高储氢密度与安全性，降低加氢成本，推动氢能重卡商业化应用。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=jTpkNDKxDMM"
+  },
+  {
+    "id": "38dc26235276b602",
+    "title": "氢能的生产、储存与应用：迈向可持续未来",
+    "category": "氢能",
+    "region": "海外",
+    "source": "Engineering Institute of Technology",
+    "duration": "76:08",
+    "date": "2026-09-05",
+    "summary": "视频探讨了氢能作为清洁能源载体在生产、储存及应用方面的最新进展。内容涵盖电解水制氢、高压与液态储氢技术，以及氢燃料电池在交通和工业脱碳中的潜力，为行业从业者提供了氢能全产业链的技术概览。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=0qNFumPT0FY"
+  },
+  {
+    "id": "430f8661eb324ed9",
+    "title": "视频标题",
+    "category": "动力电池",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-09-04",
+    "summary": "摘要内容",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av117201067575984"
+  },
+  {
+    "id": "7982f640da34a3dc",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-09-04",
+    "summary": "视频标题未提供，无法生成摘要。",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av117206469904243"
+  },
+  {
+    "id": "64a3f830ae70a611",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-09-04",
+    "summary": "视频摘要",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av114341223336563"
+  },
   {
     "id": "da496491e6690377",
     "title": "600吨钢锭如何锻造用于核反应堆",
@@ -64,16 +172,28 @@ export const generatedVideos: TechVideo[] = [
     "url": "http://www.bilibili.com/video/av786888230"
   },
   {
-    "id": "af1f9bcad26cc3f4",
+    "id": "d816301a7dbe27ea",
     "title": "视频标题",
     "category": "储能",
     "region": "国内",
     "source": "行业媒体",
     "duration": "",
     "date": "2026-09-03",
-    "summary": "视频摘要内容，需根据实际视频信息填写，这里仅作示例。",
+    "summary": "视频摘要",
     "hot": false,
-    "url": "http://www.bilibili.com/video/av117195111663375"
+    "url": "http://www.bilibili.com/video/av116731355990059"
+  },
+  {
+    "id": "25681dc4d7ac2f5c",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-09-03",
+    "summary": "摘要内容",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av117193719285086"
   },
   {
     "id": "36e4ff43ae291b54",
@@ -134,6 +254,18 @@ export const generatedVideos: TechVideo[] = [
     "summary": "摘要内容",
     "hot": false,
     "url": "http://www.bilibili.com/video/av117164761685950"
+  },
+  {
+    "id": "af1f9bcad26cc3f4",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-09-03",
+    "summary": "视频摘要内容，需根据实际视频信息填写，这里仅作示例。",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av117195111663375"
   },
   {
     "id": "2ad9b138955145aa",
@@ -230,139 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "宁德时代测试其堆叠式储能系统在1000°C高温下的性能，验证热失控防护与结构稳定性。该测试旨在确保极端条件下系统安全，为储能电站提供更高可靠性保障，推动行业安全标准提升。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=_am_wBw-3UA"
-  },
-  {
-    "id": "a6f86e372c94bd55",
-    "title": "视频标题",
-    "category": "动力电池",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-09-01",
-    "summary": "摘要内容",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av117114832684100"
-  },
-  {
-    "id": "2c5f5665c10b4f24",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-09-01",
-    "summary": "视频摘要",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av114266883494531"
-  },
-  {
-    "id": "81a556edbfcdf355",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-09-01",
-    "summary": "摘要内容",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av117188702897461"
-  },
-  {
-    "id": "f9a816ec6406d0d2",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-31",
-    "summary": "摘要内容",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av114102869430131"
-  },
-  {
-    "id": "086343625c3671bb",
-    "title": "俄罗斯如何控制全球核能",
-    "category": "核能",
-    "region": "海外",
-    "source": "AtomicBlender",
-    "duration": "17:14",
-    "date": "2026-08-31",
-    "summary": "视频分析俄罗斯在全球核能供应链中的主导地位，涵盖铀浓缩、核燃料出口及反应堆建设。指出其控制核燃料循环关键环节，影响多国核电站运营，并探讨地缘政治影响及西方国家的应对策略。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=DVvDbf1YyT4"
-  },
-  {
-    "id": "89a22087dec27880",
-    "title": "封装钙钛矿太阳能电池",
-    "category": "光伏",
-    "region": "海外",
-    "source": "wang haoran",
-    "duration": "6:46",
-    "date": "2026-08-31",
-    "summary": "视频展示了封装钙钛矿太阳能电池的制备或性能测试过程，强调了封装技术对提升稳定性的重要性。内容可能涉及封装材料、工艺及对电池寿命的影响，为钙钛矿光伏产业化提供参考。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=H26PnuB-NFw"
-  },
-  {
-    "id": "6a770c0e936c4f88",
-    "title": "视频标题",
-    "category": "动力电池",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-31",
-    "summary": "摘要内容",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av116678406968660"
-  },
-  {
-    "id": "57b28619bb722ff0",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-31",
-    "summary": "视频标题未提供，无法生成摘要。",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av117157933487399"
-  },
-  {
-    "id": "6aeee83773ef72d7",
-    "title": "莫斯兰丁灾难：电池存储的风险",
-    "category": "储能",
-    "region": "海外",
-    "source": "StacheD Training",
-    "duration": "9:03",
-    "date": "2026-08-30",
-    "summary": "视频分析莫斯兰丁储能电站火灾事故，探讨电池储能系统的安全风险，包括热失控、消防挑战及对电网稳定性的影响，并讨论改进措施与行业监管必要性。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=xuTaZFQA18E"
-  },
-  {
-    "id": "e46c64326e129988",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-30",
-    "summary": "摘要内容",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av772571037"
-  },
-  {
-    "id": "1f846b6abe12918e",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-08-30",
-    "summary": "摘要内容",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av115222866038318"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-09-04T00:25:47' }
+export const generatedMeta = { updatedAt: '2026-09-05T00:24:13' }
