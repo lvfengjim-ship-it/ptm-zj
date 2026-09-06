@@ -1,8 +1,80 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-09-05T00:24:13
+// 生成时间: 2026-09-06T00:13:49
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "15d2217a4b9e3f20",
+    "title": "风能材料讲座",
+    "category": "风电",
+    "region": "海外",
+    "source": "Li M",
+    "duration": "10:41",
+    "date": "2026-09-06",
+    "summary": "本讲座系统介绍风能领域关键材料，涵盖叶片复合材料、塔筒钢材、齿轮箱轴承等部件的材料选择与性能要求。重点分析材料在极端环境下的耐久性、疲劳寿命及轻量化设计，并探讨新型材料如碳纤维的应用前景，为风电材料研发与工程应用提供参考。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=ztqM_szwAsc"
+  },
+  {
+    "id": "26e862eb77cb69a3",
+    "title": "NFPA 855 - 储能系统（ESS）培训 - 2024年3月5日",
+    "category": "储能",
+    "region": "海外",
+    "source": "Westborough TV",
+    "duration": "189:12",
+    "date": "2026-09-06",
+    "summary": "该视频为NFPA 855标准培训，针对储能系统安全。内容涵盖ESS安装、维护、消防要求及合规要点，旨在提升行业安全水平，减少火灾风险。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=i69npFu7hLE"
+  },
+  {
+    "id": "38a708b2228faec1",
+    "title": "电池储能防火 - Modo播客（第18集：Nobel Fire Systems）",
+    "category": "储能",
+    "region": "海外",
+    "source": "Modo Energy",
+    "duration": "47:01",
+    "date": "2026-09-06",
+    "summary": "本期播客聚焦电池储能系统的火灾预防，邀请Nobel Fire Systems专家探讨储能安全技术、火灾探测与灭火方案，分析行业标准与最佳实践，为储能项目开发者及运营商提供防火安全设计参考。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=KOOnYTkR7GE"
+  },
+  {
+    "id": "176fdba9137aab65",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-09-06",
+    "summary": "视频摘要",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av116928270047050"
+  },
+  {
+    "id": "44d828fe992a406b",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-09-06",
+    "summary": "摘要内容",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av114255407880044"
+  },
+  {
+    "id": "ac6c880edf2294f6",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-09-05",
+    "summary": "视频摘要",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av117201151530794"
+  },
   {
     "id": "a8e948822b43f221",
     "title": "核能的经济学",
@@ -76,40 +148,16 @@ export const generatedVideos: TechVideo[] = [
     "url": "https://www.youtube.com/watch?v=0qNFumPT0FY"
   },
   {
-    "id": "430f8661eb324ed9",
+    "id": "77712b16769aee10",
     "title": "视频标题",
-    "category": "动力电池",
+    "category": "核能",
     "region": "国内",
     "source": "行业媒体",
     "duration": "",
     "date": "2026-09-04",
     "summary": "摘要内容",
     "hot": false,
-    "url": "http://www.bilibili.com/video/av117201067575984"
-  },
-  {
-    "id": "7982f640da34a3dc",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-09-04",
-    "summary": "视频标题未提供，无法生成摘要。",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av117206469904243"
-  },
-  {
-    "id": "64a3f830ae70a611",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-09-04",
-    "summary": "视频摘要",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av114341223336563"
+    "url": "http://www.bilibili.com/video/av117187729693970"
   },
   {
     "id": "da496491e6690377",
@@ -160,6 +208,18 @@ export const generatedVideos: TechVideo[] = [
     "url": "https://www.youtube.com/watch?v=QhDXfSuWgg8"
   },
   {
+    "id": "430f8661eb324ed9",
+    "title": "视频标题",
+    "category": "动力电池",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-09-04",
+    "summary": "摘要内容",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av117201067575984"
+  },
+  {
     "id": "024ba9b63153c098",
     "title": "视频标题",
     "category": "储能",
@@ -172,28 +232,28 @@ export const generatedVideos: TechVideo[] = [
     "url": "http://www.bilibili.com/video/av786888230"
   },
   {
-    "id": "d816301a7dbe27ea",
+    "id": "7982f640da34a3dc",
     "title": "视频标题",
     "category": "储能",
     "region": "国内",
     "source": "行业媒体",
     "duration": "",
-    "date": "2026-09-03",
-    "summary": "视频摘要",
+    "date": "2026-09-04",
+    "summary": "视频标题未提供，无法生成摘要。",
     "hot": false,
-    "url": "http://www.bilibili.com/video/av116731355990059"
+    "url": "http://www.bilibili.com/video/av117206469904243"
   },
   {
-    "id": "25681dc4d7ac2f5c",
+    "id": "64a3f830ae70a611",
     "title": "视频标题",
     "category": "储能",
     "region": "国内",
     "source": "行业媒体",
     "duration": "",
-    "date": "2026-09-03",
-    "summary": "摘要内容",
+    "date": "2026-09-04",
+    "summary": "视频摘要",
     "hot": false,
-    "url": "http://www.bilibili.com/video/av117193719285086"
+    "url": "http://www.bilibili.com/video/av114341223336563"
   },
   {
     "id": "36e4ff43ae291b54",
@@ -256,6 +316,30 @@ export const generatedVideos: TechVideo[] = [
     "url": "http://www.bilibili.com/video/av117164761685950"
   },
   {
+    "id": "d816301a7dbe27ea",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-09-03",
+    "summary": "视频摘要",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av116731355990059"
+  },
+  {
+    "id": "25681dc4d7ac2f5c",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-09-03",
+    "summary": "摘要内容",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av117193719285086"
+  },
+  {
     "id": "af1f9bcad26cc3f4",
     "title": "视频标题",
     "category": "储能",
@@ -278,91 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "视频摘要内容",
     "hot": false,
     "url": "http://www.bilibili.com/video/av117193366834048"
-  },
-  {
-    "id": "2a5e2cb344ee9fc6",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-09-03",
-    "summary": "摘要内容",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av117173318060108"
-  },
-  {
-    "id": "402c57cde52589fa",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-09-03",
-    "summary": "该视频聚焦储能领域最新技术进展，详细介绍了新型电池材料的性能优势与应用前景，并分析了其在电网调峰和可再生能源并网中的关键作用，为行业从业者提供了技术参考与市场洞察。",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av116396902056182"
-  },
-  {
-    "id": "d6a6697601109ff7",
-    "title": "普莱诺公司取得核材料突破",
-    "category": "核能",
-    "region": "海外",
-    "source": "FOX 4 Dallas-Fort Worth",
-    "duration": "2:35",
-    "date": "2026-09-02",
-    "summary": "美国德克萨斯州普莱诺的一家公司宣布在核材料领域取得重大突破，可能对核能行业产生深远影响。该技术或提升核燃料效率、安全性，并助力清洁能源转型。具体细节尚待披露，但已引发行业关注。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=bbbsMqh7iZM"
-  },
-  {
-    "id": "bbad625e3e0f35d2",
-    "title": "模块7：材料与结构可靠性",
-    "category": "核能",
-    "region": "海外",
-    "source": "CUSP",
-    "duration": "92:00",
-    "date": "2026-09-02",
-    "summary": "本视频为核能领域课程模块，聚焦材料与结构可靠性。内容涵盖核电站关键材料在极端环境下的性能退化机制、结构完整性评估方法及可靠性工程实践，旨在提升核设施安全运行与维护水平。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=3M9QC3mWoGE"
-  },
-  {
-    "id": "3383813e7b78235c",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-09-02",
-    "summary": "视频摘要内容",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av730012525"
-  },
-  {
-    "id": "8b7e97e87d31771f",
-    "title": "助力核能卓越：先进测试解决方案网络研讨会",
-    "category": "核能",
-    "region": "海外",
-    "source": "Element Testing",
-    "duration": "24:23",
-    "date": "2026-09-01",
-    "summary": "本次网络研讨会由Element Testing主办，聚焦核能领域的先进测试解决方案。内容涵盖材料性能评估、无损检测及安全合规性验证等关键技术，旨在提升核电站运行效率与安全性，为行业从业者提供专业测试技术参考。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=zEmRcgujqQw"
-  },
-  {
-    "id": "770b811b1261fc22",
-    "title": "堆叠式储能系统能否承受1000°C高温？",
-    "category": "储能",
-    "region": "海外",
-    "source": "CATL",
-    "duration": "2:41",
-    "date": "2026-09-01",
-    "summary": "宁德时代测试其堆叠式储能系统在1000°C高温下的性能，验证热失控防护与结构稳定性。该测试旨在确保极端条件下系统安全，为储能电站提供更高可靠性保障，推动行业安全标准提升。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=_am_wBw-3UA"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-09-05T00:24:13' }
+export const generatedMeta = { updatedAt: '2026-09-06T00:13:49' }
