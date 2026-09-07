@@ -25,7 +25,9 @@ export const generatedMeta = {{ updatedAt: '{ts}' }}
 
 
 def export_site(conn, cfg: dict) -> int:
-    rows = [r for r in dbm.list_approved(conn, int(cfg.get("max_publish", 30))) if r["kind"] != "news"]
+    limit = int(cfg.get("max_publish", 30))
+    # 新闻短观点与视频共用 approved 队列，先放宽取数再按类型截取，避免互相挤占名额
+    rows = [r for r in dbm.list_approved(conn, limit * 5) if r["kind"] != "news"][:limit]
     items = []
     for r in rows:
         items.append({
@@ -64,10 +66,11 @@ export const insightsMeta = {{ updatedAt: '{ts}' }}
 
 def export_insights(conn, cfg: dict) -> int:
     """导出「行业短观点」：已人工审定（approved/published）且有观点定稿的新闻条目。"""
+    limit = int(cfg.get("max_publish", 30))
     rows = [
-        r for r in dbm.list_approved(conn, int(cfg.get("max_publish", 30)))
+        r for r in dbm.list_approved(conn, limit * 5)
         if r["kind"] == "news" and (r["viewpoint"] or "").strip()
-    ]
+    ][:limit]
     items = []
     for r in rows:
         items.append({

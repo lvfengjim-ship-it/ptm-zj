@@ -1,5 +1,5 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-09-07T01:57:36
+// 生成时间: 2026-09-07T11:41:19
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
@@ -112,18 +112,6 @@ export const generatedVideos: TechVideo[] = [
     "url": "http://www.bilibili.com/video/av1402089521"
   },
   {
-    "id": "2ba50768ae7d8b2d",
-    "title": "美国核管理委员会批准加州迪亚布罗峡谷核电站延长运行至2030年",
-    "category": "核能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-09-05",
-    "summary": "美国核管理委员会批准迪亚布罗峡谷核电站两台机组延寿至2030年，该核电站为加州提供约9%电力。此举有助于保障加州清洁能源供应，但需应对地震风险及乏燃料储存问题。",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av1005830760"
-  },
-  {
     "id": "a8e948822b43f221",
     "title": "核能的经济学",
     "category": "核能",
@@ -194,6 +182,18 @@ export const generatedVideos: TechVideo[] = [
     "summary": "视频探讨了氢能作为清洁能源载体在生产、储存及应用方面的最新进展。内容涵盖电解水制氢、高压与液态储氢技术，以及氢燃料电池在交通和工业脱碳中的潜力，为行业从业者提供了氢能全产业链的技术概览。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=0qNFumPT0FY"
+  },
+  {
+    "id": "2ba50768ae7d8b2d",
+    "title": "美国核管理委员会批准加州迪亚布罗峡谷核电站延长运行至2030年",
+    "category": "核能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-09-05",
+    "summary": "美国核管理委员会批准迪亚布罗峡谷核电站两台机组延寿至2030年，该核电站为加州提供约9%电力。此举有助于保障加州清洁能源供应，但需应对地震风险及乏燃料储存问题。",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av1005830760"
   },
   {
     "id": "ac6c880edf2294f6",
@@ -365,4 +365,4 @@ export const generatedVideos: TechVideo[] = [
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-09-07T01:57:36' }
+export const generatedMeta = { updatedAt: '2026-09-07T11:41:19' }
