@@ -1,8 +1,32 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-09-06T00:13:49
+// 生成时间: 2026-09-07T00:21:10
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "296facb5307c1fbc",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-09-06",
+    "summary": "视频标题未提供，无法生成摘要。",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av705271404"
+  },
+  {
+    "id": "68a1aa9f752f33c9",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-09-06",
+    "summary": "视频标题未提供，无法生成摘要。",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av1402089521"
+  },
   {
     "id": "15d2217a4b9e3f20",
     "title": "风能材料讲座",
@@ -62,18 +86,6 @@ export const generatedVideos: TechVideo[] = [
     "summary": "摘要内容",
     "hot": false,
     "url": "http://www.bilibili.com/video/av114255407880044"
-  },
-  {
-    "id": "ac6c880edf2294f6",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-09-05",
-    "summary": "视频摘要",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av117201151530794"
   },
   {
     "id": "a8e948822b43f221",
@@ -148,16 +160,16 @@ export const generatedVideos: TechVideo[] = [
     "url": "https://www.youtube.com/watch?v=0qNFumPT0FY"
   },
   {
-    "id": "77712b16769aee10",
+    "id": "ac6c880edf2294f6",
     "title": "视频标题",
-    "category": "核能",
+    "category": "储能",
     "region": "国内",
     "source": "行业媒体",
     "duration": "",
-    "date": "2026-09-04",
-    "summary": "摘要内容",
+    "date": "2026-09-05",
+    "summary": "视频摘要",
     "hot": false,
-    "url": "http://www.bilibili.com/video/av117187729693970"
+    "url": "http://www.bilibili.com/video/av117201151530794"
   },
   {
     "id": "da496491e6690377",
@@ -256,6 +268,30 @@ export const generatedVideos: TechVideo[] = [
     "url": "http://www.bilibili.com/video/av114341223336563"
   },
   {
+    "id": "77712b16769aee10",
+    "title": "视频标题",
+    "category": "核能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-09-04",
+    "summary": "摘要内容",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av117187729693970"
+  },
+  {
+    "id": "e1229fe3d7f5b8b8",
+    "title": "视频标题",
+    "category": "储能",
+    "region": "国内",
+    "source": "行业媒体",
+    "duration": "",
+    "date": "2026-09-03",
+    "summary": "视频标题未提供，无法生成摘要。请提供具体视频内容以便分析。",
+    "hot": false,
+    "url": "http://www.bilibili.com/video/av117195044558623"
+  },
+  {
     "id": "36e4ff43ae291b54",
     "title": "库尔特·特拉尼 - 先进核燃料",
     "category": "核能",
@@ -326,43 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "视频摘要",
     "hot": false,
     "url": "http://www.bilibili.com/video/av116731355990059"
-  },
-  {
-    "id": "25681dc4d7ac2f5c",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-09-03",
-    "summary": "摘要内容",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av117193719285086"
-  },
-  {
-    "id": "af1f9bcad26cc3f4",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-09-03",
-    "summary": "视频摘要内容，需根据实际视频信息填写，这里仅作示例。",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av117195111663375"
-  },
-  {
-    "id": "2ad9b138955145aa",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-09-03",
-    "summary": "视频摘要内容",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av117193366834048"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-09-06T00:13:49' }
+export const generatedMeta = { updatedAt: '2026-09-07T00:21:10' }
