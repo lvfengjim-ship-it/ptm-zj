@@ -25,7 +25,21 @@ CREATE TABLE IF NOT EXISTS videos (
   reviewed_at TEXT
 );
 CREATE INDEX IF NOT EXISTS idx_videos_status ON videos(status);
+CREATE TABLE IF NOT EXISTS kv (
+  key   TEXT PRIMARY KEY,
+  value TEXT DEFAULT ''
+);
 """
+
+
+def get_state(conn: sqlite3.Connection, key: str, default: str = "") -> str:
+    row = conn.execute("SELECT value FROM kv WHERE key=?", (key,)).fetchone()
+    return row["value"] if row else default
+
+
+def set_state(conn: sqlite3.Connection, key: str, value: str) -> None:
+    conn.execute("INSERT INTO kv(key, value) VALUES(?, ?) ON CONFLICT(key) DO UPDATE SET value=excluded.value", (key, value))
+    conn.commit()
 
 
 def connect(db_path: Path) -> sqlite3.Connection:
@@ -55,6 +69,8 @@ def insert_pending(conn: sqlite3.Connection, items: list[dict]) -> int:
     now = datetime.now().isoformat(timespec="seconds")
     added = 0
     for it in items:
+        if not (it.get("title") or "").strip():
+            continue  # 拦截无标题的无效条目（抓取源偶发返回）
         vid = make_id(it["platform"], it["video_id"])
         cur = conn.execute(
             """INSERT OR IGNORE INTO videos

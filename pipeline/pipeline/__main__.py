@@ -69,6 +69,17 @@ def run(mock: bool = False, no_ai: bool = False, auto_approve: bool = False) -> 
     print("== 3/3 完成 ==")
     st = dbm.stats(conn)
     print("[stats]", st)
+
+    # 有待审定的短观点草稿时推送钉钉/企业微信提醒（数量变化才提醒，避免每天重复轰炸）
+    drafts = [r for r in dbm.list_by_status(conn, "pending", 100) if r["kind"] == "news" and (r["viewpoint"] or "")]
+    if drafts:
+        last = dbm.get_state(conn, "last_notified_draft_count", "-1")
+        if str(len(drafts)) != last:
+            from .notify import notify_pending_news
+            if notify_pending_news(cfg, drafts):
+                dbm.set_state(conn, "last_notified_draft_count", str(len(drafts)))
+        else:
+            print(f"[notify] 待审草稿数未变化（{len(drafts)} 条），本轮不重复提醒")
     print("提示: 运行 python -m pipeline serve 打开审核台，审核后点「导出到官网」")
     conn.close()
 

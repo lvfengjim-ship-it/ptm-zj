@@ -43,6 +43,9 @@ jobs:
           DP_API_KEY: ${{ secrets.DP_API_KEY }}
           DP_API_BASE: ${{ secrets.DP_API_BASE }}
           DP_MODEL: ${{ secrets.DP_MODEL }}
+          DINGTALK_WEBHOOK: ${{ secrets.DINGTALK_WEBHOOK }}
+          DINGTALK_SECRET: ${{ secrets.DINGTALK_SECRET }}
+          WECOM_WEBHOOK: ${{ secrets.WECOM_WEBHOOK }}
         run: |
           cd pipeline
           python -m pipeline run --auto-approve

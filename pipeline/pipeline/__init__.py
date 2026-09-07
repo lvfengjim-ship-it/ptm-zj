@@ -19,6 +19,9 @@ DEFAULTS = {
     "review_port": 8765,
     "run_time": "06:42",
     "max_publish": 30,
+    "dingtalk_webhook": "",
+    "dingtalk_secret": "",
+    "wecom_webhook": "",
 }
 
 
@@ -32,10 +35,13 @@ def load_config() -> dict:
                 cfg[k].update(v)
             else:
                 cfg[k] = v
-    # 环境变量优先（推荐用于 API Key）
+    # 环境变量优先（推荐用于 API Key 与机器人凭据）
     cfg["dp_api_key"] = os.environ.get("DP_API_KEY") or cfg.get("dp_api_key", "")
     cfg["dp_api_base"] = os.environ.get("DP_API_BASE") or cfg.get("dp_api_base", DEFAULTS["dp_api_base"])
     cfg["dp_model"] = os.environ.get("DP_MODEL") or cfg.get("dp_model", DEFAULTS["dp_model"])
+    cfg["dingtalk_webhook"] = os.environ.get("DINGTALK_WEBHOOK") or cfg.get("dingtalk_webhook", "")
+    cfg["dingtalk_secret"] = os.environ.get("DINGTALK_SECRET") or cfg.get("dingtalk_secret", "")
+    cfg["wecom_webhook"] = os.environ.get("WECOM_WEBHOOK") or cfg.get("wecom_webhook", "")
     DATA_DIR.mkdir(parents=True, exist_ok=True)
     DRAFTS_DIR.mkdir(parents=True, exist_ok=True)
     return cfg
