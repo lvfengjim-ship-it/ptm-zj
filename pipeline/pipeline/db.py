@@ -32,7 +32,18 @@ def connect(db_path: Path) -> sqlite3.Connection:
     conn = sqlite3.connect(str(db_path))
     conn.row_factory = sqlite3.Row
     conn.executescript(SCHEMA)
+    _migrate(conn)
     return conn
+
+
+def _migrate(conn: sqlite3.Connection) -> None:
+    """老库平滑升级：补 kind（video/news）与 viewpoint（短观点）列。"""
+    cols = {r[1] for r in conn.execute("PRAGMA table_info(videos)")}
+    if "kind" not in cols:
+        conn.execute("ALTER TABLE videos ADD COLUMN kind TEXT DEFAULT 'video'")
+    if "viewpoint" not in cols:
+        conn.execute("ALTER TABLE videos ADD COLUMN viewpoint TEXT DEFAULT ''")
+    conn.commit()
 
 
 def make_id(platform: str, video_id: str) -> str:
@@ -40,7 +51,7 @@ def make_id(platform: str, video_id: str) -> str:
 
 
 def insert_pending(conn: sqlite3.Connection, items: list[dict]) -> int:
-    """插入新抓取的视频，已存在的跳过。返回新增条数。"""
+    """插入新抓取的内容（视频/新闻），已存在的跳过。返回新增条数。"""
     now = datetime.now().isoformat(timespec="seconds")
     added = 0
     for it in items:
@@ -48,12 +59,13 @@ def insert_pending(conn: sqlite3.Connection, items: list[dict]) -> int:
         cur = conn.execute(
             """INSERT OR IGNORE INTO videos
                (id, platform, video_id, title, url, duration, published, source_name,
-                region, category, summary, hot, status, created_at)
-               VALUES (?,?,?,?,?,?,?,?,?,?,?,0,'pending',?)""",
+                region, category, summary, hot, status, created_at, kind)
+               VALUES (?,?,?,?,?,?,?,?,?,?,?,0,'pending',?,?)""",
             (
                 vid, it["platform"], it["video_id"], it["title"], it["url"],
                 it.get("duration", ""), it.get("published", ""), it.get("source_name", ""),
                 it.get("region", ""), it.get("category", ""), it.get("summary", ""), now,
+                it.get("kind", "video"),
             ),
         )
         added += cur.rowcount
@@ -69,6 +81,18 @@ def update_ai_result(conn: sqlite3.Connection, vid: str, category: str, summary:
     conn.commit()
 
 
+def update_news_result(conn: sqlite3.Connection, vid: str, category: str, viewpoint: str):
+    """写入新闻条目的 DP·AI 短观点草稿（保持 pending，等待人工审定）。"""
+    conn.execute("UPDATE videos SET category=?, viewpoint=? WHERE id=?", (category, viewpoint, vid))
+    conn.commit()
+
+
+def save_viewpoint(conn: sqlite3.Connection, vid: str, viewpoint: str):
+    """审核台人工编辑后的短观点定稿。"""
+    conn.execute("UPDATE videos SET viewpoint=? WHERE id=?", (viewpoint, vid))
+    conn.commit()
+
+
 def set_status(conn: sqlite3.Connection, vid: str, status: str):
     conn.execute(
         "UPDATE videos SET status=?, reviewed_at=? WHERE id=?",
@@ -78,10 +102,12 @@ def set_status(conn: sqlite3.Connection, vid: str, status: str):
 
 
 def approve_processed(conn: sqlite3.Connection) -> int:
-    """自动模式：将已完成 DP·AI 处理（有分类与摘要）的待审记录标记为通过。"""
+    """自动模式：将已完成 DP·AI 处理（有分类与摘要）的待审视频标记为通过。
+    新闻短观点（kind='news'）不在此列——必须经人工审定后发布。"""
     cur = conn.execute(
         "UPDATE videos SET status='approved', reviewed_at=? "
-        "WHERE status='pending' AND summary IS NOT NULL AND summary != '' "
+        "WHERE status='pending' AND kind='video' "
+        "AND summary IS NOT NULL AND summary != '' "
         "AND category IS NOT NULL AND category != ''",
         (datetime.now().isoformat(timespec="seconds"),),
     )

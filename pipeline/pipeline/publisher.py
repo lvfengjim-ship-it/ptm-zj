@@ -25,7 +25,7 @@ export const generatedMeta = {{ updatedAt: '{ts}' }}
 
 
 def export_site(conn, cfg: dict) -> int:
-    rows = dbm.list_approved(conn, int(cfg.get("max_publish", 30)))
+    rows = [r for r in dbm.list_approved(conn, int(cfg.get("max_publish", 30))) if r["kind"] != "news"]
     items = []
     for r in rows:
         items.append({
@@ -48,6 +48,45 @@ def export_site(conn, cfg: dict) -> int:
         encoding="utf-8",
     )
     print(f"[publish] 官网数据已导出 {len(items)} 条 -> {SITE_DATA_DIR / 'videos.generated.ts'}")
+    return len(items)
+
+
+INSIGHTS_HEADER = """// 本文件由 AI 内容管线自动生成，请勿手工编辑。
+// 生成时间: {ts}
+import type {{ TechInsight }} from './insights'
+
+export const generatedInsights: TechInsight[] = """
+
+INSIGHTS_EXTRA = """
+export const insightsMeta = {{ updatedAt: '{ts}' }}
+"""
+
+
+def export_insights(conn, cfg: dict) -> int:
+    """导出「行业短观点」：已人工审定（approved/published）且有观点定稿的新闻条目。"""
+    rows = [
+        r for r in dbm.list_approved(conn, int(cfg.get("max_publish", 30)))
+        if r["kind"] == "news" and (r["viewpoint"] or "").strip()
+    ]
+    items = []
+    for r in rows:
+        items.append({
+            "id": r["id"],
+            "title": r["title"],
+            "category": r["category"] or "综合",
+            "source": r["source_name"] or "公开新闻",
+            "date": (r["published"] or "")[:10] or (r["created_at"] or "")[:10],
+            "url": r["url"],
+            "viewpoint": r["viewpoint"],
+        })
+    SITE_DATA_DIR.mkdir(parents=True, exist_ok=True)
+    ts = datetime.now().isoformat(timespec="seconds")
+    payload = json.dumps(items, ensure_ascii=False, indent=2)
+    (SITE_DATA_DIR / "insights.generated.ts").write_text(
+        INSIGHTS_HEADER.format(ts=ts) + payload + "\n" + INSIGHTS_EXTRA.format(ts=ts),
+        encoding="utf-8",
+    )
+    print(f"[publish] 短观点已导出 {len(items)} 条 -> {SITE_DATA_DIR / 'insights.generated.ts'}")
     return len(items)
 
 

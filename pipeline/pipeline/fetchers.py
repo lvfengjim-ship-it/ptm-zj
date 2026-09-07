@@ -1,4 +1,4 @@
-"""抓取层：yt-dlp 搜索（YouTube / B 站，免 API Key）+ RSS 订阅源。
+"""抓取层：yt-dlp 搜索（YouTube / B 站，免 API Key）+ RSS 订阅源 + 国内新闻 RSS。
 
 yt-dlp 未安装或网络不可达时自动降级到 RSS；两者都不可用时返回空列表，
 管线仍可对存量数据执行 AI 处理与导出。
@@ -8,6 +8,7 @@ from __future__ import annotations
 import json
 import shutil
 import subprocess
+import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime
@@ -107,6 +108,49 @@ def _rss(url: str) -> list[dict]:
     return [i for i in items if i["video_id"] and i["url"] and i["title"]]
 
 
+def _google_news(query: str, limit: int) -> list[dict]:
+    """Google 新闻中文 RSS（免 Key）：抓取国内政策 / 项目 / 标准类新闻。
+
+    返回 kind='news' 的条目，供 DP·AI 起草「短观点」，经人工审定后发布。
+    """
+    url = (
+        "https://news.google.com/rss/search?q="
+        + urllib.parse.quote(query)
+        + "&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"
+    )
+    try:
+        req = urllib.request.Request(url, headers=UA)
+        with urllib.request.urlopen(req, timeout=30) as r:
+            root = ET.fromstring(r.read())
+    except Exception as e:  # noqa: BLE001
+        print(f"  [fetch] 新闻 RSS 失败 '{query}': {e}")
+        return []
+    items = []
+    for e in list(root.iter("item"))[:limit]:
+        title = (e.findtext("title") or "").strip()
+        link = (e.findtext("link") or "").strip()
+        if not title or not link:
+            continue
+        source = e.findtext("source") or ""
+        # 标题常带 " - 来源" 后缀，去掉以保持整洁
+        if source and title.endswith(f" - {source}"):
+            title = title[: -len(f" - {source}")].strip()
+        pub = (e.findtext("pubDate") or "").strip()
+        items.append({
+            "platform": "news",
+            "video_id": link,
+            "title": title,
+            "url": link,
+            "duration": "",
+            "published": pub,
+            "source_name": source or "Google 新闻聚合",
+            "region": "国内",
+            "kind": "news",
+            "query": query,
+        })
+    return items
+
+
 def fetch_all(cfg: dict) -> list[dict]:
     f = cfg["fetch"]
     limit = int(f.get("max_per_query", 5))
@@ -122,6 +166,10 @@ def fetch_all(cfg: dict) -> list[dict]:
     for u in f.get("rss_feeds", []):
         got = _rss(u)
         print(f"  [fetch] RSS {u}: {len(got)} 条")
+        items += got
+    for q in f.get("news_queries", []):
+        got = _google_news(q, limit)
+        print(f"  [fetch] 国内新闻 '{q}': {len(got)} 条")
         items += got
     print(f"[fetch] 合计 {len(items)} 条 @ {datetime.now():%H:%M:%S}")
     return items

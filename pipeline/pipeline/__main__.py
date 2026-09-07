@@ -16,7 +16,7 @@ from datetime import datetime, timedelta
 from . import DB_PATH, load_config
 from . import db as dbm
 from . import dp_ai, fetchers
-from .publisher import export_site, export_wechat_drafts
+from .publisher import export_site, export_insights, export_wechat_drafts
 
 
 def run(mock: bool = False, no_ai: bool = False, auto_approve: bool = False) -> None:
@@ -29,14 +29,17 @@ def run(mock: bool = False, no_ai: bool = False, auto_approve: bool = False) -> 
     print(f"[store] 新增 {added} 条待处理（重复自动跳过）")
 
     print("== 2/3 DP·AI 处理 ==")
+    use_mock = mock or not cfg["dp_api_key"]
     if no_ai:
         print("[dp-ai] 已按 --no-ai 跳过")
     else:
-        pending = [r for r in dbm.list_by_status(conn, "pending", 200) if not r["summary"]]
-        use_mock = mock or not cfg["dp_api_key"]
         if use_mock and not mock:
             print("[dp-ai] 未配置 DP_API_KEY，使用模拟摘要（配置后自动切换真实调用）")
-        for r in pending:
+        pending_videos = [
+            r for r in dbm.list_by_status(conn, "pending", 200)
+            if not r["summary"] and r["kind"] != "news"
+        ]
+        for r in pending_videos:
             item = dict(r)
             result = dp_ai.process_mock(item) if use_mock else dp_ai.process_item(cfg, item)
             if result:
@@ -45,9 +48,23 @@ def run(mock: bool = False, no_ai: bool = False, auto_approve: bool = False) -> 
             else:
                 print(f"  [dp-ai] 跳过（处理失败，保留待审）: {r['title'][:36]}")
 
+        # 国内政策/项目新闻：DP·AI 起草短观点，保持 pending 等待人工审定（48h 内出稿）
+        pending_news = [
+            r for r in dbm.list_by_status(conn, "pending", 200)
+            if r["kind"] == "news" and not (r["viewpoint"] or "")
+        ]
+        for r in pending_news:
+            item = dict(r)
+            result = dp_ai.process_news_mock(item) if use_mock else dp_ai.process_news(cfg, item)
+            if result and result["viewpoint"]:
+                dbm.update_news_result(conn, r["id"], result["category"], result["viewpoint"])
+                print(f"  [dp-ai] 短观点草稿: {r['title'][:32]}... -> {result['category']}（待人工审定）")
+            else:
+                print(f"  [dp-ai] 短观点起草失败，跳过: {r['title'][:36]}")
+
     if auto_approve:
         n = dbm.approve_processed(conn)
-        print(f"[auto-approve] 自动审核通过 {n} 条（无人值守模式）")
+        print(f"[auto-approve] 自动审核通过 {n} 条视频（短观点需人工审定，不自动发布）")
 
     print("== 3/3 完成 ==")
     st = dbm.stats(conn)
@@ -60,8 +77,9 @@ def export() -> None:
     cfg = load_config()
     conn = dbm.connect(DB_PATH)
     n = export_site(conn, cfg)
+    m = export_insights(conn, cfg)
     export_wechat_drafts(conn)
-    print(f"[export] 完成，官网 {n} 条")
+    print(f"[export] 完成，官网视频 {n} 条 + 短观点 {m} 条")
     conn.close()
 
 

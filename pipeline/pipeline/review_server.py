@@ -11,7 +11,7 @@ from urllib.parse import parse_qs, urlparse
 
 from . import DB_PATH, load_config
 from . import db as dbm
-from .publisher import export_site, export_wechat_drafts
+from .publisher import export_site, export_insights, export_wechat_drafts
 
 PAGE = """<!doctype html>
 <html lang="zh-CN"><head><meta charset="utf-8">
@@ -63,18 +63,29 @@ PAGE = """<!doctype html>
 
 ROW = """<div class="card">
   <div><span class="badge">{category}</span><span class="badge">{region}</span>
-       <strong>{title}</strong></div>
+       {kind_badge}<strong>{title}</strong></div>
   <div class="meta">{platform} ｜ {source} ｜ {published} ｜ {duration} ｜
-    <a href="{url}" target="_blank" rel="noopener">原视频</a></div>
-  <div class="summary">DP·AI 摘要：{summary}</div>
+    <a href="{url}" target="_blank" rel="noopener">原文/原视频</a></div>
+  {body}
   {actions}
 </div>"""
 
+BODY_VIDEO = """<div class="summary">DP·AI 摘要：{summary}</div>"""
+
+BODY_NEWS_VIEW = """<div class="summary">短观点（人工审定稿）：{viewpoint}</div>"""
+
+BODY_NEWS_EDIT = """<div class="meta" style="color:#C72A1D">DP·AI 短观点草稿 ↓ 可直接修改后点「通过」发布：</div>"""
+
 ACTIONS = """<form method="post" action="/decide">
   <input type="hidden" name="id" value="{vid}">
-  <button class="ok" name="action" value="approve">通过</button>
+  {editor}
+  <button class="ok" name="action" value="approve">通过{approve_label}</button>
   <button class="no" name="action" value="reject">驳回</button>
 </form>"""
+
+EDITOR = """<textarea name="viewpoint" rows="5"
+  style="width:100%;box-sizing:border-box;border:1px solid #d4d4d4;border-radius:8px;
+         padding:10px 12px;font-size:13px;font-family:inherit;margin:0 0 10px">{viewpoint}</textarea>"""
 
 
 def _render(conn, status: str) -> str:
@@ -84,16 +95,34 @@ def _render(conn, status: str) -> str:
     else:
         parts = []
         for r in rows:
-            actions = ACTIONS.format(vid=r["id"]) if status == "pending" else ""
+            is_news = r["kind"] == "news"
+            if status == "pending":
+                editor = EDITOR.format(viewpoint=html.escape(r["viewpoint"] or "")) if is_news else ""
+                actions = ACTIONS.format(
+                    vid=r["id"], editor=editor,
+                    approve_label="并发布" if is_news else "",
+                )
+            else:
+                actions = ""
+            if is_news:
+                if status == "pending":
+                    body_html = BODY_NEWS_EDIT
+                elif (r["viewpoint"] or "").strip():
+                    body_html = BODY_NEWS_VIEW.format(viewpoint=html.escape(r["viewpoint"]))
+                else:
+                    body_html = '<div class="summary">（暂无观点内容）</div>'
+            else:
+                body_html = BODY_VIDEO.format(summary=html.escape(r["summary"] or "（待处理）"))
             parts.append(ROW.format(
                 category=html.escape(r["category"] or "未分类"),
                 region=html.escape(r["region"] or "—"),
+                kind_badge='<span class="badge" style="background:#262626;color:#fff">短观点</span>' if is_news else "",
                 title=html.escape(r["title"]),
                 platform=r["platform"], source=html.escape(r["source_name"] or "—"),
                 published=html.escape((r["published"] or "")[:10]),
                 duration=html.escape(r["duration"] or "—"),
                 url=html.escape(r["url"], quote=True),
-                summary=html.escape(r["summary"] or "（待处理）"),
+                body=body_html,
                 actions=actions,
             ))
         body = "\n".join(parts)
@@ -135,9 +164,14 @@ class Handler(BaseHTTPRequestHandler):
             vid = form.get("id", [""])[0]
             action = form.get("action", [""])[0]
             if vid and action in ("approve", "reject"):
+                # 短观点：批准前先保存人工编辑后的观点定稿
+                vp = form.get("viewpoint", [None])[0]
+                if vp is not None:
+                    dbm.save_viewpoint(conn, vid, vp.strip())
                 dbm.set_status(conn, vid, "approved" if action == "approve" else "rejected")
         elif self.path == "/export":
             export_site(conn, cfg)
+            export_insights(conn, cfg)
             export_wechat_drafts(conn)
         conn.close()
         self.send_response(303)

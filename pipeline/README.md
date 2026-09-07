@@ -97,3 +97,14 @@ pipeline/
 │   └── review_server.py    # 零依赖本地审核台
 └── data/                   # pipeline.db 与微信草稿（运行时生成）
 ```
+
+## 行业短观点（国内政策/项目快评，2026-08 新增）
+
+- `fetch.news_queries`：国内新闻关键词（新核准核电机组 / 核安全监管要求 / 防火封堵标准修订 / 氢能储能新材料应用），经 Google 新闻中文 RSS 每日抓取。
+- DP·AI 为每条新闻起草 120-180 字短观点（`viewpoint`），**保持待审状态，不自动发布**。
+- 人工审定流程（政策/项目出来后 48 小时内完成）：
+  1. 本机拉取最新仓库：`git pull`
+  2. 启动审核台：`cd pipeline && python3 -m pipeline serve` → 打开 http://127.0.0.1:8765
+  3. 「待审核」里的短观点卡片可直接在文本框中修改草稿（人写 + AI 辅助），点「通过并发布」
+  4. 点「导出到官网」后提交推送：`git add -f src/data/insights.generated.ts pipeline/data/pipeline.db && git commit -m "短观点更新" && git push`，数分钟内自动上线
+- 官网「技术视界」页顶部展示短观点卡片（标注"DP·AI 辅助起草 · 人工审定后发布"），无审定内容时该板块自动隐藏。

@@ -1,7 +1,8 @@
 import { useMemo, useState } from 'react'
-import { PlayCircle, Sparkles, Globe, Clock, Flame, Rss } from 'lucide-react'
+import { PlayCircle, Sparkles, Globe, Clock, Flame, Rss, MessageSquareText, ArrowUpRight } from 'lucide-react'
 import SectionTitle from '@/sections/SectionTitle'
 import { categories, videos, dataUpdatedAt, type TechVideo } from '@/data/videos'
+import { insights, insightsUpdatedAt } from '@/data/insights'
 
 export default function AiHub() {
   const [cat, setCat] = useState<(typeof categories)[number]>('全部')
@@ -19,16 +20,49 @@ export default function AiHub() {
         <div className="max-w-3xl">
           <div className="inline-flex items-center gap-2 rounded-full border border-ptm/25 bg-ptm-light px-4 py-1.5 text-xs font-medium text-ptm">
             <Sparkles className="h-3.5 w-3.5" />
-            海内外新材料技术视频 · DP·AI 自动管线接入中
+            国内政策快评 + 海内外技术视频 · DP·AI 引擎驱动
           </div>
           <div className="mt-5">
             <SectionTitle
               en="TECH HUB"
               title="技术视界"
-              desc="精选海内外公开新材料技术视频，覆盖核能、氢能、光伏、风电、储能、动力电池等多种能源方向，点击卡片即可跳转观看。DP·AI 内容管线接入后，将自动完成每日抓取、摘要提炼与多语言翻译，做面向全行业的技术普及窗口。"
+              desc="聚焦国内能源政策与项目动态——新核准核电机组、核安全监管要求、防火封堵标准修订、氢能与储能新材料应用，政策一出 48 小时内给出短观点；同时每日精选海内外新材料技术视频，做面向全行业的技术普及窗口。"
             />
           </div>
         </div>
+
+        {/* 行业短观点（国内政策/项目快评，人写 + DP·AI 辅助，48 小时内出稿） */}
+        {insights.length > 0 && (
+          <div className="mt-12">
+            <div className="flex items-center justify-between">
+              <h3 className="flex items-center gap-2 text-lg font-bold text-ink">
+                <MessageSquareText className="h-5 w-5 text-ptm" />
+                行业短观点
+              </h3>
+              <span className="text-xs text-ink-light">DP·AI 辅助起草 · 人工审定后发布{insightsUpdatedAt ? ` · 更新于 ${insightsUpdatedAt.slice(0, 10)}` : ''}</span>
+            </div>
+            <div className="mt-5 grid gap-5 md:grid-cols-2">
+              {insights.map((it) => (
+                <article
+                  key={it.id}
+                  className="group rounded-2xl border border-neutral-200 border-l-4 border-l-ptm bg-white p-5 shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-lg"
+                >
+                  <div className="flex items-center gap-2 text-[11px]">
+                    <span className="rounded-full bg-ptm px-2.5 py-1 font-medium text-white">{it.category}</span>
+                    <span className="text-ink-light">{it.source} · {it.date}</span>
+                  </div>
+                  <a href={it.url} target="_blank" rel="noopener noreferrer" className="mt-2.5 flex items-start gap-1 font-semibold leading-snug text-ink group-hover:text-ptm">
+                    <span className="line-clamp-2">{it.title}</span>
+                    <ArrowUpRight className="mt-0.5 h-4 w-4 shrink-0 text-ink-light group-hover:text-ptm" />
+                  </a>
+                  <p className="mt-3 rounded-lg border border-ptm/15 bg-ptm-light p-3 text-xs leading-relaxed text-ink-gray">
+                    {it.viewpoint}
+                  </p>
+                </article>
+              ))}
+            </div>
+          </div>
+        )}
 
         {/* 能源分类筛选 */}
         <div className="mt-10 flex flex-wrap gap-2.5">

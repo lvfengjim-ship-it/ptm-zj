@@ -53,7 +53,7 @@ jobs:
         run: |
           git config user.name "ptm-content-pipeline"
           git config user.email "pipeline@ptm-zj.com"
-          git add -f src/data/videos.generated.ts pipeline/data/pipeline.db
+          git add -f src/data/videos.generated.ts src/data/insights.generated.ts pipeline/data/pipeline.db
           if git diff --cached --quiet; then
             echo "无新内容，跳过提交"
           else
