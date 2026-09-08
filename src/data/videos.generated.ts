@@ -1,8 +1,20 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-09-07T11:41:19
+// 生成时间: 2026-09-08T00:41:06
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "d4a2b82f20d49a31",
+    "title": "Donut Lab的电池达到409 Wh/kg——但它真的是固态电池吗？",
+    "category": "动力电池",
+    "region": "海外",
+    "source": "The Electric Viking",
+    "duration": "7:05",
+    "date": "2026-09-08",
+    "summary": "Donut Lab宣称其新型电池能量密度达409 Wh/kg，引发关注。但该电池并非传统固态电池，而是半固态或混合固态设计。其高能量密度源于创新材料与结构，但实际性能、安全性和量产能力仍需验证。该技术若成熟，将显著提升电动汽车续航，但距离商业化尚需时日。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=29c43ReGqvY"
+  },
   {
     "id": "c491dc21bba5c6ab",
     "title": "核反应堆是如何工作的",
@@ -350,19 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "本视频介绍电池储能系统（BESS）及其相关消防标准NFPA 855。内容涵盖BESS的基本概念、应用场景、潜在火灾风险，以及NFPA 855对系统设计、安装和维护的安全要求，旨在帮助行业人员理解合规要点，提升储能安全水平。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=jeFvcoRa-aY"
-  },
-  {
-    "id": "612ba5362c6b9541",
-    "title": "固态电池——化学原理、制造工艺与宣称，16分钟详解",
-    "category": "动力电池",
-    "region": "海外",
-    "source": "Adam's Everything EV",
-    "duration": "16:44",
-    "date": "2026-09-03",
-    "summary": "视频16分钟解析固态电池，涵盖化学体系、制造流程及厂商宣称。重点对比硫化物、氧化物等电解质路线，分析界面阻抗、成本与量产挑战，并评估半固态过渡方案及商业化时间表，为行业提供技术参考。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=BMlDtxtJPe8"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-09-07T11:41:19' }
+export const generatedMeta = { updatedAt: '2026-09-08T00:41:06' }
