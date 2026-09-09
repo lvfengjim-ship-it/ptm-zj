@@ -1,8 +1,44 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-09-08T00:41:06
+// 生成时间: 2026-09-09T00:38:11
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "6e560226a5bb5cb0",
+    "title": "风力涡轮机叶片可持续复合材料研讨会 2021年9月6日",
+    "category": "风电",
+    "region": "海外",
+    "source": "Bristol Composites Institute",
+    "duration": "207:55",
+    "date": "2026-09-09",
+    "summary": "布里斯托复合材料研究所举办研讨会，探讨风力叶片用可持续复合材料。内容涉及可回收树脂、生物基纤维及叶片回收技术，旨在降低全生命周期环境影响，提升风电绿色属性。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=x5DfO09Ppyc"
+  },
+  {
+    "id": "5aedaa483da1b083",
+    "title": "电池储能系统消防安全研讨会",
+    "category": "储能",
+    "region": "海外",
+    "source": "California Office of the State Fire Marshal",
+    "duration": "444:38",
+    "date": "2026-09-09",
+    "summary": "加州消防局长办公室举办研讨会，聚焦电池储能系统消防安全。会议探讨了储能系统火灾风险、预防措施、应急响应策略及法规标准，旨在提升行业安全水平，保障人员与设施安全。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=7Q4x62Ni2Zk"
+  },
+  {
+    "id": "860620f7d96b75f5",
+    "title": "麦克赛尔固态电池可通过密封墙无线充电，且耐150°C高温",
+    "category": "储能",
+    "region": "海外",
+    "source": "The Electric Viking",
+    "duration": "6:03",
+    "date": "2026-09-09",
+    "summary": "麦克赛尔开发出新型固态电池，支持无线充电，能穿透密封墙壁，并可在150°C高温下工作。该技术有望提升储能系统安全性与集成灵活性，适用于极端环境或特殊结构场景，为固态电池应用拓展提供新方向。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=q_XW5o87eHc"
+  },
   {
     "id": "d4a2b82f20d49a31",
     "title": "Donut Lab的电池达到409 Wh/kg——但它真的是固态电池吗？",
@@ -326,43 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "摘要内容",
     "hot": false,
     "url": "http://www.bilibili.com/video/av117187729693970"
-  },
-  {
-    "id": "36e4ff43ae291b54",
-    "title": "库尔特·特拉尼 - 先进核燃料",
-    "category": "核能",
-    "region": "海外",
-    "source": "Oak Ridge National Laboratory",
-    "duration": "4:05",
-    "date": "2026-09-03",
-    "summary": "橡树岭国家实验室的库尔特·特拉尼介绍先进核燃料研究，涵盖新型燃料设计、制造工艺及性能测试，旨在提升核反应堆安全性与经济性，为核能可持续发展提供技术支撑。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=NYeWtsgKkuw"
-  },
-  {
-    "id": "cc1a132920ebc892",
-    "title": "解决风电最大的问题",
-    "category": "风电",
-    "region": "海外",
-    "source": "Engineering with Rosie",
-    "duration": "21:35",
-    "date": "2026-09-03",
-    "summary": "视频探讨风电并网难题，指出风电出力波动性对电网稳定性的挑战。介绍多种解决方案，包括储能系统、电网升级、需求响应及风电预测技术，强调综合措施对提高风电消纳能力的重要性。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=Nzj_iOPSHX4"
-  },
-  {
-    "id": "8efc16b554d9ae47",
-    "title": "电池储能系统（BESS）：NFPA 855 简介 | Vortex Fire 网络研讨会",
-    "category": "储能",
-    "region": "海外",
-    "source": "Vortex Fire",
-    "duration": "58:26",
-    "date": "2026-09-03",
-    "summary": "本视频介绍电池储能系统（BESS）及其相关消防标准NFPA 855。内容涵盖BESS的基本概念、应用场景、潜在火灾风险，以及NFPA 855对系统设计、安装和维护的安全要求，旨在帮助行业人员理解合规要点，提升储能安全水平。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=jeFvcoRa-aY"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-09-08T00:41:06' }
+export const generatedMeta = { updatedAt: '2026-09-09T00:38:11' }
