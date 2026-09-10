@@ -1,8 +1,20 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-09-09T00:38:11
+// 生成时间: 2026-09-10T00:36:39
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "e073fe77ffdc3cd2",
+    "title": "奇瑞为固态电池设定日期：你真正能买到的时间是何时",
+    "category": "动力电池",
+    "region": "海外",
+    "source": "The Electric Viking",
+    "duration": "5:17",
+    "date": "2026-09-10",
+    "summary": "奇瑞宣布固态电池量产时间表，预计2026年装车，2027年批量交付。该电池能量密度更高、充电更快、安全性更好，将率先应用于高端车型，推动电动汽车普及。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=_hvUYEtTwyQ"
+  },
   {
     "id": "6e560226a5bb5cb0",
     "title": "风力涡轮机叶片可持续复合材料研讨会 2021年9月6日",
@@ -350,19 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "视频摘要",
     "hot": false,
     "url": "http://www.bilibili.com/video/av114341223336563"
-  },
-  {
-    "id": "77712b16769aee10",
-    "title": "视频标题",
-    "category": "核能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-09-04",
-    "summary": "摘要内容",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av117187729693970"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-09-09T00:38:11' }
+export const generatedMeta = { updatedAt: '2026-09-10T00:36:39' }
