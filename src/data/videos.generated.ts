@@ -1,5 +1,5 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-09-10T00:36:39
+// 生成时间: 2026-09-11T00:34:07
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
@@ -365,4 +365,4 @@ export const generatedVideos: TechVideo[] = [
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-09-10T00:36:39' }
+export const generatedMeta = { updatedAt: '2026-09-11T00:34:07' }
