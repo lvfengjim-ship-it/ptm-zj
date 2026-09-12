@@ -1,8 +1,44 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-09-11T00:34:07
+// 生成时间: 2026-09-12T00:39:13
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "f1937127bed80ebb",
+    "title": "[完整课程] 储氢基础 第一讲：绪论",
+    "category": "氢能",
+    "region": "海外",
+    "source": "EEB: Electrical Engineer BootCamp",
+    "duration": "3:23",
+    "date": "2026-09-12",
+    "summary": "本课程系统讲解储氢技术基础，涵盖高压气态、低温液态及金属氢化物等固态储氢方式的原理与对比，分析质量储氢密度、体积储氢密度及热力学动力学约束，为氢能储运工程提供理论框架。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=-NxOF9f9Nis"
+  },
+  {
+    "id": "a10e635b0df58c02",
+    "title": "氢气的制备与储存",
+    "category": "氢能",
+    "region": "海外",
+    "source": "Discover Materials",
+    "duration": "4:29",
+    "date": "2026-09-12",
+    "summary": "视频介绍氢气制备与储存技术，涵盖电解水制氢、储氢材料及系统集成等关键环节，分析不同储氢方式的技术特点与适用场景，为氢能产业链从业者提供技术参考。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=mRZxvpQSTq4"
+  },
+  {
+    "id": "578e7374939d4b51",
+    "title": "Md. Nizam Uddin 博士：面向燃料电池应用的纳米材料基固态储氢",
+    "category": "氢能",
+    "region": "海外",
+    "source": "Texas A&M University-Texarkana Honors College",
+    "duration": "35:51",
+    "date": "2026-09-12",
+    "summary": "该报告探讨利用纳米材料实现固态储氢，以服务于燃料电池应用。内容涉及纳米结构吸附剂与氢化物在温和条件下的可逆吸放氢机制、热力学与动力学调控策略，以及循环稳定性与质量储氢密度等关键指标。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=jiDoBtLclxo"
+  },
   {
     "id": "e073fe77ffdc3cd2",
     "title": "奇瑞为固态电池设定日期：你真正能买到的时间是何时",
@@ -326,43 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "摘要内容",
     "hot": false,
     "url": "http://www.bilibili.com/video/av117201067575984"
-  },
-  {
-    "id": "024ba9b63153c098",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-09-04",
-    "summary": "视频摘要内容",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av786888230"
-  },
-  {
-    "id": "7982f640da34a3dc",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-09-04",
-    "summary": "视频标题未提供，无法生成摘要。",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av117206469904243"
-  },
-  {
-    "id": "64a3f830ae70a611",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-09-04",
-    "summary": "视频摘要",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av114341223336563"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-09-11T00:34:07' }
+export const generatedMeta = { updatedAt: '2026-09-12T00:39:13' }
