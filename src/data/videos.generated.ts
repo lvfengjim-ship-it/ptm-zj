@@ -1,8 +1,80 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-09-12T00:39:13
+// 生成时间: 2026-09-13T00:22:59
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "bfd8dafef8d4358f",
+    "title": "储氢：安全、高效，面向未来",
+    "category": "氢能",
+    "region": "海外",
+    "source": "ENERGY TALKS",
+    "duration": "110:08",
+    "date": "2026-09-13",
+    "summary": "视频探讨储氢技术，强调安全与效率，涵盖高压气态、液态及固态储氢等方案，分析其技术成熟度与未来应用前景，面向氢能从业者提供参考。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=CZq5nRQXBZ4"
+  },
+  {
+    "id": "122066103e8f0660",
+    "title": "储能的未来：氢能、热储能、压缩空气与重力储能技术",
+    "category": "储能",
+    "region": "海外",
+    "source": "MIT Energy Initiative",
+    "duration": "56:08",
+    "date": "2026-09-13",
+    "summary": "MIT能源倡议梳理了氢能、热储能、压缩空气和重力储能四类长时储能技术路线，分析其原理、适用场景与商业化瓶颈，为电网级储能技术选型提供参考。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=UJgz_9ULplM"
+  },
+  {
+    "id": "92cefcc960727835",
+    "title": "我们能否不用储罐储存氢气？新研究给出肯定答案！",
+    "category": "氢能",
+    "region": "海外",
+    "source": "reneenergy. com",
+    "duration": "11:14",
+    "date": "2026-09-13",
+    "summary": "该研究提出一种无需高压或低温储罐的储氢新方法，可能利用材料吸附或化学载体实现常温常压储运。若验证成功，将大幅降低储氢成本与安全风险，推动氢能规模化应用。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=P2-xExba7Pc"
+  },
+  {
+    "id": "2e1bfb2fc5d84532",
+    "title": "钙钛矿太阳能电池稳定性研究的当前方法 - ICN2 #StayAtHome 研讨会",
+    "category": "光伏",
+    "region": "海外",
+    "source": "Institut Català de Nanociència i Nanotecnologia",
+    "duration": "115:31",
+    "date": "2026-09-13",
+    "summary": "ICN2研讨会聚焦钙钛矿太阳能电池稳定性研究，梳理当前主流方法，涵盖材料降解机制、界面工程与封装策略，并讨论标准化测试协议，为提升器件长期稳定性提供技术参考。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=oU_DInslfHI"
+  },
+  {
+    "id": "d98e760a9ffc3983",
+    "title": "基于石墨烯功能纳米复合材料的高稳定高效钙钛矿太阳能电池",
+    "category": "光伏",
+    "region": "海外",
+    "source": "Advanced Materials Congress Lectures",
+    "duration": "25:40",
+    "date": "2026-09-13",
+    "summary": "该研究将石墨烯基功能纳米复合材料引入钙钛矿太阳能电池，通过界面修饰与缺陷钝化提升器件稳定性与光电转换效率，为钙钛矿光伏商业化提供材料方案。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=EGOLhppdNN0"
+  },
+  {
+    "id": "bdb6c71351176d04",
+    "title": "由碳制成的有机太阳能电池！",
+    "category": "光伏",
+    "region": "海外",
+    "source": "German Science Guy",
+    "duration": "15:51",
+    "date": "2026-09-13",
+    "summary": "该视频介绍以碳基材料构建有机太阳能电池的技术路径，涵盖给体-受体异质结结构、溶液法制备工艺及柔性、半透明器件优势，并分析其光电转换效率与稳定性瓶颈及商业化前景。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=C_oWG_PYpkE"
+  },
   {
     "id": "f1937127bed80ebb",
     "title": "[完整课程] 储氢基础 第一讲：绪论",
@@ -290,79 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "美国核管理委员会批准迪亚布罗峡谷核电站两台机组延寿至2030年，该核电站为加州提供约9%电力。此举有助于保障加州清洁能源供应，但需应对地震风险及乏燃料储存问题。",
     "hot": false,
     "url": "http://www.bilibili.com/video/av1005830760"
-  },
-  {
-    "id": "ac6c880edf2294f6",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-09-05",
-    "summary": "视频摘要",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av117201151530794"
-  },
-  {
-    "id": "da496491e6690377",
-    "title": "600吨钢锭如何锻造用于核反应堆",
-    "category": "核能",
-    "region": "海外",
-    "source": "Factory Secrets: How It's Made",
-    "duration": "239:18",
-    "date": "2026-09-04",
-    "summary": "本视频展示了用于核反应堆的600吨级钢锭的锻造过程，涵盖从原材料选择、冶炼、浇铸到锻造及热处理的完整工艺，强调质量控制与安全标准，为行业从业者提供了重型锻件制造的关键技术参考。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=al3P7c-8jhg"
-  },
-  {
-    "id": "cc19e5891be03e26",
-    "title": "铀矿石如何在工厂中转化为核燃料",
-    "category": "核能",
-    "region": "海外",
-    "source": "Factory Secrets: How It's Made",
-    "duration": "60:41",
-    "date": "2026-09-04",
-    "summary": "本视频展示铀矿石从开采到转化为核燃料的完整工业流程，包括破碎、研磨、化学浸出、纯化、转化为六氟化铀及浓缩等关键步骤，并强调安全与质量控制，为核能行业从业者提供直观的技术参考。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=4Q5dl9F0SjE"
-  },
-  {
-    "id": "734e8df7c130594b",
-    "title": "核能入门：核安全的技术与制度",
-    "category": "核能",
-    "region": "海外",
-    "source": "Belfer Center",
-    "duration": "108:33",
-    "date": "2026-09-04",
-    "summary": "本视频由贝尔弗中心制作，介绍核安全的基本概念，涵盖核材料安全、核设施保护及防扩散机制。内容涉及技术措施如实物保护、材料衡算，以及制度框架如国际原子能机构保障监督，旨在为从业者提供核安全领域的系统性基础认知。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=2GLZAKmCRRE"
-  },
-  {
-    "id": "729d0628a40e3625",
-    "title": "美国刚刚公布了其人造太阳计划",
-    "category": "核能",
-    "region": "海外",
-    "source": "World Unnoticed",
-    "duration": "15:04",
-    "date": "2026-09-04",
-    "summary": "美国公布人造太阳计划，旨在实现可控核聚变。该计划涉及国家实验室与私营企业合作，推进惯性约束与磁约束聚变技术，目标是在未来数十年内建成示范电站，为清洁能源供应提供新途径。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=QhDXfSuWgg8"
-  },
-  {
-    "id": "430f8661eb324ed9",
-    "title": "视频标题",
-    "category": "动力电池",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-09-04",
-    "summary": "摘要内容",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av117201067575984"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-09-12T00:39:13' }
+export const generatedMeta = { updatedAt: '2026-09-13T00:22:59' }
