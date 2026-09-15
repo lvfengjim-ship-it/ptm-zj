@@ -1,8 +1,32 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-09-14T00:27:26
+// 生成时间: 2026-09-15T00:55:16
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "617c653e5fdabec5",
+    "title": "氢能家庭储能：这会是游戏规则改变者吗？",
+    "category": "氢能",
+    "region": "海外",
+    "source": "Just Have a Think",
+    "duration": "11:09",
+    "date": "2026-09-15",
+    "summary": "视频探讨氢能家庭储能技术，分析其作为住宅储能方案的可行性，对比锂电池在能量密度、长期存储和季节调节方面的优势，并评估成本、效率及基础设施挑战，判断其能否成为游戏规则改变者。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=0_bTjcjqN6c"
+  },
+  {
+    "id": "a548f2d023e69fe4",
+    "title": "Stat-X® 储能系统灭火动画视频",
+    "category": "储能",
+    "region": "海外",
+    "source": "Stat-X Fire Suppression",
+    "duration": "3:12",
+    "date": "2026-09-15",
+    "summary": "该动画展示Stat-X®气溶胶灭火系统在储能集装箱内的应用，通过热敏元件自动触发，快速释放灭火微粒，抑制锂离子电池热失控火灾，适用于电池柜、PCS及预制舱等场景。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=P4LSj6CagF4"
+  },
   {
     "id": "bfd8dafef8d4358f",
     "title": "储氢：安全、高效，面向未来",
@@ -338,31 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "SoCalGas介绍用于重型车辆的材料基储氢技术，涵盖金属氢化物、化学储氢等方案，旨在提高储氢密度与安全性，降低加氢成本，推动氢能重卡商业化应用。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=jTpkNDKxDMM"
-  },
-  {
-    "id": "38dc26235276b602",
-    "title": "氢能的生产、储存与应用：迈向可持续未来",
-    "category": "氢能",
-    "region": "海外",
-    "source": "Engineering Institute of Technology",
-    "duration": "76:08",
-    "date": "2026-09-05",
-    "summary": "视频探讨了氢能作为清洁能源载体在生产、储存及应用方面的最新进展。内容涵盖电解水制氢、高压与液态储氢技术，以及氢燃料电池在交通和工业脱碳中的潜力，为行业从业者提供了氢能全产业链的技术概览。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=0qNFumPT0FY"
-  },
-  {
-    "id": "2ba50768ae7d8b2d",
-    "title": "美国核管理委员会批准加州迪亚布罗峡谷核电站延长运行至2030年",
-    "category": "核能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-09-05",
-    "summary": "美国核管理委员会批准迪亚布罗峡谷核电站两台机组延寿至2030年，该核电站为加州提供约9%电力。此举有助于保障加州清洁能源供应，但需应对地震风险及乏燃料储存问题。",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av1005830760"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-09-14T00:27:26' }
+export const generatedMeta = { updatedAt: '2026-09-15T00:55:16' }
