@@ -1,8 +1,68 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-09-15T00:55:16
+// 生成时间: 2026-09-16T00:49:14
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "d13fc9bba874af49",
+    "title": "氢气储罐的类型：清洁能源储存的未来",
+    "category": "氢能",
+    "region": "海外",
+    "source": "ADDCOMPOSITES",
+    "duration": "3:20",
+    "date": "2026-09-16",
+    "summary": "视频介绍氢气储罐的主要类型，包括高压气态储罐、液氢储罐及固态储氢材料，分析其材料选择、压力等级与储氢密度，并探讨复合材料在轻量化与安全性方面的应用前景。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=Xi-7xNHUy8Y"
+  },
+  {
+    "id": "09394112ae474e9d",
+    "title": "用于风能的风电复合材料",
+    "category": "风电",
+    "region": "海外",
+    "source": "DTU Wind and Energy Systems",
+    "duration": "29:37",
+    "date": "2026-09-16",
+    "summary": "DTU风能与能源系统团队介绍风电叶片用复合材料技术，涵盖玻璃纤维与碳纤维增强树脂体系、铺层结构设计、疲劳与刚度性能，以及大型叶片制造工艺与可持续回收方向。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=zaPYWoFlRjM"
+  },
+  {
+    "id": "d0e4387048ec5037",
+    "title": "未来大型风力涡轮机叶片制造的行业视角 – John Korsgaard (ACM5)",
+    "category": "风电",
+    "region": "海外",
+    "source": "Bristol Composites Institute",
+    "duration": "56:46",
+    "date": "2026-09-16",
+    "summary": "John Korsgaard从行业视角探讨未来大型风电叶片制造，涉及复合材料应用、大型化带来的工艺挑战、成本控制与可制造性，为叶片设计与量产提供参考。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=O8jUhrJzfck"
+  },
+  {
+    "id": "acc00e2eaa4e4491",
+    "title": "360英尺巨兽：巨型风力涡轮机叶片如何制造（碳纤维秘密）",
+    "category": "风电",
+    "region": "海外",
+    "source": "Factory Secrets: How It's Made",
+    "duration": "67:59",
+    "date": "2026-09-16",
+    "summary": "本视频深入工厂内部，展示360英尺巨型风力涡轮机叶片的制造全过程，重点揭示碳纤维复合材料在叶片主梁、蒙皮等关键结构中的应用，涉及真空灌注、树脂固化等核心工艺，解析大型化叶片如何兼顾轻量化与结构强度。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=Om1nSQEWe00"
+  },
+  {
+    "id": "8dbafabe74990ced",
+    "title": "比亚迪固态电池：能量翻倍，续航1500公里，2027年问世",
+    "category": "动力电池",
+    "region": "海外",
+    "source": "The Electric Viking",
+    "duration": "6:11",
+    "date": "2026-09-16",
+    "summary": "比亚迪公布固态电池路线图，电芯能量密度较现有刀片电池翻倍，目标2027年装车，实现约1500公里续航。技术核心为硫化物固态电解质与高镍正极、硅基负极体系，需解决界面阻抗与量产工艺问题。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=qzT-9qh-xd0"
+  },
   {
     "id": "617c653e5fdabec5",
     "title": "氢能家庭储能：这会是游戏规则改变者吗？",
@@ -302,67 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "视频标题未提供，无法生成摘要。",
     "hot": false,
     "url": "http://www.bilibili.com/video/av1402089521"
-  },
-  {
-    "id": "a8e948822b43f221",
-    "title": "核能的经济学",
-    "category": "核能",
-    "region": "海外",
-    "source": "Real Engineering",
-    "duration": "16:11",
-    "date": "2026-09-05",
-    "summary": "视频深入分析核能经济性，对比建设成本、运营维护、燃料费用及退役处理等全生命周期成本，并探讨政策、市场机制对核电投资的影响，为行业决策提供参考。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=UC_BCz0pzMw"
-  },
-  {
-    "id": "24b06ad371fa84e7",
-    "title": "储氢材料：挑战与机遇 - 黄振国教授，悉尼科技大学",
-    "category": "氢能",
-    "region": "海外",
-    "source": "Circular Economy for Climate and Environment(CECE)",
-    "duration": "47:49",
-    "date": "2026-09-05",
-    "summary": "悉尼科技大学黄振国教授探讨储氢材料在氢能经济中的关键作用，分析当前储氢技术面临的挑战，如重量密度、成本与可逆性，并展望新型材料（如金属氢化物、配位氢化物）的机遇，为高效安全储氢提供新思路。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=CzIEJHJ9dJY"
-  },
-  {
-    "id": "93f15e22f7dac92d",
-    "title": "固态材料作为有前景的储氢介质",
-    "category": "氢能",
-    "region": "海外",
-    "source": "Virtual Learning University",
-    "duration": "97:47",
-    "date": "2026-09-05",
-    "summary": "视频介绍固态储氢材料的研究进展，涵盖金属氢化物、配位氢化物及多孔材料等，阐述其储氢机理、容量及动力学特性，并讨论在氢能储运中的应用潜力与挑战，为氢能从业者提供技术参考。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=atA5Dj3FvjQ"
-  },
-  {
-    "id": "a40820f7043c3479",
-    "title": "储能未来网络研讨会：储能材料",
-    "category": "储能",
-    "region": "海外",
-    "source": "MIT Energy Initiative",
-    "duration": "55:41",
-    "date": "2026-09-05",
-    "summary": "MIT能源倡议举办网络研讨会，探讨储能材料的最新进展。专家讨论电池、超级电容器等储能技术的关键材料挑战，包括能量密度、循环寿命和成本问题，并展望固态电池、钠离子电池等下一代技术方向，为行业提供前沿视角。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=qrBU8NXEkMY"
-  },
-  {
-    "id": "8392e7897bdcb0bd",
-    "title": "重型车辆用材料基储氢技术",
-    "category": "氢能",
-    "region": "海外",
-    "source": "SoCalGas",
-    "duration": "64:52",
-    "date": "2026-09-05",
-    "summary": "SoCalGas介绍用于重型车辆的材料基储氢技术，涵盖金属氢化物、化学储氢等方案，旨在提高储氢密度与安全性，降低加氢成本，推动氢能重卡商业化应用。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=jTpkNDKxDMM"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-09-15T00:55:16' }
+export const generatedMeta = { updatedAt: '2026-09-16T00:49:14' }
