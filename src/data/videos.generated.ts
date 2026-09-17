@@ -1,8 +1,56 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-09-16T00:49:14
+// 生成时间: 2026-09-17T00:53:40
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "d9f5b96e29be591d",
+    "title": "金属氢化物或固态储氢技术",
+    "category": "氢能",
+    "region": "海外",
+    "source": "VOLKS-ELECTROLYZER",
+    "duration": "8:07",
+    "date": "2026-09-17",
+    "summary": "视频对比金属氢化物与固态储氢两种技术路线，分析其吸放氢机理、质量与体积储氢密度、工作温度及循环稳定性，并探讨在固定式储能与车载场景的适用性差异。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=10qI8d7M8ms"
+  },
+  {
+    "id": "9cc2896e300f59ce",
+    "title": "利用氢能实现长时储能",
+    "category": "氢能",
+    "region": "海外",
+    "source": "Hydrogen Energy Center",
+    "duration": "60:55",
+    "date": "2026-09-17",
+    "summary": "该视频探讨氢能在长时储能中的应用，重点分析电解水制氢、储氢及燃料电池发电技术，阐述氢储能跨季节、大容量优势，并对比锂电池等短时储能方案，为可再生能源消纳提供解决路径。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=CAcCGXMPIUc"
+  },
+  {
+    "id": "208cc9d7744041fb",
+    "title": "Energetx Composites AB45 叶片发布",
+    "category": "风电",
+    "region": "海外",
+    "source": "EnergetxComposites1",
+    "duration": "3:38",
+    "date": "2026-09-17",
+    "summary": "Energetx Composites 发布 AB45 风电叶片，采用先进复合材料与真空灌注工艺，兼顾轻量化与结构强度，适配中大型陆上风机，提升捕风效率并降低度电成本。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=4cpjKEXdhZ8"
+  },
+  {
+    "id": "a1265c2c65779739",
+    "title": "储能与消防安全 | Nick Warner - 储能响应集团",
+    "category": "储能",
+    "region": "海外",
+    "source": "Continental Energy Solutions",
+    "duration": "50:05",
+    "date": "2026-09-17",
+    "summary": "Nick Warner 在视频中探讨储能系统消防安全，重点分析锂离子电池热失控风险、NFPA 855 等消防规范要求，以及气体探测、灭火抑制和应急响应策略，为储能项目设计运维提供安全指导。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=Se3wysKmAEc"
+  },
   {
     "id": "d13fc9bba874af49",
     "title": "氢气储罐的类型：清洁能源储存的未来",
@@ -314,55 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "本期播客聚焦电池储能系统的火灾预防，邀请Nobel Fire Systems专家探讨储能安全技术、火灾探测与灭火方案，分析行业标准与最佳实践，为储能项目开发者及运营商提供防火安全设计参考。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=KOOnYTkR7GE"
-  },
-  {
-    "id": "296facb5307c1fbc",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-09-06",
-    "summary": "视频标题未提供，无法生成摘要。",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av705271404"
-  },
-  {
-    "id": "176fdba9137aab65",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-09-06",
-    "summary": "视频摘要",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av116928270047050"
-  },
-  {
-    "id": "44d828fe992a406b",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-09-06",
-    "summary": "摘要内容",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av114255407880044"
-  },
-  {
-    "id": "68a1aa9f752f33c9",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-09-06",
-    "summary": "视频标题未提供，无法生成摘要。",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av1402089521"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-09-16T00:49:14' }
+export const generatedMeta = { updatedAt: '2026-09-17T00:53:40' }

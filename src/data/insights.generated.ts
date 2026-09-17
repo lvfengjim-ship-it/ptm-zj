@@ -1,5 +1,5 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-09-16T00:49:14
+// 生成时间: 2026-09-17T00:53:40
 import type { TechInsight } from './insights'
 
 export const generatedInsights: TechInsight[] = [
@@ -176,4 +176,4 @@ export const generatedInsights: TechInsight[] = [
   }
 ]
 
-export const insightsMeta = { updatedAt: '2026-09-16T00:49:14' }
+export const insightsMeta = { updatedAt: '2026-09-17T00:53:40' }
