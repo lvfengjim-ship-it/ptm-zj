@@ -1,8 +1,20 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-09-17T00:53:40
+// 生成时间: 2026-09-18T00:47:15
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "e9613b962971b7ea",
+    "title": "先进材料研究：湿度控制对硫化物固态电解质足够吗？",
+    "category": "动力电池",
+    "region": "海外",
+    "source": "Boyee Group",
+    "duration": "2:14",
+    "date": "2026-09-18",
+    "summary": "视频探讨硫化物固态电解质的湿度控制问题，分析仅靠环境水分管理能否保障材料稳定性。硫化物对水氧敏感，易生成硫化氢并恶化离子电导，需结合气氛、涂层或掺杂等策略，对固态电池制造具参考价值。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=iSOzFqRLR_U"
+  },
   {
     "id": "d9f5b96e29be591d",
     "title": "金属氢化物或固态储氢技术",
@@ -350,19 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "该视频为NFPA 855标准培训，针对储能系统安全。内容涵盖ESS安装、维护、消防要求及合规要点，旨在提升行业安全水平，减少火灾风险。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=i69npFu7hLE"
-  },
-  {
-    "id": "38a708b2228faec1",
-    "title": "电池储能防火 - Modo播客（第18集：Nobel Fire Systems）",
-    "category": "储能",
-    "region": "海外",
-    "source": "Modo Energy",
-    "duration": "47:01",
-    "date": "2026-09-06",
-    "summary": "本期播客聚焦电池储能系统的火灾预防，邀请Nobel Fire Systems专家探讨储能安全技术、火灾探测与灭火方案，分析行业标准与最佳实践，为储能项目开发者及运营商提供防火安全设计参考。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=KOOnYTkR7GE"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-09-17T00:53:40' }
+export const generatedMeta = { updatedAt: '2026-09-18T00:47:15' }
