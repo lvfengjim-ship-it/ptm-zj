@@ -1,8 +1,44 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-09-18T00:47:15
+// 生成时间: 2026-09-19T00:38:37
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "3d4111b863da2f8d",
+    "title": "Project Pele：为美国偏远基地带来核能",
+    "category": "核能",
+    "region": "海外",
+    "source": "Megaprojects",
+    "duration": "22:56",
+    "date": "2026-09-19",
+    "summary": "美国国防部Project Pele计划开发可移动微型核反应堆，采用高温气冷堆设计，使用TRISO燃料，输出1-5兆瓦电力，可卡车运输并快速部署，为偏远军事基地提供 resilient 电力，减少对化石燃料依赖。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=o02K2njSz-s"
+  },
+  {
+    "id": "322a11036e29fa10",
+    "title": "为什么小型核反应堆行不通",
+    "category": "核能",
+    "region": "海外",
+    "source": "Dr Ben Miles",
+    "duration": "15:59",
+    "date": "2026-09-19",
+    "summary": "该视频从工程与经济学角度分析小型模块化反应堆（SMR）的固有缺陷，指出其单位功率成本高于大型压水堆，且模块化量产优势受监管与供应链制约，难以实现预期降本目标。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=6c_H69pj26s"
+  },
+  {
+    "id": "b5337966e9f75445",
+    "title": "锂离子电池储能系统引发家庭火灾",
+    "category": "储能",
+    "region": "海外",
+    "source": "Philip Andrew",
+    "duration": "1:36",
+    "date": "2026-09-19",
+    "summary": "视频记录了一起由锂离子电池储能系统引发的家庭火灾事故，涉及电池热失控起火过程及现场损毁情况，为储能系统安全设计、消防预警及安装运维提供警示案例。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=M8ZAVK7BXFw"
+  },
   {
     "id": "e9613b962971b7ea",
     "title": "先进材料研究：湿度控制对硫化物固态电解质足够吗？",
@@ -326,43 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "视频以动画形式讲解核反应堆工作原理，涵盖核裂变、链式反应、控制棒调节、冷却剂循环及蒸汽发电过程，并简要提及安全防护措施，适合核能行业入门科普。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=6XDdK3MJgHc"
-  },
-  {
-    "id": "867c8651d4350d9d",
-    "title": "视频标题",
-    "category": "储能",
-    "region": "国内",
-    "source": "行业媒体",
-    "duration": "",
-    "date": "2026-09-07",
-    "summary": "摘要内容",
-    "hot": false,
-    "url": "http://www.bilibili.com/video/av117193484341423"
-  },
-  {
-    "id": "15d2217a4b9e3f20",
-    "title": "风能材料讲座",
-    "category": "风电",
-    "region": "海外",
-    "source": "Li M",
-    "duration": "10:41",
-    "date": "2026-09-06",
-    "summary": "本讲座系统介绍风能领域关键材料，涵盖叶片复合材料、塔筒钢材、齿轮箱轴承等部件的材料选择与性能要求。重点分析材料在极端环境下的耐久性、疲劳寿命及轻量化设计，并探讨新型材料如碳纤维的应用前景，为风电材料研发与工程应用提供参考。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=ztqM_szwAsc"
-  },
-  {
-    "id": "26e862eb77cb69a3",
-    "title": "NFPA 855 - 储能系统（ESS）培训 - 2024年3月5日",
-    "category": "储能",
-    "region": "海外",
-    "source": "Westborough TV",
-    "duration": "189:12",
-    "date": "2026-09-06",
-    "summary": "该视频为NFPA 855标准培训，针对储能系统安全。内容涵盖ESS安装、维护、消防要求及合规要点，旨在提升行业安全水平，减少火灾风险。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=i69npFu7hLE"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-09-18T00:47:15' }
+export const generatedMeta = { updatedAt: '2026-09-19T00:38:37' }
