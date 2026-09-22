@@ -1,8 +1,20 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-09-21T00:30:24
+// 生成时间: 2026-09-22T01:10:51
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "2e7b6a86a2bf7d7a",
+    "title": "Factorial的固态电池：450 Wh/kg，2027年装车，以及诚实的时间表",
+    "category": "动力电池",
+    "region": "海外",
+    "source": "The Electric Viking",
+    "duration": "7:06",
+    "date": "2026-09-22",
+    "summary": "Factorial公布固态电池进展，能量密度达450 Wh/kg，计划2027年搭载于量产车型。视频讨论其技术路线、量产时间表及行业面临的工程化挑战，并评估该目标的可信度。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=mswqwrISk0c"
+  },
   {
     "id": "3d4111b863da2f8d",
     "title": "Project Pele：为美国偏远基地带来核能",
@@ -350,19 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "Donut Lab宣称其新型电池能量密度达409 Wh/kg，引发关注。但该电池并非传统固态电池，而是半固态或混合固态设计。其高能量密度源于创新材料与结构，但实际性能、安全性和量产能力仍需验证。该技术若成熟，将显著提升电动汽车续航，但距离商业化尚需时日。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=29c43ReGqvY"
-  },
-  {
-    "id": "c491dc21bba5c6ab",
-    "title": "核反应堆是如何工作的",
-    "category": "核能",
-    "region": "海外",
-    "source": "Alexa Real",
-    "duration": "0:42",
-    "date": "2026-09-07",
-    "summary": "视频以动画形式讲解核反应堆工作原理，涵盖核裂变、链式反应、控制棒调节、冷却剂循环及蒸汽发电过程，并简要提及安全防护措施，适合核能行业入门科普。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=6XDdK3MJgHc"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-09-21T00:30:24' }
+export const generatedMeta = { updatedAt: '2026-09-22T01:10:51' }
