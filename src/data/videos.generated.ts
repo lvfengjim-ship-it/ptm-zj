@@ -1,8 +1,20 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-09-23T00:56:35
+// 生成时间: 2026-09-24T00:53:35
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "33936d527702a00b",
+    "title": "核电站如何运作 ☢️ 反应堆内部揭秘",
+    "category": "核能",
+    "region": "海外",
+    "source": "Worldnite Journey",
+    "duration": "9:19",
+    "date": "2026-09-24",
+    "summary": "本视频深入核电站反应堆内部，解析核裂变链式反应释放热能、冷却剂循环带出热量、蒸汽推动汽轮机发电的完整流程，并展示控制棒调节反应速率及多重安全屏障设计，帮助从业者直观理解压水堆核心工作原理。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=j_8m9GyNV3M"
+  },
   {
     "id": "2e7b6a86a2bf7d7a",
     "title": "Factorial的固态电池：450 Wh/kg，2027年装车，以及诚实的时间表",
@@ -350,19 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "麦克赛尔开发出新型固态电池，支持无线充电，能穿透密封墙壁，并可在150°C高温下工作。该技术有望提升储能系统安全性与集成灵活性，适用于极端环境或特殊结构场景，为固态电池应用拓展提供新方向。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=q_XW5o87eHc"
-  },
-  {
-    "id": "d4a2b82f20d49a31",
-    "title": "Donut Lab的电池达到409 Wh/kg——但它真的是固态电池吗？",
-    "category": "动力电池",
-    "region": "海外",
-    "source": "The Electric Viking",
-    "duration": "7:05",
-    "date": "2026-09-08",
-    "summary": "Donut Lab宣称其新型电池能量密度达409 Wh/kg，引发关注。但该电池并非传统固态电池，而是半固态或混合固态设计。其高能量密度源于创新材料与结构，但实际性能、安全性和量产能力仍需验证。该技术若成熟，将显著提升电动汽车续航，但距离商业化尚需时日。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=29c43ReGqvY"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-09-23T00:56:35' }
+export const generatedMeta = { updatedAt: '2026-09-24T00:53:35' }
