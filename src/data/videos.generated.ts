@@ -1,8 +1,20 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-09-24T00:53:35
+// 生成时间: 2026-09-25T00:50:38
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "68f2ec3760606844",
+    "title": "新型可回收树脂让风力涡轮机更可持续",
+    "category": "风电",
+    "region": "海外",
+    "source": "Vanderbilt University",
+    "duration": "1:50",
+    "date": "2026-09-25",
+    "summary": "范德堡大学团队开发出一种新型可回收树脂，用于制造风力涡轮机叶片。该树脂可在温和条件下解聚，实现叶片材料的闭环回收，解决传统热固性复合材料难以回收的难题，提升风电产业可持续性。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=Ljba0SJfJR0"
+  },
   {
     "id": "33936d527702a00b",
     "title": "核电站如何运作 ☢️ 反应堆内部揭秘",
@@ -350,19 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "加州消防局长办公室举办研讨会，聚焦电池储能系统消防安全。会议探讨了储能系统火灾风险、预防措施、应急响应策略及法规标准，旨在提升行业安全水平，保障人员与设施安全。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=7Q4x62Ni2Zk"
-  },
-  {
-    "id": "860620f7d96b75f5",
-    "title": "麦克赛尔固态电池可通过密封墙无线充电，且耐150°C高温",
-    "category": "储能",
-    "region": "海外",
-    "source": "The Electric Viking",
-    "duration": "6:03",
-    "date": "2026-09-09",
-    "summary": "麦克赛尔开发出新型固态电池，支持无线充电，能穿透密封墙壁，并可在150°C高温下工作。该技术有望提升储能系统安全性与集成灵活性，适用于极端环境或特殊结构场景，为固态电池应用拓展提供新方向。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=q_XW5o87eHc"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-09-24T00:53:35' }
+export const generatedMeta = { updatedAt: '2026-09-25T00:50:38' }
