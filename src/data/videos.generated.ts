@@ -1,8 +1,20 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-09-25T00:50:38
+// 生成时间: 2026-09-26T00:53:54
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "77328e2649d65f8e",
+    "title": "EPRI：先进核技术——定向能量沉积",
+    "category": "核能",
+    "region": "海外",
+    "source": "EPRI",
+    "duration": "1:56",
+    "date": "2026-09-26",
+    "summary": "EPRI介绍定向能量沉积（DED）增材制造技术在先进核能领域的应用，涵盖核级部件修复与制造、材料性能验证及在役检查要求，为核电站运维提供技术路径。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=cvynJdsJ92k"
+  },
   {
     "id": "68f2ec3760606844",
     "title": "新型可回收树脂让风力涡轮机更可持续",
@@ -350,19 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "布里斯托复合材料研究所举办研讨会，探讨风力叶片用可持续复合材料。内容涉及可回收树脂、生物基纤维及叶片回收技术，旨在降低全生命周期环境影响，提升风电绿色属性。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=x5DfO09Ppyc"
-  },
-  {
-    "id": "5aedaa483da1b083",
-    "title": "电池储能系统消防安全研讨会",
-    "category": "储能",
-    "region": "海外",
-    "source": "California Office of the State Fire Marshal",
-    "duration": "444:38",
-    "date": "2026-09-09",
-    "summary": "加州消防局长办公室举办研讨会，聚焦电池储能系统消防安全。会议探讨了储能系统火灾风险、预防措施、应急响应策略及法规标准，旨在提升行业安全水平，保障人员与设施安全。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=7Q4x62Ni2Zk"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-09-25T00:50:38' }
+export const generatedMeta = { updatedAt: '2026-09-26T00:53:54' }
