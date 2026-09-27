@@ -1,8 +1,20 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-09-26T00:53:54
+// 生成时间: 2026-09-27T00:52:58
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "484290da86984a4b",
+    "title": "奇瑞固态电池成真：400 Wh/kg，6000次循环，明年上车",
+    "category": "动力电池",
+    "region": "海外",
+    "source": "The Electric Viking",
+    "duration": "4:35",
+    "date": "2026-09-27",
+    "summary": "奇瑞发布固态电池，能量密度达400 Wh/kg，循环寿命6000次，计划明年量产装车。该技术若落地，将显著提升电动车续航与安全性，推动固态电池商业化进程。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=qzLBrpcFTTI"
+  },
   {
     "id": "77328e2649d65f8e",
     "title": "EPRI：先进核技术——定向能量沉积",
@@ -350,19 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "奇瑞宣布固态电池量产时间表，预计2026年装车，2027年批量交付。该电池能量密度更高、充电更快、安全性更好，将率先应用于高端车型，推动电动汽车普及。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=_hvUYEtTwyQ"
-  },
-  {
-    "id": "6e560226a5bb5cb0",
-    "title": "风力涡轮机叶片可持续复合材料研讨会 2021年9月6日",
-    "category": "风电",
-    "region": "海外",
-    "source": "Bristol Composites Institute",
-    "duration": "207:55",
-    "date": "2026-09-09",
-    "summary": "布里斯托复合材料研究所举办研讨会，探讨风力叶片用可持续复合材料。内容涉及可回收树脂、生物基纤维及叶片回收技术，旨在降低全生命周期环境影响，提升风电绿色属性。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=x5DfO09Ppyc"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-09-26T00:53:54' }
+export const generatedMeta = { updatedAt: '2026-09-27T00:52:58' }
