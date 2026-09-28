@@ -1,8 +1,20 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-09-27T00:52:58
+// 生成时间: 2026-09-28T01:11:14
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "e7ade199918697ff",
+    "title": "CompPair 开发可自修复灌注工艺：制造风力发电机叶片！",
+    "category": "风电",
+    "region": "海外",
+    "source": "CompPair Technologies",
+    "duration": "0:35",
+    "date": "2026-09-28",
+    "summary": "CompPair 将可自修复树脂体系拓展至真空灌注工艺，用于制造风力发电机叶片。该技术通过在复合材料中嵌入可逆动态键，使叶片在损伤后经加热即可修复裂纹与分层，延长服役寿命并降低运维成本。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=iHNz0zNgHAs"
+  },
   {
     "id": "484290da86984a4b",
     "title": "奇瑞固态电池成真：400 Wh/kg，6000次循环，明年上车",
@@ -350,19 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "该报告探讨利用纳米材料实现固态储氢，以服务于燃料电池应用。内容涉及纳米结构吸附剂与氢化物在温和条件下的可逆吸放氢机制、热力学与动力学调控策略，以及循环稳定性与质量储氢密度等关键指标。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=jiDoBtLclxo"
-  },
-  {
-    "id": "e073fe77ffdc3cd2",
-    "title": "奇瑞为固态电池设定日期：你真正能买到的时间是何时",
-    "category": "动力电池",
-    "region": "海外",
-    "source": "The Electric Viking",
-    "duration": "5:17",
-    "date": "2026-09-10",
-    "summary": "奇瑞宣布固态电池量产时间表，预计2026年装车，2027年批量交付。该电池能量密度更高、充电更快、安全性更好，将率先应用于高端车型，推动电动汽车普及。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=_hvUYEtTwyQ"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-09-27T00:52:58' }
+export const generatedMeta = { updatedAt: '2026-09-28T01:11:14' }
