@@ -1,8 +1,44 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-09-28T01:11:14
+// 生成时间: 2026-09-29T02:19:10
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "f409ffd974c9feb2",
+    "title": "地球上第一座核反应堆并非人类建造",
+    "category": "核能",
+    "region": "海外",
+    "source": "Astrum Earth",
+    "duration": "34:18",
+    "date": "2026-09-29",
+    "summary": "该视频探讨地球早期天然核反应堆现象，重点介绍加蓬奥克洛铀矿中约20亿年前自发形成的链式裂变反应，分析其地质与物理机制，并对比人工核反应堆技术，为核能从业者提供天然核裂变案例参考。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=bl-wJbqyu-M"
+  },
+  {
+    "id": "e4683b2fd41bf457",
+    "title": "复合材料近距离观察：叶片修复",
+    "category": "风电",
+    "region": "海外",
+    "source": "Composites One",
+    "duration": "7:29",
+    "date": "2026-09-29",
+    "summary": "视频展示风电叶片复合材料修复的实操流程，涵盖损伤评估、表面处理、层压铺放与固化工艺，强调现场维修中材料匹配与工艺控制对恢复叶片结构完整性的关键作用。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=8Q8iuLEpYko"
+  },
+  {
+    "id": "dd68a3599314520d",
+    "title": "极端高温与严寒下BESS会发生什么：热失控与消防安全",
+    "category": "储能",
+    "region": "海外",
+    "source": "Learn Solar & BESS",
+    "duration": "8:00",
+    "date": "2026-09-29",
+    "summary": "视频探讨电池储能系统在极端高温和严寒环境下的热失控风险与消防安全，分析温度对电池性能、寿命及安全性的影响，并介绍热管理设计与消防防护策略，为储能系统安全运维提供参考。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=kYrlRaiAxvw"
+  },
   {
     "id": "e7ade199918697ff",
     "title": "CompPair 开发可自修复灌注工艺：制造风力发电机叶片！",
@@ -326,43 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "该视频介绍以碳基材料构建有机太阳能电池的技术路径，涵盖给体-受体异质结结构、溶液法制备工艺及柔性、半透明器件优势，并分析其光电转换效率与稳定性瓶颈及商业化前景。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=C_oWG_PYpkE"
-  },
-  {
-    "id": "f1937127bed80ebb",
-    "title": "[完整课程] 储氢基础 第一讲：绪论",
-    "category": "氢能",
-    "region": "海外",
-    "source": "EEB: Electrical Engineer BootCamp",
-    "duration": "3:23",
-    "date": "2026-09-12",
-    "summary": "本课程系统讲解储氢技术基础，涵盖高压气态、低温液态及金属氢化物等固态储氢方式的原理与对比，分析质量储氢密度、体积储氢密度及热力学动力学约束，为氢能储运工程提供理论框架。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=-NxOF9f9Nis"
-  },
-  {
-    "id": "a10e635b0df58c02",
-    "title": "氢气的制备与储存",
-    "category": "氢能",
-    "region": "海外",
-    "source": "Discover Materials",
-    "duration": "4:29",
-    "date": "2026-09-12",
-    "summary": "视频介绍氢气制备与储存技术，涵盖电解水制氢、储氢材料及系统集成等关键环节，分析不同储氢方式的技术特点与适用场景，为氢能产业链从业者提供技术参考。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=mRZxvpQSTq4"
-  },
-  {
-    "id": "578e7374939d4b51",
-    "title": "Md. Nizam Uddin 博士：面向燃料电池应用的纳米材料基固态储氢",
-    "category": "氢能",
-    "region": "海外",
-    "source": "Texas A&M University-Texarkana Honors College",
-    "duration": "35:51",
-    "date": "2026-09-12",
-    "summary": "该报告探讨利用纳米材料实现固态储氢，以服务于燃料电池应用。内容涉及纳米结构吸附剂与氢化物在温和条件下的可逆吸放氢机制、热力学与动力学调控策略，以及循环稳定性与质量储氢密度等关键指标。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=jiDoBtLclxo"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-09-28T01:11:14' }
+export const generatedMeta = { updatedAt: '2026-09-29T02:19:10' }
