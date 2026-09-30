@@ -1,8 +1,20 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-09-29T02:19:10
+// 生成时间: 2026-09-30T01:35:33
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "cb5f8ecf8d40aeb3",
+    "title": "中国为固态电池设定最后期限——你何时能真正买到",
+    "category": "动力电池",
+    "region": "海外",
+    "source": "The Electric Viking",
+    "duration": "5:52",
+    "date": "2026-09-30",
+    "summary": "视频讨论中国为固态电池产业化设定的时间节点，分析量产装车与消费者可购时间。核心关注硫化物、氧化物等电解质路线进展，以及车企与电池厂的中试线和量产规划，评估固态电池对续航与安全性的提升。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=DDhHQnSfPMQ"
+  },
   {
     "id": "f409ffd974c9feb2",
     "title": "地球上第一座核反应堆并非人类建造",
@@ -350,19 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "该研究将石墨烯基功能纳米复合材料引入钙钛矿太阳能电池，通过界面修饰与缺陷钝化提升器件稳定性与光电转换效率，为钙钛矿光伏商业化提供材料方案。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=EGOLhppdNN0"
-  },
-  {
-    "id": "bdb6c71351176d04",
-    "title": "由碳制成的有机太阳能电池！",
-    "category": "光伏",
-    "region": "海外",
-    "source": "German Science Guy",
-    "duration": "15:51",
-    "date": "2026-09-13",
-    "summary": "该视频介绍以碳基材料构建有机太阳能电池的技术路径，涵盖给体-受体异质结结构、溶液法制备工艺及柔性、半透明器件优势，并分析其光电转换效率与稳定性瓶颈及商业化前景。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=C_oWG_PYpkE"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-09-29T02:19:10' }
+export const generatedMeta = { updatedAt: '2026-09-30T01:35:33' }
