@@ -1,8 +1,32 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-09-30T01:35:33
+// 生成时间: 2026-10-01T01:35:26
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "c8dc23d7c42d6ab4",
+    "title": "SunPower 22.5%效率太阳能电池封装 第1部分",
+    "category": "光伏",
+    "region": "海外",
+    "source": "Grzegorz Mucha",
+    "duration": "14:35",
+    "date": "2026-10-01",
+    "summary": "本视频展示SunPower 22.5%效率太阳能电池的封装工艺，涵盖材料选择、层压流程及操作要点，为光伏组件封装提供实操参考。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=C4_WlfsOxhM"
+  },
+  {
+    "id": "a2ef4d1cfe6af588",
+    "title": "固态电池终于有了价格——而且低得惊人",
+    "category": "动力电池",
+    "region": "海外",
+    "source": "The Electric Viking",
+    "duration": "6:18",
+    "date": "2026-10-01",
+    "summary": "视频讨论固态电池成本首次公布，价格远低于此前预期，可能加速其商业化进程。内容涉及固态电池技术路线、量产成本下降趋势，以及对现有动力电池格局的潜在冲击，值得关注。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=qE4n6s_bNzU"
+  },
   {
     "id": "cb5f8ecf8d40aeb3",
     "title": "中国为固态电池设定最后期限——你何时能真正买到",
@@ -338,31 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "该研究提出一种无需高压或低温储罐的储氢新方法，可能利用材料吸附或化学载体实现常温常压储运。若验证成功，将大幅降低储氢成本与安全风险，推动氢能规模化应用。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=P2-xExba7Pc"
-  },
-  {
-    "id": "2e1bfb2fc5d84532",
-    "title": "钙钛矿太阳能电池稳定性研究的当前方法 - ICN2 #StayAtHome 研讨会",
-    "category": "光伏",
-    "region": "海外",
-    "source": "Institut Català de Nanociència i Nanotecnologia",
-    "duration": "115:31",
-    "date": "2026-09-13",
-    "summary": "ICN2研讨会聚焦钙钛矿太阳能电池稳定性研究，梳理当前主流方法，涵盖材料降解机制、界面工程与封装策略，并讨论标准化测试协议，为提升器件长期稳定性提供技术参考。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=oU_DInslfHI"
-  },
-  {
-    "id": "d98e760a9ffc3983",
-    "title": "基于石墨烯功能纳米复合材料的高稳定高效钙钛矿太阳能电池",
-    "category": "光伏",
-    "region": "海外",
-    "source": "Advanced Materials Congress Lectures",
-    "duration": "25:40",
-    "date": "2026-09-13",
-    "summary": "该研究将石墨烯基功能纳米复合材料引入钙钛矿太阳能电池，通过界面修饰与缺陷钝化提升器件稳定性与光电转换效率，为钙钛矿光伏商业化提供材料方案。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=EGOLhppdNN0"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-09-30T01:35:33' }
+export const generatedMeta = { updatedAt: '2026-10-01T01:35:26' }
