@@ -1,8 +1,32 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-10-05T01:16:54
+// 生成时间: 2026-10-06T02:31:08
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "89ac65c15d54ecc2",
+    "title": "走进风力涡轮机叶片工厂——巨型叶片如何转化为新型复合材料",
+    "category": "风电",
+    "region": "海外",
+    "source": "Big Mickey Media",
+    "duration": "19:51",
+    "date": "2026-10-06",
+    "summary": "探访风电叶片制造工厂，解析巨型叶片从玻璃纤维/碳纤维铺层、真空灌注到固化成型的关键工艺，并介绍退役叶片经破碎、热解等技术回收为新型复合材料的路径，为风电产业循环利用提供参考。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=zwI6PUIHTp4"
+  },
+  {
+    "id": "1460dd614fa551b0",
+    "title": "全球首款固态电池公布价格！",
+    "category": "动力电池",
+    "region": "海外",
+    "source": "TESLA CAR WORLD",
+    "duration": "13:42",
+    "date": "2026-10-06",
+    "summary": "该视频报道全球首款固态电池正式公布售价，面向电动汽车应用。固态电池以固态电解质替代液态电解液，有望提升能量密度与安全性，此举标志其从实验室走向商业化定价阶段。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=1sbDCAHgMvo"
+  },
   {
     "id": "c8dc23d7c42d6ab4",
     "title": "SunPower 22.5%效率太阳能电池封装 第1部分",
@@ -338,31 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "视频探讨储氢技术，强调安全与效率，涵盖高压气态、液态及固态储氢等方案，分析其技术成熟度与未来应用前景，面向氢能从业者提供参考。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=CZq5nRQXBZ4"
-  },
-  {
-    "id": "122066103e8f0660",
-    "title": "储能的未来：氢能、热储能、压缩空气与重力储能技术",
-    "category": "储能",
-    "region": "海外",
-    "source": "MIT Energy Initiative",
-    "duration": "56:08",
-    "date": "2026-09-13",
-    "summary": "MIT能源倡议梳理了氢能、热储能、压缩空气和重力储能四类长时储能技术路线，分析其原理、适用场景与商业化瓶颈，为电网级储能技术选型提供参考。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=UJgz_9ULplM"
-  },
-  {
-    "id": "92cefcc960727835",
-    "title": "我们能否不用储罐储存氢气？新研究给出肯定答案！",
-    "category": "氢能",
-    "region": "海外",
-    "source": "reneenergy. com",
-    "duration": "11:14",
-    "date": "2026-09-13",
-    "summary": "该研究提出一种无需高压或低温储罐的储氢新方法，可能利用材料吸附或化学载体实现常温常压储运。若验证成功，将大幅降低储氢成本与安全风险，推动氢能规模化应用。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=P2-xExba7Pc"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-10-05T01:16:54' }
+export const generatedMeta = { updatedAt: '2026-10-06T02:31:08' }
