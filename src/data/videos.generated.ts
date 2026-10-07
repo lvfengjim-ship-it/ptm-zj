@@ -1,8 +1,32 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-10-06T02:31:08
+// 生成时间: 2026-10-07T01:49:05
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "12eeceb4e9e0e937",
+    "title": "Solaronix | Stéphanie Narbey | 钙钛矿封装：40,000 与 2,000 篇论文的差距",
+    "category": "光伏",
+    "region": "海外",
+    "source": "TechBlick",
+    "duration": "0:49",
+    "date": "2026-10-07",
+    "summary": "Solaronix的Stéphanie Narbey指出钙钛矿封装领域存在显著论文差距：约40,000篇论文聚焦电池效率，仅约2,000篇关注封装稳定性。报告强调封装技术对钙钛矿光伏商业化至关重要，需加强界面材料与工艺研究。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=EyMMPRaxyKA"
+  },
+  {
+    "id": "4c3e948bb3c72651",
+    "title": "梅赛德斯的新固态电池合作伙伴已开始量产电芯",
+    "category": "动力电池",
+    "region": "海外",
+    "source": "The Electric Viking",
+    "duration": "6:26",
+    "date": "2026-10-07",
+    "summary": "梅赛德斯-奔驰宣布其新固态电池合作伙伴已实现电芯量产，该技术有望提升动力电池能量密度与安全性，并加速固态电池在电动汽车领域的商业化落地。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=NhiqbDVU528"
+  },
   {
     "id": "89ac65c15d54ecc2",
     "title": "走进风力涡轮机叶片工厂——巨型叶片如何转化为新型复合材料",
@@ -338,31 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "视频探讨氢能家庭储能技术，分析其作为住宅储能方案的可行性，对比锂电池在能量密度、长期存储和季节调节方面的优势，并评估成本、效率及基础设施挑战，判断其能否成为游戏规则改变者。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=0_bTjcjqN6c"
-  },
-  {
-    "id": "a548f2d023e69fe4",
-    "title": "Stat-X® 储能系统灭火动画视频",
-    "category": "储能",
-    "region": "海外",
-    "source": "Stat-X Fire Suppression",
-    "duration": "3:12",
-    "date": "2026-09-15",
-    "summary": "该动画展示Stat-X®气溶胶灭火系统在储能集装箱内的应用，通过热敏元件自动触发，快速释放灭火微粒，抑制锂离子电池热失控火灾，适用于电池柜、PCS及预制舱等场景。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=P4LSj6CagF4"
-  },
-  {
-    "id": "bfd8dafef8d4358f",
-    "title": "储氢：安全、高效，面向未来",
-    "category": "氢能",
-    "region": "海外",
-    "source": "ENERGY TALKS",
-    "duration": "110:08",
-    "date": "2026-09-13",
-    "summary": "视频探讨储氢技术，强调安全与效率，涵盖高压气态、液态及固态储氢等方案，分析其技术成熟度与未来应用前景，面向氢能从业者提供参考。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=CZq5nRQXBZ4"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-10-06T02:31:08' }
+export const generatedMeta = { updatedAt: '2026-10-07T01:49:05' }
