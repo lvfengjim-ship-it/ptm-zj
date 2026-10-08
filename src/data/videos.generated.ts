@@ -1,8 +1,56 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-10-07T01:49:05
+// 生成时间: 2026-10-08T02:19:12
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "f1c4571f4d8af08d",
+    "title": "为核反应堆换料——Smarter Every Day 311",
+    "category": "核能",
+    "region": "海外",
+    "source": "SmarterEveryDay",
+    "duration": "106:08",
+    "date": "2026-10-08",
+    "summary": "本视频深入核电站换料现场，展示反应堆停堆后移除乏燃料组件、装入新燃料的完整流程，涵盖水下操作、辐射防护及临界安全控制等关键技术环节，直观呈现核燃料循环前端运维要点。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=v0afQ6w3Bjw"
+  },
+  {
+    "id": "f1c835d8dd3bc7da",
+    "title": "核能复兴：需要什么来驱动？| 核能选项 - 第4部分 | CNA纪录片",
+    "category": "核能",
+    "region": "海外",
+    "source": "CNA Insider",
+    "duration": "45:00",
+    "date": "2026-10-08",
+    "summary": "CNA纪录片探讨核能复兴所需条件，涉及小型模块化反应堆、先进核燃料及监管框架等关键技术，分析核能作为低碳基荷电源在能源转型中的角色与挑战。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=W3Spzd1oMqk"
+  },
+  {
+    "id": "e99c4a6aaeb23865",
+    "title": "这是世界上最复杂的建设项目",
+    "category": "核能",
+    "region": "海外",
+    "source": "The B1M",
+    "duration": "31:45",
+    "date": "2026-10-08",
+    "summary": "视频聚焦法国ITER国际热核聚变实验堆，解析其超导磁体、真空室与低温系统的工程集成难点，涉及托卡马克装置毫米级装配精度及多国协同管理，展现聚变能工程化面临的极端制造与系统集成挑战。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=-2CnCrz38F4"
+  },
+  {
+    "id": "f9cb4148824d2098",
+    "title": "铀资源争夺战：谁将为核能复兴提供燃料？| 核能选项 - 第三部分 | CNA纪录片",
+    "category": "核能",
+    "region": "海外",
+    "source": "CNA Insider",
+    "duration": "46:36",
+    "date": "2026-10-08",
+    "summary": "CNA纪录片探讨全球核能复兴背景下铀燃料供应竞争，分析哈萨克斯坦、加拿大、纳米比亚等主要铀生产国的资源格局、地缘政治风险及供应链瓶颈，并讨论铀价波动对新建核电机组经济性的影响。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=PFhFClXmdv8"
+  },
   {
     "id": "12eeceb4e9e0e937",
     "title": "Solaronix | Stéphanie Narbey | 钙钛矿封装：40,000 与 2,000 篇论文的差距",
@@ -314,55 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "DTU风能与能源系统团队介绍风电叶片用复合材料技术，涵盖玻璃纤维与碳纤维增强树脂体系、铺层结构设计、疲劳与刚度性能，以及大型叶片制造工艺与可持续回收方向。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=zaPYWoFlRjM"
-  },
-  {
-    "id": "d0e4387048ec5037",
-    "title": "未来大型风力涡轮机叶片制造的行业视角 – John Korsgaard (ACM5)",
-    "category": "风电",
-    "region": "海外",
-    "source": "Bristol Composites Institute",
-    "duration": "56:46",
-    "date": "2026-09-16",
-    "summary": "John Korsgaard从行业视角探讨未来大型风电叶片制造，涉及复合材料应用、大型化带来的工艺挑战、成本控制与可制造性，为叶片设计与量产提供参考。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=O8jUhrJzfck"
-  },
-  {
-    "id": "acc00e2eaa4e4491",
-    "title": "360英尺巨兽：巨型风力涡轮机叶片如何制造（碳纤维秘密）",
-    "category": "风电",
-    "region": "海外",
-    "source": "Factory Secrets: How It's Made",
-    "duration": "67:59",
-    "date": "2026-09-16",
-    "summary": "本视频深入工厂内部，展示360英尺巨型风力涡轮机叶片的制造全过程，重点揭示碳纤维复合材料在叶片主梁、蒙皮等关键结构中的应用，涉及真空灌注、树脂固化等核心工艺，解析大型化叶片如何兼顾轻量化与结构强度。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=Om1nSQEWe00"
-  },
-  {
-    "id": "8dbafabe74990ced",
-    "title": "比亚迪固态电池：能量翻倍，续航1500公里，2027年问世",
-    "category": "动力电池",
-    "region": "海外",
-    "source": "The Electric Viking",
-    "duration": "6:11",
-    "date": "2026-09-16",
-    "summary": "比亚迪公布固态电池路线图，电芯能量密度较现有刀片电池翻倍，目标2027年装车，实现约1500公里续航。技术核心为硫化物固态电解质与高镍正极、硅基负极体系，需解决界面阻抗与量产工艺问题。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=qzT-9qh-xd0"
-  },
-  {
-    "id": "617c653e5fdabec5",
-    "title": "氢能家庭储能：这会是游戏规则改变者吗？",
-    "category": "氢能",
-    "region": "海外",
-    "source": "Just Have a Think",
-    "duration": "11:09",
-    "date": "2026-09-15",
-    "summary": "视频探讨氢能家庭储能技术，分析其作为住宅储能方案的可行性，对比锂电池在能量密度、长期存储和季节调节方面的优势，并评估成本、效率及基础设施挑战，判断其能否成为游戏规则改变者。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=0_bTjcjqN6c"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-10-07T01:49:05' }
+export const generatedMeta = { updatedAt: '2026-10-08T02:19:12' }
