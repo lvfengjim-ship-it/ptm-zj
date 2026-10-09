@@ -1,8 +1,32 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-10-08T02:19:12
+// 生成时间: 2026-10-09T02:34:24
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "a640a9a2c4a6a46a",
+    "title": "钙钛矿太阳能组件P4边缘去除与激光玻璃切割工艺",
+    "category": "光伏",
+    "region": "海外",
+    "source": "Microtreat",
+    "duration": "0:35",
+    "date": "2026-10-09",
+    "summary": "本视频展示钙钛矿太阳能组件的P4边缘去除及激光玻璃切割工艺，P4刻蚀用于清除边缘沉积层以实现电池隔离，激光切割则完成玻璃基板精密切割，两项工艺对提升组件效率和良率至关重要。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=flyUPor3i5g"
+  },
+  {
+    "id": "ccf84d56247e98b9",
+    "title": "电池储能系统（BESS）准备：一线应急人员安全入门",
+    "category": "储能",
+    "region": "海外",
+    "source": "IRECUSA",
+    "duration": "82:17",
+    "date": "2026-10-09",
+    "summary": "该视频面向一线应急人员，介绍电池储能系统（BESS）的基本安全知识，涵盖系统组成、潜在风险及应急处置要点，帮助救援人员在事故现场快速识别危险并采取正确防护措施。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=qVwjukqAPSQ"
+  },
   {
     "id": "f1c4571f4d8af08d",
     "title": "为核反应堆换料——Smarter Every Day 311",
@@ -338,31 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "Nick Warner 在视频中探讨储能系统消防安全，重点分析锂离子电池热失控风险、NFPA 855 等消防规范要求，以及气体探测、灭火抑制和应急响应策略，为储能项目设计运维提供安全指导。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=Se3wysKmAEc"
-  },
-  {
-    "id": "d13fc9bba874af49",
-    "title": "氢气储罐的类型：清洁能源储存的未来",
-    "category": "氢能",
-    "region": "海外",
-    "source": "ADDCOMPOSITES",
-    "duration": "3:20",
-    "date": "2026-09-16",
-    "summary": "视频介绍氢气储罐的主要类型，包括高压气态储罐、液氢储罐及固态储氢材料，分析其材料选择、压力等级与储氢密度，并探讨复合材料在轻量化与安全性方面的应用前景。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=Xi-7xNHUy8Y"
-  },
-  {
-    "id": "09394112ae474e9d",
-    "title": "用于风能的风电复合材料",
-    "category": "风电",
-    "region": "海外",
-    "source": "DTU Wind and Energy Systems",
-    "duration": "29:37",
-    "date": "2026-09-16",
-    "summary": "DTU风能与能源系统团队介绍风电叶片用复合材料技术，涵盖玻璃纤维与碳纤维增强树脂体系、铺层结构设计、疲劳与刚度性能，以及大型叶片制造工艺与可持续回收方向。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=zaPYWoFlRjM"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-10-08T02:19:12' }
+export const generatedMeta = { updatedAt: '2026-10-09T02:34:24' }
