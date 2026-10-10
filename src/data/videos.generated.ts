@@ -1,8 +1,20 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-10-09T02:34:24
+// 生成时间: 2026-10-10T01:55:07
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "0b88fe9dbbd3f7e2",
+    "title": "风力发电机叶片：灌注与修复 | CAMX 2021",
+    "category": "风电",
+    "region": "海外",
+    "source": "Composites One",
+    "duration": "11:41",
+    "date": "2026-10-10",
+    "summary": "本视频展示CAMX 2021上风力发电机叶片的真空灌注成型与修复工艺，涵盖树脂流动控制、纤维铺层及缺陷修补等关键技术，为复合材料叶片制造与运维提供实操参考。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=H2TpKyPvS0Y"
+  },
   {
     "id": "a640a9a2c4a6a46a",
     "title": "钙钛矿太阳能组件P4边缘去除与激光玻璃切割工艺",
@@ -350,19 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "Energetx Composites 发布 AB45 风电叶片，采用先进复合材料与真空灌注工艺，兼顾轻量化与结构强度，适配中大型陆上风机，提升捕风效率并降低度电成本。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=4cpjKEXdhZ8"
-  },
-  {
-    "id": "a1265c2c65779739",
-    "title": "储能与消防安全 | Nick Warner - 储能响应集团",
-    "category": "储能",
-    "region": "海外",
-    "source": "Continental Energy Solutions",
-    "duration": "50:05",
-    "date": "2026-09-17",
-    "summary": "Nick Warner 在视频中探讨储能系统消防安全，重点分析锂离子电池热失控风险、NFPA 855 等消防规范要求，以及气体探测、灭火抑制和应急响应策略，为储能项目设计运维提供安全指导。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=Se3wysKmAEc"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-10-09T02:34:24' }
+export const generatedMeta = { updatedAt: '2026-10-10T01:55:07' }
