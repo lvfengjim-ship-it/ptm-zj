@@ -1,8 +1,20 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-10-11T01:15:06
+// 生成时间: 2026-10-12T01:47:56
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "cd8fba91c43dae6e",
+    "title": "金属氢电池：从太空到电网规模储能",
+    "category": "储能",
+    "region": "海外",
+    "source": "Technology Networks",
+    "duration": "48:45",
+    "date": "2026-10-12",
+    "summary": "视频介绍金属氢电池技术，源自航天应用，利用金属氢化物可逆吸放氢实现电能存储。该体系兼具高能量密度与长循环寿命，正推进至电网级固定储能场景，为大规模可再生能源消纳提供新路径。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=zu6nf961Ufc"
+  },
   {
     "id": "0b88fe9dbbd3f7e2",
     "title": "风力发电机叶片：灌注与修复 | CAMX 2021",
@@ -350,19 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "该视频探讨氢能在长时储能中的应用，重点分析电解水制氢、储氢及燃料电池发电技术，阐述氢储能跨季节、大容量优势，并对比锂电池等短时储能方案，为可再生能源消纳提供解决路径。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=CAcCGXMPIUc"
-  },
-  {
-    "id": "208cc9d7744041fb",
-    "title": "Energetx Composites AB45 叶片发布",
-    "category": "风电",
-    "region": "海外",
-    "source": "EnergetxComposites1",
-    "duration": "3:38",
-    "date": "2026-09-17",
-    "summary": "Energetx Composites 发布 AB45 风电叶片，采用先进复合材料与真空灌注工艺，兼顾轻量化与结构强度，适配中大型陆上风机，提升捕风效率并降低度电成本。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=4cpjKEXdhZ8"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-10-11T01:15:06' }
+export const generatedMeta = { updatedAt: '2026-10-12T01:47:56' }
