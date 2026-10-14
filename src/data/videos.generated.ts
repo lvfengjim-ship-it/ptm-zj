@@ -1,8 +1,20 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-10-13T03:11:14
+// 生成时间: 2026-10-14T01:24:22
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "c7c42f18279b3dda",
+    "title": "轻量化500马力标致RCZ亮相，搭载Factorial固态电池与1000V系统",
+    "category": "动力电池",
+    "region": "海外",
+    "source": "The Electric Viking",
+    "duration": "6:44",
+    "date": "2026-10-14",
+    "summary": "标致RCZ改装车采用Factorial固态电池与1000V高压平台，输出500马力，通过轻量化设计提升性能。该方案展示固态电池在高功率电动车中的应用潜力，关注其能量密度与热管理表现。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=R9Ke7hS7NIw"
+  },
   {
     "id": "cd8fba91c43dae6e",
     "title": "金属氢电池：从太空到电网规模储能",
@@ -350,19 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "视频对比金属氢化物与固态储氢两种技术路线，分析其吸放氢机理、质量与体积储氢密度、工作温度及循环稳定性，并探讨在固定式储能与车载场景的适用性差异。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=10qI8d7M8ms"
-  },
-  {
-    "id": "9cc2896e300f59ce",
-    "title": "利用氢能实现长时储能",
-    "category": "氢能",
-    "region": "海外",
-    "source": "Hydrogen Energy Center",
-    "duration": "60:55",
-    "date": "2026-09-17",
-    "summary": "该视频探讨氢能在长时储能中的应用，重点分析电解水制氢、储氢及燃料电池发电技术，阐述氢储能跨季节、大容量优势，并对比锂电池等短时储能方案，为可再生能源消纳提供解决路径。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=CAcCGXMPIUc"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-10-13T03:11:14' }
+export const generatedMeta = { updatedAt: '2026-10-14T01:24:22' }
