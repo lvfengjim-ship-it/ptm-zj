@@ -1,8 +1,32 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-10-14T01:24:22
+// 生成时间: 2026-10-16T00:46:09
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "f7cd623ef47dc42a",
+    "title": "风力涡轮机叶片工厂：从原材料到巨型叶片",
+    "category": "风电",
+    "region": "海外",
+    "source": "Industrial Atlas",
+    "duration": "10:25",
+    "date": "2026-10-16",
+    "summary": "视频展示风电叶片从玻璃纤维、树脂等原材料到巨型叶片的完整制造流程，涵盖模具准备、纤维铺层、真空灌注、固化脱模及后期加工，体现大型化叶片对材料工艺与质量控制的要求。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=TVuANwhz88k"
+  },
+  {
+    "id": "7f556df37b43303a",
+    "title": "宁德时代与长安固态电池：400 Wh/kg、1500公里续航、60万公里寿命",
+    "category": "动力电池",
+    "region": "海外",
+    "source": "The Electric Viking",
+    "duration": "5:37",
+    "date": "2026-10-16",
+    "summary": "宁德时代与长安汽车公布固态电池合作进展，目标能量密度400 Wh/kg，支持整车续航1500公里，循环寿命达60万公里。该指标若量产落地，将显著提升电动车续航与电池耐久性，推动固态电池产业化进程。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=CY9FwCdLYas"
+  },
   {
     "id": "c7c42f18279b3dda",
     "title": "轻量化500马力标致RCZ亮相，搭载Factorial固态电池与1000V系统",
@@ -338,31 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "视频记录了一起由锂离子电池储能系统引发的家庭火灾事故，涉及电池热失控起火过程及现场损毁情况，为储能系统安全设计、消防预警及安装运维提供警示案例。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=M8ZAVK7BXFw"
-  },
-  {
-    "id": "e9613b962971b7ea",
-    "title": "先进材料研究：湿度控制对硫化物固态电解质足够吗？",
-    "category": "动力电池",
-    "region": "海外",
-    "source": "Boyee Group",
-    "duration": "2:14",
-    "date": "2026-09-18",
-    "summary": "视频探讨硫化物固态电解质的湿度控制问题，分析仅靠环境水分管理能否保障材料稳定性。硫化物对水氧敏感，易生成硫化氢并恶化离子电导，需结合气氛、涂层或掺杂等策略，对固态电池制造具参考价值。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=iSOzFqRLR_U"
-  },
-  {
-    "id": "d9f5b96e29be591d",
-    "title": "金属氢化物或固态储氢技术",
-    "category": "氢能",
-    "region": "海外",
-    "source": "VOLKS-ELECTROLYZER",
-    "duration": "8:07",
-    "date": "2026-09-17",
-    "summary": "视频对比金属氢化物与固态储氢两种技术路线，分析其吸放氢机理、质量与体积储氢密度、工作温度及循环稳定性，并探讨在固定式储能与车载场景的适用性差异。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=10qI8d7M8ms"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-10-14T01:24:22' }
+export const generatedMeta = { updatedAt: '2026-10-16T00:46:09' }
