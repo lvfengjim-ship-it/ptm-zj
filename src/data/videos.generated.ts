@@ -1,8 +1,44 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-10-16T00:46:09
+// 生成时间: 2026-10-17T00:46:50
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "03576422b095569f",
+    "title": "钙钛矿硅串联太阳能电池板实现商业化规模",
+    "category": "光伏",
+    "region": "海外",
+    "source": "Technology Eyeball",
+    "duration": "8:58",
+    "date": "2026-10-17",
+    "summary": "该视频介绍钙钛矿硅串联太阳能电池板进入商业化规模生产，重点涉及叠层结构提升光电转换效率、大面积制备工艺及稳定性改进，标志着该技术从实验室走向量产应用。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=eLthf5LM3GM"
+  },
+  {
+    "id": "34a7cb874a22671a",
+    "title": "美国“太阳能杀手”被揭穿——突破并非当初承诺的那样",
+    "category": "光伏",
+    "region": "海外",
+    "source": "Global Innovation Frontier",
+    "duration": "20:42",
+    "date": "2026-10-17",
+    "summary": "该视频质疑美国所谓“太阳能杀手”技术，指出其实际突破与早期承诺不符，可能涉及钙钛矿或新型光伏路线的效率、稳定性及商业化进展被夸大，提醒从业者理性评估技术成熟度。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=0n1Lu8ow87I"
+  },
+  {
+    "id": "1fd319fcc14c2430",
+    "title": "中国15美元太阳能薄膜或将淘汰当今光伏组件",
+    "category": "光伏",
+    "region": "海外",
+    "source": "Silent Giants",
+    "duration": "15:52",
+    "date": "2026-10-17",
+    "summary": "该视频介绍中国研发的低成本太阳能薄膜技术，单套成本约15美元，有望替代传统晶硅组件。内容聚焦薄膜材料体系、制备工艺与转换效率等核心指标，并分析其对现有光伏产业链的潜在冲击。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=-p8T47aPsik"
+  },
   {
     "id": "f7cd623ef47dc42a",
     "title": "风力涡轮机叶片工厂：从原材料到巨型叶片",
@@ -326,43 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "Factorial公布固态电池进展，能量密度达450 Wh/kg，计划2027年搭载于量产车型。视频讨论其技术路线、量产时间表及行业面临的工程化挑战，并评估该目标的可信度。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=mswqwrISk0c"
-  },
-  {
-    "id": "3d4111b863da2f8d",
-    "title": "Project Pele：为美国偏远基地带来核能",
-    "category": "核能",
-    "region": "海外",
-    "source": "Megaprojects",
-    "duration": "22:56",
-    "date": "2026-09-19",
-    "summary": "美国国防部Project Pele计划开发可移动微型核反应堆，采用高温气冷堆设计，使用TRISO燃料，输出1-5兆瓦电力，可卡车运输并快速部署，为偏远军事基地提供 resilient 电力，减少对化石燃料依赖。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=o02K2njSz-s"
-  },
-  {
-    "id": "322a11036e29fa10",
-    "title": "为什么小型核反应堆行不通",
-    "category": "核能",
-    "region": "海外",
-    "source": "Dr Ben Miles",
-    "duration": "15:59",
-    "date": "2026-09-19",
-    "summary": "该视频从工程与经济学角度分析小型模块化反应堆（SMR）的固有缺陷，指出其单位功率成本高于大型压水堆，且模块化量产优势受监管与供应链制约，难以实现预期降本目标。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=6c_H69pj26s"
-  },
-  {
-    "id": "b5337966e9f75445",
-    "title": "锂离子电池储能系统引发家庭火灾",
-    "category": "储能",
-    "region": "海外",
-    "source": "Philip Andrew",
-    "duration": "1:36",
-    "date": "2026-09-19",
-    "summary": "视频记录了一起由锂离子电池储能系统引发的家庭火灾事故，涉及电池热失控起火过程及现场损毁情况，为储能系统安全设计、消防预警及安装运维提供警示案例。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=M8ZAVK7BXFw"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-10-16T00:46:09' }
+export const generatedMeta = { updatedAt: '2026-10-17T00:46:50' }
