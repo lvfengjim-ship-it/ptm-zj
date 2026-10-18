@@ -1,8 +1,44 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-10-17T00:46:50
+// 生成时间: 2026-10-18T00:20:31
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "e1c8e4701c2eb252",
+    "title": "核电站缓冲器测试：为何至关重要 | Element",
+    "category": "核能",
+    "region": "海外",
+    "source": "Element Testing",
+    "duration": "1:11",
+    "date": "2026-10-18",
+    "summary": "Element Testing 展示核电站缓冲器（snubber）测试流程，说明其在核级管道与设备抗震、抗冲击中的关键作用，强调按标准验证缓冲器性能对核安全与设备完整性的重要性。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=T30PXX_nVnc"
+  },
+  {
+    "id": "e92ba6d6b566f3a9",
+    "title": "储能系统消防保护指南的制定",
+    "category": "储能",
+    "region": "海外",
+    "source": "Fire Protection Engineering",
+    "duration": "78:58",
+    "date": "2026-10-18",
+    "summary": "介绍储能系统消防保护指南的制定工作，聚焦锂离子电池储能电站的火灾风险特征，涵盖热失控传播机理、探测预警、灭火抑爆及消防设计规范等关键技术要点，为储能行业安全标准制定提供参考。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=xk0w5Kf2a04"
+  },
+  {
+    "id": "e5674f8229663c7c",
+    "title": "NYSERDA 呈现：电池储能系统——消防安全",
+    "category": "储能",
+    "region": "海外",
+    "source": "NYSERDA",
+    "duration": "80:28",
+    "date": "2026-10-18",
+    "summary": "纽约州能源研究与发展局（NYSERDA）介绍电池储能系统消防安全要点，涵盖热失控风险、火灾探测与抑制、系统设计及应急响应等关键技术，面向储能项目开发与运维人员提供安全规范参考。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=q8PplWWo7N4"
+  },
   {
     "id": "03576422b095569f",
     "title": "钙钛矿硅串联太阳能电池板实现商业化规模",
@@ -326,43 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "EPRI介绍定向能量沉积（DED）增材制造技术在先进核能领域的应用，涵盖核级部件修复与制造、材料性能验证及在役检查要求，为核电站运维提供技术路径。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=cvynJdsJ92k"
-  },
-  {
-    "id": "68f2ec3760606844",
-    "title": "新型可回收树脂让风力涡轮机更可持续",
-    "category": "风电",
-    "region": "海外",
-    "source": "Vanderbilt University",
-    "duration": "1:50",
-    "date": "2026-09-25",
-    "summary": "范德堡大学团队开发出一种新型可回收树脂，用于制造风力涡轮机叶片。该树脂可在温和条件下解聚，实现叶片材料的闭环回收，解决传统热固性复合材料难以回收的难题，提升风电产业可持续性。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=Ljba0SJfJR0"
-  },
-  {
-    "id": "33936d527702a00b",
-    "title": "核电站如何运作 ☢️ 反应堆内部揭秘",
-    "category": "核能",
-    "region": "海外",
-    "source": "Worldnite Journey",
-    "duration": "9:19",
-    "date": "2026-09-24",
-    "summary": "本视频深入核电站反应堆内部，解析核裂变链式反应释放热能、冷却剂循环带出热量、蒸汽推动汽轮机发电的完整流程，并展示控制棒调节反应速率及多重安全屏障设计，帮助从业者直观理解压水堆核心工作原理。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=j_8m9GyNV3M"
-  },
-  {
-    "id": "2e7b6a86a2bf7d7a",
-    "title": "Factorial的固态电池：450 Wh/kg，2027年装车，以及诚实的时间表",
-    "category": "动力电池",
-    "region": "海外",
-    "source": "The Electric Viking",
-    "duration": "7:06",
-    "date": "2026-09-22",
-    "summary": "Factorial公布固态电池进展，能量密度达450 Wh/kg，计划2027年搭载于量产车型。视频讨论其技术路线、量产时间表及行业面临的工程化挑战，并评估该目标的可信度。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=mswqwrISk0c"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-10-17T00:46:50' }
+export const generatedMeta = { updatedAt: '2026-10-18T00:20:31' }
