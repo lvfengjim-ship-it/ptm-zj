@@ -1,8 +1,32 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-10-20T01:16:59
+// 生成时间: 2026-10-21T00:58:37
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "31d51822a7f62f42",
+    "title": "电池储能系统不会起火",
+    "category": "储能",
+    "region": "海外",
+    "source": "Backyard Bothy",
+    "duration": "10:58",
+    "date": "2026-10-21",
+    "summary": "视频探讨电池储能系统的火灾风险，指出通过电芯选型、热管理、BMS监测与消防设计可降低热失控概率，强调系统级安全防护而非绝对不起火，为储能安全设计提供参考。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=s3z5buQlGQw"
+  },
+  {
+    "id": "05cf0f867c3bfc42",
+    "title": "固态电池能否经受工厂量产考验？",
+    "category": "动力电池",
+    "region": "海外",
+    "source": "Fluxplained",
+    "duration": "14:08",
+    "date": "2026-10-21",
+    "summary": "视频探讨固态电池从实验室走向工厂量产面临的核心挑战，聚焦制造工艺、良率控制与成本问题，分析固态电解质规模化生产的技术瓶颈及产业化可行性。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=_Hg54H3fIeI"
+  },
   {
     "id": "e1c8e4701c2eb252",
     "title": "核电站缓冲器测试：为何至关重要 | Element",
@@ -338,31 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "CompPair 将可自修复树脂体系拓展至真空灌注工艺，用于制造风力发电机叶片。该技术通过在复合材料中嵌入可逆动态键，使叶片在损伤后经加热即可修复裂纹与分层，延长服役寿命并降低运维成本。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=iHNz0zNgHAs"
-  },
-  {
-    "id": "484290da86984a4b",
-    "title": "奇瑞固态电池成真：400 Wh/kg，6000次循环，明年上车",
-    "category": "动力电池",
-    "region": "海外",
-    "source": "The Electric Viking",
-    "duration": "4:35",
-    "date": "2026-09-27",
-    "summary": "奇瑞发布固态电池，能量密度达400 Wh/kg，循环寿命6000次，计划明年量产装车。该技术若落地，将显著提升电动车续航与安全性，推动固态电池商业化进程。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=qzLBrpcFTTI"
-  },
-  {
-    "id": "77328e2649d65f8e",
-    "title": "EPRI：先进核技术——定向能量沉积",
-    "category": "核能",
-    "region": "海外",
-    "source": "EPRI",
-    "duration": "1:56",
-    "date": "2026-09-26",
-    "summary": "EPRI介绍定向能量沉积（DED）增材制造技术在先进核能领域的应用，涵盖核级部件修复与制造、材料性能验证及在役检查要求，为核电站运维提供技术路径。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=cvynJdsJ92k"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-10-20T01:16:59' }
+export const generatedMeta = { updatedAt: '2026-10-21T00:58:37' }
