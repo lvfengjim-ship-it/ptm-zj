@@ -1,8 +1,20 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-10-22T00:54:36
+// 生成时间: 2026-10-23T00:57:18
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "1f3c7be729d43d12",
+    "title": "固态电池终于投产——首批电芯的真实性能如何",
+    "category": "动力电池",
+    "region": "海外",
+    "source": "The Electric Viking",
+    "duration": "7:05",
+    "date": "2026-10-23",
+    "summary": "该视频聚焦固态电池从实验室走向量产的最新进展，介绍首批量产电芯的实际性能表现，涵盖能量密度、充放电能力与制造工艺等关键技术指标，并分析其对动力电池技术路线的潜在影响。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=n9lflSOtpnc"
+  },
   {
     "id": "31d51822a7f62f42",
     "title": "电池储能系统不会起火",
@@ -350,19 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "视频探讨电池储能系统在极端高温和严寒环境下的热失控风险与消防安全，分析温度对电池性能、寿命及安全性的影响，并介绍热管理设计与消防防护策略，为储能系统安全运维提供参考。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=kYrlRaiAxvw"
-  },
-  {
-    "id": "e7ade199918697ff",
-    "title": "CompPair 开发可自修复灌注工艺：制造风力发电机叶片！",
-    "category": "风电",
-    "region": "海外",
-    "source": "CompPair Technologies",
-    "duration": "0:35",
-    "date": "2026-09-28",
-    "summary": "CompPair 将可自修复树脂体系拓展至真空灌注工艺，用于制造风力发电机叶片。该技术通过在复合材料中嵌入可逆动态键，使叶片在损伤后经加热即可修复裂纹与分层，延长服役寿命并降低运维成本。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=iHNz0zNgHAs"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-10-22T00:54:36' }
+export const generatedMeta = { updatedAt: '2026-10-23T00:57:18' }
