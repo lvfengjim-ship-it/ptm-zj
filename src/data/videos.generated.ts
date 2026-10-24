@@ -1,8 +1,20 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-10-23T00:57:18
+// 生成时间: 2026-10-24T01:07:04
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "0eaaa54c6d07b29c",
+    "title": "氢浆解决储氢难题——但还有更大的问题",
+    "category": "氢能",
+    "region": "海外",
+    "source": "reneenergy. com",
+    "duration": "8:16",
+    "date": "2026-10-24",
+    "summary": "视频介绍氢浆（Hydrogen Paste）作为新型储氢介质，可在常温常压下稳定储存并可控释放氢气，规避高压与低温储运瓶颈；但指出其规模化应用仍面临释放效率、材料循环寿命与成本等更大挑战。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=Y0DFBKRwzwk"
+  },
   {
     "id": "1f3c7be729d43d12",
     "title": "固态电池终于投产——首批电芯的真实性能如何",
@@ -350,19 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "视频展示风电叶片复合材料修复的实操流程，涵盖损伤评估、表面处理、层压铺放与固化工艺，强调现场维修中材料匹配与工艺控制对恢复叶片结构完整性的关键作用。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=8Q8iuLEpYko"
-  },
-  {
-    "id": "dd68a3599314520d",
-    "title": "极端高温与严寒下BESS会发生什么：热失控与消防安全",
-    "category": "储能",
-    "region": "海外",
-    "source": "Learn Solar & BESS",
-    "duration": "8:00",
-    "date": "2026-09-29",
-    "summary": "视频探讨电池储能系统在极端高温和严寒环境下的热失控风险与消防安全，分析温度对电池性能、寿命及安全性的影响，并介绍热管理设计与消防防护策略，为储能系统安全运维提供参考。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=kYrlRaiAxvw"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-10-23T00:57:18' }
+export const generatedMeta = { updatedAt: '2026-10-24T01:07:04' }
