@@ -1,8 +1,32 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-10-26T00:43:44
+// 生成时间: 2026-10-27T01:37:32
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "a3509749965ccb1d",
+    "title": "IACMI风电叶片原型（复合材料制造创新）",
+    "category": "风电",
+    "region": "海外",
+    "source": "IACMI- The Composites Institute",
+    "duration": "6:20",
+    "date": "2026-10-27",
+    "summary": "IACMI展示复合材料风电叶片原型，聚焦自动化铺层、快速固化树脂与模块化模具等制造创新，旨在缩短大型叶片生产周期并降低成本，验证先进复合材料工艺在风电叶片规模化制造中的可行性。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=Kslh8XUphJo"
+  },
+  {
+    "id": "5a973a523e2bddee",
+    "title": "丰田1500英里固态电池与5分钟快充彻底改变电动车格局！",
+    "category": "动力电池",
+    "region": "海外",
+    "source": "Fresh Discovery",
+    "duration": "21:24",
+    "date": "2026-10-27",
+    "summary": "丰田宣称其固态电池可实现约1500英里续航与5分钟快充，若属实将大幅提升能量密度与补能效率。需关注其量产时间表、成本控制及循环寿命等工程化验证进展。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=KPQdQD5pEE8"
+  },
   {
     "id": "0eaaa54c6d07b29c",
     "title": "氢浆解决储氢难题——但还有更大的问题",
@@ -338,31 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "视频讨论中国为固态电池产业化设定的时间节点，分析量产装车与消费者可购时间。核心关注硫化物、氧化物等电解质路线进展，以及车企与电池厂的中试线和量产规划，评估固态电池对续航与安全性的提升。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=DDhHQnSfPMQ"
-  },
-  {
-    "id": "f409ffd974c9feb2",
-    "title": "地球上第一座核反应堆并非人类建造",
-    "category": "核能",
-    "region": "海外",
-    "source": "Astrum Earth",
-    "duration": "34:18",
-    "date": "2026-09-29",
-    "summary": "该视频探讨地球早期天然核反应堆现象，重点介绍加蓬奥克洛铀矿中约20亿年前自发形成的链式裂变反应，分析其地质与物理机制，并对比人工核反应堆技术，为核能从业者提供天然核裂变案例参考。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=bl-wJbqyu-M"
-  },
-  {
-    "id": "e4683b2fd41bf457",
-    "title": "复合材料近距离观察：叶片修复",
-    "category": "风电",
-    "region": "海外",
-    "source": "Composites One",
-    "duration": "7:29",
-    "date": "2026-09-29",
-    "summary": "视频展示风电叶片复合材料修复的实操流程，涵盖损伤评估、表面处理、层压铺放与固化工艺，强调现场维修中材料匹配与工艺控制对恢复叶片结构完整性的关键作用。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=8Q8iuLEpYko"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-10-26T00:43:44' }
+export const generatedMeta = { updatedAt: '2026-10-27T01:37:32' }
