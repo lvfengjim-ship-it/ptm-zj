@@ -1,8 +1,20 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-10-27T01:37:32
+// 生成时间: 2026-10-28T01:43:39
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "9b9dfe2f79d911b8",
+    "title": "电池储能系统（BESS）安全研讨会 - 2026年8月20日（上午）",
+    "category": "储能",
+    "region": "海外",
+    "source": "California Office of the State Fire Marshal",
+    "duration": "205:09",
+    "date": "2026-10-28",
+    "summary": "加州州消防局长办公室主办的电池储能系统安全研讨会上午场，聚焦BESS火灾风险与消防安全监管，面向储能从业者介绍安全标准、事故防控及应急响应等技术要点。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=cWyfHC9OEaA"
+  },
   {
     "id": "a3509749965ccb1d",
     "title": "IACMI风电叶片原型（复合材料制造创新）",
@@ -350,19 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "视频讨论固态电池成本首次公布，价格远低于此前预期，可能加速其商业化进程。内容涉及固态电池技术路线、量产成本下降趋势，以及对现有动力电池格局的潜在冲击，值得关注。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=qE4n6s_bNzU"
-  },
-  {
-    "id": "cb5f8ecf8d40aeb3",
-    "title": "中国为固态电池设定最后期限——你何时能真正买到",
-    "category": "动力电池",
-    "region": "海外",
-    "source": "The Electric Viking",
-    "duration": "5:52",
-    "date": "2026-09-30",
-    "summary": "视频讨论中国为固态电池产业化设定的时间节点，分析量产装车与消费者可购时间。核心关注硫化物、氧化物等电解质路线进展，以及车企与电池厂的中试线和量产规划，评估固态电池对续航与安全性的提升。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=DDhHQnSfPMQ"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-10-27T01:37:32' }
+export const generatedMeta = { updatedAt: '2026-10-28T01:43:39' }
