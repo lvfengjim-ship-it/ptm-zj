@@ -1,8 +1,32 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-10-28T01:43:39
+// 生成时间: 2026-10-29T01:56:51
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "1cd11ad7ee1fd9f4",
+    "title": "风电叶片制造与维修技术研讨会 | NREL 2024",
+    "category": "风电",
+    "region": "海外",
+    "source": "Composites One",
+    "duration": "2:19",
+    "date": "2026-10-29",
+    "summary": "该视频介绍NREL 2024风电叶片制造与维修技术研讨会，聚焦叶片复合材料成型工艺、缺陷检测与修复技术，面向从业者分享制造质量控制和运维维修的最新实践。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=WWV0Qe0ZJHo"
+  },
+  {
+    "id": "fc98d033014dab08",
+    "title": "奇瑞固态电池：续航1500公里，能量密度与发布时间揭晓",
+    "category": "动力电池",
+    "region": "海外",
+    "source": "The Electric Viking",
+    "duration": "4:49",
+    "date": "2026-10-29",
+    "summary": "奇瑞公布固态电池技术进展，宣称续航达1500公里，并披露能量密度指标与量产时间节点。该技术若落地将显著提升电动车续航与安全性，对动力电池技术路线竞争格局产生重要影响。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=l6XmsL2gjb0"
+  },
   {
     "id": "9b9dfe2f79d911b8",
     "title": "电池储能系统（BESS）安全研讨会 - 2026年8月20日（上午）",
@@ -338,31 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "该视频报道全球首款固态电池正式公布售价，面向电动汽车应用。固态电池以固态电解质替代液态电解液，有望提升能量密度与安全性，此举标志其从实验室走向商业化定价阶段。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=1sbDCAHgMvo"
-  },
-  {
-    "id": "c8dc23d7c42d6ab4",
-    "title": "SunPower 22.5%效率太阳能电池封装 第1部分",
-    "category": "光伏",
-    "region": "海外",
-    "source": "Grzegorz Mucha",
-    "duration": "14:35",
-    "date": "2026-10-01",
-    "summary": "本视频展示SunPower 22.5%效率太阳能电池的封装工艺，涵盖材料选择、层压流程及操作要点，为光伏组件封装提供实操参考。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=C4_WlfsOxhM"
-  },
-  {
-    "id": "a2ef4d1cfe6af588",
-    "title": "固态电池终于有了价格——而且低得惊人",
-    "category": "动力电池",
-    "region": "海外",
-    "source": "The Electric Viking",
-    "duration": "6:18",
-    "date": "2026-10-01",
-    "summary": "视频讨论固态电池成本首次公布，价格远低于此前预期，可能加速其商业化进程。内容涉及固态电池技术路线、量产成本下降趋势，以及对现有动力电池格局的潜在冲击，值得关注。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=qE4n6s_bNzU"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-10-28T01:43:39' }
+export const generatedMeta = { updatedAt: '2026-10-29T01:56:51' }
