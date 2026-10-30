@@ -1,8 +1,20 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-10-29T01:56:51
+// 生成时间: 2026-10-30T02:09:02
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "829c063084c5fb2b",
+    "title": "石油巨头现已在欧洲量产固态电池",
+    "category": "动力电池",
+    "region": "海外",
+    "source": "The Electric Viking",
+    "duration": "4:58",
+    "date": "2026-10-30",
+    "summary": "欧洲石油巨头宣布固态电池进入大规模量产阶段，标志传统能源企业向电动化转型。该技术有望提升能量密度与安全性，降低对液态锂电依赖，对动力电池供应链格局产生重要影响。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=8KZRCvc6Dzw"
+  },
   {
     "id": "1cd11ad7ee1fd9f4",
     "title": "风电叶片制造与维修技术研讨会 | NREL 2024",
@@ -350,19 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "探访风电叶片制造工厂，解析巨型叶片从玻璃纤维/碳纤维铺层、真空灌注到固化成型的关键工艺，并介绍退役叶片经破碎、热解等技术回收为新型复合材料的路径，为风电产业循环利用提供参考。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=zwI6PUIHTp4"
-  },
-  {
-    "id": "1460dd614fa551b0",
-    "title": "全球首款固态电池公布价格！",
-    "category": "动力电池",
-    "region": "海外",
-    "source": "TESLA CAR WORLD",
-    "duration": "13:42",
-    "date": "2026-10-06",
-    "summary": "该视频报道全球首款固态电池正式公布售价，面向电动汽车应用。固态电池以固态电解质替代液态电解液，有望提升能量密度与安全性，此举标志其从实验室走向商业化定价阶段。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=1sbDCAHgMvo"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-10-29T01:56:51' }
+export const generatedMeta = { updatedAt: '2026-10-30T02:09:02' }
