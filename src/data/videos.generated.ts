@@ -1,8 +1,32 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-10-30T02:09:02
+// 生成时间: 2026-10-31T01:49:19
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "09b006fa69bb5fb2",
+    "title": "Everlight | 实现可靠钙钛矿商业化的实用封装要素",
+    "category": "光伏",
+    "region": "海外",
+    "source": "TechBlick",
+    "duration": "5:03",
+    "date": "2026-10-31",
+    "summary": "Everlight在TechBlick报告中探讨钙钛矿光伏组件商业化所需的封装关键因素，涵盖材料选型、阻水阻氧性能、工艺兼容性及长期稳定性验证，强调封装对提升组件可靠性和量产良率的核心作用。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=9FKSDrJ2b_8"
+  },
+  {
+    "id": "692970307ece5d60",
+    "title": "BESS 消防：为什么电池火灾不能仅靠扑灭",
+    "category": "储能",
+    "region": "海外",
+    "source": "BESS Engineer | Sergey Syrvachev",
+    "duration": "2:30",
+    "date": "2026-10-31",
+    "summary": "视频解析电池储能系统火灾的特殊性：锂离子热失控会自产氧气并持续放热，常规灭火仅能压制外部火焰，无法中断内部链式反应，需结合早期探测、热失控隔离与持续冷却等策略。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=gBVRQCCZif8"
+  },
   {
     "id": "829c063084c5fb2b",
     "title": "石油巨头现已在欧洲量产固态电池",
@@ -338,31 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "Solaronix的Stéphanie Narbey指出钙钛矿封装领域存在显著论文差距：约40,000篇论文聚焦电池效率，仅约2,000篇关注封装稳定性。报告强调封装技术对钙钛矿光伏商业化至关重要，需加强界面材料与工艺研究。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=EyMMPRaxyKA"
-  },
-  {
-    "id": "4c3e948bb3c72651",
-    "title": "梅赛德斯的新固态电池合作伙伴已开始量产电芯",
-    "category": "动力电池",
-    "region": "海外",
-    "source": "The Electric Viking",
-    "duration": "6:26",
-    "date": "2026-10-07",
-    "summary": "梅赛德斯-奔驰宣布其新固态电池合作伙伴已实现电芯量产，该技术有望提升动力电池能量密度与安全性，并加速固态电池在电动汽车领域的商业化落地。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=NhiqbDVU528"
-  },
-  {
-    "id": "89ac65c15d54ecc2",
-    "title": "走进风力涡轮机叶片工厂——巨型叶片如何转化为新型复合材料",
-    "category": "风电",
-    "region": "海外",
-    "source": "Big Mickey Media",
-    "duration": "19:51",
-    "date": "2026-10-06",
-    "summary": "探访风电叶片制造工厂，解析巨型叶片从玻璃纤维/碳纤维铺层、真空灌注到固化成型的关键工艺，并介绍退役叶片经破碎、热解等技术回收为新型复合材料的路径，为风电产业循环利用提供参考。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=zwI6PUIHTp4"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-10-30T02:09:02' }
+export const generatedMeta = { updatedAt: '2026-10-31T01:49:19' }
