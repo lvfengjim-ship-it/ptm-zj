@@ -1,8 +1,20 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-10-31T01:49:19
+// 生成时间: 2026-11-01T01:28:40
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "a0cf3c318c7e4e2e",
+    "title": "废旧风力涡轮机叶片如何回收制成新材料｜工厂流程",
+    "category": "风电",
+    "region": "海外",
+    "source": "Remade Factory",
+    "duration": "8:01",
+    "date": "2026-11-01",
+    "summary": "视频展示退役风电叶片从拆解、破碎到纤维分离的工厂化回收流程，重点呈现玻璃纤维与树脂基体的处理路径及再生材料去向，为叶片规模化循环利用提供可参考的工艺方案。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=4qfhyI4vLQs"
+  },
   {
     "id": "09b006fa69bb5fb2",
     "title": "Everlight | 实现可靠钙钛矿商业化的实用封装要素",
@@ -350,19 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "CNA纪录片探讨全球核能复兴背景下铀燃料供应竞争，分析哈萨克斯坦、加拿大、纳米比亚等主要铀生产国的资源格局、地缘政治风险及供应链瓶颈，并讨论铀价波动对新建核电机组经济性的影响。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=PFhFClXmdv8"
-  },
-  {
-    "id": "12eeceb4e9e0e937",
-    "title": "Solaronix | Stéphanie Narbey | 钙钛矿封装：40,000 与 2,000 篇论文的差距",
-    "category": "光伏",
-    "region": "海外",
-    "source": "TechBlick",
-    "duration": "0:49",
-    "date": "2026-10-07",
-    "summary": "Solaronix的Stéphanie Narbey指出钙钛矿封装领域存在显著论文差距：约40,000篇论文聚焦电池效率，仅约2,000篇关注封装稳定性。报告强调封装技术对钙钛矿光伏商业化至关重要，需加强界面材料与工艺研究。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=EyMMPRaxyKA"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-10-31T01:49:19' }
+export const generatedMeta = { updatedAt: '2026-11-01T01:28:40' }
