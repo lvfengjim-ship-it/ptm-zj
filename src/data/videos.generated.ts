@@ -1,8 +1,32 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-11-01T01:28:40
+// 生成时间: 2026-11-02T01:50:13
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "b67f1c172c33e81e",
+    "title": "旧风力涡轮机叶片如何在大型回收工厂中被回收制成水泥",
+    "category": "风电",
+    "region": "海外",
+    "source": "Mido Explained",
+    "duration": "16:06",
+    "date": "2026-11-02",
+    "summary": "视频展示大型回收工厂将退役风电叶片破碎、分选并作为水泥窑替代原料与燃料的完整流程，重点说明玻璃纤维增强复合材料难以常规回收，经粉碎后利用其矿物成分和热值实现资源化，为叶片规模化处置提供工业路径。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=5808ItA6GHA"
+  },
+  {
+    "id": "5ff411aef7d6a71f",
+    "title": "纽约沃里克电池储能火灾：一起重复性事故",
+    "category": "储能",
+    "region": "海外",
+    "source": "StacheD Training",
+    "duration": "6:10",
+    "date": "2026-11-02",
+    "summary": "纽约沃里克电池储能设施再次发生火灾，系同一站点重复事故。视频分析事故经过与现场响应，探讨储能系统热失控风险及消防处置难点，对储能电站安全设计与运维具有警示意义。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=RJ5JWFebW5w"
+  },
   {
     "id": "a0cf3c318c7e4e2e",
     "title": "废旧风力涡轮机叶片如何回收制成新材料｜工厂流程",
@@ -338,31 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "CNA纪录片探讨核能复兴所需条件，涉及小型模块化反应堆、先进核燃料及监管框架等关键技术，分析核能作为低碳基荷电源在能源转型中的角色与挑战。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=W3Spzd1oMqk"
-  },
-  {
-    "id": "e99c4a6aaeb23865",
-    "title": "这是世界上最复杂的建设项目",
-    "category": "核能",
-    "region": "海外",
-    "source": "The B1M",
-    "duration": "31:45",
-    "date": "2026-10-08",
-    "summary": "视频聚焦法国ITER国际热核聚变实验堆，解析其超导磁体、真空室与低温系统的工程集成难点，涉及托卡马克装置毫米级装配精度及多国协同管理，展现聚变能工程化面临的极端制造与系统集成挑战。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=-2CnCrz38F4"
-  },
-  {
-    "id": "f9cb4148824d2098",
-    "title": "铀资源争夺战：谁将为核能复兴提供燃料？| 核能选项 - 第三部分 | CNA纪录片",
-    "category": "核能",
-    "region": "海外",
-    "source": "CNA Insider",
-    "duration": "46:36",
-    "date": "2026-10-08",
-    "summary": "CNA纪录片探讨全球核能复兴背景下铀燃料供应竞争，分析哈萨克斯坦、加拿大、纳米比亚等主要铀生产国的资源格局、地缘政治风险及供应链瓶颈，并讨论铀价波动对新建核电机组经济性的影响。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=PFhFClXmdv8"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-11-01T01:28:40' }
+export const generatedMeta = { updatedAt: '2026-11-02T01:50:13' }
