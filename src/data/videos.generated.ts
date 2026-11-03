@@ -1,8 +1,20 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-11-02T01:50:13
+// 生成时间: 2026-11-03T03:42:27
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "7dac34beddbeb5e7",
+    "title": "消防队长访谈：BESS火灾持续燃烧两周",
+    "category": "储能",
+    "region": "海外",
+    "source": "StacheD Training",
+    "duration": "9:31",
+    "date": "2026-11-03",
+    "summary": "消防队长复盘某电池储能系统（BESS）火灾，火势持续两周，暴露热失控难以扑灭、复燃风险高的问题。访谈涉及现场处置策略、水耗与安全隔离，对储能电站消防设计和运维有参考价值。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=K_nP_9DYKyQ"
+  },
   {
     "id": "b67f1c172c33e81e",
     "title": "旧风力涡轮机叶片如何在大型回收工厂中被回收制成水泥",
@@ -350,19 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "本视频深入核电站换料现场，展示反应堆停堆后移除乏燃料组件、装入新燃料的完整流程，涵盖水下操作、辐射防护及临界安全控制等关键技术环节，直观呈现核燃料循环前端运维要点。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=v0afQ6w3Bjw"
-  },
-  {
-    "id": "f1c835d8dd3bc7da",
-    "title": "核能复兴：需要什么来驱动？| 核能选项 - 第4部分 | CNA纪录片",
-    "category": "核能",
-    "region": "海外",
-    "source": "CNA Insider",
-    "duration": "45:00",
-    "date": "2026-10-08",
-    "summary": "CNA纪录片探讨核能复兴所需条件，涉及小型模块化反应堆、先进核燃料及监管框架等关键技术，分析核能作为低碳基荷电源在能源转型中的角色与挑战。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=W3Spzd1oMqk"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-11-02T01:50:13' }
+export const generatedMeta = { updatedAt: '2026-11-03T03:42:27' }
