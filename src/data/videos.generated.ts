@@ -1,8 +1,20 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-11-03T03:42:27
+// 生成时间: 2026-11-04T02:42:37
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "cfd6d170c4b6bb79",
+    "title": "500 Wh/kg：宁德时代固态电池续航翻倍，但何时量产？",
+    "category": "动力电池",
+    "region": "海外",
+    "source": "The Electric Viking",
+    "duration": "6:46",
+    "date": "2026-11-04",
+    "summary": "宁德时代固态电池能量密度达500 Wh/kg，可使电动车续航翻倍。视频分析其技术路线与量产时间表，探讨硫化物电解质等关键挑战及对动力电池竞争格局的影响。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=Hs-kcW7KSm0"
+  },
   {
     "id": "7dac34beddbeb5e7",
     "title": "消防队长访谈：BESS火灾持续燃烧两周",
@@ -350,19 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "该视频面向一线应急人员，介绍电池储能系统（BESS）的基本安全知识，涵盖系统组成、潜在风险及应急处置要点，帮助救援人员在事故现场快速识别危险并采取正确防护措施。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=qVwjukqAPSQ"
-  },
-  {
-    "id": "f1c4571f4d8af08d",
-    "title": "为核反应堆换料——Smarter Every Day 311",
-    "category": "核能",
-    "region": "海外",
-    "source": "SmarterEveryDay",
-    "duration": "106:08",
-    "date": "2026-10-08",
-    "summary": "本视频深入核电站换料现场，展示反应堆停堆后移除乏燃料组件、装入新燃料的完整流程，涵盖水下操作、辐射防护及临界安全控制等关键技术环节，直观呈现核燃料循环前端运维要点。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=v0afQ6w3Bjw"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-11-03T03:42:27' }
+export const generatedMeta = { updatedAt: '2026-11-04T02:42:37' }
