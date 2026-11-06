@@ -1,8 +1,32 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-11-05T02:48:09
+// 生成时间: 2026-11-06T02:49:54
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "48b6f92bf3b6eb76",
+    "title": "土耳其耗资250亿美元的核能超级工程，由俄罗斯承建",
+    "category": "核能",
+    "region": "海外",
+    "source": "The B1M",
+    "duration": "14:07",
+    "date": "2026-11-06",
+    "summary": "土耳其阿库尤核电站总投资约250亿美元，由俄罗斯国家原子能公司采用BOO模式承建，规划4台VVER-1200机组，总装机480万千瓦。项目涵盖建设、运营与电力销售，是土俄能源合作标志性工程。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=Ws-YNxTdZJQ"
+  },
+  {
+    "id": "ced09eb5159632d2",
+    "title": "固态电池为何仍未取代锂离子电池",
+    "category": "动力电池",
+    "region": "海外",
+    "source": "FomoTech",
+    "duration": "3:43",
+    "date": "2026-11-06",
+    "summary": "视频剖析固态电池商业化迟滞的核心原因：固-固界面阻抗高、锂枝晶穿透、材料与制造成本高、量产工艺不成熟。尽管能量密度与安全性优势明确，规模化替代液态锂电仍需材料与工艺突破。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=d3v3--BtAdQ"
+  },
   {
     "id": "cfd6d170c4b6bb79",
     "title": "500 Wh/kg：宁德时代固态电池续航翻倍，但何时量产？",
@@ -338,31 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "本视频展示CAMX 2021上风力发电机叶片的真空灌注成型与修复工艺，涵盖树脂流动控制、纤维铺层及缺陷修补等关键技术，为复合材料叶片制造与运维提供实操参考。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=H2TpKyPvS0Y"
-  },
-  {
-    "id": "a640a9a2c4a6a46a",
-    "title": "钙钛矿太阳能组件P4边缘去除与激光玻璃切割工艺",
-    "category": "光伏",
-    "region": "海外",
-    "source": "Microtreat",
-    "duration": "0:35",
-    "date": "2026-10-09",
-    "summary": "本视频展示钙钛矿太阳能组件的P4边缘去除及激光玻璃切割工艺，P4刻蚀用于清除边缘沉积层以实现电池隔离，激光切割则完成玻璃基板精密切割，两项工艺对提升组件效率和良率至关重要。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=flyUPor3i5g"
-  },
-  {
-    "id": "ccf84d56247e98b9",
-    "title": "电池储能系统（BESS）准备：一线应急人员安全入门",
-    "category": "储能",
-    "region": "海外",
-    "source": "IRECUSA",
-    "duration": "82:17",
-    "date": "2026-10-09",
-    "summary": "该视频面向一线应急人员，介绍电池储能系统（BESS）的基本安全知识，涵盖系统组成、潜在风险及应急处置要点，帮助救援人员在事故现场快速识别危险并采取正确防护措施。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=qVwjukqAPSQ"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-11-05T02:48:09' }
+export const generatedMeta = { updatedAt: '2026-11-06T02:49:54' }
