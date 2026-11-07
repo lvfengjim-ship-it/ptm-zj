@@ -1,8 +1,20 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-11-06T02:49:54
+// 生成时间: 2026-11-07T02:22:12
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "3c198379ef26768b",
+    "title": "月球核电站土木工程与场地准备",
+    "category": "核能",
+    "region": "海外",
+    "source": "Exploration Architecture",
+    "duration": "2:43",
+    "date": "2026-11-07",
+    "summary": "该视频介绍月球核电站的土木工程与场地准备方案，涵盖选址、地基处理、防护结构及模块化建造等要点，探讨在月面极端环境下建设核电源的工程可行性与施工路径。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=-78XeNlFaxY"
+  },
   {
     "id": "48b6f92bf3b6eb76",
     "title": "土耳其耗资250亿美元的核能超级工程，由俄罗斯承建",
@@ -350,19 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "视频介绍金属氢电池技术，源自航天应用，利用金属氢化物可逆吸放氢实现电能存储。该体系兼具高能量密度与长循环寿命，正推进至电网级固定储能场景，为大规模可再生能源消纳提供新路径。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=zu6nf961Ufc"
-  },
-  {
-    "id": "0b88fe9dbbd3f7e2",
-    "title": "风力发电机叶片：灌注与修复 | CAMX 2021",
-    "category": "风电",
-    "region": "海外",
-    "source": "Composites One",
-    "duration": "11:41",
-    "date": "2026-10-10",
-    "summary": "本视频展示CAMX 2021上风力发电机叶片的真空灌注成型与修复工艺，涵盖树脂流动控制、纤维铺层及缺陷修补等关键技术，为复合材料叶片制造与运维提供实操参考。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=H2TpKyPvS0Y"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-11-06T02:49:54' }
+export const generatedMeta = { updatedAt: '2026-11-07T02:22:12' }
