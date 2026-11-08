@@ -1,8 +1,44 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-11-07T02:22:12
+// 生成时间: 2026-11-08T01:50:30
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "8b9d5c7c0d227117",
+    "title": "中国刚刚启用了全球最大的太阳能-氢能储能电站",
+    "category": "氢能",
+    "region": "海外",
+    "source": "Interesting Engineering Explains",
+    "duration": "8:01",
+    "date": "2026-11-08",
+    "summary": "中国投运全球最大太阳能制氢储能电站，整合光伏发电与电解水制氢，实现可再生能源消纳与跨时段储能，为绿氢规模化生产和电网调峰提供工程示范。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=K4gm9lEprMw"
+  },
+  {
+    "id": "b3bc2e4800a0c589",
+    "title": "[制作日志] 用于遥控飞机的太阳能电池板封装",
+    "category": "光伏",
+    "region": "海外",
+    "source": "Solar Glider Project",
+    "duration": "8:14",
+    "date": "2026-11-08",
+    "summary": "该视频记录遥控飞机用太阳能电池板的封装过程，展示将光伏电池嵌入轻质透明封装材料以保护电池并兼顾气动外形，涉及层压工艺与重量控制，为超轻光伏组件在航空模型上的应用提供实践参考。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=KUU4UvGU8N0"
+  },
+  {
+    "id": "73221e5c6d86fa9b",
+    "title": "HyperBlock III 储能系统成功通过大规模火灾测试",
+    "category": "储能",
+    "region": "海外",
+    "source": "HyperStrong",
+    "duration": "1:10",
+    "date": "2026-11-08",
+    "summary": "HyperStrong 的 HyperBlock III 储能系统完成大规模火灾测试，验证其在热失控等极端工况下的防火安全性能，为储能电站安全设计与合规认证提供参考。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=vlSS9Jj4aU0"
+  },
   {
     "id": "3c198379ef26768b",
     "title": "月球核电站土木工程与场地准备",
@@ -326,43 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "视频展示风电叶片从玻璃纤维、树脂等原材料到巨型叶片的完整制造流程，涵盖模具准备、纤维铺层、真空灌注、固化脱模及后期加工，体现大型化叶片对材料工艺与质量控制的要求。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=TVuANwhz88k"
-  },
-  {
-    "id": "7f556df37b43303a",
-    "title": "宁德时代与长安固态电池：400 Wh/kg、1500公里续航、60万公里寿命",
-    "category": "动力电池",
-    "region": "海外",
-    "source": "The Electric Viking",
-    "duration": "5:37",
-    "date": "2026-10-16",
-    "summary": "宁德时代与长安汽车公布固态电池合作进展，目标能量密度400 Wh/kg，支持整车续航1500公里，循环寿命达60万公里。该指标若量产落地，将显著提升电动车续航与电池耐久性，推动固态电池产业化进程。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=CY9FwCdLYas"
-  },
-  {
-    "id": "c7c42f18279b3dda",
-    "title": "轻量化500马力标致RCZ亮相，搭载Factorial固态电池与1000V系统",
-    "category": "动力电池",
-    "region": "海外",
-    "source": "The Electric Viking",
-    "duration": "6:44",
-    "date": "2026-10-14",
-    "summary": "标致RCZ改装车采用Factorial固态电池与1000V高压平台，输出500马力，通过轻量化设计提升性能。该方案展示固态电池在高功率电动车中的应用潜力，关注其能量密度与热管理表现。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=R9Ke7hS7NIw"
-  },
-  {
-    "id": "cd8fba91c43dae6e",
-    "title": "金属氢电池：从太空到电网规模储能",
-    "category": "储能",
-    "region": "海外",
-    "source": "Technology Networks",
-    "duration": "48:45",
-    "date": "2026-10-12",
-    "summary": "视频介绍金属氢电池技术，源自航天应用，利用金属氢化物可逆吸放氢实现电能存储。该体系兼具高能量密度与长循环寿命，正推进至电网级固定储能场景，为大规模可再生能源消纳提供新路径。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=zu6nf961Ufc"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-11-07T02:22:12' }
+export const generatedMeta = { updatedAt: '2026-11-08T01:50:30' }
