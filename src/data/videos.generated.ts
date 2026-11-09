@@ -1,8 +1,56 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-11-08T01:50:30
+// 生成时间: 2026-11-09T01:58:53
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "b7474db12bdff7fd",
+    "title": "美国核聚变突破刚刚达到惊人的新里程碑！",
+    "category": "核能",
+    "region": "海外",
+    "source": "Future Files",
+    "duration": "32:09",
+    "date": "2026-11-09",
+    "summary": "视频介绍美国核聚变领域最新里程碑进展，聚焦聚变点火或等离子体约束等关键技术突破，分析其对商业化发电路径的意义，面向核能从业者梳理技术要点与工程挑战。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=Z1AJN1GjfIc"
+  },
+  {
+    "id": "98bf898518c03cf2",
+    "title": "美国不断参战的真正原因",
+    "category": "储能",
+    "region": "海外",
+    "source": "Maxinomics",
+    "duration": "31:25",
+    "date": "2026-11-09",
+    "summary": "该视频从地缘政治与能源安全角度分析美国军事行动的动因，涉及石油、关键矿产与储能供应链的争夺，但未涉及具体新材料技术细节。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=0HIiKwuVH34"
+  },
+  {
+    "id": "c4454e91fecc773b",
+    "title": "太阳能电池是如何制造的，以及如何在家制作光伏板",
+    "category": "光伏",
+    "region": "海外",
+    "source": "RLXT Corp",
+    "duration": "10:01",
+    "date": "2026-11-09",
+    "summary": "视频讲解太阳能电池的制造流程，从硅片清洗、制绒、扩散、镀膜到电极印刷与烧结，并演示如何在家组装光伏板，适合从业者了解工艺要点。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=fJgxjDyJscw"
+  },
+  {
+    "id": "043e65bb0076c471",
+    "title": "数据中心锂离子电池的消防安全",
+    "category": "储能",
+    "region": "海外",
+    "source": "ORR Protection",
+    "duration": "39:10",
+    "date": "2026-11-09",
+    "summary": "ORR Protection 讲解数据中心锂离子电池的火灾风险与防护要点，涵盖热失控机理、早期探测、灭火系统选型及与NFPA标准的合规设计，为数据中心储能安全提供工程参考。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=C3m6Md4WBVg"
+  },
   {
     "id": "8b9d5c7c0d227117",
     "title": "中国刚刚启用了全球最大的太阳能-氢能储能电站",
@@ -314,55 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "纽约州能源研究与发展局（NYSERDA）介绍电池储能系统消防安全要点，涵盖热失控风险、火灾探测与抑制、系统设计及应急响应等关键技术，面向储能项目开发与运维人员提供安全规范参考。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=q8PplWWo7N4"
-  },
-  {
-    "id": "03576422b095569f",
-    "title": "钙钛矿硅串联太阳能电池板实现商业化规模",
-    "category": "光伏",
-    "region": "海外",
-    "source": "Technology Eyeball",
-    "duration": "8:58",
-    "date": "2026-10-17",
-    "summary": "该视频介绍钙钛矿硅串联太阳能电池板进入商业化规模生产，重点涉及叠层结构提升光电转换效率、大面积制备工艺及稳定性改进，标志着该技术从实验室走向量产应用。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=eLthf5LM3GM"
-  },
-  {
-    "id": "34a7cb874a22671a",
-    "title": "美国“太阳能杀手”被揭穿——突破并非当初承诺的那样",
-    "category": "光伏",
-    "region": "海外",
-    "source": "Global Innovation Frontier",
-    "duration": "20:42",
-    "date": "2026-10-17",
-    "summary": "该视频质疑美国所谓“太阳能杀手”技术，指出其实际突破与早期承诺不符，可能涉及钙钛矿或新型光伏路线的效率、稳定性及商业化进展被夸大，提醒从业者理性评估技术成熟度。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=0n1Lu8ow87I"
-  },
-  {
-    "id": "1fd319fcc14c2430",
-    "title": "中国15美元太阳能薄膜或将淘汰当今光伏组件",
-    "category": "光伏",
-    "region": "海外",
-    "source": "Silent Giants",
-    "duration": "15:52",
-    "date": "2026-10-17",
-    "summary": "该视频介绍中国研发的低成本太阳能薄膜技术，单套成本约15美元，有望替代传统晶硅组件。内容聚焦薄膜材料体系、制备工艺与转换效率等核心指标，并分析其对现有光伏产业链的潜在冲击。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=-p8T47aPsik"
-  },
-  {
-    "id": "f7cd623ef47dc42a",
-    "title": "风力涡轮机叶片工厂：从原材料到巨型叶片",
-    "category": "风电",
-    "region": "海外",
-    "source": "Industrial Atlas",
-    "duration": "10:25",
-    "date": "2026-10-16",
-    "summary": "视频展示风电叶片从玻璃纤维、树脂等原材料到巨型叶片的完整制造流程，涵盖模具准备、纤维铺层、真空灌注、固化脱模及后期加工，体现大型化叶片对材料工艺与质量控制的要求。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=TVuANwhz88k"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-11-08T01:50:30' }
+export const generatedMeta = { updatedAt: '2026-11-09T01:58:53' }
