@@ -1,8 +1,20 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-11-11T02:15:49
+// 生成时间: 2026-11-12T03:22:40
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "c303e117e92f0ef6",
+    "title": "家用电池现已被禁止安装在这些房屋区域（原因如下）",
+    "category": "储能",
+    "region": "海外",
+    "source": "Cal Watts",
+    "duration": "22:36",
+    "date": "2026-11-12",
+    "summary": "视频讨论家用储能电池因安全规范被限制安装在住宅特定区域，涉及消防与建筑法规对锂电池热失控风险的应对，提示安装位置合规性成为户用储能设计的关键约束。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=F6qig7-iVYY"
+  },
   {
     "id": "b7474db12bdff7fd",
     "title": "美国核聚变突破刚刚达到惊人的新里程碑！",
@@ -350,19 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "介绍储能系统消防保护指南的制定工作，聚焦锂离子电池储能电站的火灾风险特征，涵盖热失控传播机理、探测预警、灭火抑爆及消防设计规范等关键技术要点，为储能行业安全标准制定提供参考。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=xk0w5Kf2a04"
-  },
-  {
-    "id": "e5674f8229663c7c",
-    "title": "NYSERDA 呈现：电池储能系统——消防安全",
-    "category": "储能",
-    "region": "海外",
-    "source": "NYSERDA",
-    "duration": "80:28",
-    "date": "2026-10-18",
-    "summary": "纽约州能源研究与发展局（NYSERDA）介绍电池储能系统消防安全要点，涵盖热失控风险、火灾探测与抑制、系统设计及应急响应等关键技术，面向储能项目开发与运维人员提供安全规范参考。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=q8PplWWo7N4"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-11-11T02:15:49' }
+export const generatedMeta = { updatedAt: '2026-11-12T03:22:40' }
