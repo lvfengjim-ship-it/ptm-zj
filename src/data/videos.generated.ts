@@ -1,8 +1,32 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-11-12T03:22:40
+// 生成时间: 2026-11-13T02:55:03
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "4c5463e07c7665e9",
+    "title": "一颗微小的铀芯块如何驱动核电站",
+    "category": "核能",
+    "region": "海外",
+    "source": "Chronos Grid",
+    "duration": "14:52",
+    "date": "2026-11-13",
+    "summary": "视频解析核电站燃料核心：二氧化铀芯块经烧结、装入锆合金包壳制成燃料棒，再组装成燃料组件。通过铀-235裂变链式反应释放热能，加热一回路水产生蒸汽驱动汽轮机发电，展示核燃料能量密度与燃料循环关键环节。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=fVZGd8w6jNs"
+  },
+  {
+    "id": "282bc83b82cc6787",
+    "title": "Angelo Zandona 解析 BESS 消防安全与 UL 9540A 测试",
+    "category": "储能",
+    "region": "海外",
+    "source": "Angelo Zandona",
+    "duration": "2:20",
+    "date": "2026-11-13",
+    "summary": "Angelo Zandona 系统讲解电池储能系统（BESS）消防安全要点，重点介绍 UL 9540A 热失控扩散测试的层级方法、触发条件与判定标准，并说明测试结果如何支撑储能电站的防火设计与合规认证。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=HZK1hpz11EE"
+  },
   {
     "id": "c303e117e92f0ef6",
     "title": "家用电池现已被禁止安装在这些房屋区域（原因如下）",
@@ -338,31 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "视频探讨固态电池从实验室走向工厂量产面临的核心挑战，聚焦制造工艺、良率控制与成本问题，分析固态电解质规模化生产的技术瓶颈及产业化可行性。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=_Hg54H3fIeI"
-  },
-  {
-    "id": "e1c8e4701c2eb252",
-    "title": "核电站缓冲器测试：为何至关重要 | Element",
-    "category": "核能",
-    "region": "海外",
-    "source": "Element Testing",
-    "duration": "1:11",
-    "date": "2026-10-18",
-    "summary": "Element Testing 展示核电站缓冲器（snubber）测试流程，说明其在核级管道与设备抗震、抗冲击中的关键作用，强调按标准验证缓冲器性能对核安全与设备完整性的重要性。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=T30PXX_nVnc"
-  },
-  {
-    "id": "e92ba6d6b566f3a9",
-    "title": "储能系统消防保护指南的制定",
-    "category": "储能",
-    "region": "海外",
-    "source": "Fire Protection Engineering",
-    "duration": "78:58",
-    "date": "2026-10-18",
-    "summary": "介绍储能系统消防保护指南的制定工作，聚焦锂离子电池储能电站的火灾风险特征，涵盖热失控传播机理、探测预警、灭火抑爆及消防设计规范等关键技术要点，为储能行业安全标准制定提供参考。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=xk0w5Kf2a04"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-11-12T03:22:40' }
+export const generatedMeta = { updatedAt: '2026-11-13T02:55:03' }
