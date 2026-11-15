@@ -1,8 +1,32 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-11-14T02:41:25
+// 生成时间: 2026-11-15T02:08:00
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "bc56c6d72f22616d",
+    "title": "晶科储能大规模火烧测试 | UL 9540A | 电池储能安全",
+    "category": "储能",
+    "region": "海外",
+    "source": "Jinko ESS Europe ",
+    "duration": "2:04",
+    "date": "2026-11-15",
+    "summary": "晶科储能欧洲发布大规模火烧测试视频，依据UL 9540A标准验证电池储能系统热失控蔓延与防火性能，展示系统级安全设计及消防抑制效果，为储能电站安全合规提供实证参考。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=R36jy9xbgN0"
+  },
+  {
+    "id": "199c0168d8ea5a54",
+    "title": "为什么固态电池被视为电动汽车的未来？",
+    "category": "动力电池",
+    "region": "海外",
+    "source": "History of Simple Things",
+    "duration": "8:25",
+    "date": "2026-11-15",
+    "summary": "视频解析固态电池以固态电解质替代液态电解液，提升能量密度与安全性，并探讨界面阻抗、材料成本及量产工艺等工程化瓶颈，评估其在电动汽车领域的商业化前景。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=jnUZph9isXQ"
+  },
   {
     "id": "4c5463e07c7665e9",
     "title": "一颗微小的铀芯块如何驱动核电站",
@@ -338,31 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "该视频聚焦固态电池从实验室走向量产的最新进展，介绍首批量产电芯的实际性能表现，涵盖能量密度、充放电能力与制造工艺等关键技术指标，并分析其对动力电池技术路线的潜在影响。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=n9lflSOtpnc"
-  },
-  {
-    "id": "31d51822a7f62f42",
-    "title": "电池储能系统不会起火",
-    "category": "储能",
-    "region": "海外",
-    "source": "Backyard Bothy",
-    "duration": "10:58",
-    "date": "2026-10-21",
-    "summary": "视频探讨电池储能系统的火灾风险，指出通过电芯选型、热管理、BMS监测与消防设计可降低热失控概率，强调系统级安全防护而非绝对不起火，为储能安全设计提供参考。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=s3z5buQlGQw"
-  },
-  {
-    "id": "05cf0f867c3bfc42",
-    "title": "固态电池能否经受工厂量产考验？",
-    "category": "动力电池",
-    "region": "海外",
-    "source": "Fluxplained",
-    "duration": "14:08",
-    "date": "2026-10-21",
-    "summary": "视频探讨固态电池从实验室走向工厂量产面临的核心挑战，聚焦制造工艺、良率控制与成本问题，分析固态电解质规模化生产的技术瓶颈及产业化可行性。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=_Hg54H3fIeI"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-11-14T02:41:25' }
+export const generatedMeta = { updatedAt: '2026-11-15T02:08:00' }
