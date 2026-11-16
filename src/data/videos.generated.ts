@@ -1,8 +1,32 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-11-15T02:08:00
+// 生成时间: 2026-11-16T02:23:37
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "25c1108091c5c245",
+    "title": "美国新型核反应堆或将永久取代煤炭",
+    "category": "核能",
+    "region": "海外",
+    "source": "Crumbling Capital",
+    "duration": "14:33",
+    "date": "2026-11-16",
+    "summary": "视频介绍美国新型核反应堆技术，探讨其替代燃煤发电的潜力。内容涉及反应堆设计、发电能力及与煤电的经济性对比，分析核能作为基荷电源在能源转型中的角色，面向关注先进核能技术路线的从业者。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=hXUuiNufthk"
+  },
+  {
+    "id": "bd2bad5bc428614d",
+    "title": "风力发电机叶片是如何制造的｜走进巨型工厂",
+    "category": "风电",
+    "region": "海外",
+    "source": "Factory World",
+    "duration": "5:01",
+    "date": "2026-11-16",
+    "summary": "视频深入风力发电机叶片制造工厂，展示从玻璃纤维/碳纤维铺层、树脂灌注成型到打磨涂装与质量检测的完整工艺流程，呈现大型叶片模具、真空灌注及结构粘接等关键技术环节。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=MBzlR8KBZKE"
+  },
   {
     "id": "bc56c6d72f22616d",
     "title": "晶科储能大规模火烧测试 | UL 9540A | 电池储能安全",
@@ -338,31 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "丰田宣称其固态电池可实现约1500英里续航与5分钟快充，若属实将大幅提升能量密度与补能效率。需关注其量产时间表、成本控制及循环寿命等工程化验证进展。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=KPQdQD5pEE8"
-  },
-  {
-    "id": "0eaaa54c6d07b29c",
-    "title": "氢浆解决储氢难题——但还有更大的问题",
-    "category": "氢能",
-    "region": "海外",
-    "source": "reneenergy. com",
-    "duration": "8:16",
-    "date": "2026-10-24",
-    "summary": "视频介绍氢浆（Hydrogen Paste）作为新型储氢介质，可在常温常压下稳定储存并可控释放氢气，规避高压与低温储运瓶颈；但指出其规模化应用仍面临释放效率、材料循环寿命与成本等更大挑战。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=Y0DFBKRwzwk"
-  },
-  {
-    "id": "1f3c7be729d43d12",
-    "title": "固态电池终于投产——首批电芯的真实性能如何",
-    "category": "动力电池",
-    "region": "海外",
-    "source": "The Electric Viking",
-    "duration": "7:05",
-    "date": "2026-10-23",
-    "summary": "该视频聚焦固态电池从实验室走向量产的最新进展，介绍首批量产电芯的实际性能表现，涵盖能量密度、充放电能力与制造工艺等关键技术指标，并分析其对动力电池技术路线的潜在影响。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=n9lflSOtpnc"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-11-15T02:08:00' }
+export const generatedMeta = { updatedAt: '2026-11-16T02:23:37' }
