@@ -1,8 +1,20 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-11-16T02:23:37
+// 生成时间: 2026-11-17T04:47:10
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "e417bfd71532e665",
+    "title": "QuantumScape发布5分钟固态电池，无需压紧压力",
+    "category": "动力电池",
+    "region": "海外",
+    "source": "The Electric Viking",
+    "duration": "3:56",
+    "date": "2026-11-17",
+    "summary": "QuantumScape公布固态电池新进展，称可在5分钟内完成充电，且无需传统陶瓷隔膜所需的压紧压力，降低系统集成复杂度，面向车用动力电池应用。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=7wbDq841Auk"
+  },
   {
     "id": "25c1108091c5c245",
     "title": "美国新型核反应堆或将永久取代煤炭",
@@ -350,19 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "IACMI展示复合材料风电叶片原型，聚焦自动化铺层、快速固化树脂与模块化模具等制造创新，旨在缩短大型叶片生产周期并降低成本，验证先进复合材料工艺在风电叶片规模化制造中的可行性。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=Kslh8XUphJo"
-  },
-  {
-    "id": "5a973a523e2bddee",
-    "title": "丰田1500英里固态电池与5分钟快充彻底改变电动车格局！",
-    "category": "动力电池",
-    "region": "海外",
-    "source": "Fresh Discovery",
-    "duration": "21:24",
-    "date": "2026-10-27",
-    "summary": "丰田宣称其固态电池可实现约1500英里续航与5分钟快充，若属实将大幅提升能量密度与补能效率。需关注其量产时间表、成本控制及循环寿命等工程化验证进展。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=KPQdQD5pEE8"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-11-16T02:23:37' }
+export const generatedMeta = { updatedAt: '2026-11-17T04:47:10' }
