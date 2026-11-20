@@ -1,8 +1,20 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-11-19T03:51:31
+// 生成时间: 2026-11-20T03:44:07
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "b2525d63c7ff1f18",
+    "title": "如何制造固态电池——诚实真相（成本、安全与工厂方法）",
+    "category": "动力电池",
+    "region": "海外",
+    "source": "EV Battery Guide",
+    "duration": "2:38",
+    "date": "2026-11-20",
+    "summary": "视频从工厂制造视角拆解固态电池：对比硫化物、氧化物、聚合物路线的工艺难点，分析材料成本、界面阻抗与安全边界，并说明量产所需的干法电极、叠片与封装方法。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=ASLm2MKkIOY"
+  },
   {
     "id": "e417bfd71532e665",
     "title": "QuantumScape发布5分钟固态电池，无需压紧压力",
@@ -350,19 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "加州州消防局长办公室主办的电池储能系统安全研讨会上午场，聚焦BESS火灾风险与消防安全监管，面向储能从业者介绍安全标准、事故防控及应急响应等技术要点。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=cWyfHC9OEaA"
-  },
-  {
-    "id": "a3509749965ccb1d",
-    "title": "IACMI风电叶片原型（复合材料制造创新）",
-    "category": "风电",
-    "region": "海外",
-    "source": "IACMI- The Composites Institute",
-    "duration": "6:20",
-    "date": "2026-10-27",
-    "summary": "IACMI展示复合材料风电叶片原型，聚焦自动化铺层、快速固化树脂与模块化模具等制造创新，旨在缩短大型叶片生产周期并降低成本，验证先进复合材料工艺在风电叶片规模化制造中的可行性。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=Kslh8XUphJo"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-11-19T03:51:31' }
+export const generatedMeta = { updatedAt: '2026-11-20T03:44:07' }
