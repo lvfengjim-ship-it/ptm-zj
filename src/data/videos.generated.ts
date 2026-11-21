@@ -1,8 +1,20 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-11-20T03:44:07
+// 生成时间: 2026-11-21T03:29:47
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "2b1abaf298cb36cd",
+    "title": "由LNO/LMO电池构成的125 kWh储能系统的喷淋测试",
+    "category": "储能",
+    "region": "海外",
+    "source": "FM",
+    "duration": "6:00",
+    "date": "2026-11-21",
+    "summary": "该视频展示125 kWh储能系统在喷淋条件下的安全测试，系统采用LNO/LMO电池体系。测试验证喷淋对热失控传播的抑制效果，为储能消防设计与电池选型提供参考。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=aspF-GFOqHo"
+  },
   {
     "id": "b2525d63c7ff1f18",
     "title": "如何制造固态电池——诚实真相（成本、安全与工厂方法）",
@@ -350,19 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "奇瑞公布固态电池技术进展，宣称续航达1500公里，并披露能量密度指标与量产时间节点。该技术若落地将显著提升电动车续航与安全性，对动力电池技术路线竞争格局产生重要影响。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=l6XmsL2gjb0"
-  },
-  {
-    "id": "9b9dfe2f79d911b8",
-    "title": "电池储能系统（BESS）安全研讨会 - 2026年8月20日（上午）",
-    "category": "储能",
-    "region": "海外",
-    "source": "California Office of the State Fire Marshal",
-    "duration": "205:09",
-    "date": "2026-10-28",
-    "summary": "加州州消防局长办公室主办的电池储能系统安全研讨会上午场，聚焦BESS火灾风险与消防安全监管，面向储能从业者介绍安全标准、事故防控及应急响应等技术要点。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=cWyfHC9OEaA"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-11-20T03:44:07' }
+export const generatedMeta = { updatedAt: '2026-11-21T03:29:47' }
