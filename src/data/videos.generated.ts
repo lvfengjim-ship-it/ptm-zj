@@ -1,8 +1,20 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-11-21T03:29:47
+// 生成时间: 2026-11-22T02:39:25
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "9f97e3708f551091",
+    "title": "固态电池或让美国重返电池竞赛——计划如下",
+    "category": "动力电池",
+    "region": "海外",
+    "source": "The Electric Viking",
+    "duration": "4:00",
+    "date": "2026-11-22",
+    "summary": "视频介绍美国固态电池产业复兴计划，聚焦硫化物等固态电解质路线，通过材料突破与本土供应链建设，提升能量密度与安全性，降低对海外锂电依赖，重塑全球动力电池竞争格局。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=FHc1HenZof8"
+  },
   {
     "id": "2b1abaf298cb36cd",
     "title": "由LNO/LMO电池构成的125 kWh储能系统的喷淋测试",
@@ -350,19 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "该视频介绍NREL 2024风电叶片制造与维修技术研讨会，聚焦叶片复合材料成型工艺、缺陷检测与修复技术，面向从业者分享制造质量控制和运维维修的最新实践。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=WWV0Qe0ZJHo"
-  },
-  {
-    "id": "fc98d033014dab08",
-    "title": "奇瑞固态电池：续航1500公里，能量密度与发布时间揭晓",
-    "category": "动力电池",
-    "region": "海外",
-    "source": "The Electric Viking",
-    "duration": "4:49",
-    "date": "2026-10-29",
-    "summary": "奇瑞公布固态电池技术进展，宣称续航达1500公里，并披露能量密度指标与量产时间节点。该技术若落地将显著提升电动车续航与安全性，对动力电池技术路线竞争格局产生重要影响。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=l6XmsL2gjb0"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-11-21T03:29:47' }
+export const generatedMeta = { updatedAt: '2026-11-22T02:39:25' }
