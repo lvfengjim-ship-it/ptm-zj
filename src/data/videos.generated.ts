@@ -1,8 +1,20 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-11-22T02:39:25
+// 生成时间: 2026-11-23T03:08:35
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "3af84588d96ea691",
+    "title": "核废料可再利用，为何我们尚未行动？",
+    "category": "核能",
+    "region": "海外",
+    "source": "行业媒体",
+    "duration": "15:25",
+    "date": "2026-11-23",
+    "summary": "视频探讨核废料后处理与再循环技术，重点分析乏燃料中可回收的铀钚资源，以及法国等国家已实现的闭式燃料循环实践，并讨论扩散风险、经济性与政策障碍等制约因素。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=hiAsmUjSmdI"
+  },
   {
     "id": "9f97e3708f551091",
     "title": "固态电池或让美国重返电池竞赛——计划如下",
@@ -350,19 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "欧洲石油巨头宣布固态电池进入大规模量产阶段，标志传统能源企业向电动化转型。该技术有望提升能量密度与安全性，降低对液态锂电依赖，对动力电池供应链格局产生重要影响。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=8KZRCvc6Dzw"
-  },
-  {
-    "id": "1cd11ad7ee1fd9f4",
-    "title": "风电叶片制造与维修技术研讨会 | NREL 2024",
-    "category": "风电",
-    "region": "海外",
-    "source": "Composites One",
-    "duration": "2:19",
-    "date": "2026-10-29",
-    "summary": "该视频介绍NREL 2024风电叶片制造与维修技术研讨会，聚焦叶片复合材料成型工艺、缺陷检测与修复技术，面向从业者分享制造质量控制和运维维修的最新实践。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=WWV0Qe0ZJHo"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-11-22T02:39:25' }
+export const generatedMeta = { updatedAt: '2026-11-23T03:08:35' }
