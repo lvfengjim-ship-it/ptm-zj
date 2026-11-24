@@ -1,8 +1,44 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-11-23T03:08:35
+// 生成时间: 2026-11-24T06:25:01
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "eec3ee3e3879decf",
+    "title": "金属氢化物如何实现安全储氢？",
+    "category": "氢能",
+    "region": "海外",
+    "source": "GRZ Technologies",
+    "duration": "4:48",
+    "date": "2026-11-24",
+    "summary": "介绍金属氢化物固态储氢原理：氢气与金属反应生成氢化物实现低压高密度储存，加热可逆释放，安全性优于高压气态储氢，适用于固定式及特种场景。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=U5SPRNd7x30"
+  },
+  {
+    "id": "6ffb611be4e5493c",
+    "title": "一场安静的太阳能革命：钙钛矿走向商业化——硅为何该担忧",
+    "category": "光伏",
+    "region": "海外",
+    "source": "The Forge Empire",
+    "duration": "17:24",
+    "date": "2026-11-24",
+    "summary": "视频探讨钙钛矿光伏从实验室走向量产商业化的进展，分析其在效率、成本与叠层应用上对晶硅路线的潜在冲击，并讨论稳定性与规模化制造等关键瓶颈。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=aSLpLuFSiWg"
+  },
+  {
+    "id": "bb307ed13c3e8ac2",
+    "title": "如何制备钙钛矿太阳能电池：制备载流子选择性层",
+    "category": "光伏",
+    "region": "海外",
+    "source": "infinityPV",
+    "duration": "3:04",
+    "date": "2026-11-24",
+    "summary": "本视频演示钙钛矿太阳能电池载流子选择性层的制备流程，重点讲解该功能层的材料配制与成膜工艺要点，帮助从业者理解其在器件中提取与传输载流子、抑制复合的关键作用。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=rLDm4dkS888"
+  },
   {
     "id": "3af84588d96ea691",
     "title": "核废料可再利用，为何我们尚未行动？",
@@ -326,43 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "视频展示退役风电叶片从拆解、破碎到纤维分离的工厂化回收流程，重点呈现玻璃纤维与树脂基体的处理路径及再生材料去向，为叶片规模化循环利用提供可参考的工艺方案。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=4qfhyI4vLQs"
-  },
-  {
-    "id": "09b006fa69bb5fb2",
-    "title": "Everlight | 实现可靠钙钛矿商业化的实用封装要素",
-    "category": "光伏",
-    "region": "海外",
-    "source": "TechBlick",
-    "duration": "5:03",
-    "date": "2026-10-31",
-    "summary": "Everlight在TechBlick报告中探讨钙钛矿光伏组件商业化所需的封装关键因素，涵盖材料选型、阻水阻氧性能、工艺兼容性及长期稳定性验证，强调封装对提升组件可靠性和量产良率的核心作用。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=9FKSDrJ2b_8"
-  },
-  {
-    "id": "692970307ece5d60",
-    "title": "BESS 消防：为什么电池火灾不能仅靠扑灭",
-    "category": "储能",
-    "region": "海外",
-    "source": "BESS Engineer | Sergey Syrvachev",
-    "duration": "2:30",
-    "date": "2026-10-31",
-    "summary": "视频解析电池储能系统火灾的特殊性：锂离子热失控会自产氧气并持续放热，常规灭火仅能压制外部火焰，无法中断内部链式反应，需结合早期探测、热失控隔离与持续冷却等策略。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=gBVRQCCZif8"
-  },
-  {
-    "id": "829c063084c5fb2b",
-    "title": "石油巨头现已在欧洲量产固态电池",
-    "category": "动力电池",
-    "region": "海外",
-    "source": "The Electric Viking",
-    "duration": "4:58",
-    "date": "2026-10-30",
-    "summary": "欧洲石油巨头宣布固态电池进入大规模量产阶段，标志传统能源企业向电动化转型。该技术有望提升能量密度与安全性，降低对液态锂电依赖，对动力电池供应链格局产生重要影响。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=8KZRCvc6Dzw"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-11-23T03:08:35' }
+export const generatedMeta = { updatedAt: '2026-11-24T06:25:01' }
