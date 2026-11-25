@@ -1,8 +1,20 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-11-24T06:25:01
+// 生成时间: 2026-11-25T05:02:00
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "f2f02d07fa75f556",
+    "title": "皮夸核电站：有机反应堆为何失败",
+    "category": "核能",
+    "region": "海外",
+    "source": "The Innovation Attorney",
+    "duration": "51:05",
+    "date": "2026-11-25",
+    "summary": "回顾美国皮夸核电站有机慢化反应堆的运行与失败原因，重点分析有机冷却剂在辐照下的分解、沉积与维护难题，为新型反应堆冷却剂选型提供历史借鉴。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=Ba1KxmXvros"
+  },
   {
     "id": "eec3ee3e3879decf",
     "title": "金属氢化物如何实现安全储氢？",
@@ -350,19 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "纽约沃里克电池储能设施再次发生火灾，系同一站点重复事故。视频分析事故经过与现场响应，探讨储能系统热失控风险及消防处置难点，对储能电站安全设计与运维具有警示意义。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=RJ5JWFebW5w"
-  },
-  {
-    "id": "a0cf3c318c7e4e2e",
-    "title": "废旧风力涡轮机叶片如何回收制成新材料｜工厂流程",
-    "category": "风电",
-    "region": "海外",
-    "source": "Remade Factory",
-    "duration": "8:01",
-    "date": "2026-11-01",
-    "summary": "视频展示退役风电叶片从拆解、破碎到纤维分离的工厂化回收流程，重点呈现玻璃纤维与树脂基体的处理路径及再生材料去向，为叶片规模化循环利用提供可参考的工艺方案。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=4qfhyI4vLQs"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-11-24T06:25:01' }
+export const generatedMeta = { updatedAt: '2026-11-25T05:02:00' }
