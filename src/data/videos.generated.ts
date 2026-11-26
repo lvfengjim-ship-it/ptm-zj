@@ -1,8 +1,44 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-11-25T05:02:00
+// 生成时间: 2026-11-26T04:24:00
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "f1130acb1fe9c118",
+    "title": "原子能：核电站的技术、安全与可持续性",
+    "category": "核能",
+    "region": "海外",
+    "source": "Engineering Technology",
+    "duration": "46:41",
+    "date": "2026-11-26",
+    "summary": "视频系统介绍核电站技术原理与安全设计，涵盖反应堆类型、多重安全屏障及废物管理，并讨论核能低碳属性与长期可持续性，面向工程技术人员梳理关键要点。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=h3jvQ5aWu2o"
+  },
+  {
+    "id": "2de956a9c4088922",
+    "title": "核电站安全系统",
+    "category": "核能",
+    "region": "海外",
+    "source": "Canadian Nuclear Safety Commission - CNSC",
+    "duration": "11:36",
+    "date": "2026-11-26",
+    "summary": "加拿大核安全委员会介绍核电站多层安全系统，涵盖反应堆停堆、应急堆芯冷却及安全壳隔离等关键功能，强调纵深防御设计理念与独立冗余配置对事故预防和缓解的作用。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=yx_XoqXNtRM"
+  },
+  {
+    "id": "8c08aed47fffac9e",
+    "title": "KiddeFenwal电池储能系统消防解决方案",
+    "category": "储能",
+    "region": "海外",
+    "source": "KiddeFenwal",
+    "duration": "2:01",
+    "date": "2026-11-26",
+    "summary": "KiddeFenwal介绍面向电池储能系统的消防保护方案，涵盖火灾探测、预警与灭火技术，针对锂电池热失控风险提供系统化防护，适用于储能电站安全设计参考。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=nVzmZedx1Ro"
+  },
   {
     "id": "f2f02d07fa75f556",
     "title": "皮夸核电站：有机反应堆为何失败",
@@ -326,43 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "宁德时代固态电池能量密度达500 Wh/kg，可使电动车续航翻倍。视频分析其技术路线与量产时间表，探讨硫化物电解质等关键挑战及对动力电池竞争格局的影响。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=Hs-kcW7KSm0"
-  },
-  {
-    "id": "7dac34beddbeb5e7",
-    "title": "消防队长访谈：BESS火灾持续燃烧两周",
-    "category": "储能",
-    "region": "海外",
-    "source": "StacheD Training",
-    "duration": "9:31",
-    "date": "2026-11-03",
-    "summary": "消防队长复盘某电池储能系统（BESS）火灾，火势持续两周，暴露热失控难以扑灭、复燃风险高的问题。访谈涉及现场处置策略、水耗与安全隔离，对储能电站消防设计和运维有参考价值。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=K_nP_9DYKyQ"
-  },
-  {
-    "id": "b67f1c172c33e81e",
-    "title": "旧风力涡轮机叶片如何在大型回收工厂中被回收制成水泥",
-    "category": "风电",
-    "region": "海外",
-    "source": "Mido Explained",
-    "duration": "16:06",
-    "date": "2026-11-02",
-    "summary": "视频展示大型回收工厂将退役风电叶片破碎、分选并作为水泥窑替代原料与燃料的完整流程，重点说明玻璃纤维增强复合材料难以常规回收，经粉碎后利用其矿物成分和热值实现资源化，为叶片规模化处置提供工业路径。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=5808ItA6GHA"
-  },
-  {
-    "id": "5ff411aef7d6a71f",
-    "title": "纽约沃里克电池储能火灾：一起重复性事故",
-    "category": "储能",
-    "region": "海外",
-    "source": "StacheD Training",
-    "duration": "6:10",
-    "date": "2026-11-02",
-    "summary": "纽约沃里克电池储能设施再次发生火灾，系同一站点重复事故。视频分析事故经过与现场响应，探讨储能系统热失控风险及消防处置难点，对储能电站安全设计与运维具有警示意义。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=RJ5JWFebW5w"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-11-25T05:02:00' }
+export const generatedMeta = { updatedAt: '2026-11-26T04:24:00' }
