@@ -1,8 +1,20 @@
 // 本文件由 AI 内容管线自动生成，请勿手工编辑。
-// 生成时间: 2026-11-26T04:24:00
+// 生成时间: 2026-11-27T04:32:53
 import type { TechVideo } from './videos'
 
 export const generatedVideos: TechVideo[] = [
+  {
+    "id": "1e81e50585f13ce6",
+    "title": "耐用的钙钛矿太阳能电池 | 太阳能效率、稳定性与下一代能源 | Uplatz",
+    "category": "光伏",
+    "region": "海外",
+    "source": "Uplatz",
+    "duration": "7:38",
+    "date": "2026-11-27",
+    "summary": "视频介绍钙钛矿太阳能电池的效率提升与长期稳定性问题，讨论材料与器件层面的耐久性改进策略，并展望其作为下一代光伏技术的商业化前景。",
+    "hot": false,
+    "url": "https://www.youtube.com/watch?v=olyvYiSWfvI"
+  },
   {
     "id": "f1130acb1fe9c118",
     "title": "原子能：核电站的技术、安全与可持续性",
@@ -350,19 +362,7 @@ export const generatedVideos: TechVideo[] = [
     "summary": "视频剖析固态电池商业化迟滞的核心原因：固-固界面阻抗高、锂枝晶穿透、材料与制造成本高、量产工艺不成熟。尽管能量密度与安全性优势明确，规模化替代液态锂电仍需材料与工艺突破。",
     "hot": false,
     "url": "https://www.youtube.com/watch?v=d3v3--BtAdQ"
-  },
-  {
-    "id": "cfd6d170c4b6bb79",
-    "title": "500 Wh/kg：宁德时代固态电池续航翻倍，但何时量产？",
-    "category": "动力电池",
-    "region": "海外",
-    "source": "The Electric Viking",
-    "duration": "6:46",
-    "date": "2026-11-04",
-    "summary": "宁德时代固态电池能量密度达500 Wh/kg，可使电动车续航翻倍。视频分析其技术路线与量产时间表，探讨硫化物电解质等关键挑战及对动力电池竞争格局的影响。",
-    "hot": false,
-    "url": "https://www.youtube.com/watch?v=Hs-kcW7KSm0"
   }
 ]
 
-export const generatedMeta = { updatedAt: '2026-11-26T04:24:00' }
+export const generatedMeta = { updatedAt: '2026-11-27T04:32:53' }
